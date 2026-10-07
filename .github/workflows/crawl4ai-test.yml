@@ -1,9 +1,6 @@
 name: crawl4ai-test
 on:
   workflow_dispatch: {}
-  push:
-    branches: [main]
-    paths: ["crawler/**", ".github/workflows/crawl4ai-test.yml"]
 permissions:
   contents: write
 jobs:

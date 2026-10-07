@@ -79,7 +79,12 @@ def far_apart(a, b):
     x, y = _mins(a.get("time")), _mins(b.get("time"))
     return x is not None and y is not None and abs(x - y) >= 90
 def is_dup(a, b):
-    return a["date"] == b["date"] and same_venue(a["venue"], b["venue"]) and not far_apart(a, b) and similar_title(a["title"], b["title"])
+    if a["date"] != b["date"] or not same_venue(a["venue"], b["venue"]) or far_apart(a, b):
+        return False
+    if similar_title(a["title"], b["title"]):
+        return True
+    # same venue, day and start time and at least one shared name: event name vs. line-up of the same night
+    return bool(a.get("time")) and a.get("time") == b.get("time") and bool(_tw(a["title"]) & _tw(b["title"]))
 
 
 # ---- categories in the page's German style ----

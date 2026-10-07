@@ -505,7 +505,11 @@ function similarTitle(a,b){
 const mins = t => { const m=/^(\d{1,2}):(\d{2})/.exec(t||""); return m ? (+m[1])*60+(+m[2]) : null; };
 // Two showings at the same venue with start times 90+ minutes apart are separate events (e.g. festival screenings).
 function farApart(a,b){ const x=mins(a.time), y=mins(b.time); return x!==null && y!==null && Math.abs(x-y)>=90; }
-function isDup(a,b){ return a.date===b.date && sameVenue(a.venue,b.venue) && !farApart(a,b) && similarTitle(a.title,b.title); }
+function isDup(a,b){
+  if (a.date!==b.date || !sameVenue(a.venue,b.venue) || farApart(a,b)) return false;
+  if (similarTitle(a.title,b.title)) return true;
+  const A=new Set(tWords(a.title)); return !!a.time && a.time===b.time && tWords(b.title).some(w=>A.has(w));
+}
 const normUrl = u => { try { const x=new URL(u); return (x.hostname.replace(/^www\./,"")+x.pathname.replace(/\/+$/,"")).toLowerCase(); } catch { return ""; } };
 const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./,"").toLowerCase(); } catch { return ""; } };
 // Sites already read every day.
