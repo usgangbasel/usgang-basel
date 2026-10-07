@@ -1,0 +1,68 @@
+[
+ {
+  "site": "sc_detail1",
+  "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/10102026_armoniosa/",
+  "robots": "allowed",
+  "seconds": 3.6,
+  "http": 200,
+  "html_kb": 48,
+  "markdown_chars": 11475,
+  "jsonld_events": 0,
+  "status": "ok"
+ },
+ {
+  "site": "sc_detail2",
+  "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/16102026-mor-ve-otesi/",
+  "robots": "allowed",
+  "seconds": 2.5,
+  "http": 200,
+  "html_kb": 46,
+  "markdown_chars": 10352,
+  "jsonld_events": 0,
+  "status": "ok"
+ },
+ {
+  "site": "sc_detail3",
+  "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/141026_sob/",
+  "robots": "allowed",
+  "seconds": 2.3,
+  "http": 200,
+  "html_kb": 46,
+  "markdown_chars": 9689,
+  "jsonld_events": 0,
+  "status": "ok"
+ },
+ {
+  "site": "basso_detail1",
+  "url": "https://www.bassoverse.space/programm/subshift-16-10-2026",
+  "robots": "allowed",
+  "seconds": 6.5,
+  "http": 200,
+  "html_kb": 1455,
+  "markdown_chars": 3807,
+  "jsonld_events": 0,
+  "status": "ok"
+ },
+ {
+  "site": "basso_detail2",
+  "url": "https://www.bassoverse.space/programm/daydance7",
+  "robots": "allowed",
+  "seconds": 6.9,
+  "http": 200,
+  "html_kb": 1457,
+  "markdown_chars": 4227,
+  "jsonld_events": 0,
+  "status": "ok"
+ },
+ {
+  "site": "viertel_p2",
+  "url": "https://www.dasviertel.ch/programmklub?comp-mo2tcbiv_page=2",
+  "robots": "allowed",
+  "seconds": 2.3,
+  "http": 200,
+  "html_kb": 929,
+  "markdown_chars": 3734,
+  "jsonld_events": 0,
+  "status": "ok"
+ }
+]
