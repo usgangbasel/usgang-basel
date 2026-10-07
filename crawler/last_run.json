@@ -1,0 +1,92 @@
+{
+ "date": "2026-10-07",
+ "stats": {
+  "added": 11,
+  "filled": 64,
+  "dups": 6,
+  "removed": 0
+ },
+ "sources": [
+  {
+   "source": "denkmal",
+   "found": 54,
+   "status": "ok"
+  },
+  {
+   "source": "renee",
+   "found": 12,
+   "status": "ok"
+  },
+  {
+   "source": "grenzwert",
+   "found": 8,
+   "status": "ok"
+  },
+  {
+   "source": "nordstern",
+   "found": 12,
+   "status": "ok"
+  },
+  {
+   "source": "birdseye",
+   "found": 0,
+   "status": "skipped (no ANTHROPIC_API_KEY)"
+  },
+  {
+   "source": "kaschemme",
+   "found": 0,
+   "status": "skipped (no ANTHROPIC_API_KEY)"
+  },
+  {
+   "source": "stadtcasino",
+   "found": 0,
+   "status": "skipped (no ANTHROPIC_API_KEY)"
+  },
+  {
+   "source": "viertel",
+   "found": 0,
+   "status": "skipped (no ANTHROPIC_API_KEY)"
+  },
+  {
+   "source": "garedunord",
+   "found": 0,
+   "status": "skipped (no ANTHROPIC_API_KEY)"
+  },
+  {
+   "source": "sommercasino",
+   "found": 0,
+   "status": "skipped (no ANTHROPIC_API_KEY)"
+  },
+  {
+   "source": "basso",
+   "found": 0,
+   "status": "skipped (no ANTHROPIC_API_KEY)"
+  },
+  {
+   "source": "saali",
+   "found": 0,
+   "status": "skipped (no ANTHROPIC_API_KEY)"
+  },
+  {
+   "source": "hafenkran",
+   "found": 0,
+   "status": "skipped (no ANTHROPIC_API_KEY)"
+  },
+  {
+   "source": "eventfrog",
+   "found": 0,
+   "status": "skipped (no ANTHROPIC_API_KEY)"
+  },
+  {
+   "source": "derriere",
+   "found": 0,
+   "status": "skipped (no ANTHROPIC_API_KEY)"
+  },
+  {
+   "source": "nebel",
+   "found": 0,
+   "status": "skipped (no ANTHROPIC_API_KEY)"
+  }
+ ],
+ "total_events": 219
+}
