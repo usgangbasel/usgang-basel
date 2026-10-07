@@ -1,10 +1,11 @@
 {
  "date": "2026-10-07",
  "stats": {
-  "added": 64,
-  "filled": 91,
-  "dups": 135,
-  "removed": 0
+  "added": 13,
+  "filled": 84,
+  "dups": 159,
+  "removed": 0,
+  "blocked": 4
  },
  "sources": [
   {
@@ -33,11 +34,6 @@
    "status": "ok"
   },
   {
-   "source": "birdseye",
-   "found": 45,
-   "status": "ok"
-  },
-  {
    "source": "kaschemme",
    "found": 10,
    "status": "ok"
@@ -45,11 +41,12 @@
   {
    "source": "stadtcasino",
    "found": 67,
-   "status": "ok"
+   "status": "ok",
+   "detail_pages": 67
   },
   {
    "source": "viertel",
-   "found": 7,
+   "found": 18,
    "status": "ok"
   },
   {
@@ -65,7 +62,8 @@
   {
    "source": "basso",
    "found": 14,
-   "status": "ok"
+   "status": "ok",
+   "detail_pages": 13
   },
   {
    "source": "saali",
@@ -88,5 +86,5 @@
    "status": "ok"
   }
  ],
- "total_events": 282
+ "total_events": 251
 }
