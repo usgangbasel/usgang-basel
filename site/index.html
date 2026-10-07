@@ -513,7 +513,7 @@ function isDup(a,b){
 const normUrl = u => { try { const x=new URL(u); return (x.hostname.replace(/^www\./,"")+x.pathname.replace(/\/+$/,"")).toLowerCase(); } catch { return ""; } };
 const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./,"").toLowerCase(); } catch { return ""; } };
 // Sites already read every day.
-const CRAWLED = {"nordstern.com":"Nordstern","birdseye.ch":"Bird's Eye Jazz Club","kaschemme.ch":"Kaschemme","stadtcasino-basel.ch":"Stadtcasino Basel","kaserne-basel.ch":"Kaserne Basel","dasviertel.ch":"Das Viertel","garedunord.ch":"Gare du Nord","sommercasino.ch":"Sommercasino"};
+const CRAWLED = {"nordstern.com":"Nordstern","kaschemme.ch":"Kaschemme","stadtcasino-basel.ch":"Stadtcasino Basel","kaserne-basel.ch":"Kaserne Basel","dasviertel.ch":"Das Viertel","garedunord.ch":"Gare du Nord","sommercasino.ch":"Sommercasino"};
 const clean = t => String(t||"").replace(/\s[\u2013\u2014]\s/g," - ").replace(/[\u2013\u2014]/g,"-");
 function el(tag, props={}, ...kids){ const n=document.createElement(tag); for(const [k,v] of Object.entries(props)){ if(k==="class") n.className=v; else if(k.startsWith("on")) n.addEventListener(k.slice(2),v); else if(v!==undefined&&v!==null) n.setAttribute(k,v);} for(const k of kids){ if(k==null) continue; n.append(k.nodeType?k:document.createTextNode(k)); } return n; }
 
@@ -681,7 +681,6 @@ const VENUES = {
   "Gare du Nord":         {lat:47.56733,lon:7.60691,addr:"Schwarzwaldallee 200"},
   "Sud":                  {lat:47.55816,lon:7.60102,addr:"Burgweg 7"},
   "Atlantis":             {lat:47.55200,lon:7.59065,addr:"Klosterberg 13"},
-  "Bird's Eye Jazz Club": {lat:47.55472,lon:7.58768,addr:"Kohlenberg 20"},
   "Stadtcasino Basel":    {lat:47.55422,lon:7.58935,addr:"Steinenberg 14"},
   "Sommercasino":         {lat:47.54738,lon:7.59842,addr:"Münchensteinerstrasse 1"},
   "Das Viertel":          {lat:47.53984,lon:7.60678,addr:"Münchensteinerstrasse 81"},

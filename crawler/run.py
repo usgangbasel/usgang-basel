@@ -10,7 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from common import BOT, robots_allows, event_id, canon_venue, is_dup, category_from
 from parsers import PARSERS
-from sources import SOURCES
+from sources import SOURCES, BLOCKED_VENUES, BLOCKED_HOSTS
 
 ROOT = Path(__file__).resolve().parent.parent
 EVENTS = ROOT / "site" / "data" / "events.json"
@@ -100,7 +100,13 @@ def clean(e, default_venue, default_url):
 
 
 # ---------- merge ----------
+def blocked(ev):
+    from common import same_venue
+    return any(same_venue(ev.get("venue", ""), v) for v in BLOCKED_VENUES) or any(h in (ev.get("url") or "") for h in BLOCKED_HOSTS)
+
 def merge(store, ev, stats):
+    if blocked(ev):
+        stats["blocked"] = stats.get("blocked", 0) + 1; return
     for oid, old in store.items():
         if is_dup(old, ev):
             changed = False
@@ -182,6 +188,8 @@ async def main():
             continue
         merge(store, e, stats)
 
+    for k in [k for k, v in store.items() if blocked(v)]:
+        del store[k]; stats["removed"] += 1
     cutoff = (TODAY - timedelta(days=2)).isoformat()
     for k in [k for k, v in store.items() if v.get("date", "") < cutoff]:
         del store[k]; stats["removed"] += 1

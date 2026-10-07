@@ -11,7 +11,6 @@ SOURCES = [
     {"id": "renee", "parser": "renee", "url": "https://www.renee.ch", "venue": "Renée", "direct": True},
     {"id": "grenzwert", "parser": "grenzwert", "url": "https://grenzwert.ch/programm/", "venue": "Grenzwert", "direct": True},
     {"id": "nordstern", "parser": "nordstern", "url": "https://www.nordstern.com/events/", "venue": "Nordstern", "direct": True},
-    {"id": "birdseye", "parser": "birdseye", "url": "https://www.birdseye.ch/", "venue": "Bird's Eye Jazz Club", "direct": True},
     {"id": "kaschemme", "parser": "kaschemme", "url": "https://www.kaschemme.ch/programm", "venue": "Kaschemme", "direct": True},
     {"id": "stadtcasino", "parser": "stadtcasino", "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/", "venue": "Stadtcasino Basel", "direct": True},
     {"id": "viertel", "parser": "viertel", "url": "https://www.dasviertel.ch/programmklub", "venue": "Das Viertel", "direct": True},
@@ -26,3 +25,8 @@ SOURCES = [
 ]
 # Never crawled: robots.txt disallows AI crawlers (ra.co).
 EXCLUDED = ["ra.co"]
+
+# Venues the page should never show (removed on request). Events from any source at these venues,
+# or linking to these sites, are dropped and removed from events.json on every run.
+BLOCKED_VENUES = ["Bird's Eye Jazz Club"]
+BLOCKED_HOSTS = ["birdseye.ch"]
