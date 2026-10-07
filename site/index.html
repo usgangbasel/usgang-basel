@@ -493,13 +493,18 @@ const tWords = t => String(t||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"
 function sameVenue(a,b){ const x=normV(a), y=normV(b); return !!x && !!y && (x===y || (Math.min(x.length,y.length)>=4 && (x.startsWith(y)||y.startsWith(x)))); }
 function similarTitle(a,b){
   const ta=normV(a), tb=normV(b); if (ta && ta===tb) return true;
+  if (Math.min(ta.length,tb.length)>=4 && (ta.startsWith(tb)||tb.startsWith(ta))) return true;
+  if (a.includes(":") && b.includes(":")){
+    const [pa,...ra]=a.split(":"), [pb,...rb]=b.split(":");
+    if (normV(pa)===normV(pb) && ra.join(":").trim() && rb.join(":").trim()) return similarTitle(ra.join(":"), rb.join(":"));
+  }
   const A=new Set(tWords(a)), B=new Set(tWords(b)); if (!A.size||!B.size) return false;
   let n=0; for (const w of A) if (B.has(w)) n++;
   const m=Math.min(A.size,B.size); return m>=2 ? n/m>=0.6 : (n>=1 && Math.max(A.size,B.size)<=2);
 }
 const mins = t => { const m=/^(\d{1,2}):(\d{2})/.exec(t||""); return m ? (+m[1])*60+(+m[2]) : null; };
-// Two showings at the same venue with start times 30+ minutes apart are separate events (e.g. festival screenings).
-function farApart(a,b){ const x=mins(a.time), y=mins(b.time); return x!==null && y!==null && Math.abs(x-y)>=30; }
+// Two showings at the same venue with start times 90+ minutes apart are separate events (e.g. festival screenings).
+function farApart(a,b){ const x=mins(a.time), y=mins(b.time); return x!==null && y!==null && Math.abs(x-y)>=90; }
 function isDup(a,b){ return a.date===b.date && sameVenue(a.venue,b.venue) && !farApart(a,b) && similarTitle(a.title,b.title); }
 const normUrl = u => { try { const x=new URL(u); return (x.hostname.replace(/^www\./,"")+x.pathname.replace(/\/+$/,"")).toLowerCase(); } catch { return ""; } };
 const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./,"").toLowerCase(); } catch { return ""; } };

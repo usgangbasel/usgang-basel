@@ -91,6 +91,8 @@ def nordstern(md, today):
             u = re.search(r"\[\s*TICKETS\s*\]\((https?://[^)]+)\)", nxt)
             if u: url = u.group(1); break
         if not heads: continue
+        if re.search(r"bernexpo|titlis|mountain|zürich|zurich", " ".join(heads), re.I):
+            continue  # Nordstern also lists events it organises elsewhere
         if heads[-1].endswith(":") and acts:  # "Club Futura:" followed by the line-up as a list
             heads = heads + [", ".join(acts)]
         title = " ".join(h if h.endswith(":") else h + "," for h in heads).rstrip(",").rstrip(":")
