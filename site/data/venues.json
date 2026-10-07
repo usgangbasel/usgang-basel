@@ -1,0 +1,173 @@
+{
+"atlantis": {
+"desc": "",
+"hours": "",
+"name": "Atlantis",
+"website": "https://www.atlan-tis.ch"
+},
+"basso": {
+"addr": "Elsässerrheinweg 101",
+"crawl": true,
+"desc": "Clubraum mit direkter Sicht auf den Rhein, mit Livekonzerten, Clubnächten und Daydances.",
+"hours": "",
+"lat": 47.57329,
+"lon": 7.58348,
+"name": "Basso",
+"ownProgram": true,
+"website": "https://www.bassoverse.space/beats"
+},
+"bird-s-eye-jazz-club": {
+"desc": "Jazzclub am Kohlenberg, Konzerte meist Dienstag bis Samstag ab 20:30 Uhr.",
+"hours": "",
+"name": "Bird's Eye Jazz Club",
+"website": "https://www.birdseye.ch"
+},
+"das-viertel": {
+"desc": "Klub mit drei Floors, dazu Restaurant und Bar auf der Dachterrasse am Dreispitz.",
+"hours": "",
+"name": "Das Viertel",
+"website": "https://www.dasviertel.ch"
+},
+"derriere": {
+"addr": "Ochsengasse 18",
+"crawl": true,
+"desc": "Bar im Kleinbasel.",
+"hours": "Di–Mi 17:30–24 Uhr, Do 17:30–1 Uhr, Fr–Sa 17:30–3 Uhr",
+"lat": 47.56207,
+"lon": 7.59144,
+"name": "Derrière",
+"ownProgram": false,
+"website": "https://derriere.ch"
+},
+"gare-du-nord": {
+"desc": "Spielort für zeitgenössische Musik und Musiktheater, mit der Bar du Nord.",
+"hours": "",
+"name": "Gare du Nord",
+"website": "https://www.garedunord.ch"
+},
+"grenzwert": {
+"addr": "Ochsengasse 14",
+"crawl": true,
+"desc": "Bar im Kleinbasel seit 30 Jahren, jeden Freitag und Samstag mit DJs.",
+"hours": "Mo–Do 17–1 Uhr, Fr–Sa 17–3 Uhr",
+"lat": 47.56188,
+"lon": 7.59159,
+"name": "Grenzwert",
+"ownProgram": true,
+"website": "https://grenzwert.ch/programm/"
+},
+"hafenkran": {
+"addr": "Uferstrasse, Klybeckquai",
+"crawl": true,
+"desc": "Restaurierter historischer Hafenkran am Klybeckquai mit zwei Plattformen für Konzerte und Essen mit Rheinblick. Eintritt frei.",
+"hours": "Fisk&Øl: Di–So ab 17 Uhr bei gutem Wetter",
+"name": "Hafenkran",
+"ownProgram": false,
+"website": "https://www.hafenkran.ch"
+},
+"heimat": {
+"desc": "Nightlife-, Konzert- und Eventlocation mit Bar, Lounge und Dachterrasse.",
+"hours": "",
+"name": "Heimat",
+"website": ""
+},
+"kaserne-basel": {
+"desc": "Zentrum für zeitgenössisches Theater, Tanz, Performance und Popmusik auf dem Kasernenareal.",
+"hours": "",
+"name": "Kaserne Basel",
+"website": "https://kaserne-basel.ch"
+},
+"nebel": {
+"addr": "Sperrstrasse 94",
+"crawl": true,
+"desc": "Bar mit hochklassigen Cocktails und DJs im Hinterzimmer, Eintritt frei.",
+"hours": "",
+"lat": 47.5657,
+"lon": 7.59642,
+"name": "Nebel",
+"ownProgram": false,
+"website": "https://nebelbar.ch"
+},
+"neues-kino": {
+"desc": "",
+"hours": "",
+"name": "neues kino",
+"website": ""
+},
+"nordstern": {
+"desc": "Club für elektronische Musik im Unterdeck eines umgebauten Frachtschiffs am Westquai.",
+"hours": "",
+"name": "Nordstern",
+"website": "https://www.nordstern.com"
+},
+"parterre-one": {
+"desc": "",
+"hours": "",
+"name": "Parterre One",
+"website": "https://www.parterre-one.ch"
+},
+"renee": {
+"addr": "Klingental 18",
+"crawl": true,
+"desc": "Bar und Club mit Champagner, Wein, Essen und DJs von Donnerstag bis Samstag.",
+"hours": "So–Mi 17–24 Uhr, Do–Sa 17–3 Uhr",
+"lat": 47.56257,
+"lon": 7.5914,
+"name": "Renée",
+"ownProgram": true,
+"website": "https://www.renee.ch"
+},
+"roter-korsar": {
+"desc": "",
+"hours": "",
+"name": "Roter Korsar",
+"website": ""
+},
+"saali-goldenes-fass": {
+"addr": "Hammerstrasse 108",
+"crawl": true,
+"desc": "Saal im ersten Stock des Goldenen Fass mit Bühne und eigener Bar, für Konzerte, Theater und DJ-Abende.",
+"hours": "Restaurant Di–Sa ab 18:30 Uhr",
+"lat": 47.56569,
+"lon": 7.59562,
+"name": "Sääli (Goldenes Fass)",
+"ownProgram": true,
+"website": "https://www.goldenes-fass.ch/saali/"
+},
+"sommercasino": {
+"desc": "Die bunte Villa für Konzerte, Kultur und Community, mit dem Café Stoa.",
+"hours": "",
+"name": "Sommercasino",
+"website": "https://sommercasino.ch"
+},
+"stadtcasino-basel": {
+"desc": "Konzerthaus am Barfüsserplatz mit Musiksaal und Hans Huber-Saal.",
+"hours": "",
+"name": "Stadtcasino Basel",
+"website": "https://www.stadtcasino-basel.ch"
+},
+"stadtkino-basel": {
+"desc": "Kino in der Altstadt, Hauptspielort des Lust*streifen Film Festivals.",
+"hours": "",
+"name": "Stadtkino Basel",
+"website": "https://www.stadtkinobasel.ch"
+},
+"sud": {
+"desc": "",
+"hours": "",
+"name": "Sud",
+"website": "https://www.sudhaus.ch"
+},
+"the-gannet": {
+"desc": "Ehemaliges Feuerschiff im Holzpark Klybeck: Kulturzentrum für Musik und Theater, mit Restaurant.",
+"hours": "",
+"name": "The Gannet",
+"website": "https://www.gannet.lv"
+},
+"volkshaus": {
+"desc": "",
+"hours": "",
+"name": "Volkshaus",
+"website": "https://www.volkshaus-basel.ch"
+}
+}

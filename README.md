@@ -1,9 +1,15 @@
 # usgang-basel
 
-Crawler and (later) hosting for the Ausgang Basel events page.
+Ausgang Basel: events from Basel venues, with votes and "Ich gehe hin".
 
-## Crawl4AI test
-- `crawler/sites.py`: sites to test
-- `crawler/test_crawl4ai.py`: checks robots.txt (incl. AI crawler rules), loads each page with Crawl4AI, saves HTML/markdown, extracts schema.org events, optionally lets an AI model extract events (needs repository secret `ANTHROPIC_API_KEY`)
-- Runs on GitHub Actions (`.github/workflows/crawl4ai-test.yml`) on every push to `crawler/` or manually via Actions → crawl4ai-test → Run workflow
-- Results land on the branch `test-results` in `results/` (`summary.md` first)
+## Site (`site/`)
+- Static page served by GitHub Pages: `https://usgangbasel.github.io/usgang-basel/`
+- `site/data/events.json`, `site/data/venues.json`: event and venue data (written by the crawler)
+- `site/backend.js`: Firebase (Firestore + anonymous sign-in) for votes, community events, venue requests and admin edits of venue info
+- `firestore.rules`: the access rules to paste into Firestore → Rules
+- Deployed by `.github/workflows/pages.yml` on every push to `site/`
+
+## Crawler (`crawler/`)
+- `test_crawl4ai.py`: Crawl4AI test run (robots.txt check incl. AI crawlers, page load, schema.org events, rule-based parsers, optional AI extraction with secret `ANTHROPIC_API_KEY`)
+- `parsers.py`: rule-based parsers for denkmal, Renée, Grenzwert, Nordstern
+- Results on branch `test-results`
