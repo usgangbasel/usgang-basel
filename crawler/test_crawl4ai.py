@@ -13,6 +13,8 @@ from bs4 import BeautifulSoup
 
 sys.path.insert(0, str(Path(__file__).parent))
 from sites import SITES
+from parsers import PARSERS
+from datetime import date
 
 OUT = Path("results"); OUT.mkdir(exist_ok=True)
 BOT = "UsgangBaselBot/0.1 (+https://github.com/usgangbasel/usgang-basel)"
@@ -116,8 +118,8 @@ async def main():
             t0 = time.time()
             try:
                 cfg = CrawlerRunConfig(cache_mode=CacheMode.BYPASS, page_timeout=60000,
-                                       wait_until="networkidle" if s.get("js") else "domcontentloaded",
-                                       delay_before_return_html=2.0 if s.get("js") else 0.0)
+                                       wait_until="load" if s.get("js") else "domcontentloaded",
+                                       delay_before_return_html=4.0 if s.get("js") else 0.0)
                 r = await crawler.arun(url=s["url"], config=cfg)
             except Exception as e:
                 row["status"] = f"error: {e}"[:200]; rows.append(row); print(row, flush=True); continue
@@ -132,6 +134,13 @@ async def main():
             row["markdown_chars"] = len(md)
             ev = jsonld_events(r.html)
             row["jsonld_events"] = len(ev)
+            if s["slug"] in PARSERS:
+                try:
+                    pe = PARSERS[s["slug"]](md, date.today())
+                    (OUT / f"{s['slug']}.rules.json").write_text(json.dumps(pe, ensure_ascii=False, indent=1), encoding="utf-8")
+                    row["rule_events"] = len(pe)
+                except Exception as e:
+                    row["rule_events"] = f"error: {e}"[:120]
             if ev: (OUT / f"{s['slug']}.jsonld.json").write_text(json.dumps(ev, ensure_ascii=False, indent=1), encoding="utf-8")
             if s.get("llm") and key and LLMExtractionStrategy:
                 try:
@@ -143,8 +152,8 @@ async def main():
                     t1 = time.time()
                     r2 = await crawler.arun(url=s["url"], config=CrawlerRunConfig(
                         cache_mode=CacheMode.BYPASS, page_timeout=60000, extraction_strategy=strat,
-                        wait_until="networkidle" if s.get("js") else "domcontentloaded",
-                        delay_before_return_html=2.0 if s.get("js") else 0.0))
+                        wait_until="load" if s.get("js") else "domcontentloaded",
+                        delay_before_return_html=4.0 if s.get("js") else 0.0))
                     data = json.loads(r2.extracted_content or "[]")
                     data = [d for d in data if isinstance(d, dict) and not d.get("error")]
                     (OUT / f"{s['slug']}.llm.json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -156,7 +165,7 @@ async def main():
             row["status"] = "ok"
             rows.append(row); print(row, flush=True)
     (OUT / "summary.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
-    cols = ["site", "status", "robots", "http", "seconds", "html_kb", "markdown_chars", "jsonld_events", "llm_events"]
+    cols = ["site", "status", "robots", "http", "seconds", "html_kb", "markdown_chars", "jsonld_events", "rule_events", "llm_events"]
     lines = ["| " + " | ".join(cols) + " |", "|" + "---|" * len(cols)]
     for r in rows: lines.append("| " + " | ".join(str(r.get(c, "")) for c in cols) + " |")
     (OUT / "summary.md").write_text(f"# Crawl4AI test {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())}\n\n" + "\n".join(lines) + "\n", encoding="utf-8")
