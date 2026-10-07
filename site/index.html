@@ -488,6 +488,7 @@ function rel(d){ const a=new Date(TODAY+"T12:00:00"), b=new Date(d+"T12:00:00");
   return n===0?"Heute":n===1?"Morgen":n<7?`in ${n} Tagen`:""; }
 // Duplicate detection: same date, same venue (ignoring "The", accents, suffixes) and mostly the same title words.
 const STOP = new Set(["the","der","die","das","and","und","mit","live","in","im","at","de","la","le","feat","ft","presents","pres","x","vs","konzert","concert","party","dj","djs","b2b","tour","2025","2026","2027"]);
+const GENERIC = new Set("basel club klub night nacht music musik festival orchester orchestra ensemble kammermusik amg symphonic gems series edition vol special guest sinfonieorchester konzerte concerts show open format".split(" "));
 const normV = v => String(v||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/^the\s+/,"").replace(/[^a-z0-9]+/g,"");
 const tWords = t => String(t||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().split(/[^a-z0-9]+/).filter(w => w.length>1 && !STOP.has(w));
 function sameVenue(a,b){ const x=normV(a), y=normV(b); return !!x && !!y && (x===y || (Math.min(x.length,y.length)>=4 && (x.startsWith(y)||y.startsWith(x)))); }
@@ -508,7 +509,7 @@ function farApart(a,b){ const x=mins(a.time), y=mins(b.time); return x!==null &&
 function isDup(a,b){
   if (a.date!==b.date || !sameVenue(a.venue,b.venue) || farApart(a,b)) return false;
   if (similarTitle(a.title,b.title)) return true;
-  const A=new Set(tWords(a.title)); return !!a.time && a.time===b.time && tWords(b.title).some(w=>A.has(w));
+  const A=new Set(tWords(a.title)); return !!a.time && a.time===b.time && tWords(b.title).some(w=>A.has(w) && w.length>2 && !GENERIC.has(w));
 }
 const normUrl = u => { try { const x=new URL(u); return (x.hostname.replace(/^www\./,"")+x.pathname.replace(/\/+$/,"")).toLowerCase(); } catch { return ""; } };
 const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./,"").toLowerCase(); } catch { return ""; } };

@@ -53,6 +53,8 @@ def canon_venue(v):
 
 # ---- duplicate detection (same rules as the page) ----
 STOP = set("the der die das and und mit live in im at de la le feat ft presents pres x vs konzert concert party dj djs b2b tour 2025 2026 2027".split())
+# words too common to identify an event on their own (used by the same-time rule)
+GENERIC = set("basel club klub night nacht music musik festival orchester orchestra ensemble kammermusik amg symphonic gems series edition vol special guest sinfonieorchester konzerte concerts show open format".split())
 def _nv(v): return re.sub(r"[^a-z0-9]", "", re.sub(r"^the\s+", "", fold(v)))
 def _tw(t): return {w for w in re.split(r"[^a-z0-9]+", fold(t)) if len(w) > 1 and w not in STOP}
 def same_venue(a, b):
@@ -84,7 +86,8 @@ def is_dup(a, b):
     if similar_title(a["title"], b["title"]):
         return True
     # same venue, day and start time and at least one shared name: event name vs. line-up of the same night
-    return bool(a.get("time")) and a.get("time") == b.get("time") and bool(_tw(a["title"]) & _tw(b["title"]))
+    shared = {w for w in _tw(a["title"]) & _tw(b["title"]) if w not in GENERIC and len(w) > 2}
+    return bool(a.get("time")) and a.get("time") == b.get("time") and bool(shared)
 
 
 # ---- categories in the page's German style ----
