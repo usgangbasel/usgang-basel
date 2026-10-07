@@ -1,24 +1,28 @@
-"""What the nightly crawl reads.
-kind 'rules': parsed with crawler/parsers.py (no AI).
-kind 'ai':    page text is read by Claude (only if the repository secret ANTHROPIC_API_KEY is set).
-direct=True:  the venue's own program; aggregator listings for that venue are then skipped.
+"""What the nightly crawl reads. All sources use rules from crawler/parsers.py (no AI).
+direct=True: the venue's own program; aggregator listings for that venue are then skipped.
+ai_fallback=True: if the rules find nothing and the repository secret ANTHROPIC_API_KEY exists, Claude reads the page instead.
+Venues added via the page (venues.json, crawl:true) without rules are read by Claude only if the key exists.
 """
 SOURCES = [
-    {"id": "denkmal", "kind": "rules", "parser": "denkmal", "days": True, "direct": False},
-    {"id": "renee", "kind": "rules", "parser": "renee", "url": "https://www.renee.ch", "venue": "Renée", "direct": True},
-    {"id": "grenzwert", "kind": "rules", "parser": "grenzwert", "url": "https://grenzwert.ch/programm/", "venue": "Grenzwert", "direct": True},
-    {"id": "nordstern", "kind": "rules", "parser": "nordstern", "url": "https://www.nordstern.com/events/", "venue": "Nordstern", "direct": True},
-
-    {"id": "birdseye", "kind": "ai", "url": "https://www.birdseye.ch/", "venue": "Bird's Eye Jazz Club", "direct": True},
-    {"id": "kaschemme", "kind": "ai", "url": "https://www.kaschemme.ch/programm", "venue": "Kaschemme", "direct": True},
-    {"id": "stadtcasino", "kind": "ai", "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/", "venue": "Stadtcasino Basel", "direct": True},
-    {"id": "viertel", "kind": "ai", "url": "https://www.dasviertel.ch/programmklub", "venue": "Das Viertel", "direct": True},
-    {"id": "garedunord", "kind": "ai", "url": "https://www.garedunord.ch/", "venue": "Gare du Nord", "direct": True},
-    {"id": "sommercasino", "kind": "ai", "url": "https://sommercasino.ch/", "venue": "Sommercasino", "direct": True},
-    {"id": "basso", "kind": "ai", "url": "https://www.bassoverse.space/beats", "venue": "Basso", "js": True, "direct": True},
-    {"id": "saali", "kind": "ai", "url": "https://www.goldenes-fass.ch/saali/", "venue": "Sääli (Goldenes Fass)", "direct": True},
-    {"id": "hafenkran", "kind": "ai", "url": "https://www.hafenkran.ch", "venue": "Hafenkran", "js": True, "direct": False},
-    {"id": "eventfrog", "kind": "ai", "url": "https://eventfrog.ch/de/events/basel.html", "pages": 3, "direct": False},
+    # aggregators
+    {"id": "denkmal", "parser": "denkmal", "days": True, "direct": False},
+    {"id": "eventfrog", "parser": "eventfrog", "url": "https://eventfrog.ch/de/events/basel.html", "pages": 3, "direct": False},
+    # venue programs
+    {"id": "renee", "parser": "renee", "url": "https://www.renee.ch", "venue": "Renée", "direct": True},
+    {"id": "grenzwert", "parser": "grenzwert", "url": "https://grenzwert.ch/programm/", "venue": "Grenzwert", "direct": True},
+    {"id": "nordstern", "parser": "nordstern", "url": "https://www.nordstern.com/events/", "venue": "Nordstern", "direct": True},
+    {"id": "birdseye", "parser": "birdseye", "url": "https://www.birdseye.ch/", "venue": "Bird's Eye Jazz Club", "direct": True},
+    {"id": "kaschemme", "parser": "kaschemme", "url": "https://www.kaschemme.ch/programm", "venue": "Kaschemme", "direct": True},
+    {"id": "stadtcasino", "parser": "stadtcasino", "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/", "venue": "Stadtcasino Basel", "direct": True},
+    {"id": "viertel", "parser": "viertel", "url": "https://www.dasviertel.ch/programmklub", "venue": "Das Viertel", "direct": True},
+    {"id": "garedunord", "parser": "garedunord", "url": "https://www.garedunord.ch/", "venue": "Gare du Nord", "direct": True},
+    {"id": "sommercasino", "parser": "sommercasino", "url": "https://sommercasino.ch/", "venue": "Sommercasino", "direct": True},
+    {"id": "basso", "parser": "basso", "url": "https://www.bassoverse.space/beats", "venue": "Basso", "js": True, "direct": True},
+    {"id": "saali", "parser": "saali", "url": "https://www.goldenes-fass.ch/saali/", "venue": "Sääli (Goldenes Fass)", "direct": True, "ai_fallback": True},
+    # sites without a dated program: checked every night, flagged in the report if dates appear
+    {"id": "hafenkran", "parser": "no_program", "url": "https://www.hafenkran.ch", "venue": "Hafenkran", "js": True, "direct": False},
+    {"id": "nebel", "parser": "no_program", "url": "https://nebelbar.ch", "venue": "Nebel", "direct": False},
+    {"id": "derriere", "parser": "no_program", "url": "https://derriere.ch", "venue": "Derrière", "direct": False},
 ]
-# Never crawled: robots.txt disallows AI crawlers (ra.co) - kept here as a reminder.
+# Never crawled: robots.txt disallows AI crawlers (ra.co).
 EXCLUDED = ["ra.co"]

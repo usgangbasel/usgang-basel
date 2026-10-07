@@ -11,7 +11,7 @@ Ausgang Basel: events from Basel venues, with votes and "Ich gehe hin".
 
 ## Nightly crawl (`crawler/run.py`, `.github/workflows/crawl.yml`)
 - Runs every night at 03:17 (summer) / 02:17 (winter) and can be started by hand: Actions → nightly-crawl → Run workflow
-- `crawler/sources.py`: what is read. `rules` sources need no AI; `ai` sources need the repository secret `ANTHROPIC_API_KEY`
+- `crawler/sources.py`: what is read; every source has rules in `crawler/parsers.py` (no AI). Optional: with the repository secret `ANTHROPIC_API_KEY`, Claude reads pages whose rules find nothing (Sääli, venues added later)
 - robots.txt is checked before every page (including AI crawler rules for AI-read pages)
 - New events are merged into `site/data/events.json` without duplicates; details (end time, price, style) are filled in; events older than 2 days are removed
 - Report: `crawler/last_run.json` and the run's summary page on GitHub; the site is redeployed automatically

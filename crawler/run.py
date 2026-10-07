@@ -35,7 +35,7 @@ async def fetch(crawler, url, js=False):
     if not r.success:
         raise RuntimeError(r.error_message or "load failed")
     md = r.markdown.raw_markdown if hasattr(r.markdown, "raw_markdown") else str(r.markdown or "")
-    return md
+    return md, (r.html or "")
 
 
 # ---------- AI extraction (Claude) ----------
@@ -127,14 +127,15 @@ async def main():
 
     # user-added venues (crawl:true) that are not in the source list yet
     known = {s.get("venue") for s in SOURCES}
-    extra = [{"id": vid, "kind": "ai", "url": v["website"], "venue": v["name"], "direct": bool(v.get("ownProgram"))}
+    known |= {s.get("venue") for s in SOURCES if s.get("venue")}
+    extra = [{"id": vid, "parser": None, "url": v["website"], "venue": v["name"], "direct": bool(v.get("ownProgram")), "ai_fallback": True}
              for vid, v in venues.items() if v.get("crawl") and v.get("website") and v.get("name") not in known]
 
     async with AsyncWebCrawler(config=BrowserConfig(headless=True, user_agent=BOT, verbose=False)) as crawler:
         for s in SOURCES + extra:
             row = {"source": s["id"], "found": 0, "status": "ok"}
-            if s["kind"] == "ai" and not KEY:
-                row["status"] = "skipped (no ANTHROPIC_API_KEY)"; report.append(row); continue
+            if not s.get("parser") and not KEY:
+                row["status"] = "skipped (no rules; AI needs ANTHROPIC_API_KEY)"; report.append(row); continue
             if s.get("days"):  # denkmal: one page per day, current week only
                 urls = [f"https://denkmal.org/de/basel/{(TODAY + timedelta(days=i)).isoformat()}" for i in range(0, 7 - TODAY.weekday())]
             elif s.get("pages"):
@@ -143,17 +144,20 @@ async def main():
                 urls = [s["url"]]
             found = []
             for url in urls:
-                ok, why = robots_allows(url, ai=(s["kind"] == "ai"))
+                ok, why = robots_allows(url, ai=bool(s.get("ai_fallback") and KEY))
                 if not ok:
                     row["status"] = f"skipped: {why}"; break
                 try:
-                    md = await fetch(crawler, url, s.get("js"))
-                    if s["kind"] == "rules":
-                        raw = PARSERS[s["parser"]](md, TODAY)
-                        for e in raw: e.setdefault("category", category_from(e.get("style"), "Club / Elektronisch" if s["id"] == "nordstern" else "Anderes"))
-                    else:
+                    md, html = await fetch(crawler, url, s.get("js"))
+                    raw = PARSERS[s["parser"]](md, TODAY, html) if s.get("parser") else []
+                    for e in raw: e.setdefault("category", category_from(e.get("style"), "Club / Elektronisch" if s["id"] == "nordstern" else "Anderes"))
+                    plain = re.sub(r"!?\[[^\]]*\]\([^)]*\)", " ", md)  # ignore links and image names
+                    if s.get("parser") == "no_program" and re.search(r"(?<![\d.])\d{1,2}\.\s?(\d{1,2}\.(?!\d)|Jan|Feb|Mär|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Nov|Dez)", plain):
+                        row["status"] = "ok (page now shows dates: rules needed)"
+                    if not raw and s.get("ai_fallback") and KEY:
                         raw, usage = ai_extract(md, url, s.get("venue"), until)
                         row["tokens"] = row.get("tokens", 0) + usage.input_tokens + usage.output_tokens
+                        row["ai"] = True
                     for e in raw:
                         if e.get("start") and not e.get("time"): e["time"] = e["start"]
                         c = clean(e, s.get("venue"), url)
@@ -162,7 +166,7 @@ async def main():
                     row["status"] = f"error: {ex}"[:160]
                 time.sleep(2)  # be gentle
             row["found"] = len(found)
-            if s.get("direct") and row["status"] == "ok":
+            if s.get("direct") and row["status"].startswith("ok"):
                 direct_ok.add(s["venue"])
                 for e in found: merge(store, e, stats)
             elif s.get("venue") and s.get("direct"):
