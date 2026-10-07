@@ -204,8 +204,32 @@ def stadtcasino(md, today, html=""):
 
 
 def viertel(md, today, html=""):
-    """Wix list: '18+FREE ENTRY' / '## TITLE' / 'GENRE / GENRE' / '## 09' / '## OKT.'"""
-    L = _lines(md); out = []
+    """Wix page with the event records embedded as JSON: eventTitle, genre, eventStart/eventEnd (UTC), ticketLink.
+    Falls back to the visible list ('18+FREE ENTRY' / '## TITLE' / 'GENRE' / '## 09' / '## OKT.') without times."""
+    import json
+    dec, recs = json.JSONDecoder(), {}
+    for m in re.finditer(r'\{"eventTitle":', html or ""):
+        try:
+            obj, _ = dec.raw_decode(html, m.start())
+            recs[obj.get("_id") or len(recs)] = obj
+        except Exception:
+            pass
+    out = []
+    def local(iso):
+        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        return dt.astimezone(ZH) if ZH else dt + timedelta(hours=2)
+    for r in recs.values():
+        if r.get("eventActiv") is False or not r.get("eventStart"): continue
+        st = local(r["eventStart"]["$date"])
+        en = local(r["eventEnd"]["$date"]) if r.get("eventEnd") else None
+        if st.date() < today: continue
+        btn = (r.get("ticketButtonText") or r.get("textTicketButton") or "").upper()
+        out.append(_mk(_smart_case(r.get("eventTitle", "")), "Das Viertel", st.date(), st.strftime("%H:%M"),
+                       r.get("ticketLink") or "https://www.dasviertel.ch/programmklub", end=en.strftime("%H:%M") if en else "",
+                       style=_smart_case(r.get("genre", "")), price="frei" if "FREE" in btn else ""))
+    if out:
+        return out
+    L = _lines(md)
     for i, l in enumerate(L):
         m = re.match(r"^(\d{2})\+\s*(.*)$", l)
         if not m or i + 4 >= len(L): continue
@@ -215,8 +239,7 @@ def viertel(md, today, html=""):
         if not mon: continue
         d = date(_year_for(mon, day, today), mon, day)
         if d < today: continue
-        title = _smart_case(t[3:].strip())
-        out.append(_mk(title, "Das Viertel", d, "", "https://www.dasviertel.ch/programmklub",
+        out.append(_mk(_smart_case(t[3:].strip()), "Das Viertel", d, "", "https://www.dasviertel.ch/programmklub",
                        style=_smart_case(g), price="frei" if "FREE" in m.group(2).upper() else ""))
     return out
 
@@ -328,3 +351,28 @@ PARSERS = {"denkmal": denkmal, "renee": renee, "grenzwert": grenzwert, "nordster
            "birdseye": birdseye, "kaschemme": kaschemme, "stadtcasino": stadtcasino, "viertel": viertel,
            "garedunord": garedunord, "sommercasino": sommercasino, "basso": basso, "eventfrog": eventfrog,
            "saali": saali, "no_program": no_program}
+
+
+# ---- event detail pages: fill in times (and price) the list pages don't show ----
+def stadtcasino_detail(md, html=""):
+    """'* Beginn 19.30 h', '* Türöffnung 18.30 h', 'Konzertende ca. 21.30 Uhr'"""
+    d = {}
+    b = re.search(r"Beginn\s+(\d{1,2}[.:]\d{2})\s*h", md); t = re.search(r"Türöffnung\s+(\d{1,2}[.:]\d{2})\s*h", md)
+    e = re.search(r"(?:Konzert)?[Ee]nde\s+(?:ca\.\s*)?(\d{1,2}[.:]\d{2})\s*Uhr", md)
+    if b: d["start"] = _hhmm(b.group(1))
+    if t: d["doors"] = _hhmm(t.group(1))
+    if e: d["end"] = _hhmm(e.group(1))
+    return d
+
+def basso_detail(md, html=""):
+    """'Friday, 16.10.26' / '22:00 / CLUB' (or '22:00 - 04:00 / CLUB') and 'Presale CHF 10'"""
+    d = {}
+    m = re.search(r"^\w+day,\s*\d{1,2}\.\d{1,2}\.\d{2}\s*\n+\s*(\d{1,2}:\d{2})(?:\s*[-–]\s*(\d{1,2}:\d{2}))?\s*/", md, re.M)
+    if m:
+        d["start"] = _hhmm(m.group(1))
+        if m.group(2): d["end"] = _hhmm(m.group(2))
+    p = re.search(r"^((?:Presale|Abendkasse|Eintritt|Entry)[^\n]*CHF[^\n]*|[Ff]ree [Ee]ntry|Eintritt frei)\s*$", md, re.M)
+    if p: d["price"] = p.group(1).strip()
+    return d
+
+DETAILS = {"stadtcasino": stadtcasino_detail, "basso": basso_detail}

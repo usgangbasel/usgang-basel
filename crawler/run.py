@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from common import BOT, robots_allows, event_id, canon_venue, is_dup, category_from
-from parsers import PARSERS
+from parsers import PARSERS, DETAILS
 from sources import SOURCES, BLOCKED_VENUES, BLOCKED_HOSTS
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -123,6 +123,33 @@ def merge(store, ev, stats):
     store[eid] = ev; stats["added"] += 1
 
 
+def _known_time(store, e):
+    """Start time already stored for this event (from an earlier night), if any."""
+    for old in store.values():
+        if old.get("time") and is_dup(old, {**e, "time": ""}):
+            return old["time"]
+    return ""
+
+async def enrich(crawler, s, found, store, row, limit=80):
+    """Open event pages for events whose start time is still unknown; fill time/doors/end/price."""
+    n = 0
+    for e in found:
+        if e.get("time") or n >= limit or not e.get("url") or e["url"] == s.get("url"): continue
+        if _known_time(store, e): continue
+        ok, _ = robots_allows(e["url"], ai=False)
+        if not ok: continue
+        try:
+            md, html = await fetch(crawler, e["url"], s.get("js"))
+            d = DETAILS[s["details"]](md, html)
+            n += 1
+            if d.get("start"): e["time"] = d["start"]
+            for f in ("doors", "end", "price"):
+                if d.get(f) and not e.get(f): e[f] = d[f]
+        except Exception as ex:
+            note("detail failed", e["url"], ex)
+        time.sleep(1)
+    row["detail_pages"] = n
+
 async def main():
     from crawl4ai import AsyncWebCrawler, BrowserConfig
     store = json.loads(EVENTS.read_text(encoding="utf-8")) if EVENTS.exists() else {}
@@ -149,12 +176,20 @@ async def main():
             else:
                 urls = [s["url"]]
             found = []
-            for url in urls:
+            pending, done_urls = list(urls), set()
+            while pending:
+                url = pending.pop(0)
+                if url in done_urls: continue
+                done_urls.add(url)
                 ok, why = robots_allows(url, ai=bool(s.get("ai_fallback") and KEY))
                 if not ok:
                     row["status"] = f"skipped: {why}"; break
                 try:
                     md, html = await fetch(crawler, url, s.get("js"))
+                    if s.get("next") and len(done_urls) < s.get("max_pages", 3):
+                        for nxt in re.findall(s["next"], html):
+                            nxt = nxt.replace("&amp;", "&")
+                            if nxt not in done_urls and nxt not in pending: pending.append(nxt)
                     raw = PARSERS[s["parser"]](md, TODAY, html) if s.get("parser") else []
                     for e in raw: e.setdefault("category", category_from(e.get("style"), "Club / Elektronisch" if s["id"] == "nordstern" else "Anderes"))
                     plain = re.sub(r"!?\[[^\]]*\]\([^)]*\)", " ", md)  # ignore links and image names
@@ -171,6 +206,8 @@ async def main():
                 except Exception as ex:
                     row["status"] = f"error: {ex}"[:160]
                 time.sleep(2)  # be gentle
+            if s.get("details") and row["status"].startswith("ok"):
+                await enrich(crawler, s, found, store, row)
             row["found"] = len(found)
             if s.get("direct") and row["status"].startswith("ok"):
                 direct_ok.add(s["venue"])
