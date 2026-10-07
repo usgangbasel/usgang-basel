@@ -1,15 +1,20 @@
 {
  "date": "2026-10-07",
  "stats": {
-  "added": 11,
-  "filled": 64,
-  "dups": 6,
+  "added": 64,
+  "filled": 91,
+  "dups": 135,
   "removed": 0
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 54,
+   "found": 57,
+   "status": "ok"
+  },
+  {
+   "source": "eventfrog",
+   "found": 36,
    "status": "ok"
   },
   {
@@ -29,64 +34,59 @@
   },
   {
    "source": "birdseye",
-   "found": 0,
-   "status": "skipped (no ANTHROPIC_API_KEY)"
+   "found": 45,
+   "status": "ok"
   },
   {
    "source": "kaschemme",
-   "found": 0,
-   "status": "skipped (no ANTHROPIC_API_KEY)"
+   "found": 10,
+   "status": "ok"
   },
   {
    "source": "stadtcasino",
-   "found": 0,
-   "status": "skipped (no ANTHROPIC_API_KEY)"
+   "found": 67,
+   "status": "ok"
   },
   {
    "source": "viertel",
-   "found": 0,
-   "status": "skipped (no ANTHROPIC_API_KEY)"
+   "found": 7,
+   "status": "ok"
   },
   {
    "source": "garedunord",
-   "found": 0,
-   "status": "skipped (no ANTHROPIC_API_KEY)"
+   "found": 8,
+   "status": "ok"
   },
   {
    "source": "sommercasino",
-   "found": 0,
-   "status": "skipped (no ANTHROPIC_API_KEY)"
+   "found": 30,
+   "status": "ok"
   },
   {
    "source": "basso",
-   "found": 0,
-   "status": "skipped (no ANTHROPIC_API_KEY)"
+   "found": 14,
+   "status": "ok"
   },
   {
    "source": "saali",
-   "found": 0,
-   "status": "skipped (no ANTHROPIC_API_KEY)"
+   "found": 3,
+   "status": "ok"
   },
   {
    "source": "hafenkran",
    "found": 0,
-   "status": "skipped (no ANTHROPIC_API_KEY)"
-  },
-  {
-   "source": "eventfrog",
-   "found": 0,
-   "status": "skipped (no ANTHROPIC_API_KEY)"
-  },
-  {
-   "source": "derriere",
-   "found": 0,
-   "status": "skipped (no ANTHROPIC_API_KEY)"
+   "status": "ok"
   },
   {
    "source": "nebel",
    "found": 0,
-   "status": "skipped (no ANTHROPIC_API_KEY)"
+   "status": "ok"
+  },
+  {
+   "source": "derriere",
+   "found": 0,
+   "status": "ok"
   }
  ],
- "total_events": 219
+ "total_events": 282
 }

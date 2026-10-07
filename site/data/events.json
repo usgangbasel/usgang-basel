@@ -1,4 +1,13 @@
 {
+"2026-10-07-b-movie-ghost-in-the-shell": {
+"title": "Ghost in the Shell",
+"venue": "B-Movie",
+"date": "2026-10-07",
+"source": "crawler",
+"time": "20:30",
+"url": "https://eventfrog.ch/de/p/kino/kino/ghost-in-the-shell-basel-7506115233343105916.html",
+"category": "Film"
+},
 "2026-10-07-bird-s-eye-j-uli-kempendorffs-field": {
 "category": "Konzert / Jazz",
 "date": "2026-10-07",
@@ -8,7 +17,17 @@
 "url": "https://www.birdseye.ch/index.php?EventID=4025&l=de",
 "venue": "Bird's Eye Jazz Club",
 "end": "23:00",
-"style": "jazz"
+"style": "jazz",
+"price": "CHF 16.- / 10.-"
+},
+"2026-10-08-milas-bistro-golden-afternoon-musik-tanz-apero-fur-al": {
+"title": "Golden Afternoon – Musik, Tanz & Apéro für alle ab 60",
+"venue": "Mila’s Bistro",
+"date": "2026-10-08",
+"source": "crawler",
+"time": "14:30",
+"url": "https://eventfrog.ch/de/p/partys/sonstige-partys/golden-afternoon-musik-tanz-apero-fuer-alle-ab-60-basel-7512570724696996554.html",
+"category": "Party"
 },
 "2026-10-08-kaschemme-uptown-dj-lab": {
 "category": "Workshop / Freier Eintritt",
@@ -19,7 +38,8 @@
 "url": "https://www.kaschemme.ch/programm/260908/lab",
 "venue": "Kaschemme",
 "end": "22:00",
-"style": "electronic"
+"style": "electronic",
+"price": "frei"
 },
 "2026-10-08-zazaa-social-roque-le-char": {
 "category": "Party / Disco",
@@ -71,6 +91,15 @@
 "url": "https://denkmal.org/de/basel/2026-10-08/be923717-cf6f-4757-9894-12dad682b23f",
 "category": "Konzert / Brasil"
 },
+"2026-10-08-theater-faut-gabriano-2m10": {
+"title": "Gabriano - 2m10",
+"venue": "Theater Fauteuil",
+"date": "2026-10-08",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/gabriano-2m10-basel-7463245737632996736.html",
+"category": "Bühne / Comedy"
+},
 "2026-10-08-atlantis-youngstage-leo-billen-back-to-the-top": {
 "category": "Konzert / Pop",
 "date": "2026-10-08",
@@ -90,7 +119,8 @@
 "url": "https://www.birdseye.ch/index.php?EventID=4026&l=de",
 "venue": "Bird's Eye Jazz Club",
 "end": "23:00",
-"style": "jazz"
+"style": "jazz",
+"price": "CHF 16.- / 10.-"
 },
 "2026-10-08-stadtkino-ba-luststreifen-dreamboi": {
 "category": "Film / Festival",
@@ -119,7 +149,8 @@
 "title": "Studentenfutter XXL",
 "url": "https://www.dasviertel.ch/programmklub",
 "venue": "Das Viertel",
-"style": "open format, 2000, pop, 90s, charts"
+"style": "open format, 2000, pop, 90s, charts",
+"price": "frei"
 },
 "2026-10-08-renee-gerrit-joscha-baumert": {
 "category": "Club / Italo & Disco",
@@ -217,6 +248,15 @@
 "url": "https://denkmal.org/de/basel/2026-10-09/70f57cd4-6b61-467c-b34b-4dd13159ad14",
 "category": "Konzert / Metal"
 },
+"2026-10-09-peterskirche-charpentiers-missa-assumpta-est-maria": {
+"title": "Charpentiers Missa Assumpta est Maria",
+"venue": "Peterskirche, Basel",
+"date": "2026-10-09",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/konzerte/a-cappella-vocal/charpentiers-missa-assumpta-est-maria-basel-7505503677777455521.html",
+"category": "Konzert"
+},
 "2026-10-09-sommercasino-sleep-on-wednesday-market-saturee-gwalt-": {
 "category": "Konzert / Hardcore",
 "date": "2026-10-09",
@@ -225,7 +265,8 @@
 "title": "sleep on wednesday, Markét Saturée & Gwalt Buffet",
 "url": "https://sommercasino.ch/events/sleep-on-wednesday-market-saturee-isnt-it-funny/",
 "venue": "Sommercasino",
-"style": "screamo, hardcore"
+"style": "screamo, hardcore",
+"doors": "19:30"
 },
 "2026-10-09-the-beast-ba-elena-gabrielle-disturb-the-vibe": {
 "category": "Comedy",
@@ -304,7 +345,17 @@
 "url": "https://www.birdseye.ch/index.php?EventID=4027&l=de",
 "venue": "Bird's Eye Jazz Club",
 "end": "23:00",
-"style": "jazz"
+"style": "jazz",
+"price": "pro Set CHF 14.- / 10.-"
+},
+"2026-10-09-bar-futura-club-futura": {
+"title": "Club Futura",
+"venue": "Bar Futura",
+"date": "2026-10-09",
+"source": "crawler",
+"time": "21:00",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/club-futura-basel-7510983232122282777.html",
+"category": "Party"
 },
 "2026-10-09-nordstern-club-futura-xubi-kaleiko-monteforte": {
 "category": "Club / Elektronisch",
@@ -335,6 +386,15 @@
 "url": "https://denkmal.org/de/basel/2026-10-09/04d8a7a5-bc85-4db6-be45-017fbdc357f7",
 "category": "Konzert / Jazz"
 },
+"2026-10-09-gundeldinger-noche-cuana-mit-dj-pepe-show-und-animati": {
+"title": "Noche Cuana mit Dj Pepe, Show und Animation",
+"venue": "Gundeldingerfeld | Corrientes",
+"date": "2026-10-09",
+"source": "crawler",
+"time": "21:30",
+"url": "https://eventfrog.ch/de/p/partys/latin-salsa-bachata/noche-cuana-mit-dj-pepe-show-und-animation-basel-7502028510992586861.html",
+"category": "Party"
+},
 "2026-10-09-neues-kino-luststreifen-kurzfilme-2130": {
 "category": "Film / Festival",
 "date": "2026-10-09",
@@ -343,6 +403,15 @@
 "title": "Lust*streifen: Kurzfilme",
 "url": "https://www.advance-ticket.ch/omniticket/stadtkino/92047",
 "venue": "neues kino"
+},
+"2026-10-09-bar-rouge-ro-red-friday": {
+"title": "RED FRIDAY",
+"venue": "Bar Rouge - Rooftop Bar & Club",
+"date": "2026-10-09",
+"source": "crawler",
+"time": "22:00",
+"url": "https://eventfrog.ch/de/p/partys/charts-open-format/red-friday-basel-7493331556339058740.html",
+"category": "Party"
 },
 "2026-10-09-grenzwert-ray": {
 "category": "Club / Rock'n'Roll & Soul",
@@ -451,7 +520,8 @@
 "time": "",
 "title": "Basso live x Stereoteka: Gabriel Benedek & Band, El Fresko, 10decimiselecta, Franqueiro",
 "url": "https://www.bassoverse.space/programm/basso-live-x-stereoteka-09-10-2026",
-"venue": "Basso"
+"venue": "Basso",
+"style": "Global Funk, Cumbia, Italo Disco"
 },
 "2026-10-10-kulturgarten-hippie-flohmarkt-mit-jams-konzerten-djs": {
 "category": "Festival",
@@ -502,6 +572,16 @@
 "venue": "8 Bar",
 "style": "pop, r'n'b, soul, funk, rock'n'roll"
 },
+"2026-10-10-kulturhuus-h-jan-seven-dettwyler": {
+"title": "Jan Seven dettwyler",
+"venue": "Kulturhuus Häbse",
+"date": "2026-10-10",
+"source": "crawler",
+"time": "20:00",
+"style": "soul",
+"url": "https://denkmal.org/de/basel/2026-10-10/7b6d3aa1-fad7-4bc4-a370-54c22c29165d",
+"category": "Party / Soul"
+},
 "2026-10-10-pflanzebrogg-tr-nkmish": {
 "category": "Konzert / Pop",
 "date": "2026-10-10",
@@ -512,6 +592,16 @@
 "venue": "Pflanzebroggi Basel",
 "style": "pop"
 },
+"2026-10-10-rockfact-the-klayns": {
+"title": "The Klayns",
+"venue": "Rockfact",
+"date": "2026-10-10",
+"source": "crawler",
+"time": "20:00",
+"style": "rock",
+"url": "https://denkmal.org/de/basel/2026-10-10/94adfeb0-a12e-4526-b3f9-7b9e8cf323c4",
+"category": "Konzert / Rock"
+},
 "2026-10-10-schall-und-r-the-old-man-and-the-rhum-meets-boundless": {
 "category": "Party / Reggae & Dancehall",
 "date": "2026-10-10",
@@ -521,6 +611,16 @@
 "url": "https://denkmal.org/de/basel/2026-10-10",
 "venue": "Schall und Rauch",
 "style": "reggae, dancehall"
+},
+"2026-10-10-vallhalla-naxen": {
+"title": "Naxen",
+"venue": "Vallhalla",
+"date": "2026-10-10",
+"source": "crawler",
+"time": "20:00",
+"style": "black metal",
+"url": "https://denkmal.org/de/basel/2026-10-10/cbdf3260-6a5d-45c7-83ef-46934da00fba",
+"category": "Konzert / Black metal"
 },
 "2026-10-10-volkshaus-grossstadtgefluster": {
 "category": "Konzert / Pop",
@@ -551,7 +651,8 @@
 "url": "https://www.birdseye.ch/index.php?EventID=4027&l=de",
 "venue": "Bird's Eye Jazz Club",
 "end": "23:00",
-"style": "jazz"
+"style": "jazz",
+"price": "pro Set CHF 14.- / 10.-"
 },
 "2026-10-10-atlantis-famara": {
 "category": "Konzert / Reggae",
@@ -702,7 +803,8 @@
 "time": "",
 "title": "Newstars Production w/ DJ Gregory",
 "url": "https://www.dasviertel.ch/programmklub",
-"venue": "Das Viertel"
+"venue": "Das Viertel",
+"style": "House"
 },
 "2026-10-10-stadtcasino--armoniosa-la-serenissima-reise-nach-vene": {
 "category": "Konzert / Klassik",
@@ -769,7 +871,8 @@
 "time": "20:00",
 "title": "HULA CLUB",
 "url": "https://www.goldenes-fass.ch/saali/",
-"venue": "Sääli (Goldenes Fass)"
+"venue": "Sääli (Goldenes Fass)",
+"doors": "19:30"
 },
 "2026-10-13-bird-s-eye-j-nicole-johanntgen-henry": {
 "category": "Konzert / Jazz",
@@ -778,7 +881,9 @@
 "time": "20:30",
 "title": "Nicole Johänntgen «Henry»",
 "url": "https://www.birdseye.ch/index.php?EventID=4028&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-13-stadtcasino--charles-richard-hamelin-kammermusik-um-h": {
 "category": "Konzert / Klassik",
@@ -789,6 +894,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/13102026_k128/",
 "venue": "Stadtcasino Basel"
 },
+"2026-10-13-stadtcasino--poschner-probiert-sinfonieorchester-base": {
+"title": "Poschner probiert Sinfonieorchester Basel",
+"venue": "Stadtcasino Basel",
+"date": "2026-10-13",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/131026_pp/",
+"category": "Konzert / Klassik"
+},
 "2026-10-14-bird-s-eye-j-nicole-johanntgen-henry": {
 "category": "Konzert / Jazz",
 "date": "2026-10-14",
@@ -796,7 +910,9 @@
 "time": "20:30",
 "title": "Nicole Johänntgen «Henry»",
 "url": "https://www.birdseye.ch/index.php?EventID=4028&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-14-stadtcasino--sinfonieorchester-basel-sehnsucht": {
 "category": "Konzert / Klassik",
@@ -814,7 +930,9 @@
 "time": "18:00",
 "title": "Uptown DJ-Lab",
 "url": "https://www.kaschemme.ch/programm/260915/lab",
-"venue": "Kaschemme"
+"venue": "Kaschemme",
+"end": "22:00",
+"price": "frei"
 },
 "2026-10-15-sommercasino-lesungen-jessica-jurassica-wortstellwerk": {
 "category": "Lesung",
@@ -823,7 +941,8 @@
 "time": "19:00",
 "title": "Lesungen Jessica Jurassica & WORTSTELLWERK",
 "url": "https://sommercasino.ch/events/jessica-jurassica-wortstellwerk/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "19:00"
 },
 "2026-10-15-gare-du-nord-schweben-saisoneroffnung": {
 "category": "Musiktheater",
@@ -832,7 +951,8 @@
 "time": "19:30",
 "title": "«Schweben» – Saisoneröffnung",
 "url": "https://www.garedunord.ch/de/programm/3168/schweben",
-"venue": "Gare du Nord"
+"venue": "Gare du Nord",
+"style": "Musiktheater/Performance"
 },
 "2026-10-15-bird-s-eye-j-8-octopi": {
 "category": "Konzert / Jazz",
@@ -841,7 +961,9 @@
 "time": "20:30",
 "title": "8 octopi",
 "url": "https://www.birdseye.ch/index.php?EventID=4029&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-15-renee-el-sina": {
 "category": "Club / Rock & Soul",
@@ -860,7 +982,9 @@
 "time": "",
 "title": "Studentenfutter XXL",
 "url": "https://www.dasviertel.ch/programmklub",
-"venue": "Das Viertel"
+"venue": "Das Viertel",
+"price": "frei",
+"style": "Open Format / POP / Charts"
 },
 "2026-10-15-stadtcasino--mikael-krogerus-roman-tschappeler-lesung": {
 "category": "Lesung",
@@ -887,7 +1011,8 @@
 "time": "19:30",
 "title": "«Schweben»",
 "url": "https://www.garedunord.ch/de/programm/3169/schweben",
-"venue": "Gare du Nord"
+"venue": "Gare du Nord",
+"style": "Musiktheater/Performance"
 },
 "2026-10-16-sommercasino-linda-wolf-album-release-show": {
 "category": "Konzert / Indie-Pop",
@@ -896,7 +1021,8 @@
 "time": "20:00",
 "title": "Linda Wolf – Album Release Show",
 "url": "https://sommercasino.ch/events/linda-wolf-album-release-show/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "20:00"
 },
 "2026-10-16-bird-s-eye-j-adhd": {
 "category": "Konzert / Jazz",
@@ -905,7 +1031,9 @@
 "time": "20:30",
 "title": "ADHD",
 "url": "https://www.birdseye.ch/index.php?EventID=4030&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-16-grenzwert-shaka": {
 "category": "Club / Soul & Rare Grooves",
@@ -943,7 +1071,18 @@
 "time": "",
 "title": "Subshift: Silas, Danielson b2b Norbert.to, Zest",
 "url": "https://www.bassoverse.space/programm/subshift-16-10-2026",
-"venue": "Basso"
+"venue": "Basso",
+"style": "Progressive, Melodic, Psytechno, Techno, Techhouse"
+},
+"2026-10-16-das-viertel-hits": {
+"title": "Hits",
+"venue": "Das Viertel",
+"date": "2026-10-16",
+"source": "crawler",
+"time": "",
+"style": "HITS / POP / 90s / 20s / 10s",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Party / HITS"
 },
 "2026-10-16-stadtcasino--mor-ve-otesi-unplugged": {
 "category": "Konzert / Rock",
@@ -954,6 +1093,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/16102026-mor-ve-otesi/",
 "venue": "Stadtcasino Basel"
 },
+"2026-10-17-sommercasino-16x16x-16-years-of-sixteentimes-music": {
+"category": "Konzert",
+"date": "2026-10-17",
+"source": "crawler",
+"time": "18:00",
+"title": "16X16X – 16 Years of Sixteentimes Music",
+"url": "https://sommercasino.ch/events/16-jahre-seixteentimes-music/",
+"venue": "Sommercasino",
+"doors": "18:00"
+},
 "2026-10-17-bird-s-eye-j-adhd": {
 "category": "Konzert / Jazz",
 "date": "2026-10-17",
@@ -961,7 +1110,9 @@
 "time": "20:30",
 "title": "ADHD",
 "url": "https://www.birdseye.ch/index.php?EventID=4030&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-17-grenzwert-burning-sole-records": {
 "category": "Club / Funk",
@@ -972,6 +1123,17 @@
 "url": "https://grenzwert.ch/programm/",
 "venue": "Grenzwert",
 "style": "Funk"
+},
+"2026-10-17-kaschemme-offset-drum-bass": {
+"category": "Club / Drum & Bass",
+"date": "2026-10-17",
+"source": "crawler",
+"time": "22:00",
+"title": "OFFSET [Drum & Bass]",
+"url": "https://www.kaschemme.ch/programm/2610/offset",
+"venue": "Kaschemme",
+"end": "06:00",
+"style": "Drum & Bass"
 },
 "2026-10-17-nordstern-double-house-w-acid-pauli-recondite-live": {
 "category": "Club / House",
@@ -999,25 +1161,27 @@
 "time": "",
 "title": "Winter Opening Daydance: Britta Arnold, Vornelinks, Marlon&Floyd, Kali Karacho",
 "url": "https://www.bassoverse.space/programm/daydance7",
-"venue": "Basso"
+"venue": "Basso",
+"style": "Midtempo, Deep House, Indie Dance, House"
 },
-"2026-10-17-kaschemme-offset-drum-bass": {
-"category": "Club / Drum & Bass",
+"2026-10-17-das-viertel-harder": {
+"title": "Harder",
+"venue": "Das Viertel",
 "date": "2026-10-17",
 "source": "crawler",
 "time": "",
-"title": "OFFSET [Drum & Bass]",
-"url": "https://www.kaschemme.ch/programm/2610/offset",
-"venue": "Kaschemme"
+"style": "Techno / Cruisen",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Club / Techno"
 },
-"2026-10-17-sommercasino-16x16x-16-years-of-sixteentimes-music": {
-"category": "Konzert",
+"2026-10-17-stadtcasino--dr-daniele-ganser-die-nato-ein-gefahrlic": {
+"title": "Dr. Daniele Ganser Die NATO - ein gefährliches Militärbündnis",
+"venue": "Stadtcasino Basel",
 "date": "2026-10-17",
 "source": "crawler",
 "time": "",
-"title": "16X16X – 16 Years of Sixteentimes Music",
-"url": "https://sommercasino.ch/events/16-jahre-seixteentimes-music/",
-"venue": "Sommercasino"
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/171026_daniele_ganser/",
+"category": "Konzert"
 },
 "2026-10-18-bird-s-eye-j-kinderkonzert-der-tag-an-dem-die-musik-v": {
 "category": "Konzert / Jazz",
@@ -1026,7 +1190,17 @@
 "time": "11:00",
 "title": "Kinderkonzert: Der Tag, an dem die Musik verboten wurde",
 "url": "https://www.birdseye.ch/index.php?EventID=4031&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"style": "Jazz"
+},
+"2026-10-18-stadtcasino--angelo-branduardi-in-duo-con-fabio-valde": {
+"title": "Angelo Branduardi in DUO con Fabio Valdemarin Confessioni di un Malandrino",
+"venue": "Stadtcasino Basel",
+"date": "2026-10-18",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/181027_angelo_branduardi/",
+"category": "Konzert"
 },
 "2026-10-18-stadtcasino--kammerorchester-i-tempi-atem-des-frieden": {
 "category": "Konzert / Klassik",
@@ -1044,7 +1218,8 @@
 "time": "20:00",
 "title": "HULA CLUB",
 "url": "https://www.goldenes-fass.ch/saali/",
-"venue": "Sääli (Goldenes Fass)"
+"venue": "Sääli (Goldenes Fass)",
+"doors": "19:30"
 },
 "2026-10-20-bird-s-eye-j-daniel-migliosi-quintet": {
 "category": "Konzert / Jazz",
@@ -1053,7 +1228,9 @@
 "time": "20:30",
 "title": "Daniel Migliosi Quintet",
 "url": "https://www.birdseye.ch/index.php?EventID=4032&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-20-stadtcasino--quatuor-ebene-kammermusik-basel": {
 "category": "Konzert / Klassik",
@@ -1080,7 +1257,9 @@
 "time": "20:30",
 "title": "Daniel Migliosi Quintet",
 "url": "https://www.birdseye.ch/index.php?EventID=4032&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-21-stadtcasino--kosmos-orchester": {
 "category": "Konzert / Vortrag",
@@ -1098,7 +1277,9 @@
 "time": "18:00",
 "title": "Uptown DJ-Lab",
 "url": "https://www.kaschemme.ch/programm/260922/lab",
-"venue": "Kaschemme"
+"venue": "Kaschemme",
+"end": "22:00",
+"price": "frei"
 },
 "2026-10-22-bird-s-eye-j-nat-su-jean-paul-brodbeck-duo": {
 "category": "Konzert / Jazz",
@@ -1107,7 +1288,9 @@
 "time": "20:30",
 "title": "Nat Su / Jean-Paul Brodbeck Duo",
 "url": "https://www.birdseye.ch/index.php?EventID=4033&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-22-renee-red-integrate": {
 "category": "Club / Post-Punk & Electronic",
@@ -1118,6 +1301,17 @@
 "url": "https://www.renee.ch",
 "venue": "Renée",
 "style": "Post-Punk to Electronic"
+},
+"2026-10-22-das-viertel-studentenfutter-xxl": {
+"title": "Studentenfutter XXL",
+"venue": "Das Viertel",
+"date": "2026-10-22",
+"source": "crawler",
+"time": "",
+"price": "frei",
+"style": "Open Format / POP / Charts",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Party / Open Format"
 },
 "2026-10-22-stadtcasino--vivaldi-die-vier-jahreszeiten": {
 "category": "Konzert / Klassik",
@@ -1135,7 +1329,8 @@
 "time": "20:00",
 "title": "Nektarmond 37 – Bibi Vaplan",
 "url": "https://sommercasino.ch/events/save-the-date-nektarmond-37-bibi-vaplan-2/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "20:00"
 },
 "2026-10-23-bird-s-eye-j-andy-middleton-quartet": {
 "category": "Konzert / Jazz",
@@ -1144,7 +1339,9 @@
 "time": "20:30",
 "title": "Andy Middleton Quartet",
 "url": "https://www.birdseye.ch/index.php?EventID=4034&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-23-grenzwert-twister-tom-best-rpm": {
 "category": "Club / Rock'n'Roll & R&B",
@@ -1155,6 +1352,16 @@
 "url": "https://grenzwert.ch/programm/",
 "venue": "Grenzwert",
 "style": "Rock’n’Roll, R&B"
+},
+"2026-10-23-kaschemme-sachsentrance-showcase-w-raverpik-the-ja": {
+"category": "Club / Trance",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "23:00",
+"title": "Sachsentrance-Showcase w/ Raverpik & The Jakob Sister",
+"url": "https://www.kaschemme.ch/programm/2026/10/23/sachsentrance-showcase-w-raverpik-amp-the-jakob-sister",
+"venue": "Kaschemme",
+"end": "06:00"
 },
 "2026-10-23-nordstern-cultura40-somewhen": {
 "category": "Club / Elektronisch",
@@ -1182,16 +1389,8 @@
 "time": "",
 "title": "Lento: Andy's Echo live, Judith Van Waterkant, Taala",
 "url": "https://www.bassoverse.space/programm/lento-23-10-2026",
-"venue": "Basso"
-},
-"2026-10-23-kaschemme-sachsentrance-showcase-w-raverpik-the-ja": {
-"category": "Club / Trance",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "",
-"title": "Sachsentrance-Showcase w/ Raverpik & The Jakob Sister",
-"url": "https://www.kaschemme.ch/programm/2026/10/23/sachsentrance-showcase-w-raverpik-amp-the-jakob-sister",
-"venue": "Kaschemme"
+"venue": "Basso",
+"style": "Electronica, House"
 },
 "2026-10-24-bird-s-eye-j-andy-middleton-quartet": {
 "category": "Konzert / Jazz",
@@ -1200,7 +1399,9 @@
 "time": "20:30",
 "title": "Andy Middleton Quartet",
 "url": "https://www.birdseye.ch/index.php?EventID=4034&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-24-grenzwert-zest": {
 "category": "Club / Disco",
@@ -1238,7 +1439,8 @@
 "time": "",
 "title": "Select: select family",
 "url": "https://www.bassoverse.space/programm/select-24-10-2026",
-"venue": "Basso"
+"venue": "Basso",
+"style": "Techno, Groove"
 },
 "2026-10-24-sommercasino-bandxnordwest-vorrunde": {
 "category": "Konzert",
@@ -1258,6 +1460,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/241026_amg_sg/",
 "venue": "Stadtcasino Basel"
 },
+"2026-10-25-kaschemme-weil-sonntag-w-nica": {
+"category": "Club / House & Techno",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "09:00",
+"title": "Weil Sonntag w/ NICA",
+"url": "https://www.kaschemme.ch/programm/2026/10/25/weil-sonntag-w-nica",
+"venue": "Kaschemme",
+"end": "22:00"
+},
 "2026-10-25-gare-du-nord-allotria-allotria-ein-mausedrama": {
 "category": "Familienkonzert",
 "date": "2026-10-25",
@@ -1265,7 +1477,8 @@
 "time": "11:00",
 "title": "Allotria, Allotria! Ein Mäusedrama",
 "url": "https://www.garedunord.ch/de/programm/3221/allotria-allotria-ein-mausedrama",
-"venue": "Gare du Nord"
+"venue": "Gare du Nord",
+"style": "Familienkonzert"
 },
 "2026-10-25-sommercasino-tichu-turnier": {
 "category": "Spiel",
@@ -1275,15 +1488,6 @@
 "title": "Tichu Turnier",
 "url": "https://sommercasino.ch/events/tichu-turnier-2/",
 "venue": "Sommercasino"
-},
-"2026-10-25-kaschemme-weil-sonntag-w-nica": {
-"category": "Club / House & Techno",
-"date": "2026-10-25",
-"source": "crawler",
-"time": "",
-"title": "Weil Sonntag w/ NICA",
-"url": "https://www.kaschemme.ch/programm/2026/10/25/weil-sonntag-w-nica",
-"venue": "Kaschemme"
 },
 "2026-10-25-stadtcasino--sir-andras-schiff-evgeny-kissin": {
 "category": "Konzert / Klassik",
@@ -1301,7 +1505,8 @@
 "time": "20:00",
 "title": "HULA CLUB",
 "url": "https://www.goldenes-fass.ch/saali/",
-"venue": "Sääli (Goldenes Fass)"
+"venue": "Sääli (Goldenes Fass)",
+"doors": "19:30"
 },
 "2026-10-27-bird-s-eye-j-patrick-joray-quartet": {
 "category": "Konzert / Jazz",
@@ -1310,7 +1515,9 @@
 "time": "20:30",
 "title": "Patrick Joray Quartet",
 "url": "https://www.birdseye.ch/index.php?EventID=4035&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-27-stadtcasino--cuarteto-casals-claudio-martinez-mehner": {
 "category": "Konzert / Klassik",
@@ -1328,7 +1535,8 @@
 "time": "20:00",
 "title": "Der Wanderfalke – fringe ensemble",
 "url": "https://www.garedunord.ch/de/programm/3174/wanderfalke",
-"venue": "Gare du Nord"
+"venue": "Gare du Nord",
+"style": "Musiktheater/Performance"
 },
 "2026-10-28-bird-s-eye-j-patrick-joray-quartet": {
 "category": "Konzert / Jazz",
@@ -1337,7 +1545,9 @@
 "time": "20:30",
 "title": "Patrick Joray Quartet",
 "url": "https://www.birdseye.ch/index.php?EventID=4035&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-29-kaschemme-uptown-dj-lab": {
 "category": "Workshop / Freier Eintritt",
@@ -1346,7 +1556,9 @@
 "time": "18:00",
 "title": "Uptown DJ-Lab",
 "url": "https://www.kaschemme.ch/programm/260929/lab",
-"venue": "Kaschemme"
+"venue": "Kaschemme",
+"end": "23:00",
+"price": "frei"
 },
 "2026-10-29-sommercasino-trummer-musikalische-lesung": {
 "category": "Lesung / Konzert",
@@ -1355,7 +1567,8 @@
 "time": "19:30",
 "title": "Trummer – Musikalische Lesung",
 "url": "https://sommercasino.ch/events/trummer/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "19:30"
 },
 "2026-10-29-gare-du-nord-der-wanderfalke-fringe-ensemble": {
 "category": "Musiktheater",
@@ -1364,7 +1577,8 @@
 "time": "20:00",
 "title": "Der Wanderfalke – fringe ensemble",
 "url": "https://www.garedunord.ch/de/programm/3175/wanderfalke",
-"venue": "Gare du Nord"
+"venue": "Gare du Nord",
+"style": "Musiktheater/Performance"
 },
 "2026-10-29-bird-s-eye-j-basel-jazz-orchestra-plays-george-gruntz": {
 "category": "Konzert / Jazz",
@@ -1373,7 +1587,9 @@
 "time": "20:30",
 "title": "Basel Jazz Orchestra plays George Gruntz",
 "url": "https://www.birdseye.ch/index.php?EventID=4036&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-29-renee-jay-push": {
 "category": "Club / Tropical",
@@ -1394,6 +1610,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/29102026_iff/",
 "venue": "Stadtcasino Basel"
 },
+"2026-10-30-museum-tingu-tyn-wybenga-brainteaser-orchestra": {
+"title": "Tyn Wybenga Brainteaser Orchestra",
+"venue": "Museum Tinguely",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "16:00",
+"style": "Jazz",
+"url": "https://www.birdseye.ch/",
+"category": "Konzert / Jazz"
+},
 "2026-10-30-sommercasino-taranja-wu-album-release-show": {
 "category": "Konzert / Electro Pop Punk",
 "date": "2026-10-30",
@@ -1401,7 +1627,8 @@
 "time": "19:30",
 "title": "Taranja Wu – Album Release Show",
 "url": "https://sommercasino.ch/events/taranja-wu-album-release-show/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "19:30"
 },
 "2026-10-30-bird-s-eye-j-tyn-wybenga-brainteaser-orchestra": {
 "category": "Konzert / Jazz",
@@ -1410,7 +1637,9 @@
 "time": "20:30",
 "title": "Tyn Wybenga Brainteaser Orchestra",
 "url": "https://www.birdseye.ch/index.php?EventID=4037&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-30-kaserne-base-steiner-madlaina": {
 "category": "Konzert / Indie-Pop",
@@ -1457,7 +1686,18 @@
 "time": "",
 "title": "Oscillate: Morsal (live), NordPaul, Kl!t",
 "url": "https://www.bassoverse.space/programm/oscillate-30-10-2026",
-"venue": "Basso"
+"venue": "Basso",
+"style": "Techno, Minimal"
+},
+"2026-10-31-kaschemme-emo-night-halloween-edition": {
+"category": "Party / Emo",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "20:00",
+"title": "Emo Night – Halloween Edition",
+"url": "https://www.kaschemme.ch/programm/2026/10/31/emo-night-halloween-edition",
+"venue": "Kaschemme",
+"end": "20:00"
 },
 "2026-10-31-sommercasino-femme-rebellion": {
 "category": "Konzert",
@@ -1466,7 +1706,8 @@
 "time": "20:00",
 "title": "Femme Rebellion",
 "url": "https://sommercasino.ch/events/save-the-date-femme-rebellion/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "20:00"
 },
 "2026-10-31-bird-s-eye-j-tyn-wybenga-brainteaser-orchestra": {
 "category": "Konzert / Jazz",
@@ -1475,7 +1716,9 @@
 "time": "20:30",
 "title": "Tyn Wybenga Brainteaser Orchestra",
 "url": "https://www.birdseye.ch/index.php?EventID=4037&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
 },
 "2026-10-31-grenzwert-dersu": {
 "category": "Club / World Music",
@@ -1513,16 +1756,8 @@
 "time": "",
 "title": "Herzschwester Invites: Börns, Herzschwester",
 "url": "https://www.bassoverse.space/programm/herzschwester-invites-31-10-2026",
-"venue": "Basso"
-},
-"2026-10-31-kaschemme-emo-night-halloween-edition": {
-"category": "Party / Emo",
-"date": "2026-10-31",
-"source": "crawler",
-"time": "",
-"title": "Emo Night – Halloween Edition",
-"url": "https://www.kaschemme.ch/programm/2026/10/31/emo-night-halloween-edition",
-"venue": "Kaschemme"
+"venue": "Basso",
+"style": "Techno, House, Deep House"
 },
 "2026-10-31-stadtcasino--basler-gesangverein-orchestre-musique-de": {
 "category": "Konzert / Klassik",
@@ -1542,6 +1777,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/01112026_nob/",
 "venue": "Stadtcasino Basel"
 },
+"2026-11-03-sommercasino-bubble-buster-jam": {
+"title": "Bubble Buster Jam",
+"venue": "Sommercasino",
+"date": "2026-11-03",
+"source": "crawler",
+"time": "19:00",
+"doors": "19:00",
+"url": "https://sommercasino.ch/events/bubble-buster-jam-6/",
+"category": "Jam Session"
+},
 "2026-11-03-bird-s-eye-j-satyr-s-band-praetorius-meets-jazz": {
 "category": "Konzert / Jazz",
 "date": "2026-11-03",
@@ -1549,7 +1794,9 @@
 "time": "20:30",
 "title": "Satyr's Band «Praetorius meets Jazz»",
 "url": "https://www.birdseye.ch/index.php?EventID=4039&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-03-stadtcasino--mirella-precek-desperation-island-tour": {
 "category": "Comedy",
@@ -1567,7 +1814,9 @@
 "time": "20:30",
 "title": "Linda Scharnagl Large Ensemble / Ism-Y Quartet",
 "url": "https://www.birdseye.ch/index.php?EventID=4040&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-04-sommercasino-melanie-baker": {
 "category": "Konzert / Indie-Rock",
@@ -1576,7 +1825,19 @@
 "time": "20:30",
 "title": "Melanie Baker",
 "url": "https://sommercasino.ch/events/melanie-baker-support-tba/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "20:30"
+},
+"2026-11-04-bird-s-eye-j-ism-y-quartet-construction-variability": {
+"title": "Ism-Y Quartet «Construction Variability»",
+"venue": "Bird's Eye Jazz Club",
+"date": "2026-11-04",
+"source": "crawler",
+"time": "21:30",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz",
+"url": "https://www.birdseye.ch/index.php?EventID=4041&l=de",
+"category": "Konzert / Jazz"
 },
 "2026-11-04-stadtcasino--balkan-passion-mit-anton-violinist-frien": {
 "category": "Konzert / Worldmusic",
@@ -1587,6 +1848,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/04112026_anton_violinist/",
 "venue": "Stadtcasino Basel"
 },
+"2026-11-04-stadtcasino--schweizer-jugend-sinfonie-orchester-kg-s": {
+"title": "Schweizer Jugend-Sinfonie-Orchester KG-Sinfoniekonzerte",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-04",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/04112026_kg/",
+"category": "Konzert / Klassik"
+},
 "2026-11-05-gare-du-nord-dreaming-turtles-oblivia-klanglab": {
 "category": "Musiktheater",
 "date": "2026-11-05",
@@ -1594,7 +1864,8 @@
 "time": "20:00",
 "title": "Dreaming Turtles – Oblivia & KlangLab",
 "url": "https://www.garedunord.ch/de/programm/3180/dreaming-turtles",
-"venue": "Gare du Nord"
+"venue": "Gare du Nord",
+"style": "Musiktheater/Performance"
 },
 "2026-11-05-bird-s-eye-j-sophia-goken-nora-szabo-slang-it": {
 "category": "Konzert / Jazz",
@@ -1603,7 +1874,29 @@
 "time": "20:30",
 "title": "Sophia Göken & Nóra Szabó / SLANG IT",
 "url": "https://www.birdseye.ch/index.php?EventID=4042&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
+},
+"2026-11-05-bird-s-eye-j-slang-it-musical-tourism": {
+"title": "«SLANG IT - Musical Tourism»",
+"venue": "Bird's Eye Jazz Club",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "21:30",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz",
+"url": "https://www.birdseye.ch/index.php?EventID=4043&l=de",
+"category": "Konzert / Jazz"
+},
+"2026-11-05-stadtcasino--schweizer-jugend-sinfonie-orchester-volk": {
+"title": "Schweizer Jugend-Sinfonie-Orchester Volkssinfoniekonzerte",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/05112026_vosiko/",
+"category": "Konzert / Klassik"
 },
 "2026-11-06-gare-du-nord-dreaming-turtles-oblivia-klanglab": {
 "category": "Musiktheater",
@@ -1612,7 +1905,8 @@
 "time": "20:00",
 "title": "Dreaming Turtles – Oblivia & KlangLab",
 "url": "https://www.garedunord.ch/de/programm/3188/dreaming-turtles",
-"venue": "Gare du Nord"
+"venue": "Gare du Nord",
+"style": "Musiktheater/Performance"
 },
 "2026-11-06-sommercasino-freezes-deyna-support-the-toksin": {
 "category": "Konzert / Crossover",
@@ -1621,7 +1915,8 @@
 "time": "20:00",
 "title": "Freezes Deyna, Support: The Toksin",
 "url": "https://sommercasino.ch/events/freezes-deyna-the-toksin/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "20:00"
 },
 "2026-11-06-bird-s-eye-j-peter-evans-ron-stabinsky-feat-lambert-c": {
 "category": "Konzert / Jazz",
@@ -1630,7 +1925,19 @@
 "time": "20:30",
 "title": "Peter Evans & Ron Stabinsky feat. Lambert Colson",
 "url": "https://www.birdseye.ch/index.php?EventID=4044&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
+},
+"2026-11-06-kaschemme-kalles-kaviar-canastron-50-years-swiss-s": {
+"category": "Konzert / Ska",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "20:30",
+"title": "Kalles Kaviar & Canastron – 50 Years Swiss Ska",
+"url": "https://www.kaschemme.ch/programm/2026/11/6/kalles-kaviar-amp-canastron-50-years-swiss-ska-sensation",
+"venue": "Kaschemme",
+"end": "02:00"
 },
 "2026-11-06-basso-basso-live-cafe-da-manha-live-alan-koh-s": {
 "category": "Konzert / Samba & Indie Dance",
@@ -1639,16 +1946,17 @@
 "time": "",
 "title": "Basso live: Café da manhã (live), Alan Koh, Scar, Ulysses",
 "url": "https://www.bassoverse.space/programm/basso-live-06-11-2026",
-"venue": "Basso"
+"venue": "Basso",
+"style": "Samba, Indie Dance, Groove, DnB"
 },
-"2026-11-06-kaschemme-kalles-kaviar-canastron-50-years-swiss-s": {
-"category": "Konzert / Ska",
+"2026-11-06-stadtcasino--mr-yasin-hypnose-was-wenn-es-doch-funkti": {
+"title": "Mr. Yasin HYPNOSE - Was, wenn es doch funktioniert?",
+"venue": "Stadtcasino Basel",
 "date": "2026-11-06",
 "source": "crawler",
 "time": "",
-"title": "Kalles Kaviar & Canastron – 50 Years Swiss Ska",
-"url": "https://www.kaschemme.ch/programm/2026/11/6/kalles-kaviar-amp-canastron-50-years-swiss-ska-sensation",
-"venue": "Kaschemme"
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/06112027_mr_yasin/",
+"category": "Bühne"
 },
 "2026-11-06-stadtcasino--orchestre-philharmonique-de-radio-france": {
 "category": "Konzert / Klassik",
@@ -1666,7 +1974,19 @@
 "time": "20:30",
 "title": "Zençir",
 "url": "https://www.birdseye.ch/index.php?EventID=4045&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
+},
+"2026-11-07-kaschemme-lilac-attitude-dnachtaktion-suicide-catd": {
+"category": "Konzert / Punk",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "20:30",
+"title": "Lilac Attitude, Dnachtaktion, Suicide Catdoors",
+"url": "https://www.kaschemme.ch/programm/2611/lilac-attitude-dnachtaktion-suicide-catdoors",
+"venue": "Kaschemme",
+"end": "23:30"
 },
 "2026-11-07-sommercasino-wake-the-town-live-soundsystem-showcase": {
 "category": "Konzert / Dub & Reggae",
@@ -1675,7 +1995,8 @@
 "time": "21:00",
 "title": "Wake the Town – Live Soundsystem Showcase",
 "url": "https://sommercasino.ch/events/wake-the-town-live-soundsystem-showcase/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "21:00"
 },
 "2026-11-07-nordstern-polyamor-amber-broos-cara-elizabeth-cleo": {
 "title": "Polyamor: Amber Broos, Cara Elizabeth, Cleopard2000, DJ Dreckisch",
@@ -1693,16 +2014,8 @@
 "time": "",
 "title": "Winter Daydance Series",
 "url": "https://www.bassoverse.space/programm/winter-daydance-07-11-2026",
-"venue": "Basso"
-},
-"2026-11-07-kaschemme-lilac-attitude-dnachtaktion-suicide-catd": {
-"category": "Konzert / Punk",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "",
-"title": "Lilac Attitude, Dnachtaktion, Suicide Catdoors",
-"url": "https://www.kaschemme.ch/programm/2611/lilac-attitude-dnachtaktion-suicide-catdoors",
-"venue": "Kaschemme"
+"venue": "Basso",
+"style": "Midtempo, Deep House, Indie Dance, House"
 },
 "2026-11-07-stadtcasino--kammerorchester-basel-mit-pierre-laurent": {
 "category": "Konzert / Klassik",
@@ -1713,6 +2026,34 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/07112026_kob/",
 "venue": "Stadtcasino Basel"
 },
+"2026-11-08-gare-du-nord-shaushaushaus-wenn-hauser-zu-buhnenwesen": {
+"title": "SHAUSHAUSHAUS – Wenn Häuser zu Bühnenwesen werden: gare des enfants",
+"venue": "Gare du Nord",
+"date": "2026-11-08",
+"source": "crawler",
+"time": "11:00",
+"style": "Familienkonzert",
+"url": "https://www.garedunord.ch/de/programm/3222/shaushaushaus",
+"category": "Konzert / Neue Musik"
+},
+"2026-11-08-stadtcasino--sinfonieorchester-basel-amg-sunday-conce": {
+"title": "Sinfonieorchester Basel AMG SunDay Concerts",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-08",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/08112026-amg-sunday-concerts/",
+"category": "Konzert / Klassik"
+},
+"2026-11-08-stadtcasino--vivaldi-die-vier-jahreszeiten-philharmon": {
+"title": "Vivaldi - Die vier Jahreszeiten Philharmonie der Solisten",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-08",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/081126_philharmonie_d_solisten_1600/",
+"category": "Konzert / Klassik"
+},
 "2026-11-10-bird-s-eye-j-hist-og": {
 "category": "Konzert / Jazz",
 "date": "2026-11-10",
@@ -1720,7 +2061,9 @@
 "time": "20:30",
 "title": "Hist og",
 "url": "https://www.birdseye.ch/index.php?EventID=4046&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-10-stadtcasino--malte-marten-autumn-tour": {
 "category": "Konzert / Jazz",
@@ -1731,6 +2074,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/10112026_malte_marten/",
 "venue": "Stadtcasino Basel"
 },
+"2026-11-10-stadtcasino--quatuor-danel-kammermusik-basel": {
+"title": "Quatuor Danel Kammermusik Basel",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-10",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/10112026_gfk/",
+"category": "Konzert / Klassik"
+},
 "2026-11-11-bird-s-eye-j-hist-og": {
 "category": "Konzert / Jazz",
 "date": "2026-11-11",
@@ -1738,7 +2090,18 @@
 "time": "20:30",
 "title": "Hist og",
 "url": "https://www.birdseye.ch/index.php?EventID=4046&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
+},
+"2026-11-11-stadtcasino--the-grand-romance-gala-tschaikowskys-gro": {
+"title": "The Grand Romance Gala Tschaikowskys Größte Ballette & Geliebte Opernarien",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-11",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/11112026-grand-romance-gala/",
+"category": "Konzert"
 },
 "2026-11-12-bird-s-eye-j-solo-series-sha-bjorn-meyer": {
 "category": "Konzert / Jazz",
@@ -1747,7 +2110,9 @@
 "time": "20:30",
 "title": "Solo Series: Sha / Björn Meyer",
 "url": "https://www.birdseye.ch/index.php?EventID=4047&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-13-bird-s-eye-j-johannes-enders-quartet-phantom-happines": {
 "category": "Konzert / Jazz",
@@ -1756,7 +2121,28 @@
 "time": "20:30",
 "title": "Johannes Enders Quartet «Phantom Happiness»",
 "url": "https://www.birdseye.ch/index.php?EventID=4049&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
+},
+"2026-11-13-sommercasino-night-circus": {
+"title": "Night Circus",
+"venue": "Sommercasino",
+"date": "2026-11-13",
+"source": "crawler",
+"time": "22:00",
+"doors": "22:00",
+"url": "https://sommercasino.ch/events/night-circus/",
+"category": "Party"
+},
+"2026-11-13-stadtcasino--collegium-musicum-basel-silvia-resoniert": {
+"title": "Collegium Musicum Basel Silvia resoniert nachhallend",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-13",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/1311206_cmb/",
+"category": "Konzert"
 },
 "2026-11-14-bird-s-eye-j-johannes-enders-quartet-phantom-happines": {
 "category": "Konzert / Jazz",
@@ -1765,7 +2151,9 @@
 "time": "20:30",
 "title": "Johannes Enders Quartet «Phantom Happiness»",
 "url": "https://www.birdseye.ch/index.php?EventID=4049&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-14-sommercasino-knoppel": {
 "category": "Konzert",
@@ -1774,7 +2162,8 @@
 "time": "20:30",
 "title": "Knöppel",
 "url": "https://sommercasino.ch/events/knoeppel/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "20:30"
 },
 "2026-11-14-nordstern-space92": {
 "title": "Space92",
@@ -1794,6 +2183,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/14112026_bulent_ceylan/",
 "venue": "Stadtcasino Basel"
 },
+"2026-11-15-stadtcasino--michael-mittermeier-oldboy-sind-wir-bald": {
+"title": "Michael Mittermeier OLDBOY… sind wir bald da?",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-15",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/15112027_mittermeier/",
+"category": "Konzert"
+},
 "2026-11-15-stadtcasino--steppin-stompers-60-jahre": {
 "category": "Konzert / Dixieland",
 "date": "2026-11-15",
@@ -1810,7 +2208,9 @@
 "time": "20:30",
 "title": "Noé Tavelli Double Drums Quartet",
 "url": "https://www.birdseye.ch/index.php?EventID=4050&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-18-bird-s-eye-j-noe-tavelli-double-drums-quartet": {
 "category": "Konzert / Jazz",
@@ -1819,7 +2219,9 @@
 "time": "20:30",
 "title": "Noé Tavelli Double Drums Quartet",
 "url": "https://www.birdseye.ch/index.php?EventID=4050&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-18-stadtcasino--sinfonieorchester-basel-schicksal": {
 "category": "Konzert / Klassik",
@@ -1837,7 +2239,9 @@
 "time": "20:30",
 "title": "Cole «MHDD» Palensky",
 "url": "https://www.birdseye.ch/index.php?EventID=4051&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-19-stadtcasino--kayhan-kalhor": {
 "category": "Konzert / Worldmusic",
@@ -1848,6 +2252,25 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/kayhan-kalhor/",
 "venue": "Stadtcasino Basel"
 },
+"2026-11-19-stadtcasino--sinfonieorchester-basel-schicksal": {
+"title": "Sinfonieorchester Basel Schicksal",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-19",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/191126_sob/",
+"category": "Konzert / Klassik"
+},
+"2026-11-20-sommercasino-tales-of-wrath-fest": {
+"title": "Tales of Wrath Fest",
+"venue": "Sommercasino",
+"date": "2026-11-20",
+"source": "crawler",
+"time": "20:00",
+"doors": "20:00",
+"url": "https://sommercasino.ch/events/tales-of-wrath-fest/",
+"category": "Konzert"
+},
 "2026-11-20-bird-s-eye-j-keenan-ahrends-quartet": {
 "category": "Konzert / Jazz",
 "date": "2026-11-20",
@@ -1855,7 +2278,9 @@
 "time": "20:30",
 "title": "Keenan Ahrends Quartet",
 "url": "https://www.birdseye.ch/index.php?EventID=4052&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-21-sommercasino-rites-of-destruction-pt-vii": {
 "category": "Konzert / Metal",
@@ -1864,7 +2289,8 @@
 "time": "16:30",
 "title": "Rites of Destruction pt. VII",
 "url": "https://sommercasino.ch/events/rites-of-destruction-pt-vii/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "16:30"
 },
 "2026-11-21-bird-s-eye-j-keenan-ahrends-quartet": {
 "category": "Konzert / Jazz",
@@ -1873,7 +2299,9 @@
 "time": "20:30",
 "title": "Keenan Ahrends Quartet",
 "url": "https://www.birdseye.ch/index.php?EventID=4052&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-21-basso-lento-atric-live-maja-ohja-thomasson": {
 "category": "Club / House",
@@ -1882,7 +2310,8 @@
 "time": "",
 "title": "Lento: Atric (live), Maja Ohja, Thomasson",
 "url": "https://www.bassoverse.space/programm/lento-21-11-2026",
-"venue": "Basso"
+"venue": "Basso",
+"style": "Slow House, Dirty Bounce"
 },
 "2026-11-21-stadtcasino--basel-proms-2026": {
 "category": "Konzert / Klassik",
@@ -1893,6 +2322,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/basel-proms/",
 "venue": "Stadtcasino Basel"
 },
+"2026-11-22-stadtcasino--philharmonische-orchester-basel-virtuoso": {
+"title": "Philharmonische Orchester Basel VIRTUOSO",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-22",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/philharmonische-orchester-basel/",
+"category": "Konzert / Klassik"
+},
 "2026-11-24-bird-s-eye-j-melt-trio": {
 "category": "Konzert / Jazz",
 "date": "2026-11-24",
@@ -1900,7 +2338,18 @@
 "time": "20:30",
 "title": "Melt Trio",
 "url": "https://www.birdseye.ch/index.php?EventID=4053&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
+},
+"2026-11-24-stadtcasino--vortrag-mit-robert-betz-was-dir-dein-kor": {
+"title": "Vortrag mit Robert Betz Was dir dein Körper sagen will!",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-24",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/24112027-vortrag-mit-robert-betz/",
+"category": "Konzert"
 },
 "2026-11-25-bird-s-eye-j-melt-trio": {
 "category": "Konzert / Jazz",
@@ -1909,7 +2358,9 @@
 "time": "20:30",
 "title": "Melt Trio",
 "url": "https://www.birdseye.ch/index.php?EventID=4053&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-26-bird-s-eye-j-basel-jazz-orchestra-plays-bjo": {
 "category": "Konzert / Jazz",
@@ -1918,7 +2369,28 @@
 "time": "20:30",
 "title": "Basel Jazz Orchestra plays BJO",
 "url": "https://www.birdseye.ch/index.php?EventID=4054&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "CHF 16.- / 10.-",
+"style": "Jazz"
+},
+"2026-11-26-stadtcasino--kayhan-kalhor": {
+"title": "Kayhan Kalhor",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-26",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/26112026_kayhan-kalhor-verschiebetermin/",
+"category": "Konzert"
+},
+"2026-11-27-museum-tingu-dayme-arocena": {
+"title": "Daymé Arocena",
+"venue": "Museum Tinguely",
+"date": "2026-11-27",
+"source": "crawler",
+"time": "16:00",
+"style": "Jazz",
+"url": "https://www.birdseye.ch/",
+"category": "Konzert / Jazz"
 },
 "2026-11-27-sommercasino-deb-album-release-show": {
 "category": "Konzert / Pop & Jazz",
@@ -1927,7 +2399,8 @@
 "time": "19:30",
 "title": "deb. – Album Release Show",
 "url": "https://sommercasino.ch/events/deb-album-release-show/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "19:30"
 },
 "2026-11-27-bird-s-eye-j-dayme-arocena": {
 "category": "Konzert / Jazz",
@@ -1936,7 +2409,9 @@
 "time": "20:30",
 "title": "Daymé Arocena",
 "url": "https://www.birdseye.ch/index.php?EventID=4055&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-28-kaserne-base-stress-a-late-night-with-stress": {
 "category": "Konzert / Rap",
@@ -1947,6 +2422,16 @@
 "url": "https://kaserne-basel.ch/de/events/stress",
 "venue": "Kaserne Basel"
 },
+"2026-11-28-sommercasino-prb-fescht": {
+"title": "PRB Fescht",
+"venue": "Sommercasino",
+"date": "2026-11-28",
+"source": "crawler",
+"time": "20:00",
+"doors": "20:00",
+"url": "https://sommercasino.ch/events/prb-fescht/",
+"category": "Konzerte + Party"
+},
 "2026-11-28-bird-s-eye-j-dayme-arocena": {
 "category": "Konzert / Jazz",
 "date": "2026-11-28",
@@ -1954,7 +2439,9 @@
 "time": "20:30",
 "title": "Daymé Arocena",
 "url": "https://www.birdseye.ch/index.php?EventID=4055&l=de",
-"venue": "Bird's Eye Jazz Club"
+"venue": "Bird's Eye Jazz Club",
+"price": "pro Set CHF 14.- / 10.-",
+"style": "Jazz"
 },
 "2026-11-28-stadtcasino--basel-sinfonietta-jenseits-messiaen": {
 "category": "Konzert / Klassik",
@@ -1965,6 +2452,33 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/281126_sinfonietta/",
 "venue": "Stadtcasino Basel"
 },
+"2026-11-29-sommercasino-profi-workshop": {
+"title": "Profi-Workshop",
+"venue": "Sommercasino",
+"date": "2026-11-29",
+"source": "crawler",
+"time": "09:30",
+"url": "https://sommercasino.ch/events/profi-workshop/",
+"category": "Workshop"
+},
+"2026-11-29-stadtcasino--eine-hommage-an-ludovico-einaudi-burak-c": {
+"title": "Eine Hommage an Ludovico Einaudi Burak Çebi",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-29",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/2026-11-29-burak_cebi-weltkonzerte/",
+"category": "Konzert"
+},
+"2026-11-29-stadtcasino--neues-orchester-basel-nordischer-zauber": {
+"title": "Neues Orchester Basel Nordischer Zauber",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-29",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/29112026_nob/",
+"category": "Konzert / Klassik"
+},
 "2026-11-30-stadtcasino--anna-netrebko-debut-in-basel": {
 "category": "Konzert / Oper",
 "date": "2026-11-30",
@@ -1974,6 +2488,34 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/301126_anna_netrebko/",
 "venue": "Stadtcasino Basel"
 },
+"2026-12-01-sommercasino-bubble-buster-jam": {
+"title": "Bubble Buster Jam",
+"venue": "Sommercasino",
+"date": "2026-12-01",
+"source": "crawler",
+"time": "19:00",
+"doors": "19:00",
+"url": "https://sommercasino.ch/events/bubble-buster-jam-7/",
+"category": "Jam Session"
+},
+"2026-12-01-stadtcasino--hollywood-christmas": {
+"title": "Hollywood Christmas",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-01",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/01122026-hollywood-christmas/",
+"category": "Konzert"
+},
+"2026-12-02-stadtcasino--sergey-khachatryan-lusine-khachatryan-am": {
+"title": "Sergey Khachatryan & Lusine Khachatryan AMG Solistenabende",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-02",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/02122026-amg-solistenabende/",
+"category": "Konzert / Klassik"
+},
 "2026-12-04-sommercasino-berenice-ep-release-show": {
 "category": "Konzert / Folk-Pop",
 "date": "2026-12-04",
@@ -1981,7 +2523,8 @@
 "time": "19:30",
 "title": "Berenice – EP Release Show",
 "url": "https://sommercasino.ch/events/berenice-ep-release-show/",
-"venue": "Sommercasino"
+"venue": "Sommercasino",
+"doors": "19:30"
 },
 "2026-12-04-kaserne-base-black-sea-dahu": {
 "category": "Konzert / Indie-Folk",
@@ -2017,7 +2560,91 @@
 "time": "",
 "title": "Winter Daydance Series",
 "url": "https://www.bassoverse.space/programm/winter-daydance-05-12-2026",
-"venue": "Basso"
+"venue": "Basso",
+"style": "Midtempo, Deep House, Indie Dance, House"
+},
+"2026-12-06-stadtcasino--sinfonieorchester-basel-adventskonzert": {
+"title": "Sinfonieorchester Basel Adventskonzert",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-06",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/061226_adventskonzert/",
+"category": "Konzert / Klassik"
+},
+"2026-12-07-stadtcasino--helge-schneider-ellebogen-vom-tisch": {
+"title": "Helge Schneider Ellebogen vom Tisch",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-07",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/071226_helge_schneider/",
+"category": "Konzert"
+},
+"2026-12-08-stadtcasino--la-cetra-barockorchester-vokalensemble-b": {
+"title": "La Cetra Barockorchester & Vokalensemble Basel AMG Symphonic Gems",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-08",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/08122026/",
+"category": "Konzert / Klassik"
+},
+"2026-12-08-stadtcasino--magdalena-kozena-und-malcolm-martineau-k": {
+"title": "Magdalena Kožená und Malcolm Martineau Kammermusik Basel",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-08",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/081226_gfk/",
+"category": "Konzert / Klassik"
+},
+"2026-12-08-stadtcasino--max-raabe-palast-orchester-2027-komm-mal": {
+"title": "Max Raabe & Palast Orchester 2027 Komm mal her",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-08",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/08122027_act_max_raabe/",
+"category": "Konzert / Klassik"
+},
+"2026-12-09-sommercasino-imparfait-fr": {
+"title": "Imparfait (FR)",
+"venue": "Sommercasino",
+"date": "2026-12-09",
+"source": "crawler",
+"time": "19:30",
+"doors": "19:30",
+"url": "https://sommercasino.ch/events/imparfait-fr/",
+"category": "Konzert"
+},
+"2026-12-09-stadtcasino--jenaer-philhamonie-kg-sinfoniekonzerte": {
+"title": "Jenaer Philhamonie KG-Sinfoniekonzerte",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-09",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/09122026_kg/",
+"category": "Konzert / Klassik"
+},
+"2026-12-10-stadtcasino--jenaer-philhamonie-volkssinfoniekonzerte": {
+"title": "Jenaer Philhamonie Volkssinfoniekonzerte",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-10",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/10122026_vosiko/",
+"category": "Konzert / Klassik"
+},
+"2026-12-11-sommercasino-pathwalker-de-akudama": {
+"title": "Pathwalker (DE) & Akudama",
+"venue": "Sommercasino",
+"date": "2026-12-11",
+"source": "crawler",
+"time": "19:30",
+"doors": "19:30",
+"url": "https://sommercasino.ch/events/pathwalker-de-akudama/",
+"category": "Konzert"
 },
 "2026-12-11-nordstern-azyr": {
 "title": "Azyr",
@@ -2028,6 +2655,25 @@
 "url": "https://tickets.nordstern.com/en/c/azyr-2067",
 "category": "Club / Elektronisch"
 },
+"2026-12-11-stadtcasino--home-alone-in-concert-city-light-symphon": {
+"title": "Home Alone - in concert City Light Symphony Orchestra und der Oyenga Chor Basel",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-11",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/city-light-orchestra/",
+"category": "Konzert / Klassik"
+},
+"2026-12-12-sommercasino-sabine-rufener-und-das-huhn-grete": {
+"title": "Sabine Rufener und das Huhn Grete",
+"venue": "Sommercasino",
+"date": "2026-12-12",
+"source": "crawler",
+"time": "14:00",
+"doors": "14:00",
+"url": "https://sommercasino.ch/events/lesung-basteln-sabine-rufener-und-das-huhn-grete/",
+"category": "Lesung & Basteln"
+},
 "2026-12-12-basso-lento-zhart-exe-arpagaus-flote": {
 "category": "Club / House",
 "date": "2026-12-12",
@@ -2035,7 +2681,62 @@
 "time": "",
 "title": "Lento: Zhart, Exe, Arpagaus & Flöte",
 "url": "https://www.bassoverse.space/programm/lento-12-12-2026",
-"venue": "Basso"
+"venue": "Basso",
+"style": "Slow House, Dirty Bounce"
+},
+"2026-12-13-sommercasino-tichu-turnier": {
+"title": "Tichu Turnier",
+"venue": "Sommercasino",
+"date": "2026-12-13",
+"source": "crawler",
+"time": "12:00",
+"url": "https://sommercasino.ch/events/tichu-turnier-3/",
+"category": "Spiel & Spass"
+},
+"2026-12-13-stadtcasino--swiss-gospel-singers-mit-chris-de-burgh-": {
+"title": "Swiss Gospel Singers mit Chris de Burgh Weihnachtskonzertzauber",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-13",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/13122026-swiss-gospel-singers/",
+"category": "Konzert"
+},
+"2026-12-14-stadtcasino--kammerorchester-basel-mit-isabelle-faust": {
+"title": "Kammerorchester Basel mit Isabelle Faust und Kristian Bezuidenhout Mozartkugeln",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-14",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/14122026_kob/",
+"category": "Konzert / Klassik"
+},
+"2026-12-16-stadtcasino--david-khrikuli-amg-rising-stars": {
+"title": "David Khrikuli AMG Rising Stars",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-16",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/161226rs/",
+"category": "Konzert"
+},
+"2026-12-16-stadtcasino--sinfonieorchester-basel-1001-nacht": {
+"title": "Sinfonieorchester Basel 1001 Nacht",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-16",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/161226_sob/",
+"category": "Konzert / Klassik"
+},
+"2026-12-17-stadtcasino--sinfonieorchester-basel-1001-nacht": {
+"title": "Sinfonieorchester Basel 1001 Nacht",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-17",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/171226_sob/",
+"category": "Konzert / Klassik"
 },
 "2026-12-19-basso-space-party-x-oscillate": {
 "category": "Club / House & Techno",
@@ -2044,6 +2745,34 @@
 "time": "",
 "title": "Space Party x Oscillate",
 "url": "https://www.bassoverse.space/programm/space-party-19-12-2026",
-"venue": "Basso"
+"venue": "Basso",
+"style": "House, Organic House, Indie Dance, Techno, Live Electronica, Downtempo, Space So"
+},
+"2026-12-19-stadtcasino--serdar-somuncu-hassias": {
+"title": "Serdar Somuncu HASSIAS",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-19",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/19122026_serdar_somuncu/",
+"category": "Konzert"
+},
+"2026-12-19-stadtcasino--terra-nova-collective-kammerorchesterkon": {
+"title": "Terra Nova Collective Kammerorchesterkonzert",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-19",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/terra_nova_collective/",
+"category": "Konzert / Klassik"
+},
+"2026-12-20-stadtcasino--chamber-academy-basel-amg-sunday-concert": {
+"title": "Chamber Academy Basel AMG SunDay Concerts",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-20",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/20122026/",
+"category": "Konzert"
 }
 }
