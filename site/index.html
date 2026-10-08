@@ -1,10 +1,12 @@
 <!doctype html>
-<html lang="gsw">
+<html lang="gsw" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Konzärt, Clubnächt und Bühni us Basler Venues, jede Tag aktualisiert.">
 <title>Usgang Basel</title>
+<meta name="theme-color" content="#0e1612">
+<script>try{ if (localStorage.getItem("theme")==="light"){ document.documentElement.dataset.theme="light"; document.querySelector('meta[name="theme-color"]').content="#d9d8cf"; } }catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Familjen+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
@@ -333,7 +335,10 @@ header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:1100;backgro
 header.top h1{font-size:clamp(1.7rem,6vw,2.4rem)}
 #sub{margin:0 0 14px}
 .controls{position:static;border-bottom:0;padding-block:0 4px}
-.menuwrap{position:relative;flex:none}
+.menuwrap{position:relative;flex:none;display:flex;gap:8px}
+.menubtn .i-sun{display:none}
+:root[data-theme="dark"] .menubtn .i-sun{display:block}
+:root[data-theme="dark"] .menubtn .i-moon{display:none}
 .menubtn{width:46px;height:46px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);display:grid;place-items:center;cursor:pointer;transition:border-color .18s ease,transform .12s ease}
 .menubtn svg{width:22px;height:22px}
 .menubtn:hover{border-color:var(--accent)}
@@ -356,6 +361,10 @@ header.top h1{font-size:clamp(1.7rem,6vw,2.4rem)}
   <header class="top">
     <h1>Usgang <span>Basel</span></h1>
     <div class="menuwrap">
+      <button class="menubtn" id="themeBtn" type="button" aria-label="Hell / dunkel" title="Hell / dunkel">
+        <svg class="i-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="currentColor"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
       <button class="menubtn" id="menuBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Menü">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
       </button>
@@ -442,6 +451,15 @@ header.top h1{font-size:clamp(1.7rem,6vw,2.4rem)}
 
 <script>
 const $ = s => document.querySelector(s);
+function setTheme(t){
+  document.documentElement.dataset.theme = t;
+  const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = t==="dark" ? "#0e1612" : "#d9d8cf";
+  const b = document.getElementById("themeBtn"); if (b) b.setAttribute("aria-label", t==="dark" ? "Uf hell umstelle" : "Uf dunkel umstelle");
+  try { localStorage.setItem("theme", t); } catch(e){}
+  if (typeof styleMarkers === "function") styleMarkers();
+}
+document.getElementById("themeBtn").addEventListener("click", () => setTheme(document.documentElement.dataset.theme==="dark" ? "light" : "dark"));
+document.getElementById("themeBtn").setAttribute("aria-label", document.documentElement.dataset.theme==="dark" ? "Uf hell umstelle" : "Uf dunkel umstelle");
 const ICON_UP = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3l5 6H9.5v4h-3V9H3z" fill="currentColor"/></svg>';
 const ICON_DOWN = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13l5-6H9.5V3h-3v4H3z" fill="currentColor"/></svg>';
 const ICON_GO = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="2" fill="none"/></svg>';
