@@ -2524,5 +2524,59 @@
 "time": "22:00",
 "url": "https://eventfrog.ch/de/p/partys/house-techno/elysia-freitag-30-oktober-muenchenstein-7510319547469023588.html",
 "category": "Party"
+},
+"2026-10-09-kinker-rvnz-project-kinker-09-10-26-3-years-tot": {
+"title": "RVNZ.project Kinker 09.10.26 3 Years TOTB",
+"venue": "Kinker",
+"date": "2026-10-09",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7440493199993395185",
+"category": "Club / Techno"
+},
+"2026-10-10-kinker-axis-divine": {
+"title": "Axis Divine",
+"venue": "Kinker",
+"date": "2026-10-10",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7508598042888546076",
+"category": "Club / Techno"
+},
+"2026-10-23-kinker-freitag-nacht": {
+"title": "Freitag Nacht",
+"venue": "Kinker",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7510286300202710860",
+"category": "Club / Techno"
+},
+"2026-10-24-kinker-eskaliert-e": {
+"title": "Eskaliert E",
+"venue": "Kinker",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "22:00",
+"url": "https://www.kinker.ch/events/7503502501775160582",
+"category": "Club / Techno"
+},
+"2026-12-11-kinker-rvnz-project-kinker-11-12-26-16": {
+"title": "RVNZ.project Kinker 11.12.26 16+",
+"venue": "Kinker",
+"date": "2026-12-11",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7440495526624134502",
+"category": "Club / Techno"
+},
+"2026-12-31-kinker-kinker-newyearseve": {
+"title": "KINKER NewYearsEve",
+"venue": "Kinker",
+"date": "2026-12-31",
+"source": "crawler",
+"time": "22:00",
+"url": "https://www.kinker.ch/events/7439467662588006712",
+"category": "Club / Techno"
 }
 }

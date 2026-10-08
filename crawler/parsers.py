@@ -344,6 +344,31 @@ def saali(md, today, html=""):
     return out
 
 
+def kinker(md, today, html=""):
+    """'### Axis Divine' / '2026-10-10 • 23:00' / 'KINKER, Münchenstein' / '[Details](https://www.kinker.ch/events/<id>)'"""
+    out, lines = [], md.splitlines()
+    for i, line in enumerate(lines):
+        m = re.search(r"(\d{4})-(\d{2})-(\d{2})\s*[•·|-]\s*(\d{1,2}:\d{2})", line)
+        if not m: continue
+        d = date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        if d < today: continue
+        title = ""
+        for back in range(i - 1, max(i - 4, -1), -1):
+            t = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", lines[back]).strip(" #*_\t")
+            if t and not re.search(r"(?i)^(details|tickets|upcoming|view all events)$", t): title = t; break
+        if not title: continue
+        url = "https://www.kinker.ch/events"
+        for nxt in lines[i:i + 6]:
+            u = re.search(r"\((https://www\.kinker\.ch/events/\d+)\)", nxt)
+            if u: url = u.group(1); break
+        out.append(_mk(title, "Kinker", d, m.group(4), url, category="Club / Techno"))
+    seen, uniq = set(), []
+    for e in out:
+        k = (e["date"], e["title"])
+        if k not in seen: seen.add(k); uniq.append(e)
+    return uniq
+
+
 def no_program(md, today, html=""):
     """Venues whose site lists no dates (Hafenkran, Nebel, Derrière). Returns nothing; run.py flags it if dates appear."""
     return []
@@ -353,7 +378,7 @@ PARSERS = {"denkmal": denkmal, "renee": renee, "grenzwert": grenzwert, "nordster
            "birdseye": birdseye, "kaschemme": kaschemme, "stadtcasino": stadtcasino, "viertel": viertel,
            "garedunord": garedunord, "sommercasino": sommercasino, "basso": basso, "eventfrog": eventfrog,
            "eventfrog_any_town": lambda md, today, html="": eventfrog(md, today, html, towns=None),
-           "saali": saali, "no_program": no_program}
+           "saali": saali, "kinker": kinker, "no_program": no_program}
 
 
 # ---- event detail pages: fill in times (and price) the list pages don't show ----

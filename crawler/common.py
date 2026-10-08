@@ -48,7 +48,7 @@ VENUE_ALIASES = {
     "bar rouge - rooftop bar & club": "Bar Rouge", "gundeldingerfeld | corrientes": "Corrientes", "candela, basel": "Candela",
     "candela": "Candela", "peterskirche, basel": "Peterskirche", "alice club basel": "Alice Club", "alice club": "Alice Club",
     "pflanzebroggi basel": "Pflanzebroggi", "vallhalla": "Valhalla", "kulturraum doble": "Kulturraum Doble A",
-    "sommercasino club": "Sommercasino", "mila's bistro": "Mila’s Bistro", "excalibar": "Excali Bar",
+    "sommercasino club": "Sommercasino", "mila's bistro": "Mila’s Bistro", "excalibar": "Excali Bar", "kinker": "Kinker",
 }
 def canon_venue(v):
     v = (v or "").strip()
