@@ -204,16 +204,6 @@
 "url": "https://www.advance-ticket.ch/omniticket/stadtkino/72351",
 "venue": "Stadtkino Basel"
 },
-"2026-10-09-z7-tarja-symphonity-skys": {
-"title": "Tarja, Symphonity, Skys",
-"venue": "Z7",
-"date": "2026-10-09",
-"source": "crawler",
-"time": "19:00",
-"style": "metal",
-"url": "https://denkmal.org/de/basel/2026-10-09/70f57cd4-6b61-467c-b34b-4dd13159ad14",
-"category": "Konzert / Metal"
-},
 "2026-10-09-peterskirche-charpentiers-missa-assumpta-est-maria": {
 "title": "Charpentiers Missa Assumpta est Maria",
 "venue": "Peterskirche",
@@ -554,16 +544,6 @@
 "venue": "Pflanzebroggi",
 "style": "pop"
 },
-"2026-10-10-rockfact-the-klayns": {
-"title": "The Klayns",
-"venue": "Rockfact",
-"date": "2026-10-10",
-"source": "crawler",
-"time": "20:00",
-"style": "rock",
-"url": "https://denkmal.org/de/basel/2026-10-10/94adfeb0-a12e-4526-b3f9-7b9e8cf323c4",
-"category": "Konzert / Rock"
-},
 "2026-10-10-schall-und-r-the-old-man-and-the-rhum-meets-boundless": {
 "category": "Party / Reggae & Dancehall",
 "date": "2026-10-10",
@@ -593,16 +573,6 @@
 "url": "https://denkmal.org/de/basel/2026-10-10",
 "venue": "Volkshaus",
 "style": "pop"
-},
-"2026-10-10-z7-marc-storaces-75th-birthday-bash": {
-"category": "Konzert / Hard Rock",
-"date": "2026-10-10",
-"source": "crawler",
-"time": "20:00",
-"title": "Marc Storaces 75th Birthday Bash",
-"url": "https://denkmal.org/de/basel/2026-10-10",
-"venue": "Z7",
-"style": "hard rock, rock"
 },
 "2026-10-10-atlantis-famara": {
 "category": "Konzert / Reggae",
@@ -795,16 +765,6 @@
 "title": "Lust*streifen: Spielfilm",
 "url": "https://www.advance-ticket.ch/omniticket/stadtkino/50866",
 "venue": "Stadtkino Basel"
-},
-"2026-10-11-z7-big-big-train": {
-"category": "Konzert / Progressive Rock",
-"date": "2026-10-11",
-"source": "crawler",
-"time": "19:00",
-"title": "Big Big Train",
-"url": "https://denkmal.org/de/basel/2026-10-11",
-"venue": "Z7",
-"style": "progressive rock"
 },
 "2026-10-13-stadtcasino--poschner-probiert-sinfonieorchester-base": {
 "title": "Poschner probiert Sinfonieorchester Basel",

@@ -732,9 +732,7 @@ const VENUES = {
   "Symbiont Space":       {lat:47.55997,lon:7.59709,addr:"Riehenstrasse 6"},
   "Nest":                 {lat:47.55003,lon:7.58484,addr:"Nachtigallenwäldeli 9"},
   // outside the map area: address and route only, no marker
-  "Z7":                   {lat:47.52730,lon:7.69416,addr:"Kraftwerkstrasse 7",town:"Pratteln"},
   "Kinker":               {lat:47.53053,lon:7.60719,addr:"Barcelona-Strasse 4",town:"Münchenstein"},
-  "Rockfact":             {lat:47.50900,lon:7.61675,addr:"Tramstrasse 66",town:"Münchenstein"},
 };
 // Other spellings the sources use for the same venue.
 const VENUE_ALIAS = {
@@ -773,7 +771,7 @@ function ensureMap(){
   M.tiles = L.tileLayer(TILES[mapTheme()],{maxZoom:19, attribution:TILE_ATTR}).addTo(map);
   map.attributionControl.setPrefix(false);
   map.setMaxBounds(L.latLngBounds([47.30,7.30],[47.80,8.00]));
-  map.fitBounds(L.latLngBounds([47.5860,7.5790],[47.5300,7.6135]));
+  map.setView([47.558,7.595], 13);
   M.map = map;
   addMarkers();
   // "show all" control: zoom out to every venue, including the ones outside the city
@@ -787,7 +785,7 @@ function ensureMap(){
 }
 function fitAll(){
   const pts = Object.values(VENUES).filter(onMap).map(v=>[v.lat,v.lon]);
-  if (M.map && pts.length) M.map.fitBounds(L.latLngBounds(pts).pad(0.08));
+  if (M.map && pts.length) M.map.fitBounds(L.latLngBounds(pts), {padding:[18,18]});
 }
 function setMapTheme(){
   if (M.tiles) M.tiles.setUrl(TILES[mapTheme()]);
@@ -845,7 +843,8 @@ function renderMap(evs, main){
   if (map) box.append(M.el); else box.append(el("p",{class:"empty"},"D Charte het nit chönne glade wärde."));
   box.append(el("p",{class:"small",style:"padding:6px 4px 0"},"Zieh zum Verschiebe, Zwai-Finger-Gescht oder Muusrad zum Zoome."));
   main.append(el("div",{class:"mapwrap"}, box, side));
-  if (map){ requestAnimationFrame(()=>{ map.invalidateSize(); styleMarkers(); }); }
+  // first time the map is shown: zoom so that exactly all venues fit
+  if (map){ requestAnimationFrame(()=>{ map.invalidateSize(); if (!M.fitted){ fitAll(); M.fitted = true; } styleMarkers(); }); }
 }
 
 function mapsLink(name, v){
