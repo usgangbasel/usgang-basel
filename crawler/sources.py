@@ -31,5 +31,5 @@ EXCLUDED = ["ra.co"]
 
 # Venues the page should never show (removed on request). Events from any source at these venues,
 # or linking to these sites, are dropped and removed from events.json on every run.
-BLOCKED_VENUES = ["Bird's Eye Jazz Club"]
+BLOCKED_VENUES = ["Bird's Eye Jazz Club", "Kulturgarten Aesch"]
 BLOCKED_HOSTS = ["birdseye.ch"]

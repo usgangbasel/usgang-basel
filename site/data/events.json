@@ -195,17 +195,6 @@
 "end": "05:00",
 "style": "open format"
 },
-"2026-10-09-kulturgarten-lou-bassi-l-airband-arbajo-jairus": {
-"title": "Lou Bassi, L'Airband & Arbajo Jairus",
-"venue": "Kulturgarten Aesch",
-"date": "2026-10-09",
-"source": "crawler",
-"time": "19:00",
-"end": "02:00",
-"style": "blues, psychedelic, folk, hiphop",
-"url": "https://denkmal.org/de/basel/2026-10-09/b88f173f-26c9-4809-b468-3e76e4aceb92",
-"category": "Club / Blues"
-},
 "2026-10-09-stadtkino-ba-luststreifen-spielfilm-1900": {
 "category": "Film / Festival",
 "date": "2026-10-09",
@@ -506,17 +495,6 @@
 "url": "https://denkmal.org/de/basel/2026-10-09",
 "venue": "Renée",
 "style": "Afro, Disco, Footwork, Garage Rock"
-},
-"2026-10-10-kulturgarten-hippie-flohmarkt-mit-jams-konzerten-djs": {
-"category": "Festival",
-"date": "2026-10-10",
-"source": "crawler",
-"time": "12:00",
-"title": "Hippie Flohmarkt mit Jams, Konzerten & DJs",
-"url": "https://denkmal.org/de/basel/2026-10-10",
-"venue": "Kulturgarten Aesch",
-"end": "05:00",
-"style": "global sounds, funk, electro"
 },
 "2026-10-10-roter-korsar-shibari-workshop-intermediate": {
 "category": "Workshop / Festival",
