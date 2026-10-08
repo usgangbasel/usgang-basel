@@ -2515,5 +2515,14 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/20122026/",
 "category": "Konzert",
 "doors": "10:00"
+},
+"2026-10-30-elysia-elysia-freitag-30-oktober": {
+"title": "Elysia Freitag 30. Oktober",
+"venue": "Elysia",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "22:00",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/elysia-freitag-30-oktober-muenchenstein-7510319547469023588.html",
+"category": "Party"
 }
 }

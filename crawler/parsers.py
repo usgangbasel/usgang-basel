@@ -303,14 +303,16 @@ def basso(md, today, html=""):
 
 
 EF_KEEP = re.compile(r"/de/p/(konzerte|partys|theater-buehne|festivals|comedy|kino)/")
-def eventfrog(md, today, html=""):
-    """'[ ![Event-Image …](img) [Tickets] Okt 8 Title Donnerstag, 08. Oktober, 20:00 Venue, Basel (CH) ](url)'"""
+def eventfrog(md, today, html="", towns=("Basel",)):
+    """'[ ![Event-Image …](img) [Tickets] Okt 8 Title Donnerstag, 08. Oktober, 20:00 Venue, Basel (CH) ](url)'
+    towns=None keeps events in any town (used with a venue filter, e.g. Elysia in Münchenstein)."""
     mons = ["januar","februar","märz","april","mai","juni","juli","august","september","oktober","november","dezember"]
     out = []
     for body, url in re.findall(r"\[ !\[Event-Image for '[^']*'\]\([^)]*\) (.*?) \]\((https://eventfrog\.ch/[^)]+)\)", md):
         if not EF_KEEP.search(url): continue
-        m = re.match(r"^(?:Tickets\s+)?[A-Za-zä]{3}\s+\d{1,2}\s+(.+?)\s+\w+,\s*(\d{1,2})\.\s*(\w+),\s*(\d{1,2}:\d{2})\s+(.+?),\s*Basel\s*\(CH\)$", body)
+        m = re.match(r"^(?:Tickets\s+)?[A-Za-zä]{3}\s+\d{1,2}\s+(.+?)\s+\w+,\s*(\d{1,2})\.\s*(\w+),\s*(\d{1,2}:\d{2})\s+(.+?),\s*([^,()]+?)\s*\(CH\)$", body)
         if not m or m.group(3).lower() not in mons: continue
+        if towns and m.group(6).strip() not in towns: continue
         mon, day = mons.index(m.group(3).lower()) + 1, int(m.group(2))
         d = date(_year_for(mon, day, today), mon, day)
         if d < today: continue
@@ -350,6 +352,7 @@ def no_program(md, today, html=""):
 PARSERS = {"denkmal": denkmal, "renee": renee, "grenzwert": grenzwert, "nordstern": nordstern,
            "birdseye": birdseye, "kaschemme": kaschemme, "stadtcasino": stadtcasino, "viertel": viertel,
            "garedunord": garedunord, "sommercasino": sommercasino, "basso": basso, "eventfrog": eventfrog,
+           "eventfrog_any_town": lambda md, today, html="": eventfrog(md, today, html, towns=None),
            "saali": saali, "no_program": no_program}
 
 

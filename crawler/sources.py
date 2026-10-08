@@ -20,6 +20,8 @@ SOURCES = [
     {"id": "garedunord", "parser": "garedunord", "url": "https://www.garedunord.ch/", "venue": "Gare du Nord", "direct": True},
     {"id": "sommercasino", "parser": "sommercasino", "url": "https://sommercasino.ch/", "venue": "Sommercasino", "direct": True},
     {"id": "basso", "parser": "basso", "url": "https://www.bassoverse.space/beats", "venue": "Basso", "js": True, "direct": True, "details": "basso"},
+    # Elysia (Münchenstein) publishes on eventfrog only; its events are outside the Basel listing
+    {"id": "elysia", "parser": "eventfrog_any_town", "url": "https://eventfrog.ch/de/events.html?searchTerm=elysia", "venue": "Elysia", "only_venue": True, "direct": True},
     {"id": "saali", "parser": "saali", "url": "https://www.goldenes-fass.ch/saali/", "venue": "Sääli (Goldenes Fass)", "direct": True, "ai_fallback": True},
     # sites without a dated program: checked every night, flagged in the report if dates appear
     {"id": "hafenkran", "parser": "no_program", "url": "https://www.hafenkran.ch", "venue": "Hafenkran", "js": True, "direct": False},

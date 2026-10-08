@@ -191,6 +191,9 @@ async def main():
                             nxt = nxt.replace("&amp;", "&")
                             if nxt not in done_urls and nxt not in pending: pending.append(nxt)
                     raw = PARSERS[s["parser"]](md, TODAY, html) if s.get("parser") else []
+                    if s.get("only_venue"):
+                        from common import same_venue
+                        raw = [e for e in raw if same_venue(canon_venue(e.get("venue", "")), s["venue"])]
                     for e in raw: e.setdefault("category", category_from(e.get("style"), "Club / Elektronisch" if s["id"] == "nordstern" else "Anderes"))
                     plain = re.sub(r"!?\[[^\]]*\]\([^)]*\)", " ", md)  # ignore links and image names
                     if s.get("parser") == "no_program" and re.search(r"(?<![\d.])\d{1,2}\.\s?(\d{1,2}\.(?!\d)|Jan|Feb|Mär|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Nov|Dez)", plain):
