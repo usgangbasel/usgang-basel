@@ -15,7 +15,7 @@
   --bg:#d9d8cf; --surface:#e6e5dd; --fg:#14201a; --muted:#4d5a52; --line:#c4c4b8;
   --accent:#0f6b3e; --accent-fg:#ffffff; --accent-soft:#d5e8da;
   --signal:#e2a400; --signal-soft:#fbf0cf; --danger:#b3261e;
-  --river:#bcd7e6; --river-ink:#3c6f8a; --tile-filter:none; --map-bg:#e8e6e0;
+  --river:#bcd7e6; --river-ink:#3c6f8a; --tile-filter:saturate(.8) brightness(.97); --map-bg:#e8e6e0;
   --display:"Bricolage Grotesque", "Familjen Grotesk", system-ui, sans-serif;
   --body:"Familjen Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono:"JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
@@ -23,11 +23,11 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0e1612; --surface:#15201a; --fg:#e6eee8; --muted:#93a39a; --line:#24332b;
   --accent:#5cc48e; --accent-fg:#04180d; --accent-soft:#183324;
-  --signal:#f0bf3a; --signal-soft:#3a3016; --danger:#f2867c; --river:#1f3d4f; --river-ink:#8fbcd4; --tile-filter:none; --map-bg:#262626; color-scheme:dark}}
+  --signal:#f0bf3a; --signal-soft:#3a3016; --danger:#f2867c; --river:#1f3d4f; --river-ink:#8fbcd4; --tile-filter:invert(.92) hue-rotate(180deg) saturate(.6) brightness(.9) contrast(.95); --map-bg:#1d1f22; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0e1612; --surface:#15201a; --fg:#e6eee8; --muted:#93a39a; --line:#24332b;
   --accent:#5cc48e; --accent-fg:#04180d; --accent-soft:#183324;
-  --signal:#f0bf3a; --signal-soft:#3a3016; --danger:#f2867c; --river:#1f3d4f; --river-ink:#8fbcd4; --tile-filter:none; --map-bg:#262626; color-scheme:dark}
+  --signal:#f0bf3a; --signal-soft:#3a3016; --danger:#f2867c; --river:#1f3d4f; --river-ink:#8fbcd4; --tile-filter:invert(.92) hue-rotate(180deg) saturate(.6) brightness(.9) contrast(.95); --map-bg:#1d1f22; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);padding-inline:16px;padding-block:0 48px}
@@ -758,12 +758,12 @@ function vkey(name){
 const vloc = name => VENUES[vkey(name)] || null;
 const onMap = v => !!v && typeof v.lat==="number";
 const addrText = v => !v ? "" : v.addr ? `${v.addr}, ${v.town||"Basel"}` : (v.town||"");
-// Live map tiles (OpenStreetMap data, CARTO styles): a light and a dark style that follow the page theme.
+// Live OpenStreetMap tiles (no API key). Dark mode darkens them with the --tile-filter CSS filter.
 const TILES = {
-  light: "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
-  dark:  "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+  light: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+  dark:  "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
 };
-const TILE_ATTR = '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>-Mitwirkendi © <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>';
+const TILE_ATTR = '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>-Mitwirkendi';
 const mapTheme = () => document.documentElement.dataset.theme==="light" ? "light" : "dark";
 const M = {map:null, el:null, markers:{}, labels:{}};
 
@@ -771,7 +771,7 @@ function ensureMap(){
   if (M.map || typeof L === "undefined") return M.map;
   M.el = el("div",{class:"lmap",role:"region","aria-label":"Stadtplan Basel mit Venues"});
   const map = L.map(M.el,{minZoom:10, maxZoom:19, zoomSnap:0.5, attributionControl:true, zoomControl:true});
-  M.tiles = L.tileLayer(TILES[mapTheme()],{subdomains:"abcd", maxZoom:20, detectRetina:false, attribution:TILE_ATTR}).addTo(map);
+  M.tiles = L.tileLayer(TILES[mapTheme()],{maxZoom:19, attribution:TILE_ATTR}).addTo(map);
   map.attributionControl.setPrefix(false);
   map.setMaxBounds(L.latLngBounds([47.30,7.30],[47.80,8.00]));
   map.fitBounds(L.latLngBounds([47.5860,7.5790],[47.5300,7.6135]));
@@ -853,9 +853,9 @@ function mapsLink(name, v){
   const q = v.addr ? `${name}, ${addrText(v)}` : (typeof v.lat==="number" ? `${v.lat},${v.lon}` : `${name}, ${v.town||"Basel"}`);
   return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q); }
 const hasRoute = v => !!v && (!!v.addr || typeof v.lat==="number" || !!v.town);
-// Static map close-up built from the same live tiles (zoom 16, 256px tiles drawn from the sharp @2x images).
+// Static map close-up built from the same live tiles (zoom 16, 256px tiles).
 const THUMB_Z = 16;
-function tileSrc(z, x, y){ return TILES[mapTheme()].replace("{s}","abcd"[(x+y)%4]).replace("{z}",z).replace("{x}",x).replace("{y}",y).replace("{r}","@2x"); }
+function tileSrc(z, x, y){ return TILES[mapTheme()].replace("{z}",z).replace("{x}",x).replace("{y}",y); }
 function mapThumb(name, cls){
   const v = vloc(name); if (!onMap(v)) return null;
   const n = 2**THUMB_Z, r = v.lat*Math.PI/180;
@@ -867,7 +867,7 @@ function mapThumb(name, cls){
     img.style.left = `calc(50% + ${Math.round(i*256-cx)}px)`; img.style.top = `calc(50% + ${Math.round(j*256-cy)}px)`;
     layer.append(img);
   }
-  box.append(layer, el("span",{class:"tpin"}), el("span",{class:"tattr"},"© OpenStreetMap · CARTO"));
+  box.append(layer, el("span",{class:"tpin"}), el("span",{class:"tattr"},"© OpenStreetMap"));
   return box;
 }
 
