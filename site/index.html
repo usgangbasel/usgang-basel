@@ -667,7 +667,7 @@ function row(e,up,go,showDate){
     el("div",{class:"acts"}, b1, bD, b2));
 }
 
-// Venue locations (geocoded via geo.admin.ch). Venues not listed here appear under "ohne Standort".
+// Venue locations (geocoded via geo.admin.ch, or the denkmal.org map pin). Venues not listed here appear under "ohne Standort".
 const VENUES = {
   "Nordstern":            {lat:47.58369,lon:7.58702,addr:"Westquaistrasse 19"},
   "The Gannet":           {lat:47.57372,lon:7.58679,addr:"Uferstrasse, Holzpark Klybeck"},
@@ -688,7 +688,58 @@ const VENUES = {
   "Stadtkino Basel":      {lat:47.55315,lon:7.59070,addr:"Klostergasse 5"},
   "neues kino":           {lat:47.57614,lon:7.58818,addr:"Klybeckstrasse 247"},
   "Roter Korsar":         {lat:47.57741,lon:7.58679,addr:"Uferstrasse 40"},
+  "Basso":                {lat:47.57329,lon:7.58348,addr:"Elsässerrheinweg 101"},
+  "Derrière":             {lat:47.56207,lon:7.59144,addr:"Ochsengasse 18"},
+  "Grenzwert":            {lat:47.56188,lon:7.59159,addr:"Ochsengasse 14"},
+  "Nebel":                {lat:47.56570,lon:7.59642,addr:"Sperrstrasse 94"},
+  "Sääli (Goldenes Fass)":{lat:47.56569,lon:7.59562,addr:"Hammerstrasse 108"},
+  "Hafenkran":            {lat:47.57170,lon:7.58710,addr:"Uferstrasse, Klybeckquai"},
+  "Kaschemme":            {lat:47.54352,lon:7.62045,addr:"Lehenmattstrasse 357"},
+  "B-Movie":              {lat:47.54984,lon:7.60668,addr:"Grellingerstrasse 41"},
+  "Mila’s Bistro":        {lat:47.55155,lon:7.60210,addr:"Hardstrasse 12"},
+  "Theater Fauteuil":     {lat:47.55730,lon:7.58642,addr:"Spalenberg 12"},
+  "Peterskirche":         {lat:47.55925,lon:7.58490,addr:"Peterskirchplatz 7"},
+  "The Beast Basel Comedy Club": {lat:47.55604,lon:7.58931,addr:"Pfluggässlein 10"},
+  "Corrientes":           {lat:47.54174,lon:7.59322,addr:"Dornacherstrasse 192 (Gundeldingerfeld)"},
+  "Alice Club":           {lat:47.55576,lon:7.59033,addr:"Freie Strasse 52"},
+  "Candela":              {lat:47.55871,lon:7.58712,addr:"Marktplatz 34"},
+  "Valhalla":             {lat:47.55314,lon:7.58587,addr:"Steinengraben 42"},
+  "Kulturraum Doble A":   {lat:47.56825,lon:7.58045,addr:"Elsässerstrasse 8"},
+  "Excali Bar":           {lat:47.55407,lon:7.58841,addr:"Kohlenberg 7"},
+  "Pflanzebroggi":        {lat:47.57788,lon:7.58967,addr:"Kleinhüningerstrasse"},
+  // located from the map pin on denkmal.org (no street address published)
+  "Zazaa Social Club":    {lat:47.56666,lon:7.59242,addr:""},
+  "Schall und Rauch":     {lat:47.56008,lon:7.59228,addr:""},
+  "Club Cello":           {lat:47.55870,lon:7.58708,addr:""},
+  "Symbiont Space":       {lat:47.56002,lon:7.59715,addr:""},
+  "Nest":                 {lat:47.55000,lon:7.58479,addr:""},
+  // outside the map area: address and route only, no marker
+  "Z7":                   {lat:47.52730,lon:7.69416,addr:"Kraftwerkstrasse 7",town:"Pratteln",off:true},
+  "Rockfact":             {lat:47.50900,lon:7.61675,addr:"Tramstrasse 66",town:"Münchenstein",off:true},
+  "Kulturhaus Cheesmeyer":{lat:47.46364,lon:7.81251,addr:"Hauptstrasse 55",town:"Sissach",off:true},
+  "Kulturgarten Aesch":   {addr:"",town:"Aesch BL",off:true},
 };
+// Other spellings the sources use for the same venue.
+const VENUE_ALIAS = {
+  "Bar Rouge - Rooftop Bar & Club":"Bar Rouge", "Gundeldingerfeld | Corrientes":"Corrientes", "CANDELA, Basel":"Candela",
+  "Peterskirche, Basel":"Peterskirche", "ALICE CLUB BASEL":"Alice Club", "Pflanzebroggi Basel":"Pflanzebroggi",
+  "Vallhalla":"Valhalla", "Kulturraum Doble":"Kulturraum Doble A", "Bar Futura":"Nordstern", "Sommercasino Club":"Sommercasino",
+  "Viertel Klub":"Das Viertel", "Sudhaus":"Sud", "Gannet":"The Gannet", "Mila's Bistro":"Mila’s Bistro", "Excalibar":"Excali Bar",
+};
+// Name of the VENUES entry for a venue name as written in an event ("" if unknown).
+const _vk = {};
+function vkey(name){
+  name = String(name||"").trim(); if (!name) return "";
+  if (name in _vk && VENUES[_vk[name]]) return _vk[name];
+  let k = VENUES[name] ? name : (VENUE_ALIAS[name] && VENUES[VENUE_ALIAS[name]] ? VENUE_ALIAS[name] : "");
+  if (!k){ const bare = name.replace(/,?\s+basel$/i,"");
+    k = Object.keys(VENUES).find(n => normV(n)===normV(bare) || normV(n)===normV(name)) || Object.keys(VENUES).find(n => sameVenue(n,bare)) || ""; }
+  if (k) _vk[name] = k;
+  return k;
+}
+const vloc = name => VENUES[vkey(name)] || null;
+const onMap = v => !!v && !v.off && typeof v.lat==="number";
+const addrText = v => !v ? "" : v.addr ? `${v.addr}, ${v.town||"Basel"}` : (v.town||"");
 // Georeference of the OpenStreetMap render (Web Mercator, pixels at native zoom 3), fitted to Rhine ferry positions.
 const GEO = {a:-443022.36635772925, c:3181824.583660185, s:3360486.890910373};
 const IMG = {w:4964, h:5120, tiles:5120};
@@ -715,7 +766,7 @@ function ensureMap(){
 function addMarkers(){
   if (!M.map) return;
   for (const [name,v] of Object.entries(VENUES)){
-    if (M.markers[name]) continue;
+    if (M.markers[name] || !onMap(v)) continue;
     const [x,y] = toPx(v.lat, v.lon);
     const mk = L.circleMarker(M.map.unproject([x,y],3),{radius:6, weight:2, color:"#fff", fillOpacity:1, fillColor:"#1f5fbf"}).addTo(M.map);
     mk.bindTooltip(name,{direction:"top", className:"vtip", offset:[0,-6]});
@@ -748,16 +799,16 @@ function styleMarkers(){
 }
 
 function renderMap(evs, main){
-  const count = {}; for (const e of evs) count[e.venue]=(count[e.venue]||0)+1;
+  const count = {}; for (const e of evs){ const k = vkey(e.venue)||e.venue; count[k]=(count[k]||0)+1; }
   M.count = count;
   const side = el("div",{class:"side"});
   side.append(el("div",{class:"card"}, el("h3",{},"Venue antippen"), el("p",{},"Je grösser der Punkt, desto mehr kommende Events. Tipp auf einen Punkt für Öffnungszeiten, Adresse und Programm.")));
   const list = el("ul",{class:"vlist"});
-  Object.keys(VENUES).sort((a,b)=>(count[b]||0)-(count[a]||0)||a.localeCompare(b,"de")).forEach(name=>{
+  Object.keys(VENUES).filter(n=>onMap(VENUES[n])).sort((a,b)=>(count[b]||0)-(count[a]||0)||a.localeCompare(b,"de")).forEach(name=>{
     list.append(el("li",{}, el("button",{type:"button",onclick:()=>{ if (M.map){ const v=VENUES[name], [x,y]=toPx(v.lat,v.lon); M.map.setView(M.map.unproject([x,y],3), Math.max(M.map.getZoom(),3)); } openVenue(name); }}, el("span",{},name), el("span",{class:"n"},String(count[name]||0)))));
   });
   side.append(el("div",{class:"card"}, el("h3",{style:"font-size:1rem;margin-bottom:6px"},"Venues auf der Karte"), list));
-  const off = [...new Set(evs.map(e=>e.venue))].filter(v=>!VENUES[v]).sort((a,b)=>a.localeCompare(b,"de"));
+  const off = [...new Set(evs.map(e=>vkey(e.venue)||e.venue))].filter(v=>!onMap(VENUES[v])).sort((a,b)=>a.localeCompare(b,"de"));
   if (off.length) side.append(el("p",{class:"small"},"Ohne Standort auf der Karte: "+off.join(", ")+"."));
   const box = el("div",{class:"mapbox"});
   const map = ensureMap();
@@ -767,12 +818,15 @@ function renderMap(evs, main){
   if (map){ requestAnimationFrame(()=>{ map.invalidateSize(); styleMarkers(); }); }
 }
 
-function mapsLink(name, v){ return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(`${name}, ${v.addr}, Basel`); }
+function mapsLink(name, v){
+  const q = v.addr ? `${name}, ${addrText(v)}` : (typeof v.lat==="number" ? `${v.lat},${v.lon}` : `${name}, ${v.town||"Basel"}`);
+  return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q); }
+const hasRoute = v => !!v && (!!v.addr || typeof v.lat==="number" || !!v.town);
 // Static map close-up built from the page's own OpenStreetMap tiles (zoom 3, 512px).
 function mapThumb(name, cls){
-  const v = VENUES[name]; if (!v) return null;
+  const v = vloc(name); if (!onMap(v)) return null;
   const [cx, cy] = toPx(v.lat, v.lon);
-  const box = el("div",{class:"thumb "+(cls||""),role:"img","aria-label":`Karte: ${name}, ${v.addr}`});
+  const box = el("div",{class:"thumb "+(cls||""),role:"img","aria-label":`Karte: ${name}${v.addr?", "+v.addr:""}`});
   const layer = el("div",{class:"tlayer"});
   const i0 = Math.max(0, Math.floor((cx-360)/512)), i1 = Math.min(9, Math.floor((cx+360)/512));
   const j0 = Math.max(0, Math.floor((cy-160)/512)), j1 = Math.min(9, Math.floor((cy+160)/512));
@@ -787,6 +841,7 @@ function mapThumb(name, cls){
 
 const vslug = n => n.normalize("NFKD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 function openVenue(name){
+  name = vkey(name) || name;
   S.sel = name; S.editVenue = false; styleMarkers();
   const dlg = $("#vdlg"); dlg.replaceChildren();
   const info = S.venueInfo[vslug(name)] || {};
@@ -802,7 +857,7 @@ function openVenue(name){
 function renderVenueBody(){
   const body = $("#vbody"); if (!body) return;
   const name = S.sel, v = VENUES[name] || {}, info = S.venueInfo[vslug(name)] || {};
-  const evs = allEvents().filter(e => e.venue === name).sort((a,b)=> a.date.localeCompare(b.date) || (a.time||"99").localeCompare(b.time||"99"));
+  const evs = allEvents().filter(e => e.venue === name || vkey(e.venue) === name).sort((a,b)=> a.date.localeCompare(b.date) || (a.time||"99").localeCompare(b.time||"99"));
   const {up, go} = counts();
   const cats = {}; evs.forEach(e => { const c = catGroup(e.category); cats[c]=(cats[c]||0)+1; });
   const tags = Object.entries(cats).sort((a,b)=>b[1]-a[1]).slice(0,4).map(([c])=>el("span",{class:"tag"},c));
@@ -810,9 +865,10 @@ function renderVenueBody(){
   body.append(el("div",{}, el("h3",{id:"vname"},name), tags.length?el("div",{class:"tags"},...tags):null, info.desc?el("p",{class:"sub",style:"margin-top:8px"},info.desc):null));
   // Adresse
   const links = el("div",{class:"vlinks"});
-  if (v.addr) links.append(el("a",{class:"btn",href:mapsLink(name,v),target:"_blank",rel:"noopener"},"Route ↗"));
+  if (hasRoute(v)) links.append(el("a",{class:"btn",href:mapsLink(name,v),target:"_blank",rel:"noopener"},"Route ↗"));
   if (info.website) links.append(el("a",{class:"btn",href:info.website,target:"_blank",rel:"noopener"},"Website ↗"));
-  body.append(el("section",{class:"vsec"}, el("h4",{},"Adresse"), el("p",{}, v.addr ? `${v.addr}, Basel` : "Adresse noch nicht erfasst"), links));
+  const where = addrText(v) || (onMap(v) ? "Genaue Adresse nicht veröffentlicht, Standort siehe Karte" : "Adresse noch nicht erfasst");
+  body.append(el("section",{class:"vsec"}, el("h4",{},"Adresse"), el("p",{}, where), v.off ? el("p",{class:"small"},"Ausserhalb des Kartenausschnitts.") : null, links));
   // Öffnungszeiten
   const hrs = el("section",{class:"vsec"}, el("h4",{},"Öffnungszeiten"));
   if (info.hours) hrs.append(el("p",{},info.hours));
@@ -875,7 +931,7 @@ function openEvent(id){
   S.evSel = id;
   const dlg = $("#edlg"); dlg.replaceChildren();
   const head = el("div",{class:"vhead"});
-  const t = VENUES[e.venue] ? mapThumb(e.venue,"big") : el("div",{class:"thumb big none"}, el("span",{}, e.venue||"Ort unbekannt"));
+  const t = onMap(vloc(e.venue)) ? mapThumb(e.venue,"big") : el("div",{class:"thumb big none"}, el("span",{}, e.venue||"Ort unbekannt"));
   head.append(t, el("button",{class:"close",type:"button","aria-label":"Schliessen",onclick:()=>dlg.close()},"✕"));
   dlg.append(head, el("div",{class:"vbody",id:"ebody"}));
   renderEventBody();
@@ -886,7 +942,7 @@ function renderEventBody(){
   const e = findEvent(S.evSel);
   if (!e){ body.replaceChildren(el("p",{class:"sub"},"Dieses Event gibt es nicht mehr.")); return; }
   const {up, go} = counts();
-  const v = VENUES[e.venue], vi = S.venueInfo[vslug(e.venue||"")] || {};
+  const v = vloc(e.venue), vi = S.venueInfo[vslug(vkey(e.venue)||e.venue||"")] || S.venueInfo[vslug(e.venue||"")] || {};
   const fact = (label, val, wide, node) => {
     const known = node || (val && String(val).trim());
     return el("div",{class:wide?"wide":""}, el("dt",{},label), el("dd",{class:known?"":"unk"}, node || (known ? clean(val) : UNK)));
@@ -904,7 +960,7 @@ function renderEventBody(){
       fact("Eintritt", price),
       fact("Art", evType(e)!==UNK ? evType(e) : ""),
       fact("Musikstil", evStyle(e)!==UNK ? evStyle(e) : "", true),
-      fact("Adresse", v && v.addr ? `${v.addr}, Basel` : "", true)));
+      fact("Adresse", addrText(v), true)));
   const nUp=up[e.id]||0, nGo=go[e.id]||0, nDn=(S.cnt&&S.cnt.down[e.id])||0;
   const isUp=S.mine.up.includes(e.id), isGo=S.mine.go.includes(e.id), isDn=(S.mine.down||[]).includes(e.id);
   const b1 = el("button",{class:"act up",type:"button","aria-pressed":String(isUp),"aria-label":`Upvote, ${nUp} Stimmen`,onclick:()=>toggle("up",e.id)}); b1.innerHTML=ICON_UP; b1.append(String(nUp));
@@ -914,7 +970,7 @@ function renderEventBody(){
   body.append(el("section",{class:"vsec"}, el("h4",{},"Deine Stimme"), el("div",{class:"evacts"}, b1, bD, b2)));
   const links = el("div",{class:"vlinks"});
   if (e.url) links.append(el("a",{class:"btn primary",href:e.url,target:"_blank",rel:"noopener"},"Zur Event-Seite ↗"));
-  if (v && v.addr) links.append(el("a",{class:"btn",href:mapsLink(e.venue,v),target:"_blank",rel:"noopener"},"Route ↗"));
+  if (hasRoute(v)) links.append(el("a",{class:"btn",href:mapsLink(vkey(e.venue)||e.venue,v),target:"_blank",rel:"noopener"},"Route ↗"));
   if (vi.website && vi.website!==e.url) links.append(el("a",{class:"btn",href:vi.website,target:"_blank",rel:"noopener"},"Venue-Website ↗"));
   if (links.childNodes.length) body.append(links);
 }
@@ -943,7 +999,7 @@ function renderSwipe(evs, up, go, main){
   const info = e => (S.venueInfo[vslug(e.venue)]||{}).desc || "";
   const card = (e, top) => {
     const c = el("article",{class:"scard "+(top?"top":"behind"),"aria-label":`${clean(e.title)}, ${e.venue}`},
-      VENUES[e.venue] ? mapThumb(e.venue,"card") : el("div",{class:"thumb card none"}, el("span",{},e.venue)),
+      onMap(vloc(e.venue)) ? mapThumb(e.venue,"card") : el("div",{class:"thumb card none"}, el("span",{},e.venue)),
       el("div",{class:"sc-top"}, el("span",{class:"sc-day"}, fmtDay(e.date) + (rel(e.date)?` · ${rel(e.date)}`:"")), el("span",{class:"sc-time"}, e.time||"folgt")),
       el("div",{class:"sc-body"}, el("span",{class:"tag",style:"justify-self:start"}, catGroup(e.category)), el("div",{class:"sc-title"}, clean(e.title)),
         el("div",{class:"sc-venue"}, e.venue), info(e) ? el("div",{class:"sc-desc"}, info(e)) : null, e.community ? el("span",{class:"badge",style:"justify-self:start;margin:0"},"Community") : null),

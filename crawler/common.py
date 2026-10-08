@@ -45,6 +45,10 @@ VENUE_ALIASES = {
     "derriere": "Derrière", "renee": "Renée", "bird's eye": "Bird's Eye Jazz Club", "birds eye": "Bird's Eye Jazz Club",
     "viertel klub": "Das Viertel", "das viertel klub": "Das Viertel", "stadtcasino": "Stadtcasino Basel",
     "kaserne": "Kaserne Basel", "goldenes fass": "Sääli (Goldenes Fass)", "zum goldenen fass": "Sääli (Goldenes Fass)",
+    "bar rouge - rooftop bar & club": "Bar Rouge", "gundeldingerfeld | corrientes": "Corrientes", "candela, basel": "Candela",
+    "candela": "Candela", "peterskirche, basel": "Peterskirche", "alice club basel": "Alice Club", "alice club": "Alice Club",
+    "pflanzebroggi basel": "Pflanzebroggi", "vallhalla": "Valhalla", "kulturraum doble": "Kulturraum Doble A",
+    "sommercasino club": "Sommercasino", "mila's bistro": "Mila’s Bistro", "excalibar": "Excali Bar",
 }
 def canon_venue(v):
     v = (v or "").strip()
