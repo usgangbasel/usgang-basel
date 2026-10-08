@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="de">
+<html lang="gsw">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Konzerte, Clubnächte und Bühnen aus Basler Venues, täglich aktualisiert.">
-<title>Ausgang Basel</title>
+<meta name="description" content="Konzärt, Clubnächt und Bühni us Basler Venues, jede Tag aktualisiert.">
+<title>Usgang Basel</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Familjen+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
@@ -351,81 +351,81 @@ header.top h1{font-size:clamp(1.7rem,6vw,2.4rem)}
 
 </head>
 <body>
-<a class="skip" href="#list">Zum Programm springen</a>
+<a class="skip" href="#list">Zum Programm gumpe</a>
 <div class="wrap">
   <header class="top">
-    <h1>Ausgang <span>Basel</span></h1>
+    <h1>Usgang <span>Basel</span></h1>
     <div class="menuwrap">
       <button class="menubtn" id="menuBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Menü">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
       </button>
       <nav class="menu" id="menu" hidden aria-label="Ansichten">
-        <button class="mi" data-sort="date" type="button" aria-current="page">Woche</button>
+        <button class="mi" data-sort="date" type="button" aria-current="page">Wuche</button>
         <button class="mi" data-sort="swipe" type="button">Swipe</button>
-        <button class="mi" data-sort="top" type="button">Beliebteste</button>
-        <button class="mi" data-sort="mine" type="button">Ich gehe hin</button>
-        <button class="mi" data-sort="map" type="button">Karte</button>
+        <button class="mi" data-sort="top" type="button">Am beliebteschte</button>
+        <button class="mi" data-sort="mine" type="button">Ych gang ane</button>
+        <button class="mi" data-sort="map" type="button">Charte</button>
         <button class="mi" data-sort="venues" type="button">Venues</button>
         <hr>
-        <button class="mi add" id="addBtn" type="button">+ Event hinzufügen</button>
-        <button class="mi add" id="addVenueBtn" type="button">+ Venue hinzufügen</button>
+        <button class="mi add" id="addBtn" type="button">+ Event dezuefiege</button>
+        <button class="mi add" id="addVenueBtn" type="button">+ Venue dezuefiege</button>
       </nav>
     </div>
   </header>
   <div class="notes" id="notes" aria-live="polite"></div>
-  <p class="sub" id="sub">Konzerte, Clubnächte und Bühnen aus Basler Venues, täglich aktualisiert. Stimm ab, was gut klingt, und zeig, wohin du gehst.</p>
+  <p class="sub" id="sub">Konzärt, Clubnächt und Bühni us Basler Venues, jede Tag aktualisiert. Stimm ab, was guet tönt, und zaig, wo du ane gohsch.</p>
 
   <section id="tonight" class="tonight" hidden aria-labelledby="tonight-h"></section>
 
   <div class="controls" id="controls" hidden>
-    <div class="row" id="venueRow" role="group" aria-label="Aktiver Filter" hidden></div>
+    <div class="row" id="venueRow" role="group" aria-label="Aktive Filter" hidden></div>
   </div>
 
-  <main id="list" aria-busy="true"><div class="skel" aria-label="Events werden geladen"><i></i><i></i><i></i><i></i></div></main>
+  <main id="list" aria-busy="true"><div class="skel" aria-label="Events wärde glade"><i></i><i></i><i></i><i></i></div></main>
 
-  <footer id="foot">Quellen: Programme der Venues. Instagram-Events trägt die Community über «Event hinzufügen» ein.</footer>
+  <footer id="foot">Quälle: Programm vo de Venues. Instagram-Events trait d Community über «Event dezuefiege» y.</footer>
 </div>
 
 <dialog id="vdlg" aria-labelledby="vname"></dialog>
 <dialog id="edlg" aria-labelledby="ename"></dialog>
 <dialog id="dlg">
-  <h3>Event hinzufügen</h3>
-  <p class="sub" style="margin:0">Zum Beispiel ein Event, das nur auf Instagram angekündigt wurde.</p>
+  <h3>Event dezuefiege</h3>
+  <p class="sub" style="margin:0">Zum Byspiil en Event, wo nur uf Instagram aagchündet worde isch.</p>
   <form id="form">
     <label for="f-title">Titel<input id="f-title" required maxlength="140" placeholder="z. B. Hinterhof Rooftop Session"></label>
     <label for="f-venue">Venue<input id="f-venue" required maxlength="60" list="venues" placeholder="z. B. Hinterhof"></label>
     <datalist id="venues"></datalist>
     <div class="two">
       <label for="f-date">Datum<input id="f-date" type="date" required></label>
-      <label for="f-time">Beginn<input id="f-time" type="time"></label>
+      <label for="f-time">Aafang<input id="f-time" type="time"></label>
     </div>
     <div class="two">
-      <label for="f-end">Ende (optional)<input id="f-end" type="time"></label>
-      <label for="f-price">Eintritt (optional)<input id="f-price" maxlength="40" placeholder="z. B. CHF 15 / frei"></label>
+      <label for="f-end">Ändi (optional)<input id="f-end" type="time"></label>
+      <label for="f-price">Yytritt (optional)<input id="f-price" maxlength="40" placeholder="z. B. CHF 15 / gratis"></label>
     </div>
     <label for="f-cat">Art<select id="f-cat">
-      <option>Konzert</option><option>Club</option><option>Party</option><option>Theater</option><option>Lesung</option><option>Festival</option><option>Anderes</option>
+      <option value="Konzert">Konzärt</option><option value="Club">Club</option><option value="Party">Party</option><option value="Theater">Theater</option><option value="Lesung">Läsig</option><option value="Festival">Feschtival</option><option value="Anderes">Anders</option>
     </select></label>
     <label for="f-url">Link (Instagram-Post, Tickets …)<input id="f-url" type="url" maxlength="400" placeholder="https://www.instagram.com/p/…"></label>
     <p class="err" id="ferr"></p>
     <div class="formacts">
-      <button class="btn" type="button" id="cancel">Abbrechen</button>
-      <button class="btn primary" type="submit">Speichern</button>
+      <button class="btn" type="button" id="cancel">Abbräche</button>
+      <button class="btn primary" type="submit">Spaichere</button>
     </div>
   </form>
 </dialog>
 <dialog id="rdlg" aria-labelledby="rtitle">
-  <h3 id="rtitle">Venue hinzufügen</h3>
+  <h3 id="rtitle">Venue dezuefiege</h3>
   <div id="rform-wrap">
-    <p class="sub" style="margin:0">Gib die Programmseite einer Basler Venue an. Wir lesen sie aus und importieren die Events, sofern die Seite das erlaubt.</p>
+    <p class="sub" style="margin:0">Gib d Programmsyte vo ere Basler Venue aa. Mir läse si us und importiere d Events, wenn d Syte das erlaubt.</p>
     <form id="rform">
-      <label for="r-url">Programmseite<input id="r-url" type="text" inputmode="url" autocapitalize="off" autocomplete="url" spellcheck="false" required maxlength="400" placeholder="https://www.venue.ch/programm"></label>
+      <label for="r-url">Programmsyte<input id="r-url" type="text" inputmode="url" autocapitalize="off" autocomplete="url" spellcheck="false" required maxlength="400" placeholder="https://www.venue.ch/programm"></label>
       <label for="r-name">Name (optional)<input id="r-name" maxlength="60" placeholder="z. B. Hinterhof"></label>
-      <label for="r-addr">Adresse (optional)<input id="r-addr" maxlength="100" placeholder="z. B. Münchensteinerstrasse 81"></label>
+      <label for="r-addr">Adrässe (optional)<input id="r-addr" maxlength="100" placeholder="z. B. Münchensteinerstrasse 81"></label>
       <p class="err" id="rerr"></p>
       <div class="formacts">
-        <button class="btn" type="button" id="rcancel">Abbrechen</button>
-        <button class="btn primary" type="submit">Einreichen</button>
+        <button class="btn" type="button" id="rcancel">Abbräche</button>
+        <button class="btn primary" type="submit">Yyraiche</button>
       </div>
     </form>
   </div>
@@ -445,7 +445,7 @@ const $ = s => document.querySelector(s);
 const ICON_UP = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3l5 6H9.5v4h-3V9H3z" fill="currentColor"/></svg>';
 const ICON_DOWN = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13l5-6H9.5V3h-3v4H3z" fill="currentColor"/></svg>';
 const ICON_GO = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="2" fill="none"/></svg>';
-const WD = ["So","Mo","Di","Mi","Do","Fr","Sa"], MO = ["Jan.","Feb.","März","Apr.","Mai","Juni","Juli","Aug.","Sept.","Okt.","Nov.","Dez."];
+const WD = ["Su","Mä","Zy","Mi","Du","Fr","Sa"], MO = ["Jan.","Feb.","Merz","Apr.","Mai","Juni","Juli","Aug.","Sept.","Okt.","Nov.","Dez."];
 const pad = n => String(n).padStart(2,"0");
 const now = new Date(), TODAY = `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}`;
 
@@ -457,9 +457,9 @@ function catGroup(c){ c=(c||"").toLowerCase();
   if(/jazz/.test(c)) return "Jazz";
   if(/club|techno|house|trance|drum/.test(c)) return "Club";
   if(/party/.test(c)) return "Party";
-  if(/konzert|festival/.test(c)) return "Konzert";
-  if(/theater|musiktheater|lesung|comedy|vortrag/.test(c)) return "Bühne & Wort";
-  return "Anderes"; }
+  if(/konzert|festival/.test(c)) return "Konzärt";
+  if(/theater|musiktheater|lesung|comedy|vortrag/.test(c)) return "Bühni & Wort";
+  return "Anders"; }
 
 function allEvents(){
   const out = [];
@@ -485,7 +485,7 @@ function counts(){
 const score = (id, c=S.cnt||counts()) => ((c.up[id]||0) - (c.down[id]||0))*2 + (c.go[id]||0)*3;
 function fmtDay(d){ const x=new Date(d+"T12:00:00"); return `${WD[x.getDay()]} ${x.getDate()}. ${MO[x.getMonth()]}`; }
 function rel(d){ const a=new Date(TODAY+"T12:00:00"), b=new Date(d+"T12:00:00"); const n=Math.round((b-a)/864e5);
-  return n===0?"Heute":n===1?"Morgen":n<7?`in ${n} Tagen`:""; }
+  return n===0?"Hit":n===1?"Morn":n<7?`in ${n} Täg`:""; }
 // Duplicate detection: same date, same venue (ignoring "The", accents, suffixes) and mostly the same title words.
 const STOP = new Set(["the","der","die","das","and","und","mit","live","in","im","at","de","la","le","feat","ft","presents","pres","x","vs","konzert","concert","party","dj","djs","b2b","tour","2025","2026","2027"]);
 const GENERIC = new Set("basel club klub night nacht music musik festival orchester orchestra ensemble kammermusik amg symphonic gems series edition vol special guest sinfonieorchester konzerte concerts show open format".split(" "));
@@ -526,7 +526,7 @@ function renderFilters(evs){
   // Only shown while a venue is selected from its detail view, so it can be cleared.
   vr.hidden = S.venue==="Alle" || S.sort==="map";
   $("#controls").hidden = vr.hidden;
-  vr.replaceChildren(...(vr.hidden ? [] : [el("button",{class:"chip",type:"button","aria-pressed":"true","aria-label":`Filter ${S.venue} entfernen`,onclick:()=>{S.venue="Alle";render();}},`${S.venue}  ✕`)]));
+  vr.replaceChildren(...(vr.hidden ? [] : [el("button",{class:"chip",type:"button","aria-pressed":"true","aria-label":`Filter ${S.venue} ewäggneh`,onclick:()=>{S.venue="Alle";render();}},`${S.venue}  ✕`)]));
   $("#venues").replaceChildren(...venues.map(v=>el("option",{value:v})));
 }
 
@@ -535,8 +535,8 @@ const ymd = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`
 const addDays = (d,n) => { const x = new Date(d); x.setDate(x.getDate()+n); return x; };
 function mondayOf(d){ const x = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 12); return addDays(x, -((x.getDay()+6)%7)); }
 function isoWeek(d){ const t = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())); const day = t.getUTCDay()||7; t.setUTCDate(t.getUTCDate()+4-day); const y0 = new Date(Date.UTC(t.getUTCFullYear(),0,1)); return Math.ceil(((t-y0)/864e5+1)/7); }
-const WDL = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"];
-const MOL = ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
+const WDL = ["Sunntig","Mäntig","Zyschtig","Mittwuch","Dunnschtig","Frytig","Samschtig"];
+const MOL = ["Januar","Februar","Merz","April","Mai","Juni","Juli","Auguscht","Septämber","Oktober","Novämber","Dezämber"];
 function renderWeek(list, evs, up, go, main){
   const mon0 = mondayOf(new Date());
   const minDay = ymd(mon0);
@@ -551,16 +551,16 @@ function renderWeek(list, evs, up, go, main){
 
   // Week header
   const range = mon.getMonth()===sun.getMonth() ? `${mon.getDate()}.-${sun.getDate()}. ${MO[sun.getMonth()]}` : `${mon.getDate()}. ${MO[mon.getMonth()]} - ${sun.getDate()}. ${MO[sun.getMonth()]}`;
-  const wprev = el("button",{class:"btn",type:"button","aria-label":"Vorherige Woche",onclick:()=>{ const k=ymd(addDays(cur,-7)); setDay(k<minDay?minDay:k,-1); }},"«");
-  const wnext = el("button",{class:"btn",type:"button","aria-label":"Nächste Woche",onclick:()=>{ const k=ymd(addDays(cur,7)); setDay(k>maxDay?maxDay:k,1); }},"»");
+  const wprev = el("button",{class:"btn",type:"button","aria-label":"Vorderi Wuche",onclick:()=>{ const k=ymd(addDays(cur,-7)); setDay(k<minDay?minDay:k,-1); }},"«");
+  const wnext = el("button",{class:"btn",type:"button","aria-label":"Nächschti Wuche",onclick:()=>{ const k=ymd(addDays(cur,7)); setDay(k>maxDay?maxDay:k,1); }},"»");
   if (ymd(mon) <= minDay) wprev.disabled = true; if (ymd(sun) >= maxDay) wnext.disabled = true;
-  const wlabel = weekOff===0 ? "Diese Woche" : weekOff===1 ? "Nächste Woche" : `In ${weekOff} Wochen`;
+  const wlabel = weekOff===0 ? "Die Wuche" : weekOff===1 ? "Nächschti Wuche" : `In ${weekOff} Wuche`;
   main.append(el("div",{class:"weeknav"}, wprev,
     el("div",{class:"wtitle"}, el("strong",{},`KW ${isoWeek(mon)} · ${range}`), el("span",{}, wlabel)),
-    wnext, S.day!==TODAY ? el("button",{class:"btn",type:"button",onclick:()=>setDay(TODAY, S.day>TODAY?-1:1)},"Heute") : null));
+    wnext, S.day!==TODAY ? el("button",{class:"btn",type:"button",onclick:()=>setDay(TODAY, S.day>TODAY?-1:1)},"Hit") : null));
 
   // Day strip
-  const strip = el("div",{class:"dstrip",role:"tablist","aria-label":"Tage der Woche"});
+  const strip = el("div",{class:"dstrip",role:"tablist","aria-label":"Täg vo dr Wuche"});
   for (let i=0;i<7;i++){
     const d = addDays(mon,i), k = ymd(d), n = (byDay[k]||[]).length;
     const b = el("button",{class:"dtab"+(k<TODAY?" past":"")+(k===TODAY?" today":""),type:"button",role:"tab","aria-selected":String(k===S.day),"aria-label":`${WDL[d.getDay()]} ${d.getDate()}. ${MOL[d.getMonth()]}, ${n} Events`,onclick:()=>setDay(k, k>S.day?1:-1)},
@@ -572,15 +572,15 @@ function renderWeek(list, evs, up, go, main){
   // Day page
   const items = (byDay[S.day]||[]).sort((a,b)=> (a.time||"99").localeCompare(b.time||"99") || a.title.localeCompare(b.title));
   const past = S.day < TODAY;
-  const dprev = el("button",{class:"btn",type:"button","aria-label":"Vorheriger Tag",onclick:()=>setDay(ymd(addDays(cur,-1)),-1)},"‹");
-  const dnext = el("button",{class:"btn",type:"button","aria-label":"Nächster Tag",onclick:()=>setDay(ymd(addDays(cur,1)),1)},"›");
+  const dprev = el("button",{class:"btn",type:"button","aria-label":"Vorderi Tag",onclick:()=>setDay(ymd(addDays(cur,-1)),-1)},"‹");
+  const dnext = el("button",{class:"btn",type:"button","aria-label":"Nächschte Tag",onclick:()=>setDay(ymd(addDays(cur,1)),1)},"›");
   if (S.day<=minDay) dprev.disabled = true; if (S.day>=maxDay) dnext.disabled = true;
   const page = el("section",{class:"dpage"+(S.slide>0?" in-r":S.slide<0?" in-l":"")});
   page.append(el("div",{class:"dhead"}, dprev,
-    el("h2",{}, `${WDL[cur.getDay()]}, ${cur.getDate()}. ${MOL[cur.getMonth()]}`, el("small",{}, S.day===TODAY ? "Heute" : past ? "vorbei" : (rel(S.day) || `${items.length} ${items.length===1?"Event":"Events"}`))),
+    el("h2",{}, `${WDL[cur.getDay()]}, ${cur.getDate()}. ${MOL[cur.getMonth()]}`, el("small",{}, S.day===TODAY ? "Hit" : past ? "verbi" : (rel(S.day) || `${items.length} ${items.length===1?"Event":"Events"}`))),
     dnext));
   if (items.length){ const box = el("div",{class:"list"}); items.forEach(e=>box.append(row(e,up,go,false))); page.append(box); }
-  else page.append(el("p",{class:"empty"}, past ? "Dieser Tag ist vorbei." : S.venue!=="Alle" ? `Nichts bei ${S.venue} an diesem Tag.` : "Für diesen Tag ist nichts eingetragen."));
+  else page.append(el("p",{class:"empty"}, past ? "Dä Tag isch verbi." : S.venue!=="Alle" ? `Nyt im ${S.venue} an däm Tag.` : "Für dä Tag isch nyt yytrage."));
   if (!past && items.length && !(S.day>=maxDay)) page.append(el("div",{class:"dfoot"}, el("button",{class:"btn",type:"button",onclick:()=>{ setDay(ymd(addDays(cur,1)),1); window.scrollTo({top:0}); }}, `Weiter: ${WDL[addDays(cur,1).getDay()]} ›`)));
   main.append(page);
   S.slide = 0;
@@ -608,9 +608,9 @@ function renderTonight(evs, up, go){
   for (const {e} of items){
     const open = () => openEvent(e.id);
     strip.append(el("button",{class:"tcard",type:"button",onclick:open},
-      el("span",{class:"tt"}, e.time || "folgt"), el("span",{class:"tn"}, clean(e.title)), el("span",{class:"tv"}, e.venue)));
+      el("span",{class:"tt"}, e.time || "kunnt no"), el("span",{class:"tn"}, clean(e.title)), el("span",{class:"tv"}, e.venue)));
   }
-  sec.replaceChildren(el("h2",{id:"tonight-h"}, items.length===1 ? "Heute Abend" : "Heute Abend, am beliebtesten"), strip);
+  sec.replaceChildren(el("h2",{id:"tonight-h"}, items.length===1 ? "Hit z Obe" : "Hit z Obe, am beliebteschte"), strip);
 }
 
 function renderMain(){
@@ -621,20 +621,20 @@ function renderMain(){
   let list = evs.filter(e => (S.venue==="Alle"||e.venue===S.venue) && (S.cat==="Alle"||catGroup(e.category)===S.cat));
   if (S.sort==="mine") list = list.filter(e => S.mine.go.includes(e.id));
   const main = $("#list"); main.replaceChildren();
-  $("#sub").firstChild && ($("#sub").textContent = `${evs.length} kommende Events aus ${new Set(evs.map(e=>e.venue)).size} Basler Venues, täglich aktualisiert. Stimm ab, was gut klingt, und zeig, wohin du gehst.`);
+  $("#sub").firstChild && ($("#sub").textContent = `${evs.length} kommendi Events us ${new Set(evs.map(e=>e.venue)).size} Basler Venues, jede Tag aktualisiert. Stimm ab, was guet tönt, und zaig, wo du ane gohsch.`);
   main.setAttribute("aria-busy", String(!!S.loading));
-  if (S.loading){ main.append(el("div",{class:"skel","aria-label":"Events werden geladen"}, el("i"), el("i"), el("i"), el("i"))); return; }
-  if (!S.db){ main.append(el("p",{class:"empty"},"Melde dich bei Claude an, um die Events zu sehen.")); return; }
+  if (S.loading){ main.append(el("div",{class:"skel","aria-label":"Events wärde glade"}, el("i"), el("i"), el("i"), el("i"))); return; }
+  if (!S.db){ main.append(el("p",{class:"empty"},"Mäld di bi Claude aa, zum d Events gseh.")); return; }
   if (S.sort==="map"){ renderMap(evs.filter(e => S.cat==="Alle"||catGroup(e.category)===S.cat), main); return; }
-  if (!evs.length){ main.append(el("p",{class:"empty"},"Noch keine Events eingetragen. Der tägliche Crawl füllt die Liste; du kannst oben selbst eins hinzufügen.")); return; }
+  if (!evs.length){ main.append(el("p",{class:"empty"},"No kai Events yytrage. Dr täglig Crawl füllt d Lischte; du kasch obe sälber ais dezuefiege.")); return; }
   if (S.sort==="venues"){ renderVenues(evs, main); return; }
   if (S.sort==="swipe"){ renderSwipe(evs, up, go, main); return; }
   if (S.sort==="date"){ renderWeek(list, evs, up, go, main); return; }
-  if (!list.length){ main.append(el("p",{class:"empty"}, S.sort==="mine"?"Du hast noch nichts mit «Ich gehe» markiert.":"Keine Events für diesen Filter.")); return; }
+  if (!list.length){ main.append(el("p",{class:"empty"}, S.sort==="mine"?"Du hesch no nyt mit «Ych gang» markiert.":"Kai Events für dä Filter.")); return; }
   if (S.sort==="top") {
     list.sort((a,b)=> score(b.id)-score(a.id) || a.date.localeCompare(b.date) || (a.time||"").localeCompare(b.time||""));
     const box = el("div",{class:"list"}); list.slice(0,60).forEach(e=>box.append(row(e,up,go,true)));
-    main.append(el("section",{class:"day"}, el("h2",{},"Am meisten Stimmen", el("small",{},"(Up minus Down) × 2 + Zusagen × 3"))), box);
+    main.append(el("section",{class:"day"}, el("h2",{},"Am maischte Stimme", el("small",{},"(Up minus Down) × 2 + Zuesage × 3"))), box);
     return;
   }
   list.sort((a,b)=> a.date.localeCompare(b.date) || (a.time||"99").localeCompare(b.time||"99") || a.title.localeCompare(b.title));
@@ -651,18 +651,18 @@ function row(e,up,go,showDate){
   const isUp=S.mine.up.includes(e.id), isGo=S.mine.go.includes(e.id);
   const title = el("button",{class:"tbtn",type:"button",onclick:()=>openEvent(e.id)},clean(e.title));
   const meta = el("div",{class:"meta"}, el("span",{class:"mv"},e.venue), ` · ${e.category||"Event"}`);
-  if (e.community && e.owner===S.uid) meta.append(el("button",{class:"del",type:"button",onclick:()=>removeSub(e.id.slice(4))},"Entfernen"));
+  if (e.community && e.owner===S.uid) meta.append(el("button",{class:"del",type:"button",onclick:()=>removeSub(e.id.slice(4))},"Ewäggneh"));
   const t = el("div",{class:"title"}, title, e.community?el("span",{class:"badge"},"Community"):null);
   const b1 = el("button",{class:"act up",type:"button","aria-pressed":String(isUp),title:"Upvote","aria-label":`Upvote, ${nUp} Stimmen`,onclick:()=>toggle("up",e.id)});
   b1.innerHTML = ICON_UP; b1.append(String(nUp));
   const nDn=(S.cnt&&S.cnt.down[e.id])||0, isDn=(S.mine.down||[]).includes(e.id);
   const bD = el("button",{class:"act down",type:"button","aria-pressed":String(isDn),title:"Downvote","aria-label":`Downvote, ${nDn} Stimmen`,onclick:()=>toggle("down",e.id)});
   bD.innerHTML = ICON_DOWN; bD.append(String(nDn));
-  const b2 = el("button",{class:"act go",type:"button","aria-pressed":String(isGo),title:"Ich gehe hin","aria-label":`Ich gehe hin, ${nGo} Zusagen`,onclick:()=>toggle("go",e.id)});
-  b2.innerHTML = ICON_GO; b2.append(isGo?`Dabei ${nGo}`:`Ich gehe ${nGo}`);
+  const b2 = el("button",{class:"act go",type:"button","aria-pressed":String(isGo),title:"Ych gang ane","aria-label":`Ych gang ane, ${nGo} Zuesage`,onclick:()=>toggle("go",e.id)});
+  b2.innerHTML = ICON_GO; b2.append(isGo?`Derby ${nGo}`:`Ych gang ${nGo}`);
   if (S.readOnly||!S.uid){ b1.disabled=true; bD.disabled=true; b2.disabled=true; }
   return el("div",{class:"ev"+(nUp+nGo>=3?" hot":"")},
-    el("div",{class:"time"+(e.time?"":" none")}, showDate?el("span",{class:"tday"},fmtDay(e.date).replace(/\s\S+\.$/,"")):null, e.time||"folgt"),
+    el("div",{class:"time"+(e.time?"":" none")}, showDate?el("span",{class:"tday"},fmtDay(e.date).replace(/\s\S+\.$/,"")):null, e.time||"kunnt no"),
     el("div",{}, t, meta),
     el("div",{class:"acts"}, b1, bD, b2));
 }
@@ -800,18 +800,18 @@ function renderMap(evs, main){
   const count = {}; for (const e of evs){ const k = vkey(e.venue)||e.venue; count[k]=(count[k]||0)+1; }
   M.count = count;
   const side = el("div",{class:"side"});
-  side.append(el("div",{class:"card"}, el("h3",{},"Venue antippen"), el("p",{},"Je grösser der Punkt, desto mehr kommende Events. Tipp auf einen Punkt für Öffnungszeiten, Adresse und Programm.")));
+  side.append(el("div",{class:"card"}, el("h3",{},"Venue aatippe"), el("p",{},"Je grösser dr Punkt, desto meh kommendi Events. Tipp uf e Punkt für Öffnigszyte, Adrässe und Programm.")));
   const list = el("ul",{class:"vlist"});
   Object.keys(VENUES).filter(n=>onMap(VENUES[n])).sort((a,b)=>(count[b]||0)-(count[a]||0)||a.localeCompare(b,"de")).forEach(name=>{
     list.append(el("li",{}, el("button",{type:"button",onclick:()=>{ if (M.map){ const v=VENUES[name], [x,y]=toPx(v.lat,v.lon); M.map.setView(M.map.unproject([x,y],3), Math.max(M.map.getZoom(),3)); } openVenue(name); }}, el("span",{},name), el("span",{class:"n"},String(count[name]||0)))));
   });
-  side.append(el("div",{class:"card"}, el("h3",{style:"font-size:1rem;margin-bottom:6px"},"Venues auf der Karte"), list));
+  side.append(el("div",{class:"card"}, el("h3",{style:"font-size:1rem;margin-bottom:6px"},"Venues uf dr Charte"), list));
   const off = [...new Set(evs.map(e=>vkey(e.venue)||e.venue))].filter(v=>!onMap(VENUES[v])).sort((a,b)=>a.localeCompare(b,"de"));
-  if (off.length) side.append(el("p",{class:"small"},"Ohne Standort auf der Karte: "+off.join(", ")+"."));
+  if (off.length) side.append(el("p",{class:"small"},"Ohni Standort uf dr Charte: "+off.join(", ")+"."));
   const box = el("div",{class:"mapbox"});
   const map = ensureMap();
-  if (map) box.append(M.el); else box.append(el("p",{class:"empty"},"Die Karte konnte nicht geladen werden."));
-  box.append(el("p",{class:"small",style:"padding:6px 4px 0"},"Ziehen zum Verschieben, Zwei-Finger-Geste oder Mausrad zum Zoomen."));
+  if (map) box.append(M.el); else box.append(el("p",{class:"empty"},"D Charte het nit chönne glade wärde."));
+  box.append(el("p",{class:"small",style:"padding:6px 4px 0"},"Zieh zum Verschiebe, Zwai-Finger-Gescht oder Muusrad zum Zoome."));
   main.append(el("div",{class:"mapwrap"}, box, side));
   if (map){ requestAnimationFrame(()=>{ map.invalidateSize(); styleMarkers(); }); }
 }
@@ -844,7 +844,7 @@ function openVenue(name){
   const dlg = $("#vdlg"); dlg.replaceChildren();
   const info = S.venueInfo[vslug(name)] || {};
   const head = el("div",{class:"vhead"});
-  const closeBtn = el("button",{class:"close",type:"button","aria-label":"Schliessen",onclick:()=>dlg.close()},"✕");
+  const closeBtn = el("button",{class:"close",type:"button","aria-label":"Zuemache",onclick:()=>dlg.close()},"✕");
   if (info.image) head.append(el("img",{src:info.image,alt:name,style:"width:100%;height:100%;object-fit:cover;display:block"}));
   else { const t = mapThumb(name,"big"); if (t) head.append(t); }
   head.append(closeBtn);
@@ -865,43 +865,43 @@ function renderVenueBody(){
   const links = el("div",{class:"vlinks"});
   if (hasRoute(v)) links.append(el("a",{class:"btn",href:mapsLink(name,v),target:"_blank",rel:"noopener"},"Route ↗"));
   if (info.website) links.append(el("a",{class:"btn",href:info.website,target:"_blank",rel:"noopener"},"Website ↗"));
-  const where = addrText(v) || (onMap(v) ? "Genaue Adresse nicht veröffentlicht, Standort siehe Karte" : "Adresse noch nicht erfasst");
-  body.append(el("section",{class:"vsec"}, el("h4",{},"Adresse"), el("p",{}, where), v.off ? el("p",{class:"small"},"Ausserhalb des Kartenausschnitts.") : null, links));
+  const where = addrText(v) || (onMap(v) ? "Kai gnaui Adrässe veröffentligt, Standort lueg uf dr Charte" : "Adrässe no nit erfasst");
+  body.append(el("section",{class:"vsec"}, el("h4",{},"Adrässe"), el("p",{}, where), v.off ? el("p",{class:"small"},"Usserhalb vom Chartenusschnitt.") : null, links));
   // Öffnungszeiten
-  const hrs = el("section",{class:"vsec"}, el("h4",{},"Öffnungszeiten"));
+  const hrs = el("section",{class:"vsec"}, el("h4",{},"Öffnigszyte"));
   if (info.hours) hrs.append(el("p",{},info.hours));
   else {
     const nx = evs[0];
-    hrs.append(el("p",{}, "Geöffnet zu den Events, feste Öffnungszeiten sind noch nicht erfasst."));
-    if (nx) hrs.append(el("p",{class:"small",style:"margin-top:4px"}, `Nächster Termin: ${fmtDay(nx.date)}${nx.time?`, ${nx.time} Uhr`:""}`));
+    hrs.append(el("p",{}, "Offe zu de Events, feschti Öffnigszyte sin no nit erfasst."));
+    if (nx) hrs.append(el("p",{class:"small",style:"margin-top:4px"}, `Nächschte Termin: ${fmtDay(nx.date)}${nx.time?`, ${nx.time} Uhr`:""}`));
   }
   body.append(hrs);
   // Events
-  const sec = el("section",{class:"vsec"}, el("h4",{}, evs.length ? `Kommende Events (${evs.length})` : "Kommende Events"));
+  const sec = el("section",{class:"vsec"}, el("h4",{}, evs.length ? `Kommendi Events (${evs.length})` : "Kommendi Events"));
   if (evs.length){
     const box = el("div",{class:"list"}); evs.slice(0,6).forEach(e => box.append(row(e,up,go,true)));
     sec.append(box);
-    if (evs.length > 6) sec.append(el("div",{class:"vlinks"}, el("button",{class:"btn",type:"button",onclick:()=>{ $("#vdlg").close(); S.venue=name; setSort("date"); }},`Alle ${evs.length} im Programm zeigen`)));
-  } else sec.append(el("p",{class:"small"},"Gerade keine Events eingetragen."));
+    if (evs.length > 6) sec.append(el("div",{class:"vlinks"}, el("button",{class:"btn",type:"button",onclick:()=>{ $("#vdlg").close(); S.venue=name; setSort("date"); }},`Alli ${evs.length} im Programm zaige`)));
+  } else sec.append(el("p",{class:"small"},"Grad kai Events yytrage."));
   body.append(sec);
   // Edit (editors only)
   if (S.canEdit){
-    if (!S.editVenue) body.append(el("div",{}, el("button",{class:"btn",type:"button",onclick:()=>{ S.editVenue=true; renderVenueBody(); }},"Angaben bearbeiten")));
+    if (!S.editVenue) body.append(el("div",{}, el("button",{class:"btn",type:"button",onclick:()=>{ S.editVenue=true; renderVenueBody(); }},"Aagabe bearbaite")));
     else {
       const fWeb = el("input",{id:"v-web",type:"url",value:info.website||"",placeholder:"https://…"});
       const fHrs = el("textarea",{id:"v-hrs",placeholder:"Mi-Sa 18:00-02:00\nSo-Di geschlossen"}); fHrs.value = info.hours||"";
-      const fDesc = el("textarea",{id:"v-desc",placeholder:"Kurzbeschreibung"}); fDesc.value = info.desc||"";
+      const fDesc = el("textarea",{id:"v-desc",placeholder:"Kurzbeschryybig"}); fDesc.value = info.desc||"";
       const err = el("p",{class:"err"});
       const save = async () => {
         const web = fWeb.value.trim();
         if (web && !/^https:\/\//.test(web)){ err.textContent="Die Website muss mit https:// beginnen."; return; }
         const doc = {...info, name, website:web, hours:fHrs.value.trim(), desc:fDesc.value.trim()};
-        try { await S.db.doc("venues/"+vslug(name)).set(doc); S.venueInfo[vslug(name)] = doc; S.editVenue=false; renderVenueBody(); toast("Gespeichert"); }
-        catch { err.textContent = "Speichern hat nicht geklappt."; }
+        try { await S.db.doc("venues/"+vslug(name)).set(doc); S.venueInfo[vslug(name)] = doc; S.editVenue=false; renderVenueBody(); toast("Gspaicheret"); }
+        catch { err.textContent = "Spaichere het nit klappt."; }
       };
       body.append(el("div",{class:"vedit"},
-        el("label",{for:"v-web"},"Website",fWeb), el("label",{for:"v-hrs"},"Öffnungszeiten",fHrs), el("label",{for:"v-desc"},"Beschreibung",fDesc), err,
-        el("div",{class:"formacts"}, el("button",{class:"btn",type:"button",onclick:()=>{ S.editVenue=false; renderVenueBody(); }},"Abbrechen"), el("button",{class:"btn primary",type:"button",onclick:save},"Speichern"))));
+        el("label",{for:"v-web"},"Website",fWeb), el("label",{for:"v-hrs"},"Öffnigszyte",fHrs), el("label",{for:"v-desc"},"Beschryybig",fDesc), err,
+        el("div",{class:"formacts"}, el("button",{class:"btn",type:"button",onclick:()=>{ S.editVenue=false; renderVenueBody(); }},"Abbräche"), el("button",{class:"btn primary",type:"button",onclick:save},"Spaichere"))));
     }
   }
 }
@@ -930,7 +930,7 @@ function openEvent(id){
   const dlg = $("#edlg"); dlg.replaceChildren();
   const head = el("div",{class:"vhead"});
   const t = onMap(vloc(e.venue)) ? mapThumb(e.venue,"big") : el("div",{class:"thumb big none"}, el("span",{}, e.venue||"Ort unbekannt"));
-  head.append(t, el("button",{class:"close",type:"button","aria-label":"Schliessen",onclick:()=>dlg.close()},"✕"));
+  head.append(t, el("button",{class:"close",type:"button","aria-label":"Zuemache",onclick:()=>dlg.close()},"✕"));
   dlg.append(head, el("div",{class:"vbody",id:"ebody"}));
   renderEventBody();
   dlg.showModal();
@@ -938,7 +938,7 @@ function openEvent(id){
 function renderEventBody(){
   const body = $("#ebody"); if (!body) return;
   const e = findEvent(S.evSel);
-  if (!e){ body.replaceChildren(el("p",{class:"sub"},"Dieses Event gibt es nicht mehr.")); return; }
+  if (!e){ body.replaceChildren(el("p",{class:"sub"},"Dä Event gits nümm.")); return; }
   const {up, go} = counts();
   const v = vloc(e.venue), vi = S.venueInfo[vslug(vkey(e.venue)||e.venue||"")] || S.venueInfo[vslug(e.venue||"")] || {};
   const fact = (label, val, wide, node) => {
@@ -946,28 +946,28 @@ function renderEventBody(){
     return el("div",{class:wide?"wide":""}, el("dt",{},label), el("dd",{class:known?"":"unk"}, node || (known ? clean(val) : UNK)));
   };
   const venueNode = e.venue ? el("button",{class:"linkish",type:"button",onclick:()=>{ $("#edlg").close(); openVenue(e.venue); }}, e.venue) : null;
-  const price = e.price===0 ? "Eintritt frei" : e.price;
+  const price = e.price===0 ? "Yytritt gratis" : e.price;
   body.replaceChildren(
     el("div",{}, el("h3",{id:"ename"}, clean(e.title)),
       el("div",{class:"tags"}, el("span",{class:"tag"}, catGroup(e.category)), e.community?el("span",{class:"tag"},"Community"):null)),
     el("dl",{class:"facts"},
       fact("Venue", null, true, venueNode),
       fact("Datum", e.date ? fmtFull(e.date) : "", true),
-      fact("Einlass / Beginn", [e.doors ? `Einlass ${e.doors}` : "", e.time ? (e.doors ? `Beginn ${e.time}` : e.time) : ""].filter(Boolean).join(" · ")),
-      fact("Ende", e.end),
-      fact("Eintritt", price),
+      fact("Yylass / Aafang", [e.doors ? `Yylass ${e.doors}` : "", e.time ? (e.doors ? `Aafang ${e.time}` : e.time) : ""].filter(Boolean).join(" · ")),
+      fact("Ändi", e.end),
+      fact("Yytritt", price),
       fact("Art", evType(e)!==UNK ? evType(e) : ""),
-      fact("Musikstil", evStyle(e)!==UNK ? evStyle(e) : "", true),
-      fact("Adresse", addrText(v), true)));
+      fact("Musigstil", evStyle(e)!==UNK ? evStyle(e) : "", true),
+      fact("Adrässe", addrText(v), true)));
   const nUp=up[e.id]||0, nGo=go[e.id]||0, nDn=(S.cnt&&S.cnt.down[e.id])||0;
   const isUp=S.mine.up.includes(e.id), isGo=S.mine.go.includes(e.id), isDn=(S.mine.down||[]).includes(e.id);
   const b1 = el("button",{class:"act up",type:"button","aria-pressed":String(isUp),"aria-label":`Upvote, ${nUp} Stimmen`,onclick:()=>toggle("up",e.id)}); b1.innerHTML=ICON_UP; b1.append(String(nUp));
   const bD = el("button",{class:"act down",type:"button","aria-pressed":String(isDn),"aria-label":`Downvote, ${nDn} Stimmen`,onclick:()=>toggle("down",e.id)}); bD.innerHTML=ICON_DOWN; bD.append(String(nDn));
-  const b2 = el("button",{class:"act go",type:"button","aria-pressed":String(isGo),"aria-label":`Ich gehe hin, ${nGo} Zusagen`,onclick:()=>toggle("go",e.id)}); b2.innerHTML=ICON_GO; b2.append(isGo?`Ich bin dabei · ${nGo}`:`Ich gehe hin · ${nGo}`);
+  const b2 = el("button",{class:"act go",type:"button","aria-pressed":String(isGo),"aria-label":`Ych gang ane, ${nGo} Zuesage`,onclick:()=>toggle("go",e.id)}); b2.innerHTML=ICON_GO; b2.append(isGo?`Ych bi derby · ${nGo}`:`Ych gang ane · ${nGo}`);
   if (S.readOnly||!S.uid){ b1.disabled=bD.disabled=b2.disabled=true; }
-  body.append(el("section",{class:"vsec"}, el("h4",{},"Deine Stimme"), el("div",{class:"evacts"}, b1, bD, b2)));
+  body.append(el("section",{class:"vsec"}, el("h4",{},"Dyni Stimm"), el("div",{class:"evacts"}, b1, bD, b2)));
   const links = el("div",{class:"vlinks"});
-  if (e.url) links.append(el("a",{class:"btn primary",href:e.url,target:"_blank",rel:"noopener"},"Zur Event-Seite ↗"));
+  if (e.url) links.append(el("a",{class:"btn primary",href:e.url,target:"_blank",rel:"noopener"},"Zur Event-Syte ↗"));
   if (hasRoute(v)) links.append(el("a",{class:"btn",href:mapsLink(vkey(e.venue)||e.venue,v),target:"_blank",rel:"noopener"},"Route ↗"));
   if (vi.website && vi.website!==e.url) links.append(el("a",{class:"btn",href:vi.website,target:"_blank",rel:"noopener"},"Venue-Website ↗"));
   if (links.childNodes.length) body.append(links);
@@ -984,13 +984,13 @@ function renderSwipe(evs, up, go, main){
   const disliked = week.filter(e => (S.mine.down||[]).includes(e.id));
   const deck = week.filter(e => !S.mine.up.includes(e.id) && !(S.mine.down||[]).includes(e.id));
   const wrap = el("div",{class:"swipe"});
-  wrap.append(el("div",{class:"swhead"}, el("strong",{},"Die nächsten 7 Tage"), el("span",{}, `${week.length-deck.length}/${week.length} bewertet · ${liked.length} up, ${disliked.length} down`)));
-  if (!week.length){ wrap.append(el("p",{class:"empty"},"In den nächsten 7 Tagen ist nichts eingetragen.")); main.append(wrap); return; }
+  wrap.append(el("div",{class:"swhead"}, el("strong",{},"Die nächschte 7 Täg"), el("span",{}, `${week.length-deck.length}/${week.length} bewertet · ${liked.length} up, ${disliked.length} down`)));
+  if (!week.length){ wrap.append(el("p",{class:"empty"},"In de nächschte 7 Täg isch nyt yytrage.")); main.append(wrap); return; }
   if (!deck.length){
-    const done = el("div",{class:"swdone"}, el("div",{class:"card"}, el("h3",{},"Alles bewertet"), el("p",{}, liked.length ? "Deine Upvotes für die nächsten 7 Tage. Sag bei denen zu, wo du hingehst." : "Diesmal war nichts für dich dabei.")));
+    const done = el("div",{class:"swdone"}, el("div",{class:"card"}, el("h3",{},"Alles bewärtet"), el("p",{}, liked.length ? "Dyni Upvotes für die nächschte 7 Täg. Sag bi dene zue, wo du ane gohsch." : "Das Mol isch nyt für di derby gsi.")));
     if (liked.length){ const box=el("div",{class:"list"}); liked.forEach(e=>box.append(row(e,up,go,true))); done.append(box); }
     if (disliked.length) done.append(el("div",{class:"btns",style:"display:flex;gap:8px;flex-wrap:wrap"},
-      el("button",{class:"btn",type:"button",onclick:()=>{ const ids=new Set(disliked.map(e=>e.id)); S.mine={...S.mine, down:S.mine.down.filter(id=>!ids.has(id))}; toggle("down", disliked[0].id, false); }},`${disliked.length} Downvotes zurücknehmen und nochmal swipen`)));
+      el("button",{class:"btn",type:"button",onclick:()=>{ const ids=new Set(disliked.map(e=>e.id)); S.mine={...S.mine, down:S.mine.down.filter(id=>!ids.has(id))}; toggle("down", disliked[0].id, false); }},`${disliked.length} Downvotes zruggneh und nomol swipe`)));
     wrap.append(done); main.append(wrap); return;
   }
   const deckEl = el("div",{class:"deck"});
@@ -998,7 +998,7 @@ function renderSwipe(evs, up, go, main){
   const card = (e, top) => {
     const c = el("article",{class:"scard "+(top?"top":"behind"),"aria-label":`${clean(e.title)}, ${e.venue}`},
       onMap(vloc(e.venue)) ? mapThumb(e.venue,"card") : el("div",{class:"thumb card none"}, el("span",{},e.venue)),
-      el("div",{class:"sc-top"}, el("span",{class:"sc-day"}, fmtDay(e.date) + (rel(e.date)?` · ${rel(e.date)}`:"")), el("span",{class:"sc-time"}, e.time||"folgt")),
+      el("div",{class:"sc-top"}, el("span",{class:"sc-day"}, fmtDay(e.date) + (rel(e.date)?` · ${rel(e.date)}`:"")), el("span",{class:"sc-time"}, e.time||"kunnt no")),
       el("div",{class:"sc-body"}, el("span",{class:"tag",style:"justify-self:start"}, catGroup(e.category)), el("div",{class:"sc-title"}, clean(e.title)),
         el("div",{class:"sc-venue"}, e.venue), info(e) ? el("div",{class:"sc-desc"}, info(e)) : null, e.community ? el("span",{class:"badge",style:"justify-self:start;margin:0"},"Community") : null),
       el("div",{class:"sc-foot"}, el("button",{class:"btn",type:"button",style:"padding:4px 12px;font-size:13px",onclick:()=>openEvent(e.id)},"Details"), el("span",{class:"small"}, e.category||"")),
@@ -1009,7 +1009,7 @@ function renderSwipe(evs, up, go, main){
   const topEv = deck[0], topEl = card(topEv, true);
   deckEl.append(topEl);
   const decide = (dir) => {
-    if (S.readOnly||!S.uid){ toast("Zum Abstimmen musst du angemeldet sein."); return; }
+    if (S.readOnly||!S.uid){ toast("Zum Abstimme muesch aagmäldet sy."); return; }
     topEl.style.transition = "transform .3s ease, opacity .3s ease";
     topEl.style.transform = `translateX(${dir*140}%) rotate(${dir*24}deg)`; topEl.style.opacity = "0";
     setTimeout(() => {
@@ -1029,12 +1029,12 @@ function renderSwipe(evs, up, go, main){
   topEl.addEventListener("pointerup", endDrag); topEl.addEventListener("pointercancel", endDrag);
   wrap.append(deckEl);
   const isGo = S.mine.go.includes(topEv.id);
-  const goBtn = el("button",{class:"swbtn go",type:"button","aria-pressed":String(isGo),onclick:()=>{ const was = S.mine.go.includes(topEv.id); toggle("go", topEv.id); if(!was) toggle("up", topEv.id, true); }}, isGo ? "✓ Dabei" : "Ich gehe hin");
+  const goBtn = el("button",{class:"swbtn go",type:"button","aria-pressed":String(isGo),onclick:()=>{ const was = S.mine.go.includes(topEv.id); toggle("go", topEv.id); if(!was) toggle("up", topEv.id, true); }}, isGo ? "✓ Dabei" : "Ych gang ane");
   const bN = el("button",{class:"swbtn nope",type:"button","aria-label":"Downvote",title:"Downvote",onclick:()=>decide(-1)}); bN.innerHTML = ICON_DOWN;
   const bL = el("button",{class:"swbtn like",type:"button","aria-label":"Upvote",title:"Upvote",onclick:()=>decide(1)}); bL.innerHTML = ICON_UP;
   if (S.readOnly||!S.uid){ bL.disabled=true; bN.disabled=true; goBtn.disabled=true; }
   wrap.append(el("div",{class:"swbtns"}, bN, goBtn, bL));
-  wrap.append(el("p",{class:"swhint"},"Nach rechts wischen für Upvote, nach links für Downvote. Pfeiltasten gehen auch."));
+  wrap.append(el("p",{class:"swhint"},"Noch rächts wüsche für Upvote, noch links für Downvote. Pfyltaschte göhn au."));
   main.append(wrap);
   S.swipeKeys = (k) => { if (k==="ArrowRight") decide(1); if (k==="ArrowLeft") decide(-1); };
 }
@@ -1059,12 +1059,12 @@ function renderVenues(evs, main){
   const rows = Object.entries(T).sort((a,b)=> (b[1].up-b[1].down)-(a[1].up-a[1].down) || b[1].up-a[1].up || b[1].evs-a[1].evs || a[0].localeCompare(b[0],"de"));
   const sum = rows.reduce((a,[,x])=>({up:a.up+x.up, down:a.down+x.down}),{up:0,down:0});
   const wrap = el("section",{class:"vpage"});
-  wrap.append(el("div",{class:"vphead"}, el("h2",{},`${rows.length} Venues`), el("p",{class:"small"}, `${sum.up} Upvotes und ${sum.down} Downvotes insgesamt, auch auf vergangenen Events.`)));
-  const tbl = el("div",{class:"vtab",role:"table","aria-label":"Venues mit Stimmen"});
-  tbl.append(el("div",{class:"vrow vh",role:"row"}, el("span",{role:"columnheader"},"Venue"), el("span",{role:"columnheader",title:"Kommende Events"},"Events"), el("span",{role:"columnheader"},"Up"), el("span",{role:"columnheader"},"Down"), el("span",{role:"columnheader"},"Bilanz")));
+  wrap.append(el("div",{class:"vphead"}, el("h2",{},`${rows.length} Venues`), el("p",{class:"small"}, `${sum.up} Upvotes und ${sum.down} Downvotes insgesamt, au uf vergangene Events.`)));
+  const tbl = el("div",{class:"vtab",role:"table","aria-label":"Venues mit Stimme"});
+  tbl.append(el("div",{class:"vrow vh",role:"row"}, el("span",{role:"columnheader"},"Venue"), el("span",{role:"columnheader",title:"Kommendi Events"},"Events"), el("span",{role:"columnheader"},"Up"), el("span",{role:"columnheader"},"Down"), el("span",{role:"columnheader"},"Bilanz")));
   for (const [n,x] of rows){
     const net = x.up - x.down;
-    tbl.append(el("button",{class:"vrow",type:"button",role:"row",onclick:()=>openVenue(n),"aria-label":`${n}: ${x.evs} kommende Events, ${x.up} Upvotes, ${x.down} Downvotes`},
+    tbl.append(el("button",{class:"vrow",type:"button",role:"row",onclick:()=>openVenue(n),"aria-label":`${n}: ${x.evs} kommendi Events, ${x.up} Upvotes, ${x.down} Downvotes`},
       el("span",{class:"vn",role:"cell"}, n), el("span",{role:"cell"}, String(x.evs)), el("span",{class:"vu",role:"cell"}, String(x.up)), el("span",{class:"vd",role:"cell"}, String(x.down)),
       el("span",{class:"vb"+(net>0?" pos":net<0?" neg":""),role:"cell"}, (net>0?"+":"")+net)));
   }
@@ -1075,10 +1075,10 @@ function renderVenues(evs, main){
 function setSort(v){ S.sort=v; document.querySelectorAll("#menu .mi[data-sort]").forEach(x=>{ if (x.dataset.sort===v) x.setAttribute("aria-current","page"); else x.removeAttribute("aria-current"); }); closeMenu(); render(); window.scrollTo({top:0}); }
 
 function toast(msg){ const t=$("#toast"); t.textContent=msg; t.hidden=false; clearTimeout(toast.h); toast.h=setTimeout(()=>t.hidden=true,2400); }
-function readOnly(){ S.readOnly=true; $("#addBtn").hidden=true; $("#addVenueBtn").hidden=true; render(); toast("Du kannst hier nur lesen."); }
+function readOnly(){ S.readOnly=true; $("#addBtn").hidden=true; $("#addVenueBtn").hidden=true; render(); toast("Du kasch do nur läse."); }
 
 // Votes live in the shared database (votes/<your id>), so they persist across visits and devices.
-// Up and down exclude each other; a downvote also withdraws "Ich gehe hin", going implies an upvote is allowed.
+// Up and down exclude each other; a downvote also withdraws "Ych gang ane", going implies an upvote is allowed.
 function toggle(kind,id,force){
   if (S.readOnly||!S.uid) return;
   const m = {up:new Set(S.mine.up), down:new Set(S.mine.down), go:new Set(S.mine.go)};
@@ -1092,18 +1092,18 @@ function toggle(kind,id,force){
   S.votes[S.uid] = {...S.mine};
   render();
   const body = {...S.mine};
-  writing = writing.then(()=>S.db.doc("votes/"+S.uid).set(body)).catch(err=>{ if(err&&err.code==="invalid_argument") readOnly(); else toast("Konnte nicht speichern. Versuch es nochmal."); });
+  writing = writing.then(()=>S.db.doc("votes/"+S.uid).set(body)).catch(err=>{ if(err&&err.code==="invalid_argument") readOnly(); else toast("Het nit chönne spaichere. Probiers nomol."); });
 }
 
 async function removeSub(itemId){
   const mine = (S.subs[S.uid]?.items||[]).filter(i=>i.id!==itemId);
   S.subs[S.uid] = {items:mine}; render();
-  try { await S.db.doc("submissions/"+S.uid).set({items:mine}); toast("Entfernt"); } catch { toast("Konnte nicht entfernen."); }
+  try { await S.db.doc("submissions/"+S.uid).set({items:mine}); toast("Ewägg"); } catch { toast("Het nit chönne ewäggneh."); }
 }
 
 $("#addBtn").onclick = () => {
   closeMenu();
-  if (!S.db || !S.uid){ toast("Zum Eintragen musst du angemeldet sein."); return; }
+  if (!S.db || !S.uid){ toast("Zum Yytrage muesch aagmäldet sy."); return; }
   $("#ferr").textContent=""; $("#f-date").min = TODAY; $("#dlg").showModal(); };
 $("#cancel").onclick = () => $("#dlg").close();
 $("#vdlg").addEventListener("close", () => { if (M.mini){ M.mini.remove(); M.mini=null; } S.editVenue=false; });
@@ -1117,13 +1117,13 @@ $("#form").addEventListener("submit", async ev => {
     time:$("#f-time").value, category:$("#f-cat").value, url, source:"community" };
   const fEnd=$("#f-end").value, fPrice=$("#f-price").value.trim();
   if (fEnd) item.end=fEnd; if (fPrice) item.price=fPrice;
-  if (item.date < TODAY){ $("#ferr").textContent="Das Datum liegt in der Vergangenheit."; return; }
+  if (item.date < TODAY){ $("#ferr").textContent="Das Datum isch scho verbi."; return; }
   const dup = allEvents().find(o => isDup(o,item));
-  if (dup){ $("#ferr").textContent = `Gibt es schon: «${clean(dup.title)}» am ${dup.date.split("-").reverse().join(".")} im ${dup.venue}${dup.time?", "+dup.time:""}.`; return; }
+  if (dup){ $("#ferr").textContent = `Gits scho: «${clean(dup.title)}» am ${dup.date.split("-").reverse().join(".")} im ${dup.venue}${dup.time?", "+dup.time:""}.`; return; }
   const mine = [...(S.subs[S.uid]?.items||[]).filter(i=>i.date>=TODAY), item].slice(-40);
   try { await S.db.doc("submissions/"+S.uid).set({items:mine}); S.subs[S.uid]={items:mine};
-    $("#dlg").close(); $("#form").reset(); render(); toast("Event gespeichert"); }
-  catch(err){ $("#ferr").textContent = err&&err.code==="invalid_argument" ? "Du hast keine Berechtigung, Events einzutragen." : "Speichern hat nicht geklappt. Versuch es nochmal."; }
+    $("#dlg").close(); $("#form").reset(); render(); toast("Event gspaicheret"); }
+  catch(err){ $("#ferr").textContent = err&&err.code==="invalid_argument" ? "Du darfsch kai Events yytrage." : "Spaichere het nit klappt. Probiers nomol."; }
 });
 
 for (const b of document.querySelectorAll("#menu .mi[data-sort]")) b.onclick = () => setSort(b.dataset.sort);
@@ -1142,19 +1142,19 @@ function nextRunText(){ const d=new Date(); if (d.getMinutes()>=RUN_MIN) d.setHo
 function venueLabel(r){ return r.venue || r.name || hostOf(r.url); }
 function stepsFor(r){
   const st = r.status||"pending";
-  const steps = [["Eingereicht","done"],
-    [st==="pending" ? `Wartet auf den nächsten Durchlauf (ca. ${nextRunText()})` : "Seite geprüft", st==="pending" ? "now" : (st==="failed" && r.stage==="robots" ? "bad" : "done")],
-    [st==="processing" ? "Events werden ausgelesen" : "Events ausgelesen", st==="processing" ? "now" : (st==="done" ? "done" : (st==="failed" && r.stage!=="robots" ? "bad" : ""))],
-    [st==="done" ? `${r.imported||0} Events importiert` : st==="failed" ? "Fehlgeschlagen" : "Fertig", st==="done" ? "done" : st==="failed" ? "bad" : ""]];
+  const steps = [["Yygraicht","done"],
+    [st==="pending" ? `Wartet uf dr nächscht Durchlauf (ca. ${nextRunText()})` : "Syte prüeft", st==="pending" ? "now" : (st==="failed" && r.stage==="robots" ? "bad" : "done")],
+    [st==="processing" ? "Events wärde usgläse" : "Events usgläse", st==="processing" ? "now" : (st==="done" ? "done" : (st==="failed" && r.stage!=="robots" ? "bad" : ""))],
+    [st==="done" ? `${r.imported||0} Events importiert` : st==="failed" ? "Isch schiefgange" : "Fertig", st==="done" ? "done" : st==="failed" ? "bad" : ""]];
   return el("ol",{class:"steps"}, ...steps.map(([t,c],i)=>el("li",{class:c}, el("span",{class:"dot","aria-hidden":"true"}, c==="done"?"✓":c==="bad"?"!":c==="now"?"":String(i+1)), t)));
 }
 function resultText(r){
   if (r.status==="done"){
-    const parts = [`${r.imported||0} neue Events importiert`];
-    if (r.skipped) parts.push(`${r.skipped} Duplikate übersprungen`);
+    const parts = [`${r.imported||0} nöii Events importiert`];
+    if (r.skipped) parts.push(`${r.skipped} Duplikat übersprunge`);
     return parts.join(", ") + "." + (r.msg ? " "+r.msg : "");
   }
-  return r.msg || "Die Seite konnte nicht ausgelesen werden.";
+  return r.msg || "D Syte het nit chönne usgläse wärde.";
 }
 function renderProgress(){
   const box = $("#rprog"); const r = myReqs().find(x=>x.id===S.watch);
@@ -1164,21 +1164,21 @@ function renderProgress(){
   box.append(el("p",{class:"sub",style:"margin:0"}, clean(venueLabel(r)), el("br"), el("small",{},r.url)));
   if (busy) box.append(el("div",{class:"bar","aria-hidden":"true"},el("i")));
   box.append(stepsFor(r));
-  if (busy) box.append(el("p",{class:"sub",style:"font-size:13.5px"},"Das Auslesen läuft einmal pro Stunde. Du kannst das Fenster schliessen: Sobald es fertig ist, erscheint oben eine Meldung."));
+  if (busy) box.append(el("p",{class:"sub",style:"font-size:13.5px"},"S Usläse lauft aimol pro Stund. Du kasch s Fänschter zuemache: Sobald s fertig isch, kunnt obe e Mäldig."));
   else box.append(el("p",{class: r.status==="failed"?"err":"sub"}, resultText(r)));
   const acts = el("div",{class:"formacts"});
-  if (r.status==="done" && r.venue) acts.append(el("button",{class:"btn",type:"button",onclick:()=>{ $("#rdlg").close(); markSeen(r.id); openVenue(r.venue); }},"Venue ansehen"));
-  acts.append(el("button",{class:"btn",type:"button",onclick:()=>{ S.watch=null; $("#rform").reset(); $("#rerr").textContent=""; renderProgress(); }},"Weitere Venue"));
-  acts.append(el("button",{class:"btn primary",type:"button",onclick:()=>$("#rdlg").close()}, busy?"Schliessen":"OK"));
+  if (r.status==="done" && r.venue) acts.append(el("button",{class:"btn",type:"button",onclick:()=>{ $("#rdlg").close(); markSeen(r.id); openVenue(r.venue); }},"Venue aaluege"));
+  acts.append(el("button",{class:"btn",type:"button",onclick:()=>{ S.watch=null; $("#rform").reset(); $("#rerr").textContent=""; renderProgress(); }},"No e Venue"));
+  acts.append(el("button",{class:"btn primary",type:"button",onclick:()=>$("#rdlg").close()}, busy?"Zuemache":"OK"));
   box.append(acts);
 }
 function renderReqList(){
   const box=$("#rlist"); box.replaceChildren();
   const items = myReqs().slice().reverse().filter(r=>r.id!==S.watch).slice(0,6);
   if (!items.length) return;
-  box.append(el("div",{class:"rq"}, el("h4",{},"Deine Anfragen"), ...items.map(r=>{
+  box.append(el("div",{class:"rq"}, el("h4",{},"Dyni Aafroge"), ...items.map(r=>{
     const st=r.status||"pending";
-    const label = st==="done" ? `${r.imported||0} importiert` : st==="failed" ? "fehlgeschlagen" : st==="processing" ? "läuft" : "wartet";
+    const label = st==="done" ? `${r.imported||0} importiert` : st==="failed" ? "fehlgeschlagen" : st==="processing" ? "lauft" : "wartet";
     return el("div",{class:"rqi"}, el("span",{}, clean(venueLabel(r))), el("button",{class:"pill"+(st==="failed"?" fail":""),type:"button",style:"cursor:pointer",onclick:()=>{ S.watch=r.id; renderProgress(); renderReqList(); }},label));
   })));
 }
@@ -1189,23 +1189,23 @@ function renderNotes(){
     if ((st==="done"||st==="failed") && !r.seen){
       const ok = st==="done";
       const acts = el("div",{class:"nacts"});
-      if (ok && r.venue) acts.append(el("button",{class:"btn primary",type:"button",onclick:()=>{ markSeen(r.id); openVenue(r.venue); }},"Venue ansehen"));
-      if (!ok) acts.append(el("button",{class:"btn",type:"button",onclick:()=>{ markSeen(r.id); openReq(); }},"Andere Seite versuchen"));
+      if (ok && r.venue) acts.append(el("button",{class:"btn primary",type:"button",onclick:()=>{ markSeen(r.id); openVenue(r.venue); }},"Venue aaluege"));
+      if (!ok) acts.append(el("button",{class:"btn",type:"button",onclick:()=>{ markSeen(r.id); openReq(); }},"Anderi Syte probiere"));
       box.append(el("div",{class:"notice"+(ok?(r.imported?"":" wait"):" fail"),role:"status"},
-        el("div",{class:"nb"}, el("b",{}, ok ? (r.imported ? `${clean(venueLabel(r))}: ${r.imported} Events importiert` : `${clean(venueLabel(r))}: keine neuen Events`) : `${clean(venueLabel(r))}: Import fehlgeschlagen`),
+        el("div",{class:"nb"}, el("b",{}, ok ? (r.imported ? `${clean(venueLabel(r))}: ${r.imported} Events importiert` : `${clean(venueLabel(r))}: kai nöii Events`) : `${clean(venueLabel(r))}: Import isch schiefgange`),
           el("p",{}, resultText(r)), acts.childNodes.length?acts:null),
-        el("button",{class:"x",type:"button","aria-label":"Meldung schliessen",onclick:()=>markSeen(r.id)},"×")));
+        el("button",{class:"x",type:"button","aria-label":"Mäldig zuemache",onclick:()=>markSeen(r.id)},"×")));
     } else if (st==="pending"||st==="processing"){
       box.append(el("div",{class:"notice wait",role:"status"},
-        el("div",{class:"nb"}, el("b",{}, `${clean(venueLabel(r))}: ${st==="processing"?"wird ausgelesen":"in der Warteschlange"}`),
-          el("p",{}, `Nächster Durchlauf ca. ${nextRunText()}.`), el("div",{class:"bar","aria-hidden":"true"},el("i")))));
+        el("div",{class:"nb"}, el("b",{}, `${clean(venueLabel(r))}: ${st==="processing"?"wird usgläse":"in dr Warteschlange"}`),
+          el("p",{}, `Nächschte Durchlauf ca. ${nextRunText()}.`), el("div",{class:"bar","aria-hidden":"true"},el("i")))));
     }
   }
 }
 function renderReqs(){
   // Toast once when a request finishes while the page is open.
   S.prevSt = S.prevSt || {};
-  for (const r of myReqs()){ const was=S.prevSt[r.id]; if (was && was!==r.status && (r.status==="done"||r.status==="failed")) toast(r.status==="done" ? `${venueLabel(r)}: ${r.imported||0} Events importiert` : `${venueLabel(r)}: Import fehlgeschlagen`); S.prevSt[r.id]=r.status; }
+  for (const r of myReqs()){ const was=S.prevSt[r.id]; if (was && was!==r.status && (r.status==="done"||r.status==="failed")) toast(r.status==="done" ? `${venueLabel(r)}: ${r.imported||0} Events importiert` : `${venueLabel(r)}: Import isch schiefgange`); S.prevSt[r.id]=r.status; }
   renderNotes(); if ($("#rdlg").open){ renderProgress(); renderReqList(); }
 }
 async function saveReqs(items){
@@ -1220,7 +1220,7 @@ async function markSeen(id){
 }
 function openReq(){
   closeMenu();
-  if (!S.db || !S.uid){ toast("Zum Eintragen musst du angemeldet sein."); return; }
+  if (!S.db || !S.uid){ toast("Zum Yytrage muesch aagmäldet sy."); return; }
   S.watch=null; $("#rerr").textContent=""; renderProgress(); renderReqList(); $("#rdlg").showModal();
 }
 $("#addVenueBtn").onclick = openReq;
@@ -1231,25 +1231,25 @@ $("#rform").addEventListener("submit", async ev => {
   const err = m => { $("#rerr").textContent = m; };
   let url = $("#r-url").value.trim(); const name = $("#r-name").value.trim(), addr = $("#r-addr").value.trim();
   if (!/^https?:\/\//i.test(url)) url = "https://"+url;
-  let u; try { u = new URL(url); } catch { return err("Das ist kein gültiger Link."); }
+  let u; try { u = new URL(url); } catch { return err("Das isch kai gültige Link."); }
   if (u.protocol!=="https:") return err("Der Link muss mit https:// beginnen.");
   const host = hostOf(url), nu = normUrl(url);
-  if (/(^|\.)(instagram|facebook|tiktok|x|twitter)\.com$/.test(host)) return err("Social-Media-Seiten können wir nicht auslesen. Trag Events von dort über «Event hinzufügen» ein.");
-  if (CRAWLED[host]) return err(`${CRAWLED[host]} lesen wir schon jeden Tag aus.`);
+  if (/(^|\.)(instagram|facebook|tiktok|x|twitter)\.com$/.test(host)) return err("Social-Media-Syte chönne mir nit usläse. Trag Events vo dört über «Event dezuefiege» y.");
+  if (CRAWLED[host]) return err(`${CRAWLED[host]} läse mir scho jede Tag us.`);
   const known = Object.values(S.venueInfo).find(v => v.website && (hostOf(v.website)===host) && v.crawl);
-  if (known) return err(`${known.name} ist schon dabei und wird täglich ausgelesen.`);
-  if (name){ const k = Object.keys(VENUES).find(n => sameVenue(n,name)); if (k && Object.values(S.venueInfo).some(v=>v.name===k && v.crawl)) return err(`${k} ist schon dabei.`); }
+  if (known) return err(`${known.name} isch scho derby und wird jede Tag usgläse.`);
+  if (name){ const k = Object.keys(VENUES).find(n => sameVenue(n,name)); if (k && Object.values(S.venueInfo).some(v=>v.name===k && v.crawl)) return err(`${k} isch scho derby.`); }
   for (const [uid,doc] of Object.entries(S.reqs)) for (const r of (doc.items||[])){
     if (normUrl(r.url)!==nu && hostOf(r.url)!==host) continue;
-    if (r.status==="pending"||r.status==="processing"){ if (uid===S.uid){ S.watch=r.id; renderProgress(); renderReqList(); return; } return err("Diese Seite wurde schon eingereicht und wird gerade bearbeitet."); }
-    if (r.status==="done") return err(`Diese Seite ist schon dabei${r.venue?" ("+r.venue+")":""}.`);
+    if (r.status==="pending"||r.status==="processing"){ if (uid===S.uid){ S.watch=r.id; renderProgress(); renderReqList(); return; } return err("Die Syte isch scho yygraicht und wird grad bearbaitet."); }
+    if (r.status==="done") return err(`Die Syte isch scho derby${r.venue?" ("+r.venue+")":""}.`);
   }
   const item = {id: Date.now().toString(36)+Math.random().toString(36).slice(2,6), url, name, addr, status:"pending", createdAt: Date.now(), seen:false};
-  const btn = ev.submitter || $("#rform button[type=submit]"); btn.disabled = true; btn.textContent = "Wird gesendet …";
+  const btn = ev.submitter || $("#rform button[type=submit]"); btn.disabled = true; btn.textContent = "Wird gschickt …";
   const prev = S.reqs[S.uid];
   try { await saveReqs([...myReqs(), item]); S.watch = item.id; renderReqs(); renderProgress(); renderReqList(); }
-  catch(e){ S.reqs[S.uid] = prev; err(e&&e.code==="invalid_argument" ? "Du hast keine Berechtigung, Venues einzureichen." : "Senden hat nicht geklappt. Versuch es nochmal."); }
-  finally { btn.disabled=false; btn.textContent="Einreichen"; }
+  catch(e){ S.reqs[S.uid] = prev; err(e&&e.code==="invalid_argument" ? "Du darfsch kai Venues yyraiche." : "Schicke het nit klappt. Probiers nomol."); }
+  finally { btn.disabled=false; btn.textContent="Yyraiche"; }
 });
 
 (async () => {
