@@ -377,6 +377,15 @@
 "venue": "Nebel",
 "style": "house, techhouse"
 },
+"2026-10-09-saali-golden-bling-bling-sing-sing-free-karaoke-on-st": {
+"title": "Bling Bling Sing Sing, Free-Karaoke on Stage",
+"venue": "Sääli (Goldenes Fass)",
+"date": "2026-10-09",
+"source": "crawler",
+"time": "22:00",
+"url": "https://www.goldenes-fass.ch/saali/",
+"category": "Anderes"
+},
 "2026-10-09-zazaa-social-tray-el-q": {
 "category": "Party / Hip-Hop",
 "date": "2026-10-09",
@@ -438,6 +447,15 @@
 "venue": "Heimat",
 "style": "edm, pop"
 },
+"2026-10-09-kinker-rvnz-project-kinker-09-10-26-3-years-tot": {
+"title": "RVNZ.project Kinker 09.10.26 3 Years TOTB",
+"venue": "Kinker",
+"date": "2026-10-09",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7440493199993395185",
+"category": "Club / Techno"
+},
 "2026-10-09-neues-kino-luststreifen-kurzfilme-2300": {
 "category": "Film / Festival",
 "date": "2026-10-09",
@@ -475,6 +493,15 @@
 "url": "https://denkmal.org/de/basel/2026-10-09",
 "venue": "Renée",
 "style": "Afro, Disco, Footwork, Garage Rock"
+},
+"2026-10-10-lora-coffee-rave-lora-basel": {
+"title": "COFFEE RAVE - LORA BASEL",
+"venue": "Lora",
+"date": "2026-10-10",
+"source": "crawler",
+"time": "11:00",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/coffee-rave-lora-basel-basel-7500173098005568750.html",
+"category": "Party"
 },
 "2026-10-10-roter-korsar-shibari-workshop-intermediate": {
 "category": "Workshop / Festival",
@@ -706,6 +733,15 @@
 "url": "https://denkmal.org/de/basel/2026-10-10",
 "venue": "Heimat",
 "style": "amapiano, afrobeat"
+},
+"2026-10-10-kinker-axis-divine": {
+"title": "Axis Divine",
+"venue": "Kinker",
+"date": "2026-10-10",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7508598042888546076",
+"category": "Club / Techno"
 },
 "2026-10-10-nest-apres-soleil-vuur-x-bawa-avio-leo-rustem": {
 "category": "Club / House",
@@ -1198,6 +1234,15 @@
 "venue": "Kaschemme",
 "end": "06:00"
 },
+"2026-10-23-kinker-freitag-nacht": {
+"title": "Freitag Nacht",
+"venue": "Kinker",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7510286300202710860",
+"category": "Club / Techno"
+},
 "2026-10-23-nordstern-cultura40-somewhen": {
 "category": "Club / Elektronisch",
 "date": "2026-10-23",
@@ -1247,6 +1292,15 @@
 "url": "https://grenzwert.ch/programm/",
 "venue": "Grenzwert",
 "style": "Disco"
+},
+"2026-10-24-kinker-eskaliert-e": {
+"title": "Eskaliert E",
+"venue": "Kinker",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "22:00",
+"url": "https://www.kinker.ch/events/7503502501775160582",
+"category": "Club / Techno"
 },
 "2026-10-24-das-viertel-30-30": {
 "title": "30 / 30",
@@ -1449,6 +1503,15 @@
 "style": "Techno, Minimal",
 "price": "Presale CHF 10 / Door CHF 15"
 },
+"2026-10-30-elysia-elysia-freitag-30-oktober": {
+"title": "Elysia Freitag 30. Oktober",
+"venue": "Elysia",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "22:00",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/elysia-freitag-30-oktober-muenchenstein-7510319547469023588.html",
+"category": "Party"
+},
 "2026-10-30-grenzwert-psych-jones-being-boiled": {
 "category": "Club / Disco bis Goth",
 "date": "2026-10-30",
@@ -1529,6 +1592,15 @@
 "url": "https://sommercasino.ch/events/save-the-date-femme-rebellion/",
 "venue": "Sommercasino",
 "doors": "20:00"
+},
+"2026-10-31-elysia-elysia-samstag-31-oktober": {
+"title": "Elysia Samstag 31. Oktober",
+"venue": "Elysia",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "21:00",
+"url": "https://eventfrog.ch/de/p/partys/trance-ambient/elysia-samstag-31-oktober-muenchenstein-7510322692978949538.html",
+"category": "Party"
 },
 "2026-10-31-basso-herzschwester-invites-borns-herzschweste": {
 "category": "Club / Techno & House",
@@ -2185,6 +2257,16 @@
 "category": "Konzert / Klassik",
 "doors": "19:30"
 },
+"2026-12-03-stadtcasino--blind-symphony-ein-kammermusikerlebnis-i": {
+"title": "Blind Symphony Ein Kammermusikerlebnis in völliger Dunkelheit Bach, Pärt, Glass, Richter & Einaudi im Dunkeln",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-03",
+"source": "crawler",
+"time": "19:30",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/blind-symphony/",
+"category": "Konzert / Klassik",
+"doors": "18:30"
+},
 "2026-12-04-sommercasino-berenice-ep-release-show": {
 "category": "Konzert / Folk-Pop",
 "date": "2026-12-04",
@@ -2334,6 +2416,15 @@
 "category": "Konzert / Klassik",
 "doors": "18:30"
 },
+"2026-12-11-kinker-rvnz-project-kinker-11-12-26-16": {
+"title": "RVNZ.project Kinker 11.12.26 16+",
+"venue": "Kinker",
+"date": "2026-12-11",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7440495526624134502",
+"category": "Club / Techno"
+},
 "2026-12-11-nordstern-azyr": {
 "title": "Azyr",
 "venue": "Nordstern",
@@ -2466,59 +2557,15 @@
 "category": "Konzert",
 "doors": "10:00"
 },
-"2026-10-30-elysia-elysia-freitag-30-oktober": {
-"title": "Elysia Freitag 30. Oktober",
-"venue": "Elysia",
-"date": "2026-10-30",
+"2026-12-28-stadtcasino--die-grosse-giuseppe-verdi-gala-die-schon": {
+"title": "Die grosse Giuseppe Verdi Gala Die schönsten Szenen der grossen Verdi Opern",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-28",
 "source": "crawler",
-"time": "22:00",
-"url": "https://eventfrog.ch/de/p/partys/house-techno/elysia-freitag-30-oktober-muenchenstein-7510319547469023588.html",
-"category": "Party"
-},
-"2026-10-09-kinker-rvnz-project-kinker-09-10-26-3-years-tot": {
-"title": "RVNZ.project Kinker 09.10.26 3 Years TOTB",
-"venue": "Kinker",
-"date": "2026-10-09",
-"source": "crawler",
-"time": "23:00",
-"url": "https://www.kinker.ch/events/7440493199993395185",
-"category": "Club / Techno"
-},
-"2026-10-10-kinker-axis-divine": {
-"title": "Axis Divine",
-"venue": "Kinker",
-"date": "2026-10-10",
-"source": "crawler",
-"time": "23:00",
-"url": "https://www.kinker.ch/events/7508598042888546076",
-"category": "Club / Techno"
-},
-"2026-10-23-kinker-freitag-nacht": {
-"title": "Freitag Nacht",
-"venue": "Kinker",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "23:00",
-"url": "https://www.kinker.ch/events/7510286300202710860",
-"category": "Club / Techno"
-},
-"2026-10-24-kinker-eskaliert-e": {
-"title": "Eskaliert E",
-"venue": "Kinker",
-"date": "2026-10-24",
-"source": "crawler",
-"time": "22:00",
-"url": "https://www.kinker.ch/events/7503502501775160582",
-"category": "Club / Techno"
-},
-"2026-12-11-kinker-rvnz-project-kinker-11-12-26-16": {
-"title": "RVNZ.project Kinker 11.12.26 16+",
-"venue": "Kinker",
-"date": "2026-12-11",
-"source": "crawler",
-"time": "23:00",
-"url": "https://www.kinker.ch/events/7440495526624134502",
-"category": "Club / Techno"
+"time": "19:30",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/28122026_verdi_gala/",
+"category": "Konzert",
+"doors": "18:30"
 },
 "2026-12-31-kinker-kinker-newyearseve": {
 "title": "KINKER NewYearsEve",

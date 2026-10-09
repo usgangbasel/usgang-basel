@@ -1,16 +1,16 @@
 {
- "date": "2026-10-08",
+ "date": "2026-10-09",
  "stats": {
-  "added": 2,
+  "added": 5,
   "filled": 0,
-  "dups": 263,
+  "dups": 246,
   "removed": 0,
-  "blocked": 3
+  "blocked": 9
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 56,
+   "found": 46,
    "status": "ok"
   },
   {
@@ -20,7 +20,7 @@
   },
   {
    "source": "renee",
-   "found": 12,
+   "found": 11,
    "status": "ok"
   },
   {
@@ -35,18 +35,18 @@
   },
   {
    "source": "kaschemme",
-   "found": 10,
+   "found": 9,
    "status": "ok"
   },
   {
    "source": "stadtcasino",
-   "found": 67,
+   "found": 69,
    "status": "ok",
-   "detail_pages": 0
+   "detail_pages": 2
   },
   {
    "source": "viertel",
-   "found": 18,
+   "found": 17,
    "status": "ok"
   },
   {
@@ -66,8 +66,18 @@
    "detail_pages": 1
   },
   {
+   "source": "elysia",
+   "found": 2,
+   "status": "ok"
+  },
+  {
+   "source": "kinker",
+   "found": 0,
+   "status": "ok"
+  },
+  {
    "source": "saali",
-   "found": 3,
+   "found": 4,
    "status": "ok"
   },
   {
@@ -86,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 253
+ "total_events": 258
 }
