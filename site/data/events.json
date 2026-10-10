@@ -1,13 +1,4 @@
 {
-"2026-10-07-b-movie-ghost-in-the-shell": {
-"title": "Ghost in the Shell",
-"venue": "B-Movie",
-"date": "2026-10-07",
-"source": "crawler",
-"time": "20:30",
-"url": "https://eventfrog.ch/de/p/kino/kino/ghost-in-the-shell-basel-7506115233343105916.html",
-"category": "Film"
-},
 "2026-10-08-milas-bistro-golden-afternoon-musik-tanz-apero-fur-al": {
 "title": "Golden Afternoon – Musik, Tanz & Apéro für alle ab 60",
 "venue": "Mila’s Bistro",
@@ -531,6 +522,24 @@
 "url": "https://www.advance-ticket.ch/omniticket/stadtkino/46955",
 "venue": "neues kino"
 },
+"2026-10-10-foyer-public-zwischen-zwei-ufern": {
+"title": "Zwischen Zwei Ufern",
+"venue": "Foyer Public",
+"date": "2026-10-10",
+"source": "crawler",
+"time": "16:00",
+"url": "https://eventfrog.ch/de/p/konzerte/latin/zwischen-zwei-ufern-basel-7498380453272934552.html",
+"category": "Konzert"
+},
+"2026-10-10-the-beast-ba-beastie-boys-english-comedy-with-albert-": {
+"title": "Beastie Boys - English Comedy with Albert and Teddy",
+"venue": "The Beast Basel Comedy Club",
+"date": "2026-10-10",
+"source": "crawler",
+"time": "19:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/beastie-boys-english-comedy-with-albert-and-teddy-basel-7511404681068853471.html",
+"category": "Bühne / Comedy"
+},
 "2026-10-10-stadtcasino--armoniosa-la-serenissima-reise-nach-vene": {
 "category": "Konzert / Klassik",
 "date": "2026-10-10",
@@ -571,6 +580,16 @@
 "venue": "Pflanzebroggi",
 "style": "pop"
 },
+"2026-10-10-quartierzent-lairband": {
+"title": "L’airband",
+"venue": "Quartierzentrum Union",
+"date": "2026-10-10",
+"source": "crawler",
+"time": "20:00",
+"style": "singer-songwriter",
+"url": "https://denkmal.org/de/basel/2026-10-10/6a63ffaf-07f2-44d3-91e5-7378b29a8e46",
+"category": "Konzert / Singer-songwriter"
+},
 "2026-10-10-schall-und-r-the-old-man-and-the-rhum-meets-boundless": {
 "category": "Party / Reggae & Dancehall",
 "date": "2026-10-10",
@@ -580,6 +599,24 @@
 "url": "https://denkmal.org/de/basel/2026-10-10",
 "venue": "Schall und Rauch",
 "style": "reggae, dancehall"
+},
+"2026-10-10-theater-base-francesco-tristano-bach-beyond": {
+"title": "Francesco Tristano – Bach & Beyond",
+"venue": "Theater Basel - Grosse Bühne",
+"date": "2026-10-10",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/francesco-tristano-bach-beyond-basel-7510661591454507928.html",
+"category": "Konzert"
+},
+"2026-10-10-theater-faut-frolein-da-capo-halbzeit-show": {
+"title": "Frölein Da Capo - Halbzeit Show",
+"venue": "Theater Fauteuil",
+"date": "2026-10-10",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/froelein-da-capo-halbzeit-show-basel-7449460540571667476.html",
+"category": "Bühne / Comedy"
 },
 "2026-10-10-vallhalla-naxen": {
 "title": "Naxen",
@@ -641,6 +678,15 @@
 "venue": "Zazaa Social Club",
 "end": "04:00",
 "style": "house"
+},
+"2026-10-10-bar-rouge-italia-fatal-la-notte-italiana": {
+"title": "ITALIA FATAL – LA NOTTE ITALIANA",
+"venue": "Bar Rouge",
+"date": "2026-10-10",
+"source": "crawler",
+"time": "22:00",
+"url": "https://eventfrog.ch/de/p/partys/charts-open-format/italia-fatal-la-notte-italiana-basel-7499104740338324550.html",
+"category": "Party"
 },
 "2026-10-10-basso-sabura-jay-phonic-kent-kaina-tio-mau-mau": {
 "category": "Club / Tech House",
@@ -2566,6 +2612,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/28122026_verdi_gala/",
 "category": "Konzert",
 "doors": "18:30"
+},
+"2026-12-29-stadtcasino--wiener-johann-strauss-konzert-gala-werke": {
+"title": "Wiener Johann Strauss Konzert-Gala Werke der Strauss-Dynastie",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-29",
+"source": "crawler",
+"time": "20:00",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/29122026_wiener_johann_strauss/",
+"category": "Konzert",
+"doors": "19:00"
 },
 "2026-12-31-kinker-kinker-newyearseve": {
 "title": "KINKER NewYearsEve",
