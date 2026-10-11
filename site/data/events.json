@@ -1,135 +1,4 @@
 {
-"2026-10-08-milas-bistro-golden-afternoon-musik-tanz-apero-fur-al": {
-"title": "Golden Afternoon – Musik, Tanz & Apéro für alle ab 60",
-"venue": "Mila’s Bistro",
-"date": "2026-10-08",
-"source": "crawler",
-"time": "14:30",
-"url": "https://eventfrog.ch/de/p/partys/sonstige-partys/golden-afternoon-musik-tanz-apero-fuer-alle-ab-60-basel-7512570724696996554.html",
-"category": "Party"
-},
-"2026-10-08-kaschemme-uptown-dj-lab": {
-"category": "Workshop / Freier Eintritt",
-"date": "2026-10-08",
-"source": "crawler",
-"time": "18:00",
-"title": "Uptown DJ-Lab",
-"url": "https://www.kaschemme.ch/programm/260908/lab",
-"venue": "Kaschemme",
-"end": "22:00",
-"style": "electronic",
-"price": "frei"
-},
-"2026-10-08-zazaa-social-roque-le-char": {
-"category": "Party / Disco",
-"date": "2026-10-08",
-"source": "crawler",
-"time": "18:00",
-"title": "Roque le Char",
-"url": "https://denkmal.org/de/basel/2026-10-08",
-"venue": "Zazaa Social Club",
-"end": "00:00",
-"style": "leftfield, 80s, disco"
-},
-"2026-10-08-8-bar-miguel-montalban-the-southern-vultures": {
-"category": "Konzert / Blues & Rock'n'Roll",
-"date": "2026-10-08",
-"source": "crawler",
-"time": "20:00",
-"title": "Miguel Montalban & The Southern Vultures",
-"url": "https://denkmal.org/de/basel/2026-10-08",
-"venue": "8 Bar",
-"style": "blues, rock'n'roll"
-},
-"2026-10-08-kulturhuus-h-irish-music-session-basel": {
-"category": "Konzert / Folk",
-"date": "2026-10-08",
-"source": "crawler",
-"time": "20:00",
-"title": "Irish Music Session Basel",
-"url": "https://denkmal.org/de/basel/2026-10-08",
-"venue": "Kulturhuus Häbse",
-"style": "irish folk"
-},
-"2026-10-08-stadtkino-ba-luststreifen-opening-night": {
-"category": "Film / Festival",
-"date": "2026-10-08",
-"source": "manual",
-"time": "20:00",
-"title": "Lust*streifen: Opening Night",
-"url": "https://www.luststreifen.com/en/program/opening-night",
-"venue": "Stadtkino Basel"
-},
-"2026-10-08-sud-leo-middea-mari-cavalcanti": {
-"title": "Leo Middea, Mari Cavalcanti",
-"venue": "Sud",
-"date": "2026-10-08",
-"source": "crawler",
-"time": "20:00",
-"style": "brasil, singer-songwriter",
-"url": "https://denkmal.org/de/basel/2026-10-08/be923717-cf6f-4757-9894-12dad682b23f",
-"category": "Konzert / Brasil"
-},
-"2026-10-08-theater-faut-gabriano-2m10": {
-"title": "Gabriano - 2m10",
-"venue": "Theater Fauteuil",
-"date": "2026-10-08",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/gabriano-2m10-basel-7463245737632996736.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-08-atlantis-youngstage-leo-billen-back-to-the-top": {
-"category": "Konzert / Pop",
-"date": "2026-10-08",
-"source": "crawler",
-"time": "20:30",
-"title": "Youngstage: Leo Billen & Back to the Top",
-"url": "https://denkmal.org/de/basel/2026-10-08",
-"venue": "Atlantis",
-"style": "pop"
-},
-"2026-10-08-stadtkino-ba-luststreifen-dreamboi": {
-"category": "Film / Festival",
-"date": "2026-10-08",
-"source": "manual",
-"time": "20:30",
-"title": "Lust*streifen: Dreamboi",
-"url": "https://www.luststreifen.com/en/program/dreamboi",
-"venue": "Stadtkino Basel"
-},
-"2026-10-08-schall-und-r-jazznights": {
-"category": "Konzert / Jazz",
-"date": "2026-10-08",
-"source": "crawler",
-"time": "21:00",
-"title": "Jazznights",
-"url": "https://denkmal.org/de/basel/2026-10-08",
-"venue": "Schall und Rauch",
-"style": "jazz"
-},
-"2026-10-08-das-viertel-studentenfutter-xxl": {
-"category": "Party / Charts",
-"date": "2026-10-08",
-"source": "crawler",
-"time": "23:00",
-"title": "Studentenfutter XXL",
-"url": "https://www.dasviertel.ch/programmklub",
-"venue": "Das Viertel",
-"style": "open format, 2000, pop, 90s, charts",
-"price": "frei",
-"end": "04:00"
-},
-"2026-10-08-renee-gerrit-joscha-baumert": {
-"category": "Club / Italo & Disco",
-"date": "2026-10-08",
-"source": "crawler",
-"time": "23:00",
-"title": "Gerrit & Joscha Baumert",
-"url": "https://denkmal.org/de/basel/2026-10-08",
-"venue": "Renée",
-"style": "Funk, Disco & Italo"
-},
 "2026-10-09-roter-korsar-queer-treasure-hunt": {
 "category": "Workshop / Festival",
 "date": "2026-10-09",
@@ -809,6 +678,24 @@
 "venue": "Renée",
 "style": "Downtempo, Minimal Darkwave, Synth Pop, Italo Disco"
 },
+"2026-10-11-acqua-good-morning-club-october-edition": {
+"title": "Good Morning Club - October Edition",
+"venue": "Acqua",
+"date": "2026-10-11",
+"source": "crawler",
+"time": "11:00",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/good-morning-club-october-edition-basel-7504978595585993589.html",
+"category": "Party"
+},
+"2026-10-11-saal1-kuchli-drishyam-the-conclusion-basel-saal1": {
+"title": "DRISHYAM: THE CONCLUSION - BASEL SAAL1",
+"venue": "Saal1 Küchlin",
+"date": "2026-10-11",
+"source": "crawler",
+"time": "14:00",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/drishyam-the-conclusion-basel-saal1-basel-7513532198378601177.html",
+"category": "Bühne"
+},
 "2026-10-11-stadtkino-ba-luststreifen-kurzfilme-1600": {
 "category": "Film / Festival",
 "date": "2026-10-11",
@@ -817,6 +704,15 @@
 "title": "Lust*streifen: Kurzfilme",
 "url": "https://www.advance-ticket.ch/omniticket/stadtkino/37189",
 "venue": "Stadtkino Basel"
+},
+"2026-10-11-karthauserki-zwischen-zwei-ufern": {
+"title": "Zwischen Zwei Ufern",
+"venue": "Karthäuserkirche",
+"date": "2026-10-11",
+"source": "crawler",
+"time": "17:00",
+"url": "https://eventfrog.ch/de/p/konzerte/latin/zwischen-zwei-ufern-basel-7498382932127517164.html",
+"category": "Konzert"
 },
 "2026-10-11-kulturraum-d-susana-ratcliff-entre-rios": {
 "category": "Konzert / Tango",
@@ -839,6 +735,15 @@
 "end": "23:00",
 "style": "salsa"
 },
+"2026-10-11-basler-munst-orgelkonzert-bach-italien-im-basler-muns": {
+"title": "Orgelkonzert BACH & Italien im Basler Münster",
+"venue": "Basler Münster",
+"date": "2026-10-11",
+"source": "crawler",
+"time": "18:00",
+"url": "https://eventfrog.ch/de/p/konzerte/kirchenmusik/orgelkonzert-bach-italien-im-basler-muenster-basel-7512796925415945503.html",
+"category": "Konzert"
+},
 "2026-10-11-stadtkino-ba-luststreifen-spielfilm-1800": {
 "category": "Film / Festival",
 "date": "2026-10-11",
@@ -847,6 +752,25 @@
 "title": "Lust*streifen: Spielfilm",
 "url": "https://www.advance-ticket.ch/omniticket/stadtkino/50866",
 "venue": "Stadtkino Basel"
+},
+"2026-10-11-klara-basel-stand-up-comedy-free-entry": {
+"title": "Stand-up comedy, free entry!",
+"venue": "Klara Basel",
+"date": "2026-10-11",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/stand-up-comedy-free-entry-basel-7487900523850390473.html",
+"category": "Bühne / Comedy"
+},
+"2026-10-12-grenzwert-murder-monday": {
+"title": "Murder Monday",
+"venue": "Grenzwert",
+"date": "2026-10-12",
+"source": "crawler",
+"time": "20:00",
+"style": "Stand-up Comedy (English) · Eintritt frei",
+"url": "https://grenzwert.ch/programm/",
+"category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
 },
 "2026-10-13-stadtcasino--poschner-probiert-sinfonieorchester-base": {
 "title": "Poschner probiert Sinfonieorchester Basel",
@@ -1881,6 +1805,15 @@
 "venue": "Kaschemme",
 "end": "23:30"
 },
+"2026-11-07-kinker-kinker-x-fetish-by-caroline": {
+"title": "KINKER X FETISH by Caroline",
+"venue": "Kinker",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "21:00",
+"url": "https://www.kinker.ch/events/7513973233323912952",
+"category": "Club / Techno"
+},
 "2026-11-07-sommercasino-wake-the-town-live-soundsystem-showcase": {
 "category": "Konzert / Dub & Reggae",
 "date": "2026-11-07",
@@ -2042,6 +1975,15 @@
 "style": "Techhouse / Melodic Techno",
 "url": "https://ticketing.dasviertel.ch/event/sicnov-w-pavel-petrov-oxyp5m",
 "category": "Club / Techhouse"
+},
+"2026-11-14-elysia-elysia-x-laster-samstag-14-november": {
+"title": "Elysia x Laster Samstag 14. November",
+"venue": "Elysia",
+"date": "2026-11-14",
+"source": "crawler",
+"time": "23:00",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/elysia-x-laster-samstag-14-november-muenchenstein-7512840572324829391.html",
+"category": "Party"
 },
 "2026-11-14-nordstern-space92": {
 "title": "Space92",
