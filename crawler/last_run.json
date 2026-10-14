@@ -1,21 +1,21 @@
 {
- "date": "2026-10-13",
+ "date": "2026-10-14",
  "stats": {
-  "added": 7,
+  "added": 16,
   "filled": 0,
-  "dups": 228,
-  "removed": 33,
-  "blocked": 15
+  "dups": 231,
+  "removed": 9,
+  "blocked": 14
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 75,
+   "found": 80,
    "status": "ok"
   },
   {
    "source": "eventfrog",
-   "found": 15,
+   "found": 21,
    "status": "ok"
   },
   {
@@ -30,7 +30,7 @@
   },
   {
    "source": "nordstern",
-   "found": 9,
+   "found": 11,
    "status": "ok"
   },
   {
@@ -40,13 +40,13 @@
   },
   {
    "source": "stadtcasino",
-   "found": 72,
+   "found": 71,
    "status": "ok",
-   "detail_pages": 2
+   "detail_pages": 1
   },
   {
    "source": "viertel",
-   "found": 15,
+   "found": 17,
    "status": "ok"
   },
   {
@@ -96,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 245
+ "total_events": 252
 }

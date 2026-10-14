@@ -1,88 +1,4 @@
 {
-"2026-10-11-acqua-good-morning-club-october-edition": {
-"title": "Good Morning Club - October Edition",
-"venue": "Acqua",
-"date": "2026-10-11",
-"source": "crawler",
-"time": "11:00",
-"url": "https://eventfrog.ch/de/p/partys/house-techno/good-morning-club-october-edition-basel-7504978595585993589.html",
-"category": "Party"
-},
-"2026-10-11-saal1-kuchli-drishyam-the-conclusion-basel-saal1": {
-"title": "DRISHYAM: THE CONCLUSION - BASEL SAAL1",
-"venue": "Saal1 Küchlin",
-"date": "2026-10-11",
-"source": "crawler",
-"time": "14:00",
-"url": "https://eventfrog.ch/de/p/theater-buehne/theater/drishyam-the-conclusion-basel-saal1-basel-7513532198378601177.html",
-"category": "Bühne"
-},
-"2026-10-11-stadtkino-ba-luststreifen-kurzfilme-1600": {
-"category": "Film / Festival",
-"date": "2026-10-11",
-"source": "manual",
-"time": "16:00",
-"title": "Lust*streifen: Kurzfilme",
-"url": "https://www.advance-ticket.ch/omniticket/stadtkino/37189",
-"venue": "Stadtkino Basel"
-},
-"2026-10-11-karthauserki-zwischen-zwei-ufern": {
-"title": "Zwischen Zwei Ufern",
-"venue": "Karthäuserkirche",
-"date": "2026-10-11",
-"source": "crawler",
-"time": "17:00",
-"url": "https://eventfrog.ch/de/p/konzerte/latin/zwischen-zwei-ufern-basel-7498382932127517164.html",
-"category": "Konzert"
-},
-"2026-10-11-kulturraum-d-susana-ratcliff-entre-rios": {
-"category": "Konzert / Tango",
-"date": "2026-10-11",
-"source": "crawler",
-"time": "17:00",
-"title": "Susana Ratcliff – Entre Ríos",
-"url": "https://denkmal.org/de/basel/2026-10-11",
-"venue": "Kulturraum Doble A",
-"style": "tango"
-},
-"2026-10-11-parterre-one-basilando": {
-"category": "Party / Salsa",
-"date": "2026-10-11",
-"source": "crawler",
-"time": "17:00",
-"title": "Basilando",
-"url": "https://denkmal.org/de/basel/2026-10-11",
-"venue": "Parterre One",
-"end": "23:00",
-"style": "salsa"
-},
-"2026-10-11-basler-munst-orgelkonzert-bach-italien-im-basler-muns": {
-"title": "Orgelkonzert BACH & Italien im Basler Münster",
-"venue": "Basler Münster",
-"date": "2026-10-11",
-"source": "crawler",
-"time": "18:00",
-"url": "https://eventfrog.ch/de/p/konzerte/kirchenmusik/orgelkonzert-bach-italien-im-basler-muenster-basel-7512796925415945503.html",
-"category": "Konzert"
-},
-"2026-10-11-stadtkino-ba-luststreifen-spielfilm-1800": {
-"category": "Film / Festival",
-"date": "2026-10-11",
-"source": "manual",
-"time": "18:00",
-"title": "Lust*streifen: Spielfilm",
-"url": "https://www.advance-ticket.ch/omniticket/stadtkino/50866",
-"venue": "Stadtkino Basel"
-},
-"2026-10-11-klara-basel-stand-up-comedy-free-entry": {
-"title": "Stand-up comedy, free entry!",
-"venue": "Klara Basel",
-"date": "2026-10-11",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/stand-up-comedy-free-entry-basel-7487900523850390473.html",
-"category": "Bühne / Comedy"
-},
 "2026-10-12-sud-pisse-guner-kunier": {
 "title": "Pisse, Güner Künier",
 "venue": "Sud",
@@ -213,6 +129,17 @@
 "url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/starbites-comedy-basel-free-entry-basel-7512522682719568927.html",
 "category": "Bühne / Comedy"
 },
+"2026-10-14-cargobar-rlsm": {
+"title": "RLSM",
+"venue": "Cargobar",
+"date": "2026-10-14",
+"source": "crawler",
+"time": "20:00",
+"end": "22:00",
+"style": "post rock",
+"url": "https://denkmal.org/de/basel/2026-10-14/80a7308b-d809-4466-9d9d-88157732674f",
+"category": "Konzert / Post rock"
+},
 "2026-10-14-schall-und-r-amber-eve": {
 "title": "Amber Eve",
 "venue": "Schall und Rauch",
@@ -312,6 +239,15 @@
 "venue": "Gare du Nord",
 "style": "Musiktheater/Performance"
 },
+"2026-10-15-schauspielha-gesellschaft-mit-besonderer-hingabe-gmbh": {
+"title": "Gesellschaft mit besonderer Hingabe (GmbH)",
+"venue": "Schauspielhaus Theater Basel",
+"date": "2026-10-15",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/gesellschaft-mit-besonderer-hingabe-gmbh-basel-7510662979995614979.html",
+"category": "Bühne"
+},
 "2026-10-15-stadtcasino--sinfonieorchester-basel-sehnsucht": {
 "category": "Konzert / Klassik",
 "date": "2026-10-15",
@@ -343,6 +279,17 @@
 "url": "https://denkmal.org/de/basel/2026-10-15/80f93616-7581-4c72-bd6d-d31e46b9f652",
 "category": "Konzert / Jazz"
 },
+"2026-10-15-cargobar-fuchigami-to-funato": {
+"title": "Fuchigami to Funato",
+"venue": "Cargobar",
+"date": "2026-10-15",
+"source": "crawler",
+"time": "20:00",
+"end": "22:00",
+"style": "pop, experimental",
+"url": "https://denkmal.org/de/basel/2026-10-15/d87ca2e4-ff00-44b1-9ff6-bde3af138907",
+"category": "Konzert / Pop"
+},
 "2026-10-15-kulturkirche-ola-gjeilo": {
 "title": "Ola Gjeilo",
 "venue": "Kulturkirche Paulus",
@@ -354,6 +301,15 @@
 "url": "https://denkmal.org/de/basel/2026-10-15/a1c830de-a294-485b-a61d-32f7aa19dd6f",
 "category": "Konzert / Klassik"
 },
+"2026-10-15-saal1-kuchli-jailer-2-basel-saal1-premiere": {
+"title": "JAILER 2 BASEL, SAAL1 - PREMIERE",
+"venue": "Saal1 Küchlin",
+"date": "2026-10-15",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/jailer-2-basel-saal1-premiere-basel-7515094450328086797.html",
+"category": "Bühne"
+},
 "2026-10-15-stadtcasino--mikael-krogerus-roman-tschappeler-lesung": {
 "category": "Lesung",
 "date": "2026-10-15",
@@ -364,6 +320,16 @@
 "venue": "Stadtcasino Basel",
 "doors": "19:00"
 },
+"2026-10-15-sud-pingpong-disco": {
+"title": "PingPong Disco",
+"venue": "Sud",
+"date": "2026-10-15",
+"source": "crawler",
+"time": "20:00",
+"style": "dub, bass",
+"url": "https://denkmal.org/de/basel/2026-10-15/285a0c8e-ca78-4938-85f6-da0cc4860b0b",
+"category": "Club / Dub"
+},
 "2026-10-15-the-gannet-felukah": {
 "title": "Felukah",
 "venue": "The Gannet",
@@ -373,6 +339,26 @@
 "style": "neo soul, spoken word, hiphop",
 "url": "https://denkmal.org/de/basel/2026-10-15/a123c1d5-a2f2-476d-ac86-ef4d99eb7c8e",
 "category": "Party / Neo soul"
+},
+"2026-10-15-kleiner-wass-la-pomme-pourrie": {
+"title": "La Pomme Pourrie",
+"venue": "Kleiner Wassermann",
+"date": "2026-10-15",
+"source": "crawler",
+"time": "21:00",
+"style": "chanson",
+"url": "https://denkmal.org/de/basel/2026-10-15/61eec8a0-7247-46c0-a03f-83bdccea8e7b",
+"category": "Konzert / Chanson"
+},
+"2026-10-15-quartierzent-the-magical-fountain-and-other-fairytale": {
+"title": "The magical fountain and other fairytales",
+"venue": "Quartierzentrum Union",
+"date": "2026-10-15",
+"source": "crawler",
+"time": "21:00",
+"style": "jazz",
+"url": "https://denkmal.org/de/basel/2026-10-15/429d7991-108e-495e-9bfc-1206df26eae2",
+"category": "Konzert / Jazz"
 },
 "2026-10-15-schall-und-r-jazznights": {
 "title": "Jazznights",
@@ -567,6 +553,16 @@
 "url": "https://grenzwert.ch/programm/",
 "venue": "Grenzwert",
 "style": "Soul, Raregrooves"
+},
+"2026-10-16-nebel-sunday-friends-club-x-feeras": {
+"title": "Sunday Friends Club x Feeras",
+"venue": "Nebel",
+"date": "2026-10-16",
+"source": "crawler",
+"time": "22:00",
+"style": "deep house, techhouse, uk garage",
+"url": "https://denkmal.org/de/basel/2026-10-16/21c12bf6-53d7-4003-b3d3-513726cfac4a",
+"category": "Club / Deep house"
 },
 "2026-10-16-schall-und-r-oscar-zillini-gabor-zeze": {
 "title": "Oscar Zillini, Gabor Zeze",
@@ -812,6 +808,16 @@
 "end": "06:00",
 "style": "Drum & Bass"
 },
+"2026-10-17-nebel-max-fresh": {
+"title": "Max Fresh",
+"venue": "Nebel",
+"date": "2026-10-17",
+"source": "crawler",
+"time": "22:00",
+"style": "afrohouse, techno",
+"url": "https://denkmal.org/de/basel/2026-10-17/4fccf782-6fed-436f-8afe-9d8e47a0ea08",
+"category": "Club / Afrohouse"
+},
 "2026-10-17-nordstern-double-house-w-acid-pauli-recondite-live": {
 "category": "Club / House",
 "date": "2026-10-17",
@@ -882,6 +888,17 @@
 "end": "17:00",
 "style": "disco",
 "url": "https://denkmal.org/de/basel/2026-10-18/d3870c32-458f-4454-b118-e0d306e8d702",
+"category": "Party / Disco"
+},
+"2026-10-18-kuppel-kinderdisco-flavah-nice": {
+"title": "Kinderdisco: Flavah Nice",
+"venue": "Kuppel",
+"date": "2026-10-18",
+"source": "crawler",
+"time": "14:00",
+"end": "17:00",
+"style": "disco",
+"url": "https://denkmal.org/de/basel/2026-10-18/dfc90a6f-16f4-48e3-8c47-a414b072fc47",
 "category": "Party / Disco"
 },
 "2026-10-18-museum-klein-netzwerk-kammermusik-zauberwelt-der-tone": {
@@ -1095,6 +1112,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/241026_amg_sg/",
 "venue": "Stadtcasino Basel",
 "doors": "18:30"
+},
+"2026-10-24-nordstern-i-ll-house-you-at-bar-futura-le-roi-shak": {
+"title": "I'll House You at Bar Futura: Le Roi, Shaka, Luis Cruz",
+"venue": "Nordstern",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "21:00",
+"url": "https://tickets.nordstern.com/en/c/ill-house-you-at-bar-futura-2518",
+"category": "Club / Elektronisch"
 },
 "2026-10-24-basso-select-select-family": {
 "category": "Club / Techno",
@@ -1507,6 +1533,16 @@
 "url": "https://sommercasino.ch/events/bubble-buster-jam-6/",
 "category": "Jam Session"
 },
+"2026-11-03-saali-golden-hula-club": {
+"title": "HULA CLUB",
+"venue": "Sääli (Goldenes Fass)",
+"date": "2026-11-03",
+"source": "crawler",
+"time": "20:00",
+"doors": "19:30",
+"url": "https://www.goldenes-fass.ch/saali/",
+"category": "Konzert"
+},
 "2026-11-03-stadtcasino--mirella-precek-desperation-island-tour": {
 "category": "Comedy",
 "date": "2026-11-03",
@@ -1799,6 +1835,15 @@
 "url": "https://ticketing.dasviertel.ch/event/moodos-invites-les-acteurs-t2370z",
 "category": "Club / Melodic Techno"
 },
+"2026-11-13-nordstern-all-night-long-doma": {
+"title": "All Night Long: Doma",
+"venue": "Nordstern",
+"date": "2026-11-13",
+"source": "crawler",
+"time": "23:00",
+"url": "https://tickets.nordstern.com/en/c/doma-all-night-long-2512",
+"category": "Club / Elektronisch"
+},
 "2026-11-14-stadtcasino--bulent-ceylan-diktaturk": {
 "category": "Comedy",
 "date": "2026-11-14",
@@ -1908,6 +1953,17 @@
 "doors": "20:00",
 "url": "https://sommercasino.ch/events/tales-of-wrath-fest/",
 "category": "Konzert"
+},
+"2026-11-20-das-viertel-hits-the-one-and-only": {
+"title": "Hits - the ONE and Only!",
+"venue": "Das Viertel",
+"date": "2026-11-20",
+"source": "crawler",
+"time": "23:00",
+"end": "06:00",
+"style": "HITS / POP / 90s / 20s / 10s",
+"url": "https://ticketing.dasviertel.ch/event/hits-the-one-and-only-vixx6h",
+"category": "Party / HITS"
 },
 "2026-11-21-sommercasino-rites-of-destruction-pt-vii": {
 "category": "Konzert / Metal",
@@ -2127,6 +2183,17 @@
 "title": "Black Sea Dahu",
 "url": "https://kaserne-basel.ch/de/events/black-sea-dahu",
 "venue": "Kaserne Basel"
+},
+"2026-12-04-das-viertel-ciel-friends": {
+"title": "Ciel & Friends",
+"venue": "Das Viertel",
+"date": "2026-12-04",
+"source": "crawler",
+"time": "23:00",
+"end": "06:00",
+"style": "House / Afrohouse / Melodic House",
+"url": "https://ticketing.dasviertel.ch/event/ciel-friends-jn05mk?fbclid=IwY2xjawU6xM5leHRuA2FlbQIxMABwZG9mAWJyaWQRMGthR1ZhSTJYaFhTTXN5dWxzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeOOnhGe8TjrXIt9gog2lHZl8oXUIh3LqM-HYJuTnToAsWQ8ls5YhTqZvsqvw_aem_rzRDOGj-hp41T1AcqB0MrQ",
+"category": "Club / House"
 },
 "2026-12-05-basso-winter-daydance-series": {
 "category": "Club / Deep House",
@@ -2458,5 +2525,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/01012027_nob/",
 "category": "Konzert / Klassik",
 "doors": "16:00"
+},
+"2027-01-02-stadtcasino--vivaldi-die-vier-jahreszeiten-philharmon": {
+"title": "Vivaldi - Die vier Jahreszeiten Philharmonie der Solisten",
+"venue": "Stadtcasino Basel",
+"date": "2027-01-02",
+"source": "crawler",
+"time": "19:30",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/02012027_philharmonie_d_solisten/",
+"category": "Konzert / Klassik",
+"doors": "18:30"
 }
 }
