@@ -1,34 +1,4 @@
 {
-"2026-10-12-sud-pisse-guner-kunier": {
-"title": "Pisse, Güner Künier",
-"venue": "Sud",
-"date": "2026-10-12",
-"source": "crawler",
-"time": "19:00",
-"style": "punk",
-"url": "https://denkmal.org/de/basel/2026-10-12/ff310eee-3798-4a6d-86c6-ccaac2be5edf",
-"category": "Konzert / Punk"
-},
-"2026-10-12-grenzwert-murder-monday": {
-"title": "Murder Monday",
-"venue": "Grenzwert",
-"date": "2026-10-12",
-"source": "crawler",
-"time": "20:00",
-"style": "Stand-up Comedy (English) · Eintritt frei",
-"url": "https://grenzwert.ch/programm/",
-"category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
-},
-"2026-10-12-jazzcampus-dksj-all-stars-feat-olivia-trummer": {
-"title": "Dksj All Stars feat. Olivia Trummer",
-"venue": "Jazzcampus",
-"date": "2026-10-12",
-"source": "crawler",
-"time": "20:00",
-"style": "jazz",
-"url": "https://denkmal.org/de/basel/2026-10-12/e05daaaa-cf71-4cdd-869e-0ead5ba64c9b",
-"category": "Konzert / Jazz"
-},
 "2026-10-13-stadtcasino--poschner-probiert-sinfonieorchester-base": {
 "title": "Poschner probiert Sinfonieorchester Basel",
 "venue": "Stadtcasino Basel",
@@ -301,6 +271,15 @@
 "url": "https://denkmal.org/de/basel/2026-10-15/a1c830de-a294-485b-a61d-32f7aa19dd6f",
 "category": "Konzert / Klassik"
 },
+"2026-10-15-messe-basel--baloise-session-erykah-badu-max-herre-jo": {
+"title": "Baloise Session: ERYKAH BADU / MAX HERRE & JOY DENALANE",
+"venue": "Messe Basel Eventhalle",
+"date": "2026-10-15",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/funk-soul/baloise-session-erykah-badu-max-herre-joy-denalane-basel-7498330295386555455.html",
+"category": "Konzert"
+},
 "2026-10-15-saal1-kuchli-jailer-2-basel-saal1-premiere": {
 "title": "JAILER 2 BASEL, SAAL1 - PREMIERE",
 "venue": "Saal1 Küchlin",
@@ -339,6 +318,33 @@
 "style": "neo soul, spoken word, hiphop",
 "url": "https://denkmal.org/de/basel/2026-10-15/a123c1d5-a2f2-476d-ac86-ef4d99eb7c8e",
 "category": "Party / Neo soul"
+},
+"2026-10-15-the-looking--into-the-green": {
+"title": "INTO THE GREEN",
+"venue": "The Looking Glass, Yoga-Studio",
+"date": "2026-10-15",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/folk/into-the-green-basel-7492726204304230774.html",
+"category": "Konzert"
+},
+"2026-10-15-theater-faut-frank-richter-lovemyjob": {
+"title": "Frank Richter - #Lovemyjob",
+"venue": "Theater Fauteuil - Tabourettli",
+"date": "2026-10-15",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/frank-richter-lovemyjob-basel-7452248230748784955.html",
+"category": "Bühne / Comedy"
+},
+"2026-10-15-theater-faut-stephanie-berger-shine-fertig-mit-chli": {
+"title": "Stéphanie Berger - Shine - fertig mit chli",
+"venue": "Theater Fauteuil",
+"date": "2026-10-15",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/stephanie-berger-shine-fertig-mit-chli-basel-7452249402700231625.html",
+"category": "Bühne / Comedy"
 },
 "2026-10-15-kleiner-wass-la-pomme-pourrie": {
 "title": "La Pomme Pourrie",
@@ -1182,6 +1188,16 @@
 "venue": "Renée",
 "style": "Electronica, Indie Rock, Britpop, Disco"
 },
+"2026-10-24-basso-select-eckes-faln-rubinski-b2b-renso": {
+"title": "Select: Eckes, Faln, Rubinski b2b Renso",
+"venue": "Basso",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "",
+"style": "Techno, Groove",
+"url": "https://www.bassoverse.space/beats",
+"category": "Club / Techno"
+},
 "2026-10-24-sommercasino-bandxnordwest-vorrunde": {
 "category": "Konzert",
 "date": "2026-10-24",
@@ -1503,6 +1519,16 @@
 "venue": "Renée",
 "style": "Italo Disco, 80's Electro, New Wave, House"
 },
+"2026-10-31-basso-banyay-invites": {
+"title": "Banyay Invites",
+"venue": "Basso",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "",
+"style": "Techno, House, Deep House",
+"url": "https://www.bassoverse.space/beats",
+"category": "Club / Techno"
+},
 "2026-11-01-stadtcasino--neues-orchester-basel-verdi-requiem": {
 "category": "Konzert / Klassik",
 "date": "2026-11-01",
@@ -1533,6 +1559,16 @@
 "url": "https://sommercasino.ch/events/bubble-buster-jam-6/",
 "category": "Jam Session"
 },
+"2026-11-03-stadtcasino--hamburg-stage-ensemble-la-noche-del-tang": {
+"title": "Hamburg Stage Ensemble La Noche del Tango",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-03",
+"source": "crawler",
+"time": "19:00",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/hamburg-stage-ensemble/",
+"category": "Konzert / Klassik",
+"doors": "18:00"
+},
 "2026-11-03-saali-golden-hula-club": {
 "title": "HULA CLUB",
 "venue": "Sääli (Goldenes Fass)",
@@ -1552,6 +1588,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/02112026_mirella_precek/",
 "venue": "Stadtcasino Basel",
 "doors": "19:00"
+},
+"2026-11-04-sommercasino-inezona": {
+"title": "INEZONA",
+"venue": "Sommercasino",
+"date": "2026-11-04",
+"source": "crawler",
+"time": "19:00",
+"doors": "19:00",
+"url": "https://sommercasino.ch/events/melanie-baker-support-tba/",
+"category": "Konzert"
 },
 "2026-11-04-stadtcasino--balkan-passion-mit-anton-violinist-frien": {
 "category": "Konzert / Worldmusic",
@@ -1734,6 +1780,16 @@
 "url": "https://tickets.nordstern.com/en/c/polyamor-2482",
 "category": "Club / Elektronisch"
 },
+"2026-11-07-basso-treffpunkt-vornelinks-daydance-caleesi-s": {
+"title": "Treffpunkt Vornelinks Daydance: Caleesi & Sarah Kreis, Vornelinks, Frantadam",
+"venue": "Basso",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "",
+"style": "Midtempo, Deep House, Indie Dance, House",
+"url": "https://www.bassoverse.space/beats",
+"category": "Club / Midtempo"
+},
 "2026-11-08-gare-du-nord-shaushaushaus-wenn-hauser-zu-buhnenwesen": {
 "title": "SHAUSHAUSHAUS – Wenn Häuser zu Bühnenwesen werden: gare des enfants",
 "venue": "Gare du Nord",
@@ -1794,6 +1850,16 @@
 "category": "Konzert / Klassik",
 "doors": "18:30"
 },
+"2026-11-11-sommercasino-mane-showcase": {
+"title": "Mané – Showcase",
+"venue": "Sommercasino",
+"date": "2026-11-11",
+"source": "crawler",
+"time": "19:30",
+"doors": "19:30",
+"url": "https://sommercasino.ch/events/mane-showcase/",
+"category": "Konzert"
+},
 "2026-11-11-stadtcasino--the-grand-romance-gala-tschaikowskys-gro": {
 "title": "The Grand Romance Gala Tschaikowskys Größte Ballette & Geliebte Opernarien",
 "venue": "Stadtcasino Basel",
@@ -1844,6 +1910,16 @@
 "url": "https://tickets.nordstern.com/en/c/doma-all-night-long-2512",
 "category": "Club / Elektronisch"
 },
+"2026-11-13-basso-arte-x-venezuela-basso-live": {
+"title": "Arte x Venezuela (Basso Live)",
+"venue": "Basso",
+"date": "2026-11-13",
+"source": "crawler",
+"time": "",
+"style": "Tropical, Cumbia, Salsa, Calypso, Latin Funk, Reggae, Rock",
+"url": "https://www.bassoverse.space/beats",
+"category": "Party / Tropical"
+},
 "2026-11-14-stadtcasino--bulent-ceylan-diktaturk": {
 "category": "Comedy",
 "date": "2026-11-14",
@@ -1892,6 +1968,16 @@
 "time": "23:00",
 "url": "https://tickets.nordstern.com/en/c/space92-2485",
 "category": "Club / Elektronisch"
+},
+"2026-11-14-basso-disco-kitchen-shaka-luis-cruz-algo-rytm-": {
+"title": "Disco Kitchen: Shaka, Luis Cruz, Algo Rytm, Roman Blum",
+"venue": "Basso",
+"date": "2026-11-14",
+"source": "crawler",
+"time": "",
+"style": "Disco, House",
+"url": "https://www.bassoverse.space/beats",
+"category": "Club / Disco"
 },
 "2026-11-15-stadtcasino--steppin-stompers-60-jahre": {
 "category": "Konzert / Dixieland",
@@ -1965,6 +2051,16 @@
 "url": "https://ticketing.dasviertel.ch/event/hits-the-one-and-only-vixx6h",
 "category": "Party / HITS"
 },
+"2026-11-20-basso-basso-oscillate-matze-sampler-live-og-lo": {
+"title": "Basso Oscillate: Matze Sampler (live), OG Lotti, Lydia Akut",
+"venue": "Basso",
+"date": "2026-11-20",
+"source": "crawler",
+"time": "",
+"style": "House, Techno, Live Electronica, Groove",
+"url": "https://www.bassoverse.space/beats",
+"category": "Club / House"
+},
 "2026-11-21-sommercasino-rites-of-destruction-pt-vii": {
 "category": "Konzert / Metal",
 "date": "2026-11-21",
@@ -1995,6 +2091,17 @@
 "venue": "Basso",
 "style": "Slow House, Dirty Bounce",
 "price": "Presale CHF 10"
+},
+"2026-11-21-das-viertel-zweiklang-presents-hotlap": {
+"title": "Zweiklang Presents: Hotlap",
+"venue": "Das Viertel",
+"date": "2026-11-21",
+"source": "crawler",
+"time": "23:00",
+"end": "06:00",
+"style": "Melodic House / Afrohouse / House",
+"url": "https://ticketing.dasviertel.ch/event/zweiklang-presents-hotlap-n6746y",
+"category": "Club / Melodic House"
 },
 "2026-11-22-stadtcasino--philharmonische-orchester-basel-virtuoso": {
 "title": "Philharmonische Orchester Basel VIRTUOSO",
@@ -2036,6 +2143,16 @@
 "venue": "Sommercasino",
 "doors": "19:30"
 },
+"2026-11-27-basso-oscillate-mosley-jr-live-hypnoe-alissa": {
+"title": "Oscillate: Mosley Jr. (live), Hypnoe, Alissa",
+"venue": "Basso",
+"date": "2026-11-27",
+"source": "crawler",
+"time": "",
+"style": "Dub Techno, Techno, Minimal, Deep House",
+"url": "https://www.bassoverse.space/beats",
+"category": "Club / Dub Techno"
+},
 "2026-11-28-stadtcasino--basel-sinfonietta-jenseits-messiaen": {
 "category": "Konzert / Klassik",
 "date": "2026-11-28",
@@ -2075,6 +2192,25 @@
 "style": "ALL Time Hits Only",
 "url": "https://eventfrog.ch/de/p/partys/disco/gayties-special-7506618176907523786.html",
 "category": "Anderes"
+},
+"2026-11-28-nordstern-raw-x-nordstern-alignment-rouge-mha-iri-": {
+"title": "RAW x Nordstern: Alignment, Roüge, Mha Iri, Köhler",
+"venue": "Nordstern",
+"date": "2026-11-28",
+"source": "crawler",
+"time": "23:00",
+"url": "https://tickets.nordstern.com/en/c/nordstern-x-raw-2521",
+"category": "Club / Elektronisch"
+},
+"2026-11-28-basso-ben-kaczor-invites-ben-kaczor-b2b-ludovi": {
+"title": "Ben Kaczor Invites: Ben Kaczor b2b Ludoviko all night long",
+"venue": "Basso",
+"date": "2026-11-28",
+"source": "crawler",
+"time": "",
+"style": "Dub Techno, Techno, Minimal",
+"url": "https://www.bassoverse.space/beats",
+"category": "Club / Dub Techno"
 },
 "2026-11-29-sommercasino-profi-workshop": {
 "title": "Profi-Workshop",
@@ -2224,6 +2360,16 @@
 "url": "https://sommercasino.ch/events/catalyst-support-corokia/",
 "venue": "Sommercasino"
 },
+"2026-12-05-basso-basso-daydance": {
+"title": "BASSO DAYDANCE",
+"venue": "Basso",
+"date": "2026-12-05",
+"source": "crawler",
+"time": "",
+"style": "Midtempo, Deep House, Indie Dance, House",
+"url": "https://www.bassoverse.space/beats",
+"category": "Club / Midtempo"
+},
 "2026-12-06-stadtcasino--sinfonieorchester-basel-adventskonzert": {
 "title": "Sinfonieorchester Basel Adventskonzert",
 "venue": "Stadtcasino Basel",
@@ -2364,6 +2510,15 @@
 "style": "Slow House, Dirty Bounce",
 "price": "Presale CHF 10"
 },
+"2026-12-12-elysia-elysia-x-symbiotikka-samstag-12-dezember": {
+"title": "Elysia x Symbiotikka Samstag 12. Dezember",
+"venue": "Elysia",
+"date": "2026-12-12",
+"source": "crawler",
+"time": "22:00",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/elysia-x-symbiotikka-samstag-12-dezember-muenchenstein-7516075719715235769.html",
+"category": "Party"
+},
 "2026-12-13-sommercasino-tichu-turnier": {
 "title": "Tichu Turnier",
 "venue": "Sommercasino",
@@ -2425,6 +2580,17 @@
 "doors": "18:30",
 "end": "21:30"
 },
+"2026-12-18-das-viertel-ely-oaks": {
+"title": "ELY Oaks",
+"venue": "Das Viertel",
+"date": "2026-12-18",
+"source": "crawler",
+"time": "23:00",
+"end": "06:00",
+"style": "Trance / Hardtrance / Hardgroove",
+"url": "https://ticketing.dasviertel.ch/event/ely-oaks-ool5vj",
+"category": "Club / Trance"
+},
 "2026-12-19-stadtcasino--terra-nova-collective-kammerorchesterkon": {
 "title": "Terra Nova Collective Kammerorchesterkonzert",
 "venue": "Stadtcasino Basel",
@@ -2465,6 +2631,17 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/20122026/",
 "category": "Konzert",
 "doors": "10:00"
+},
+"2026-12-24-das-viertel-paolo-ferrara": {
+"title": "Paolo Ferrara",
+"venue": "Das Viertel",
+"date": "2026-12-24",
+"source": "crawler",
+"time": "23:00",
+"end": "06:00",
+"style": "Techno / Hardtechno",
+"url": "https://ticketing.dasviertel.ch/event/paolo-ferrara-16rvcr",
+"category": "Club / Techno"
 },
 "2026-12-28-stadtcasino--die-grosse-giuseppe-verdi-gala-die-schon": {
 "title": "Die grosse Giuseppe Verdi Gala Die schönsten Szenen der grossen Verdi Opern",
@@ -2535,5 +2712,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/02012027_philharmonie_d_solisten/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
+},
+"2027-01-03-stadtcasino--kammerorchester-i-tempi-neujahrskonzert": {
+"title": "Kammerorchester I TEMPI Neujahrskonzert",
+"venue": "Stadtcasino Basel",
+"date": "2027-01-03",
+"source": "crawler",
+"time": "17:00",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/030127_i_tempi/",
+"category": "Konzert / Klassik",
+"doors": "16:30"
 }
 }

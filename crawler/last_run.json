@@ -1,21 +1,21 @@
 {
- "date": "2026-10-14",
+ "date": "2026-10-15",
  "stats": {
-  "added": 16,
+  "added": 22,
   "filled": 0,
-  "dups": 231,
-  "removed": 9,
-  "blocked": 14
+  "dups": 234,
+  "removed": 3,
+  "blocked": 11
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 80,
+   "found": 71,
    "status": "ok"
   },
   {
    "source": "eventfrog",
-   "found": 21,
+   "found": 24,
    "status": "ok"
   },
   {
@@ -30,7 +30,7 @@
   },
   {
    "source": "nordstern",
-   "found": 11,
+   "found": 12,
    "status": "ok"
   },
   {
@@ -40,13 +40,13 @@
   },
   {
    "source": "stadtcasino",
-   "found": 71,
+   "found": 72,
    "status": "ok",
-   "detail_pages": 1
+   "detail_pages": 2
   },
   {
    "source": "viertel",
-   "found": 17,
+   "found": 19,
    "status": "ok"
   },
   {
@@ -56,18 +56,18 @@
   },
   {
    "source": "sommercasino",
-   "found": 28,
+   "found": 29,
    "status": "ok"
   },
   {
    "source": "basso",
-   "found": 12,
+   "found": 17,
    "status": "ok",
-   "detail_pages": 1
+   "detail_pages": 0
   },
   {
    "source": "elysia",
-   "found": 3,
+   "found": 4,
    "status": "ok"
   },
   {
@@ -96,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 252
+ "total_events": 271
 }
