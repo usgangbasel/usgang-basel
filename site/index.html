@@ -123,7 +123,7 @@ h1 span{color:var(--accent)}
 .act.go[aria-pressed="true"]{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
 .act:disabled{opacity:.5;cursor:default}
 .hot{box-shadow:inset 3px 0 0 var(--signal)}
-.ev.rate .acts{grid-column:2;margin-top:2px}
+.ev.rate .acts{grid-column:2;margin-top:2px;flex-wrap:wrap;row-gap:2px}
 .empty .linkish{all:unset;cursor:pointer;color:var(--accent);font-weight:600;text-decoration:underline;text-underline-offset:3px}
 .stars{display:inline-flex;align-items:center;gap:0}
 .star{background:none;border:0;padding:2px 3px;margin:0;cursor:pointer;color:var(--muted);opacity:.45;font-size:22px;line-height:1;transition:color .15s ease,opacity .15s ease,transform .12s ease}
@@ -390,8 +390,7 @@ header.top h1{font-size:clamp(1.7rem,6vw,2.4rem)}
         <button class="mi" data-sort="mine" type="button">Ych gang ane</button>
         <button class="mi" data-sort="map" type="button">Charte</button>
         <button class="mi" data-sort="venues" type="button">Venues</button>
-        <button class="mi" data-sort="archive" type="button">Archiv</button>
-        <button class="mi" data-sort="rated" type="button">Bescht bewärtet</button>
+        <button class="mi" data-sort="rated" type="button">Archiv</button>
         <hr>
         <button class="mi add" id="addBtn" type="button">+ Event dezuefiege</button>
         <button class="mi add" id="addVenueBtn" type="button">+ Venue dezuefiege</button>
@@ -575,7 +574,7 @@ const WDL = ["Sunntig","Mäntig","Zyschtig","Mittwuch","Dunnschtig","Frytig","Sa
 const MOL = ["Januar","Februar","Merz","April","Mai","Juni","Juli","Auguscht","Septämber","Oktober","Novämber","Dezämber"];
 function renderWeek(list, evs, up, go, main){
   const mon0 = mondayOf(new Date());
-  const minDay = ymd(mon0);
+  const minDay = archiveFrom();
   const lastDate = evs.reduce((m,e)=> e.date>m ? e.date : m, TODAY);
   const maxDay = ymd(addDays(mondayOf(new Date(lastDate+"T12:00:00")), 6));
   if (!S.day) S.day = TODAY;
@@ -590,7 +589,7 @@ function renderWeek(list, evs, up, go, main){
   const wprev = el("button",{class:"btn",type:"button","aria-label":"Vorderi Wuche",onclick:()=>{ const k=ymd(addDays(cur,-7)); setDay(k<minDay?minDay:k,-1); }},"«");
   const wnext = el("button",{class:"btn",type:"button","aria-label":"Nächschti Wuche",onclick:()=>{ const k=ymd(addDays(cur,7)); setDay(k>maxDay?maxDay:k,1); }},"»");
   if (ymd(mon) <= minDay) wprev.disabled = true; if (ymd(sun) >= maxDay) wnext.disabled = true;
-  const wlabel = weekOff===0 ? "Die Wuche" : weekOff===1 ? "Nächschti Wuche" : `In ${weekOff} Wuche`;
+  const wlabel = weekOff===0 ? "Die Wuche" : weekOff===1 ? "Nächschti Wuche" : weekOff===-1 ? "Letschti Wuche" : weekOff<0 ? `Vor ${-weekOff} Wuche` : `In ${weekOff} Wuche`;
   main.append(el("div",{class:"weeknav"}, wprev,
     el("div",{class:"wtitle"}, el("strong",{},`KW ${isoWeek(mon)} · ${range}`), el("span",{}, wlabel)),
     wnext, S.day!==TODAY ? el("button",{class:"btn",type:"button",onclick:()=>setDay(TODAY, S.day>TODAY?-1:1)},"Hit") : null));
@@ -600,7 +599,8 @@ function renderWeek(list, evs, up, go, main){
   for (let i=0;i<7;i++){
     const d = addDays(mon,i), k = ymd(d), n = (byDay[k]||[]).length;
     const b = el("button",{class:"dtab"+(k<TODAY?" past":"")+(k===TODAY?" today":""),type:"button",role:"tab","aria-selected":String(k===S.day),"aria-label":`${WDL[d.getDay()]} ${d.getDate()}. ${MOL[d.getMonth()]}, ${n} Events`,onclick:()=>setDay(k, k>S.day?1:-1)},
-      el("span",{class:"wd"},WD[d.getDay()]), el("span",{class:"dn"},String(d.getDate())), el("span",{class:"dc"}, k<TODAY ? "" : String(n)));
+      el("span",{class:"wd"},WD[d.getDay()]), el("span",{class:"dn"},String(d.getDate())), el("span",{class:"dc"}, k<minDay ? "" : String(n)));
+    if (k<minDay) b.disabled = true;
     strip.append(b);
   }
   main.append(strip);
@@ -615,8 +615,10 @@ function renderWeek(list, evs, up, go, main){
   page.append(el("div",{class:"dhead"}, dprev,
     el("h2",{}, `${WDL[cur.getDay()]}, ${cur.getDate()}. ${MOL[cur.getMonth()]}`, el("small",{}, S.day===TODAY ? "Hit" : past ? "verbi" : (rel(S.day) || `${items.length} ${items.length===1?"Event":"Events"}`))),
     dnext));
-  if (items.length){ const box = el("div",{class:"list"}); items.forEach(e=>box.append(row(e,up,go,false))); page.append(box); }
-  else if (past) page.append(el("p",{class:"empty"}, "Dä Tag isch verbi. ", el("button",{class:"linkish",type:"button",onclick:()=>setSort("archive")},"Im Archiv aaluege und bewärte")));
+  if (items.length){ const st = past ? rstats() : null;
+    if (past) page.append(el("p",{class:"small",style:"margin:0 0 8px;color:var(--muted)"},"Warsch dört? Gib Stärn: bewärteti Events kömme is Archiv und blyybe dört für immer."));
+    const box = el("div",{class:"list"}); items.forEach(e=>box.append(past ? rateRow(e, st) : row(e,up,go,false))); page.append(box); }
+  else if (past) page.append(el("p",{class:"empty"}, "An däm Tag isch nyt glofe."));
   else page.append(el("p",{class:"empty"}, S.venue!=="Alle" ? `Nyt im ${S.venue} an däm Tag.` : "Für dä Tag isch nyt yytrage."));
   if (!past && items.length && !(S.day>=maxDay)) page.append(el("div",{class:"dfoot"}, el("button",{class:"btn",type:"button",onclick:()=>{ setDay(ymd(addDays(cur,1)),1); window.scrollTo({top:0}); }}, `Weiter: ${WDL[addDays(cur,1).getDay()]} ›`)));
   main.append(page);
@@ -662,13 +664,13 @@ function renderMain(){
   main.setAttribute("aria-busy", String(!!S.loading));
   if (S.loading){ main.append(el("div",{class:"skel","aria-label":"Events wärde glade"}, el("i"), el("i"), el("i"), el("i"))); return; }
   if (!S.db){ main.append(el("p",{class:"empty"},"Mäld di bi Claude aa, zum d Events gseh.")); return; }
-  if (S.sort==="archive"){ renderArchive(main); return; }
   if (S.sort==="rated"){ renderRated(main); return; }
   if (S.sort==="map"){ renderMap(evs.filter(e => S.cat==="Alle"||catGroup(e.category)===S.cat), main); return; }
   if (!evs.length){ main.append(el("p",{class:"empty"},"No kai Events yytrage. Dr täglig Crawl füllt d Lischte; du kasch obe sälber ais dezuefiege.")); return; }
   if (S.sort==="venues"){ renderVenues(evs, main); return; }
   if (S.sort==="swipe"){ renderSwipe(evs, up, go, main); return; }
-  if (S.sort==="date"){ renderWeek(list, evs, up, go, main); return; }
+  if (S.sort==="date"){ const past = archiveEvents().filter(e => (S.venue==="Alle"||e.venue===S.venue) && (S.cat==="Alle"||catGroup(e.category)===S.cat));
+    renderWeek([...past, ...list], evs, up, go, main); return; }
   if (!list.length){ main.append(el("p",{class:"empty"}, S.sort==="mine"?"Du hesch no nyt mit «Ych gang» markiert.":"Kai Events für dä Filter.")); return; }
   if (S.sort==="top") {
     list.sort((a,b)=> score(b.id)-score(a.id) || a.date.localeCompare(b.date) || (a.time||"").localeCompare(b.time||""));
@@ -1194,22 +1196,6 @@ function archiveEvents(){
   }
   return out;
 }
-function renderArchive(main){
-  const st = rstats();
-  const list = archiveEvents().filter(e => (S.venue==="Alle"||e.venue===S.venue) && (S.cat==="Alle"||catGroup(e.category)===S.cat))
-    .sort((a,b)=> b.date.localeCompare(a.date) || (a.time||"99").localeCompare(b.time||"99") || a.title.localeCompare(b.title));
-  const done = list.filter(e => S.myR[e.id]).length;
-  main.append(el("div",{class:"ahead"}, el("h2",{},"Archiv"),
-    el("p",{}, `D Events vo de letschte ${ARCHIVE_DAYS} Täg. Warsch dört? Gib Stärn: bewärteti Events blyybe für immer under «Bescht bewärtet».`),
-    list.length ? el("p",{class:"small"}, `${list.length} Events · ${done} vo dir bewärtet`) : null));
-  if (!list.length){ main.append(el("p",{class:"empty"},"No nyt im Archiv. Vergangeni Events lande do und blyybe zwai Wuche.")); return; }
-  let cur=null, box=null;
-  for (const e of list){
-    if (e.date!==cur){ cur=e.date; box=el("div",{class:"list"});
-      main.append(el("section",{class:"day past"}, el("h2",{},fmtDay(cur), rel(cur)?el("small",{},rel(cur)):null), box)); }
-    box.append(rateRow(e, st));
-  }
-}
 function renderRated(main){
   const st = rstats();
   const list = [];
@@ -1218,10 +1204,10 @@ function renderRated(main){
   if (S.rsort==="new") filtered.sort((a,b)=> b.date.localeCompare(a.date) || b.avg-a.avg);
   else filtered.sort((a,b)=> b.avg-a.avg || b.n-a.n || b.date.localeCompare(a.date));
   const segBtn = (k,label) => el("button",{class:"btn",type:"button","aria-pressed":String(S.rsort===k),onclick:()=>{ S.rsort=k; render(); }},label);
-  main.append(el("div",{class:"ahead"}, el("h2",{},"Bescht bewärtet"),
+  main.append(el("div",{class:"ahead"}, el("h2",{},"Archiv"),
     el("p",{}, "Alli Events, wo öpper bewärtet het. Si blyybe do für immer."),
     filtered.length ? el("div",{class:"seg",role:"group","aria-label":"Sortiere"}, segBtn("best","Bescht zerscht"), segBtn("new","Neuschti zerscht")) : null));
-  if (!filtered.length){ main.append(el("p",{class:"empty"}, "No kai Events bewärtet. ", el("button",{class:"linkish",type:"button",onclick:()=>setSort("archive")},"Im Archiv vergangeni Events bewärte"))); return; }
+  if (!filtered.length){ main.append(el("p",{class:"empty"}, "No kai Events bewärtet. Vergangeni Events vo de letschte zwai Wuche chasch in dr Wuche-Aasicht bewärte. ", el("button",{class:"linkish",type:"button",onclick:()=>{ S.day = ymd(addDays(new Date(TODAY+"T12:00:00"),-1)); setSort("date"); }},"Zu geschter"))); return; }
   const box = el("div",{class:"list"});
   filtered.forEach((e,i) => box.append(rateRow(e, st, el("div",{class:"time"}, S.rsort==="best" ? el("span",{class:"rank"}, String(i+1)) : null, el("span",{class:"tday"}, fmtDay(e.date))))));
   main.append(box);

@@ -7,7 +7,7 @@ Ausgang Basel: events from Basel venues, with votes and "Ich gehe hin".
 - `site/data/events.json`, `site/data/venues.json`: event and venue data (written by the crawler)
 - `site/backend.js`: Firebase (Firestore + anonymous sign-in) for votes, community events, venue requests and admin edits of venue info
 - `firestore.rules`: the access rules to paste into Firestore → Rules
-- Archive (menu → Archiv): past events of the last 14 days, rated with 1–5 stars (`ratings/<uid>`). The first rating stores a copy of the event in `rated/<eventId>`, so rated events stay on «Bescht bewärtet» indefinitely
+- Past events of the last 14 days stay in the week view and can be rated with 1–5 stars (`ratings/<uid>`). The first rating stores a copy of the event in `rated/<eventId>`; rated events are listed indefinitely under menu → Archiv
 - Deployed by `.github/workflows/pages.yml` on every push to `site/`
 
 ## Nightly crawl (`crawler/run.py`, `.github/workflows/crawl.yml`)
