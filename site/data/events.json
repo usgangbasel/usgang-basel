@@ -1,63 +1,4 @@
 {
-"2026-10-13-stadtcasino--poschner-probiert-sinfonieorchester-base": {
-"title": "Poschner probiert Sinfonieorchester Basel",
-"venue": "Stadtcasino Basel",
-"date": "2026-10-13",
-"source": "crawler",
-"time": "12:15",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/131026_pp/",
-"category": "Konzert / Klassik",
-"doors": "11:45"
-},
-"2026-10-13-stadtcasino--charles-richard-hamelin-kammermusik-um-h": {
-"category": "Konzert / Klassik",
-"date": "2026-10-13",
-"source": "crawler",
-"time": "19:30",
-"title": "Charles Richard-Hamelin – Kammermusik um halb acht",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/13102026_k128/",
-"venue": "Stadtcasino Basel",
-"doors": "18:30"
-},
-"2026-10-13-hula-club-handsome-hank": {
-"title": "Handsome Hank",
-"venue": "Hula Club",
-"date": "2026-10-13",
-"source": "crawler",
-"time": "20:00",
-"style": "country",
-"url": "https://denkmal.org/de/basel/2026-10-13/d5d2dce7-45f2-461f-a4e5-86e3b1ee89f7",
-"category": "Anderes"
-},
-"2026-10-13-saali-golden-hula-club": {
-"category": "Konzert",
-"date": "2026-10-13",
-"source": "crawler",
-"time": "20:00",
-"title": "HULA CLUB",
-"url": "https://www.goldenes-fass.ch/saali/",
-"venue": "Sääli (Goldenes Fass)",
-"doors": "19:30"
-},
-"2026-10-13-um-safe-thea-hysterikon-generalprobe": {
-"title": "Hysterikon Generalprobe",
-"venue": "UM / Safe-Theater",
-"date": "2026-10-13",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/theater-buehne/theater/hysterikon-generalprobe-basel-7506670484378932176.html",
-"category": "Bühne"
-},
-"2026-10-13-atlantis-offbeat-concert-fred-hersch-allstar-trio": {
-"title": "Offbeat Concert: Fred Hersch Allstar Trio feat. Thomas Morgan & Joey Baron",
-"venue": "Atlantis",
-"date": "2026-10-13",
-"source": "crawler",
-"time": "21:00",
-"style": "jazz",
-"url": "https://denkmal.org/de/basel/2026-10-13/9868db4f-8785-4913-ace6-966ce1ddc962",
-"category": "Konzert / Jazz"
-},
 "2026-10-14-quartierzent-cantera-quartett": {
 "title": "Cantera Quartett",
 "venue": "Quartierzentrum Union",
@@ -408,6 +349,15 @@
 "venue": "Renée",
 "style": "70's, Art Rock, Soul, Post-Punk"
 },
+"2026-10-16-the-beast-ba-pregnancy-kink-of-death-dick-disease": {
+"title": "PREGNANCY KINK - Of Death, Dick & Disease",
+"venue": "The Beast Basel Comedy Club",
+"date": "2026-10-16",
+"source": "crawler",
+"time": "19:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/pregnancy-kink-of-death-dick-disease-basel-7504063136145608391.html",
+"category": "Bühne / Comedy"
+},
 "2026-10-16-gare-du-nord-schweben": {
 "category": "Musiktheater",
 "date": "2026-10-16",
@@ -417,6 +367,15 @@
 "url": "https://www.garedunord.ch/de/programm/3169/schweben",
 "venue": "Gare du Nord",
 "style": "Musiktheater/Performance"
+},
+"2026-10-16-theater-base-moby-dick-das-solo": {
+"title": "Moby Dick – das Solo",
+"venue": "Theater Basel - Grosse Bühne",
+"date": "2026-10-16",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/moby-dick-das-solo-basel-7510645494441349915.html",
+"category": "Bühne"
 },
 "2026-10-16-don-bosco-kurtag-100-zwiegesprache": {
 "title": "Kurtág 100: Zwiegespräche",
@@ -478,6 +437,42 @@
 "venue": "Sommercasino",
 "doors": "20:00"
 },
+"2026-10-16-theater-faut-basel-premiere-lennart-schilgen-abwesenh": {
+"title": "Basel-Premiere: Lennart Schilgen \"Abwesenheitsnotizen\"",
+"venue": "Theater Fauteuil - Tabourettli",
+"date": "2026-10-16",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/basel-premiere-lennart-schilgen-abwesenheitsnotizen-basel-7506690644380786342.html",
+"category": "Bühne / Comedy"
+},
+"2026-10-16-valhalla-bas-hangover-in-minsk-bovary-horresque-valha": {
+"title": "Hangover in Minsk + Bovary + Horresque Valhalla, Basel",
+"venue": "Valhalla Basel",
+"date": "2026-10-16",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/hard-rock-heavy-metal/hangover-in-minsk-bovary-horresque-valhalla-basel-basel-7508595786050969281.html",
+"category": "Konzert"
+},
+"2026-10-16-der-teufelho-frank-sauer-sauer-machts-lustig": {
+"title": "Frank Sauer: «Sauer machts lustig»",
+"venue": "Der Teufelhof Basel",
+"date": "2026-10-16",
+"source": "crawler",
+"time": "20:15",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/frank-sauer-sauer-machts-lustig-basel-7475383713112584368.html",
+"category": "Bühne / Comedy"
+},
+"2026-10-16-corrientes-friday-hop": {
+"title": "Friday Hop",
+"venue": "Corrientes",
+"date": "2026-10-16",
+"source": "crawler",
+"time": "20:30",
+"url": "https://eventfrog.ch/de/p/partys/swing/friday-hop-basel-7479630519967172986.html",
+"category": "Party"
+},
 "2026-10-16-stadtcasino--mor-ve-otesi-unplugged": {
 "category": "Konzert / Rock",
 "date": "2026-10-16",
@@ -487,6 +482,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/16102026-mor-ve-otesi/",
 "venue": "Stadtcasino Basel",
 "doors": "19:30"
+},
+"2026-10-16-the-beast-ba-the-beast-open-mic": {
+"title": "The Beast Open Mic",
+"venue": "The Beast Basel Comedy Club",
+"date": "2026-10-16",
+"source": "crawler",
+"time": "20:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/the-beast-open-mic-basel-7514239620072133787.html",
+"category": "Bühne / Comedy"
 },
 "2026-10-16-atlantis-tribute-to-roger-cicero-pats-bigband": {
 "title": "Tribute to Roger Cicero: Pats Bigband",
@@ -527,6 +531,24 @@
 "style": "groove, beats",
 "url": "https://denkmal.org/de/basel/2026-10-16/c70a0da8-4263-4273-8cad-6677feb40298",
 "category": "Anderes"
+},
+"2026-10-16-bar-rouge-midnight-mistakes": {
+"title": "Midnight Mistakes",
+"venue": "Bar Rouge",
+"date": "2026-10-16",
+"source": "crawler",
+"time": "22:00",
+"url": "https://eventfrog.ch/de/p/partys/charts-open-format/midnight-mistakes-basel-7488967854735276131.html",
+"category": "Party"
+},
+"2026-10-16-bar-rouge-moloko-party-in-basel": {
+"title": "MOLOKO PARTY in BASEL",
+"venue": "Bar Rouge",
+"date": "2026-10-16",
+"source": "crawler",
+"time": "22:00",
+"url": "https://eventfrog.ch/de/p/partys/charts-open-format/moloko-party-in-basel-basel-7507923293556493363.html",
+"category": "Party"
 },
 "2026-10-16-basso-subshift-silas-danielson-b2b-norbert-to-": {
 "category": "Club / Psytechno",
@@ -651,6 +673,17 @@
 "venue": "Basso",
 "style": "Midtempo, Deep House, Indie Dance, House",
 "price": "Presale from CHF 12 / Door CHF 25"
+},
+"2026-10-17-kulturbeiz-c-lewis-barton": {
+"title": "Lewis Barton",
+"venue": "Kulturbeiz CXIII",
+"date": "2026-10-17",
+"source": "crawler",
+"time": "17:00",
+"end": "19:00",
+"style": "folk",
+"url": "https://denkmal.org/de/basel/2026-10-17/44658d08-39ea-41d5-9c8b-a04e80a4b3c8",
+"category": "Konzert / Folk"
 },
 "2026-10-17-lora-dine-dance": {
 "title": "Dine & Dance",
@@ -1266,6 +1299,15 @@
 "venue": "Sääli (Goldenes Fass)",
 "doors": "19:30"
 },
+"2026-10-28-saali-golden-zeichnen-in-der-beiz": {
+"title": "Zeichnen in der Beiz",
+"venue": "Sääli (Goldenes Fass)",
+"date": "2026-10-28",
+"source": "crawler",
+"time": "19:30",
+"url": "https://www.goldenes-fass.ch/saali/",
+"category": "Anderes"
+},
 "2026-10-28-gare-du-nord-der-wanderfalke-fringe-ensemble": {
 "category": "Musiktheater",
 "date": "2026-10-28",
@@ -1710,6 +1752,17 @@
 "style": "Samba, Indie Dance, Groove, DnB",
 "price": "Presale CHF 10"
 },
+"2026-11-06-das-viertel-coruba-soundsystem": {
+"title": "Coruba Soundsystem",
+"venue": "Das Viertel",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "23:00",
+"end": "06:00",
+"style": "Afrobeat / Dancehall",
+"url": "https://ticketing.dasviertel.ch/event/coruba-soundsystem-snfoax",
+"category": "Party / Afrobeat"
+},
 "2026-11-07-basso-winter-daydance-series": {
 "category": "Club / Deep House",
 "date": "2026-11-07",
@@ -1809,6 +1862,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/08112026-amg-sunday-concerts/",
 "category": "Konzert / Klassik",
 "doors": "10:00"
+},
+"2026-11-08-gare-du-nord-shaushaushaus-wenn-hauser-zu-buhnenwesen-1430": {
+"title": "SHAUSHAUSHAUS – Wenn Häuser zu Bühnenwesen werden: gare des enfants",
+"venue": "Gare du Nord",
+"date": "2026-11-08",
+"source": "crawler",
+"time": "14:30",
+"style": "Familienkonzert",
+"url": "https://www.garedunord.ch/de/programm/3223/shaushaushaus",
+"category": "Konzert / Neue Musik"
 },
 "2026-11-08-stadtcasino--vivaldi-die-vier-jahreszeiten-philharmon": {
 "title": "Vivaldi - Die vier Jahreszeiten Philharmonie der Solisten",
@@ -1939,6 +2002,16 @@
 "url": "https://sommercasino.ch/events/knoeppel/",
 "venue": "Sommercasino",
 "doors": "20:30"
+},
+"2026-11-14-kaschemme-aller-guten-dinge-sind-18": {
+"title": "Aller guten Dinge sind 18",
+"venue": "Kaschemme",
+"date": "2026-11-14",
+"source": "crawler",
+"time": "22:00",
+"end": "04:00",
+"url": "https://www.kaschemme.ch/programm/2026/11/14/aller-guten-dinge-sind-18",
+"category": "Anderes"
 },
 "2026-11-14-das-viertel-sicnov-w-pavel-petrov": {
 "title": "Sicλnovλ w/ Pavel Petrov",

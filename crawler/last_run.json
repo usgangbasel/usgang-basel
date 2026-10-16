@@ -1,26 +1,26 @@
 {
- "date": "2026-10-15",
+ "date": "2026-10-16",
  "stats": {
-  "added": 22,
+  "added": 14,
   "filled": 0,
-  "dups": 234,
-  "removed": 3,
-  "blocked": 11
+  "dups": 252,
+  "removed": 6,
+  "blocked": 9
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 71,
+   "found": 55,
    "status": "ok"
   },
   {
    "source": "eventfrog",
-   "found": 24,
+   "found": 48,
    "status": "ok"
   },
   {
    "source": "renee",
-   "found": 9,
+   "found": 8,
    "status": "ok"
   },
   {
@@ -40,9 +40,9 @@
   },
   {
    "source": "stadtcasino",
-   "found": 72,
+   "found": 70,
    "status": "ok",
-   "detail_pages": 2
+   "detail_pages": 0
   },
   {
    "source": "viertel",
@@ -56,7 +56,7 @@
   },
   {
    "source": "sommercasino",
-   "found": 29,
+   "found": 28,
    "status": "ok"
   },
   {
@@ -77,7 +77,7 @@
   },
   {
    "source": "saali",
-   "found": 3,
+   "found": 4,
    "status": "ok"
   },
   {
@@ -96,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 271
+ "total_events": 279
 }
