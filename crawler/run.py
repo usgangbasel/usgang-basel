@@ -1,7 +1,7 @@
 """Nightly crawl for Ausgang Basel.
 
 Reads every source in sources.py (respecting robots.txt), extracts events with rules or Claude,
-merges them into site/data/events.json without creating duplicates, and drops events older than 2 days.
+merges them into site/data/events.json without creating duplicates, and drops events older than 14 days (archive).
 """
 import asyncio, json, os, re, sys, time
 from datetime import date, timedelta
@@ -230,7 +230,7 @@ async def main():
 
     for k in [k for k, v in store.items() if blocked(v)]:
         del store[k]; stats["removed"] += 1
-    cutoff = (TODAY - timedelta(days=2)).isoformat()
+    cutoff = (TODAY - timedelta(days=14)).isoformat()  # past events stay two weeks for the archive
     for k in [k for k, v in store.items() if v.get("date", "") < cutoff]:
         del store[k]; stats["removed"] += 1
 

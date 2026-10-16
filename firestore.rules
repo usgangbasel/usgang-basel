@@ -10,6 +10,14 @@ service cloud.firestore {
     match /votes/{uid}       { allow read: if true;       allow write: if isSelf(uid); }
     match /submissions/{uid} { allow read: if true;       allow write: if isSelf(uid); }
     match /requests/{uid}    { allow read: if signedIn(); allow write: if isSelf(uid); }
+    match /ratings/{uid}     { allow read: if true;       allow write: if isSelf(uid); }
+    // copy of an event at its first rating, so it survives the crawler's cleanup; written once, then admin only
+    match /rated/{id}        { allow read: if true;
+                               allow create: if signedIn()
+                                 && request.resource.data.keys().hasOnly(['title','venue','date','time','end','doors','category','style','url','price','community','ratedAt'])
+                                 && request.resource.data.title is string && request.resource.data.title.size() <= 200
+                                 && request.resource.data.date is string && request.resource.data.date.matches('[0-9]{4}-[0-9]{2}-[0-9]{2}');
+                               allow update, delete: if isAdmin(); }
     match /admins/{uid}      { allow read: if isSelf(uid); allow write: if false; }
   }
 }

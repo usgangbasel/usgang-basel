@@ -35,7 +35,7 @@
 
   function collection(name){
     const q = {
-      limit(){ return q; },
+      limit(n){ q.n = n; return q; },
       onSnapshot(next, onErr){
         if (name === "events"){
           loadFile("events").then(o => next(snap(o))).catch(e => onErr && onErr(e));
@@ -51,7 +51,7 @@
           return () => unsub();
         }
         let unsub = () => {};
-        ready.then(() => { if (!fs) return onErr && onErr(new Error("no db")); unsub = fs.collection(name).limit(1000).onSnapshot(next, e => onErr && onErr(mapErr(e))); });
+        ready.then(() => { if (!fs) return onErr && onErr(new Error("no db")); unsub = fs.collection(name).limit(q.n||1000).onSnapshot(next, e => onErr && onErr(mapErr(e))); });
         return () => unsub();
       }
     };

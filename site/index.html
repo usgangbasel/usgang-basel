@@ -123,6 +123,21 @@ h1 span{color:var(--accent)}
 .act.go[aria-pressed="true"]{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
 .act:disabled{opacity:.5;cursor:default}
 .hot{box-shadow:inset 3px 0 0 var(--signal)}
+.ev.rate .acts{grid-column:2;margin-top:2px}
+.empty .linkish{all:unset;cursor:pointer;color:var(--accent);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.stars{display:inline-flex;align-items:center;gap:0}
+.star{background:none;border:0;padding:2px 3px;margin:0;cursor:pointer;color:var(--muted);opacity:.45;font-size:22px;line-height:1;transition:color .15s ease,opacity .15s ease,transform .12s ease}
+.star.on{color:var(--accent);opacity:1}
+.star:active:not(:disabled){transform:scale(.88)}
+.star:disabled{cursor:default}
+.ravg{white-space:nowrap;font:500 12px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums;margin-left:8px;align-self:center}
+.ravg b{color:var(--accent);font-weight:600}
+.ahead{display:grid;gap:4px;margin:18px 0 6px}
+.ahead h2{margin:0;font:700 1.35rem var(--display)}
+.ahead p{margin:0;color:var(--muted);font-size:14px}
+.seg{display:inline-flex;gap:6px;margin-top:8px}
+.seg .btn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.rank{font:700 1.1rem var(--display);color:var(--accent);font-variant-numeric:tabular-nums;align-self:start}
 .empty,.note{color:var(--muted);padding:28px 0;text-align:left}
 .note{padding:10px 14px;border:1px dashed var(--line);border-radius:10px;margin-top:14px;font-size:14px}
 .del{font:500 12px var(--body);background:none;border:0;color:var(--danger);cursor:pointer;padding:0;margin-left:8px}
@@ -375,6 +390,8 @@ header.top h1{font-size:clamp(1.7rem,6vw,2.4rem)}
         <button class="mi" data-sort="mine" type="button">Ych gang ane</button>
         <button class="mi" data-sort="map" type="button">Charte</button>
         <button class="mi" data-sort="venues" type="button">Venues</button>
+        <button class="mi" data-sort="archive" type="button">Archiv</button>
+        <button class="mi" data-sort="rated" type="button">Bescht bewärtet</button>
         <hr>
         <button class="mi add" id="addBtn" type="button">+ Event dezuefiege</button>
         <button class="mi add" id="addVenueBtn" type="button">+ Venue dezuefiege</button>
@@ -467,7 +484,8 @@ const WD = ["Su","Mä","Zy","Mi","Du","Fr","Sa"], MO = ["Jan.","Feb.","Merz","Ap
 const pad = n => String(n).padStart(2,"0");
 const now = new Date(), TODAY = `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}`;
 
-const S = { loading:true, day:null, slide:0, venueInfo:{}, events:{}, subs:{}, votes:{}, uid:null, mine:{up:[],go:[],down:[]}, sort:"date", venue:"Alle", cat:"Alle", readOnly:false, db:null };
+const S = { loading:true, day:null, slide:0, venueInfo:{}, events:{}, subs:{}, votes:{}, uid:null, mine:{up:[],go:[],down:[]}, sort:"date", venue:"Alle", cat:"Alle", readOnly:false, db:null, ratings:{}, myR:{}, rated:{}, rsort:"best" };
+const ARCHIVE_DAYS = 14;
 let writing = Promise.resolve();
 
 function catGroup(c){ c=(c||"").toLowerCase();
@@ -503,7 +521,7 @@ function counts(){
 const score = (id, c=S.cnt||counts()) => ((c.up[id]||0) - (c.down[id]||0))*2 + (c.go[id]||0)*3;
 function fmtDay(d){ const x=new Date(d+"T12:00:00"); return `${WD[x.getDay()]} ${x.getDate()}. ${MO[x.getMonth()]}`; }
 function rel(d){ const a=new Date(TODAY+"T12:00:00"), b=new Date(d+"T12:00:00"); const n=Math.round((b-a)/864e5);
-  return n===0?"Hit":n===1?"Morn":n<7?`in ${n} Täg`:""; }
+  return n===0?"Hit":n===1?"Morn":n===-1?"Geschter":n===-2?"Vorgeschter":n<0?`vor ${-n} Täg`:n<7?`in ${n} Täg`:""; }
 // Duplicate detection: same date, same venue (ignoring "The", accents, suffixes) and mostly the same title words.
 const STOP = new Set(["the","der","die","das","and","und","mit","live","in","im","at","de","la","le","feat","ft","presents","pres","x","vs","konzert","concert","party","dj","djs","b2b","tour","2025","2026","2027"]);
 const GENERIC = new Set("basel club klub night nacht music musik festival orchester orchestra ensemble kammermusik amg symphonic gems series edition vol special guest sinfonieorchester konzerte concerts show open format".split(" "));
@@ -598,7 +616,8 @@ function renderWeek(list, evs, up, go, main){
     el("h2",{}, `${WDL[cur.getDay()]}, ${cur.getDate()}. ${MOL[cur.getMonth()]}`, el("small",{}, S.day===TODAY ? "Hit" : past ? "verbi" : (rel(S.day) || `${items.length} ${items.length===1?"Event":"Events"}`))),
     dnext));
   if (items.length){ const box = el("div",{class:"list"}); items.forEach(e=>box.append(row(e,up,go,false))); page.append(box); }
-  else page.append(el("p",{class:"empty"}, past ? "Dä Tag isch verbi." : S.venue!=="Alle" ? `Nyt im ${S.venue} an däm Tag.` : "Für dä Tag isch nyt yytrage."));
+  else if (past) page.append(el("p",{class:"empty"}, "Dä Tag isch verbi. ", el("button",{class:"linkish",type:"button",onclick:()=>setSort("archive")},"Im Archiv aaluege und bewärte")));
+  else page.append(el("p",{class:"empty"}, S.venue!=="Alle" ? `Nyt im ${S.venue} an däm Tag.` : "Für dä Tag isch nyt yytrage."));
   if (!past && items.length && !(S.day>=maxDay)) page.append(el("div",{class:"dfoot"}, el("button",{class:"btn",type:"button",onclick:()=>{ setDay(ymd(addDays(cur,1)),1); window.scrollTo({top:0}); }}, `Weiter: ${WDL[addDays(cur,1).getDay()]} ›`)));
   main.append(page);
   S.slide = 0;
@@ -643,6 +662,8 @@ function renderMain(){
   main.setAttribute("aria-busy", String(!!S.loading));
   if (S.loading){ main.append(el("div",{class:"skel","aria-label":"Events wärde glade"}, el("i"), el("i"), el("i"), el("i"))); return; }
   if (!S.db){ main.append(el("p",{class:"empty"},"Mäld di bi Claude aa, zum d Events gseh.")); return; }
+  if (S.sort==="archive"){ renderArchive(main); return; }
+  if (S.sort==="rated"){ renderRated(main); return; }
   if (S.sort==="map"){ renderMap(evs.filter(e => S.cat==="Alle"||catGroup(e.category)===S.cat), main); return; }
   if (!evs.length){ main.append(el("p",{class:"empty"},"No kai Events yytrage. Dr täglig Crawl füllt d Lischte; du kasch obe sälber ais dezuefiege.")); return; }
   if (S.sort==="venues"){ renderVenues(evs, main); return; }
@@ -943,6 +964,7 @@ const UNK = "unbekannt";
 function findEvent(id){
   if (S.events[id]) return {...S.events[id], id, community:false};
   if (id.startsWith("sub-")) for (const [uid,doc] of Object.entries(S.subs)) for (const it of (doc.items||[])) if ("sub-"+it.id===id) return {...it, id, community:true, owner:uid};
+  if (S.rated[id]) return {...S.rated[id], id};
   return null;
 }
 const MUSIC = /^(club|konzert|party|jazz|klassik|festival|dj)/i;
@@ -997,7 +1019,8 @@ function renderEventBody(){
   const bD = el("button",{class:"act down",type:"button","aria-pressed":String(isDn),"aria-label":`Downvote, ${nDn} Stimmen`,onclick:()=>toggle("down",e.id)}); bD.innerHTML=ICON_DOWN; bD.append(String(nDn));
   const b2 = el("button",{class:"act go",type:"button","aria-pressed":String(isGo),"aria-label":`Ych gang ane, ${nGo} Zuesage`,onclick:()=>toggle("go",e.id)}); b2.innerHTML=ICON_GO; b2.append(isGo?`Ych bi derby · ${nGo}`:`Ych gang ane · ${nGo}`);
   if (S.readOnly||!S.uid){ b1.disabled=bD.disabled=b2.disabled=true; }
-  body.append(el("section",{class:"vsec"}, el("h4",{},"Dyni Stimm"), el("div",{class:"evacts"}, b1, bD, b2)));
+  if (canRate(e)) body.append(el("section",{class:"vsec"}, el("h4",{},"Dyni Bewärtig"), el("div",{class:"evacts"}, starsFor(e), avgNode(e.id))));
+  else body.append(el("section",{class:"vsec"}, el("h4",{},"Dyni Stimm"), el("div",{class:"evacts"}, b1, bD, b2)));
   const links = el("div",{class:"vlinks"});
   if (e.url) links.append(el("a",{class:"btn primary",href:e.url,target:"_blank",rel:"noopener"},"Zur Event-Syte ↗"));
   if (hasRoute(v)) links.append(el("a",{class:"btn",href:mapsLink(vkey(e.venue)||e.venue,v),target:"_blank",rel:"noopener"},"Route ↗"));
@@ -1104,6 +1127,106 @@ function renderVenues(evs, main){
   main.append(wrap);
 }
 
+// ---- Archive and ratings ----
+// Past events stay in the archive for ARCHIVE_DAYS days (the crawler keeps them that long).
+// Ratings live in ratings/<your id> as {stars:{eventId:1..5}}. The first rating of an event also stores
+// a copy of the event in rated/<eventId>, so rated events stay on "Bescht bewärtet" after they leave the archive.
+const archiveFrom = () => ymd(addDays(new Date(TODAY+"T12:00:00"), -ARCHIVE_DAYS));
+const nowHM = () => { const d=new Date(); return `${pad(d.getHours())}:${pad(d.getMinutes())}`; };
+const canRate = e => !!e && !!e.date && (e.date < TODAY || (e.date===TODAY && !!e.time && e.time <= nowHM()));
+function rstats(){
+  const st = {};
+  for (const r of Object.values(S.ratings)) for (const [id,n] of Object.entries(r.stars||{})){
+    const v = Number(n); if (!(v>=1 && v<=5)) continue;
+    const x = st[id] = st[id] || {sum:0, n:0}; x.sum += v; x.n++;
+  }
+  return st;
+}
+function avgNode(id, st=rstats()){
+  const x = st[id];
+  if (!x) return el("span",{class:"ravg"},"No kai Bewärtig");
+  const a = el("span",{class:"ravg"}); a.append(el("b",{}, `★ ${(x.sum/x.n).toFixed(1)}`), ` · ${x.n} ${x.n===1?"Bewärtig":"Bewärtige"}`);
+  return a;
+}
+function starsFor(e){
+  const mine = Number(S.myR[e.id]||0);
+  const box = el("div",{class:"stars",role:"group","aria-label":"Bewärtig"});
+  for (let i=1;i<=5;i++){
+    const b = el("button",{class:"star"+(i<=mine?" on":""),type:"button","aria-pressed":String(i===mine),"aria-label":`${i} vo 5 Stärn`+(i===mine?", nomol tippe zum Zruggneh":""),onclick:()=>setRating(e, i===mine ? 0 : i)},"★");
+    if (S.readOnly||!S.uid) b.disabled = true;
+    box.append(b);
+  }
+  return box;
+}
+function snapshotOf(e){
+  const o = {title:String(e.title||"").slice(0,200), venue:String(e.venue||"").slice(0,100), date:e.date, ratedAt:Date.now()};
+  for (const k of ["time","end","doors","category","style","url"]) if (e[k]) o[k] = String(e[k]).slice(0,400);
+  if (e.price!==undefined && e.price!==null && e.price!=="") o.price = String(e.price).slice(0,60);
+  if (e.community) o.community = true;
+  return o;
+}
+function setRating(e, n){
+  if (S.readOnly||!S.uid||!canRate(e)) return;
+  const stars = {...S.myR}; if (n) stars[e.id] = n; else delete stars[e.id];
+  S.myR = stars; S.ratings[S.uid] = {stars};
+  if (n && !S.rated[e.id]){ const snap = snapshotOf(e); S.rated[e.id] = snap;
+    S.db.doc("rated/"+e.id).set(snap).catch(()=>{}); }  // already stored by someone else: fine
+  render();
+  writing = writing.then(()=>S.db.doc("ratings/"+S.uid).set({stars})).then(()=>{ if (n) toast(`${n} Stärn vergäh`); })
+    .catch(err=>{ if(err&&err.code==="invalid_argument") readOnly(); else toast("Het nit chönne spaichere. Probiers nomol."); });
+}
+function rateRow(e, st, lead){
+  const title = el("button",{class:"tbtn",type:"button",onclick:()=>openEvent(e.id)},clean(e.title));
+  const meta = el("div",{class:"meta"}, el("span",{class:"mv"},e.venue), ` · ${e.category||"Event"}`);
+  const t = el("div",{class:"title"}, title, e.community?el("span",{class:"badge"},"Community"):null);
+  return el("div",{class:"ev rate"},
+    lead || el("div",{class:"time"+(e.time?"":" none")}, e.time||"–"),
+    el("div",{}, t, meta),
+    el("div",{class:"acts"}, starsFor(e), avgNode(e.id, st)));
+}
+function archiveEvents(){
+  const from = archiveFrom(), out = [];
+  for (const [id,e] of Object.entries(S.events)) if (e.date < TODAY && e.date >= from) out.push({...e, id, community:false});
+  for (const [uid,doc] of Object.entries(S.subs)) for (const it of (doc.items||[])){
+    if (!it.date || it.date >= TODAY || it.date < from) continue;
+    if (out.some(o => isDup(o,it))) continue;
+    out.push({...it, id:"sub-"+it.id, community:true, owner:uid});
+  }
+  return out;
+}
+function renderArchive(main){
+  const st = rstats();
+  const list = archiveEvents().filter(e => (S.venue==="Alle"||e.venue===S.venue) && (S.cat==="Alle"||catGroup(e.category)===S.cat))
+    .sort((a,b)=> b.date.localeCompare(a.date) || (a.time||"99").localeCompare(b.time||"99") || a.title.localeCompare(b.title));
+  const done = list.filter(e => S.myR[e.id]).length;
+  main.append(el("div",{class:"ahead"}, el("h2",{},"Archiv"),
+    el("p",{}, `D Events vo de letschte ${ARCHIVE_DAYS} Täg. Warsch dört? Gib Stärn: bewärteti Events blyybe für immer under «Bescht bewärtet».`),
+    list.length ? el("p",{class:"small"}, `${list.length} Events · ${done} vo dir bewärtet`) : null));
+  if (!list.length){ main.append(el("p",{class:"empty"},"No nyt im Archiv. Vergangeni Events lande do und blyybe zwai Wuche.")); return; }
+  let cur=null, box=null;
+  for (const e of list){
+    if (e.date!==cur){ cur=e.date; box=el("div",{class:"list"});
+      main.append(el("section",{class:"day past"}, el("h2",{},fmtDay(cur), rel(cur)?el("small",{},rel(cur)):null), box)); }
+    box.append(rateRow(e, st));
+  }
+}
+function renderRated(main){
+  const st = rstats();
+  const list = [];
+  for (const [id,x] of Object.entries(st)){ const e = findEvent(id); if (e && e.date) list.push({...e, id, avg:x.sum/x.n, n:x.n}); }
+  const filtered = list.filter(e => (S.venue==="Alle"||e.venue===S.venue) && (S.cat==="Alle"||catGroup(e.category)===S.cat));
+  if (S.rsort==="new") filtered.sort((a,b)=> b.date.localeCompare(a.date) || b.avg-a.avg);
+  else filtered.sort((a,b)=> b.avg-a.avg || b.n-a.n || b.date.localeCompare(a.date));
+  const segBtn = (k,label) => el("button",{class:"btn",type:"button","aria-pressed":String(S.rsort===k),onclick:()=>{ S.rsort=k; render(); }},label);
+  main.append(el("div",{class:"ahead"}, el("h2",{},"Bescht bewärtet"),
+    el("p",{}, "Alli Events, wo öpper bewärtet het. Si blyybe do für immer."),
+    filtered.length ? el("div",{class:"seg",role:"group","aria-label":"Sortiere"}, segBtn("best","Bescht zerscht"), segBtn("new","Neuschti zerscht")) : null));
+  if (!filtered.length){ main.append(el("p",{class:"empty"}, "No kai Events bewärtet. ", el("button",{class:"linkish",type:"button",onclick:()=>setSort("archive")},"Im Archiv vergangeni Events bewärte"))); return; }
+  const box = el("div",{class:"list"});
+  filtered.forEach((e,i) => box.append(rateRow(e, st, el("div",{class:"time"}, S.rsort==="best" ? el("span",{class:"rank"}, String(i+1)) : null, el("span",{class:"tday"}, fmtDay(e.date))))));
+  main.append(box);
+}
+
 function setSort(v){ S.sort=v; document.querySelectorAll("#menu .mi[data-sort]").forEach(x=>{ if (x.dataset.sort===v) x.setAttribute("aria-current","page"); else x.removeAttribute("aria-current"); }); closeMenu(); render(); window.scrollTo({top:0}); }
 
 function toast(msg){ const t=$("#toast"); t.textContent=msg; t.hidden=false; clearTimeout(toast.h); toast.h=setTimeout(()=>t.hidden=true,2400); }
@@ -1152,7 +1275,7 @@ $("#form").addEventListener("submit", async ev => {
   if (item.date < TODAY){ $("#ferr").textContent="Das Datum isch scho verbi."; return; }
   const dup = allEvents().find(o => isDup(o,item));
   if (dup){ $("#ferr").textContent = `Gits scho: «${clean(dup.title)}» am ${dup.date.split("-").reverse().join(".")} im ${dup.venue}${dup.time?", "+dup.time:""}.`; return; }
-  const mine = [...(S.subs[S.uid]?.items||[]).filter(i=>i.date>=TODAY), item].slice(-40);
+  const mine = [...(S.subs[S.uid]?.items||[]).filter(i=>i.date>=archiveFrom()), item].slice(-40);
   try { await S.db.doc("submissions/"+S.uid).set({items:mine}); S.subs[S.uid]={items:mine};
     $("#dlg").close(); $("#form").reset(); render(); toast("Event gspaicheret"); }
   catch(err){ $("#ferr").textContent = err&&err.code==="invalid_argument" ? "Du darfsch kai Events yytrage." : "Spaichere het nit klappt. Probiers nomol."; }
@@ -1297,6 +1420,9 @@ $("#rform").addEventListener("submit", async ev => {
   db.collection("venues").limit(1000).onSnapshot(s => { const o={}; s.docs.forEach(d=>o[d.id]=d.data()); S.venueInfo=o; mergeVenues(); if ($("#vdlg").open && !S.editVenue) renderVenueBody(); if (!S.loading) render(); }, ()=>{});
   db.collection("requests").limit(1000).onSnapshot(s => { const o={}; s.docs.forEach(d=>o[d.id]=d.data()); S.reqs=o; renderReqs(); }, ()=>{});
   try { S.canEdit = !!(user && await Promise.resolve(user.canEdit())); } catch { S.canEdit = false; }
+  db.collection("ratings").limit(5000).onSnapshot(s => { const o={}; s.docs.forEach(d=>o[d.id]=d.data()); S.ratings=o;
+    S.myR = S.uid && o[S.uid] ? {...(o[S.uid].stars||{})} : S.myR; render(); }, ()=>{});
+  db.collection("rated").limit(5000).onSnapshot(s => { const o={}; s.docs.forEach(d=>o[d.id]=d.data()); S.rated={...S.rated, ...o}; render(); }, ()=>{});
   db.collection("votes").limit(1000).onSnapshot(s => { const o={}; s.docs.forEach(d=>o[d.id]=d.data()); S.votes=o;
     if (S.uid && o[S.uid]) S.mine = {up:[...(o[S.uid].up||[])], go:[...(o[S.uid].go||[])], down:[...(o[S.uid].down||[])]};
     render(); }, ()=>{});
