@@ -663,6 +663,24 @@
 "venue": "Renée",
 "style": "60s wild style - The Blues you'd choose to never lose!"
 },
+"2026-10-17-sonntag-18-o-basel-durga-puja-2026": {
+"title": "Basel Durga Puja 2026",
+"venue": "– Sonntag, 18. Oktober, 23:00 Basel Durga Puja 2026",
+"date": "2026-10-17",
+"source": "crawler",
+"time": "11:00",
+"url": "https://eventfrog.ch/de/p/festivals/kunst-kultur/basel-durga-puja-2026-basel-7501374969911196840.html",
+"category": "Festival"
+},
+"2026-10-17-house-of-sou-reloop-x-qsc-dj-showcase": {
+"title": "RELOOP x QSC – DJ SHOWCASE",
+"venue": "House of Sound",
+"date": "2026-10-17",
+"source": "crawler",
+"time": "14:00",
+"url": "https://eventfrog.ch/de/p/partys/electronic-edm/reloop-x-qsc-dj-showcase-basel-7513898176304151285.html",
+"category": "Party"
+},
 "2026-10-17-basso-winter-opening-daydance-britta-arnold-vo": {
 "category": "Club / Deep House",
 "date": "2026-10-17",
@@ -673,6 +691,15 @@
 "venue": "Basso",
 "style": "Midtempo, Deep House, Indie Dance, House",
 "price": "Presale from CHF 12 / Door CHF 25"
+},
+"2026-10-17-basler-munst-bach-um-5-man-singet-mit-freuden-vom-sie": {
+"title": "Bach um 5: Man singet mit Freuden vom Sieg, BVW 149",
+"venue": "Basler Münster",
+"date": "2026-10-17",
+"source": "crawler",
+"time": "17:00",
+"url": "https://eventfrog.ch/de/p/konzerte/kirchenmusik/bach-um-5-man-singet-mit-freuden-vom-sieg-bvw-149-basel-7515462509198838964.html",
+"category": "Konzert"
 },
 "2026-10-17-kulturbeiz-c-lewis-barton": {
 "title": "Lewis Barton",
@@ -714,6 +741,24 @@
 "style": "vocal",
 "url": "https://denkmal.org/de/basel/2026-10-17/dd200e62-9162-4eab-8f2e-15bdef7238bd",
 "category": "Anderes"
+},
+"2026-10-17-paulus-kirch-30-jahre-les-voix": {
+"title": "30 Jahre Les Voix",
+"venue": "Paulus Kirche",
+"date": "2026-10-17",
+"source": "crawler",
+"time": "19:00",
+"url": "https://eventfrog.ch/de/p/konzerte/a-cappella-vocal/30-jahre-les-voix-basel-7463597171432009148.html",
+"category": "Konzert"
+},
+"2026-10-17-freies-gymna-basler-lehrer-innen-theater-altweiberfru": {
+"title": "Basler Lehrer*innen Theater \"Altweiberfrühling\"",
+"venue": "Freies Gymnasium Basel, Mensa",
+"date": "2026-10-17",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/basler-lehrer-innen-theater-altweiberfruehling-basel-7502838803607865387.html",
+"category": "Bühne"
 },
 "2026-10-17-8-bar-mirakolo": {
 "title": "Mirakolo",
@@ -897,6 +942,15 @@
 "style": "baile, reggaeton",
 "url": "https://denkmal.org/de/basel/2026-10-17/cdc33b76-6bea-4915-b50b-dada1d4bb152",
 "category": "Party / Baile"
+},
+"2026-10-17-kinker-schranz-till-we-die": {
+"title": "SCHRANZ TILL WE DIE",
+"venue": "Kinker",
+"date": "2026-10-17",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7515709681932732656",
+"category": "Club / Techno"
 },
 "2026-10-17-nest-kuppelfest-afterparty-boundless-vibes-hi": {
 "title": "Kuppelfest Afterparty: Boundless Vibes Hifi",
@@ -1530,6 +1584,15 @@
 "url": "https://grenzwert.ch/programm/",
 "venue": "Grenzwert",
 "style": "World Musik"
+},
+"2026-10-31-kinker-halloween-night": {
+"title": "Halloween Night",
+"venue": "Kinker",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "22:00",
+"url": "https://www.kinker.ch/events/7515538153819635755",
+"category": "Club / Techno"
 },
 "2026-10-31-das-viertel-pazzoide-w-davide-squillace": {
 "title": "Pazzoide w/ Davide Squillace",
