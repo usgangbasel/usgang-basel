@@ -994,6 +994,33 @@
 "url": "https://denkmal.org/de/basel/2026-10-18/dfc90a6f-16f4-48e3-8c47-a414b072fc47",
 "category": "Party / Disco"
 },
+"2026-10-18-theater-arle-glaini-haggs-dinteglaggs": {
+"title": "Glaini Häggs Dintegläggs",
+"venue": "Theater Arlecchino",
+"date": "2026-10-18",
+"source": "crawler",
+"time": "14:30",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/glaini-haeggs-dinteglaeggs-basel-7478389100963211759.html",
+"category": "Bühne"
+},
+"2026-10-18-theater-bau3-chinds-chopf-pfeifen-verboten": {
+"title": "CHINDS-CHÖPF: Pfeifen verboten",
+"venue": "Theater BAU3",
+"date": "2026-10-18",
+"source": "crawler",
+"time": "16:00",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/chinds-choepf-pfeifen-verboten-basel-7403062208786077493.html",
+"category": "Bühne"
+},
+"2026-10-18-le-miroir-de-im-schatten-der-malatesta-gemblaco-und-d": {
+"title": "Im Schatten der Malatesta, Gemblaco und Dufay in Pesaro",
+"venue": "Le Miroir de Musique",
+"date": "2026-10-18",
+"source": "crawler",
+"time": "17:00",
+"url": "https://eventfrog.ch/de/p/konzerte/kirchenmusik/im-schatten-der-malatesta-gemblaco-und-dufay-in-pesaro-basel-7510990774437210999.html",
+"category": "Konzert"
+},
 "2026-10-18-museum-klein-netzwerk-kammermusik-zauberwelt-der-tone": {
 "title": "Netzwerk Kammermusik: Zauberwelt der Töne",
 "venue": "Museum Kleines Klingental",
@@ -1014,6 +1041,33 @@
 "venue": "Stadtcasino Basel",
 "doors": "16:30"
 },
+"2026-10-18-theater-faut-famiglia-dimitri-mit-cabaret-sorelle-for": {
+"title": "Famiglia Dimitri mit - Cabaret Sorelle Forelle",
+"venue": "Theater Fauteuil - Tabourettli",
+"date": "2026-10-18",
+"source": "crawler",
+"time": "17:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/famiglia-dimitri-mit-cabaret-sorelle-forelle-basel-7452334347976235689.html",
+"category": "Bühne / Comedy"
+},
+"2026-10-18-schauspielha-gespenster": {
+"title": "Gespenster",
+"venue": "Schauspielhaus Theater Basel",
+"date": "2026-10-18",
+"source": "crawler",
+"time": "18:30",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/gespenster-basel-7510681680836837297.html",
+"category": "Bühne"
+},
+"2026-10-18-klara-basel-stand-up-comedy-free-entry": {
+"title": "Stand-up comedy, free entry!",
+"venue": "Klara Basel",
+"date": "2026-10-18",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/stand-up-comedy-free-entry-basel-7487900523892333514.html",
+"category": "Bühne / Comedy"
+},
 "2026-10-18-stadtcasino--angelo-branduardi-in-duo-con-fabio-valde": {
 "title": "Angelo Branduardi in DUO con Fabio Valdemarin Confessioni di un Malandrino",
 "venue": "Stadtcasino Basel",
@@ -1024,6 +1078,33 @@
 "category": "Konzert",
 "doors": "19:00"
 },
+"2026-10-19-peterskirche-faszination-mittelalter": {
+"title": "Faszination Mittelalter",
+"venue": "Peterskirche",
+"date": "2026-10-19",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/faszination-mittelalter-basel-7508431400728547924.html",
+"category": "Konzert"
+},
+"2026-10-19-valhalla-bas-mork-soulburn-suport-scheintod": {
+"title": "Mork & Soulburn Suport: Scheintod",
+"venue": "Valhalla Basel",
+"date": "2026-10-19",
+"source": "crawler",
+"time": "19:45",
+"url": "https://eventfrog.ch/de/p/konzerte/hard-rock-heavy-metal/mork-soulburn-suport-scheintod-basel-7462885222859717564.html",
+"category": "Konzert"
+},
+"2026-10-19-elisabethenk-if-i-do-not-return": {
+"title": "If I do not return",
+"venue": "Elisabethenkirche Basel",
+"date": "2026-10-19",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/if-i-do-not-return-basel-7510664918690978920.html",
+"category": "Konzert"
+},
 "2026-10-19-grenzwert-murder-monday": {
 "title": "Murder Monday",
 "venue": "Grenzwert",
@@ -1033,6 +1114,15 @@
 "style": "Stand-up Comedy (English) · Eintritt frei",
 "url": "https://grenzwert.ch/programm/",
 "category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
+},
+"2026-10-19-messe-basel--baloise-session-nile-rodgers-chic-rick-a": {
+"title": "Baloise Session: NILE RODGERS & CHIC / RICK ASTLEY",
+"venue": "Messe Basel Eventhalle",
+"date": "2026-10-19",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/funk-soul/baloise-session-nile-rodgers-chic-rick-astley-basel-7498326513558762715.html",
+"category": "Konzert"
 },
 "2026-10-20-stadtcasino--quatuor-ebene-kammermusik-basel": {
 "category": "Konzert / Klassik",
