@@ -1233,6 +1233,15 @@
 "url": "https://denkmal.org/de/basel/2026-10-21/a167e88a-8eae-40fc-b089-e2956d09d80e",
 "category": "Anderes"
 },
+"2026-10-21-zwinglihaus-stummfilm-mit-live-orgelbegleitung": {
+"title": "Stummfilm mit Live-Orgelbegleitung",
+"venue": "Zwinglihaus",
+"date": "2026-10-21",
+"source": "crawler",
+"time": "19:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/stummfilm-mit-live-orgelbegleitung-basel-7515317801487219644.html",
+"category": "Konzert"
+},
 "2026-10-21-stadtcasino--kosmos-orchester": {
 "category": "Konzert / Vortrag",
 "date": "2026-10-21",
@@ -1343,6 +1352,16 @@
 "style": "pop",
 "url": "https://denkmal.org/de/basel/2026-10-22/983f5c85-9c98-4a99-ac57-080b81b09ca0",
 "category": "Konzert / Pop"
+},
+"2026-10-22-kleiner-wass-daz-pio-sami": {
+"title": "Daz, Pio & Sami",
+"venue": "Kleiner Wassermann",
+"date": "2026-10-22",
+"source": "crawler",
+"time": "21:00",
+"style": "progressive rock, jazz",
+"url": "https://denkmal.org/de/basel/2026-10-22/5098e5f5-51e6-41b2-afe7-aedf8aa6b2e8",
+"category": "Konzert / Jazz"
 },
 "2026-10-22-schall-und-r-jazznights-manca-fekonja-quartet": {
 "title": "Jazznights: Manca Fekonja Quartet",
@@ -1487,6 +1506,16 @@
 "style": "disco",
 "url": "https://denkmal.org/de/basel/2026-10-23/9818d456-fcff-4f61-a6fc-ec59e241b186",
 "category": "Party / Disco"
+},
+"2026-10-23-grenzwert-lachabelle-zurich": {
+"title": "Lachabelle (Zürich)",
+"venue": "Grenzwert",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "22:00",
+"style": "Chicago House, Hip Hop, Cumbia",
+"url": "https://grenzwert.ch/programm/",
+"category": "Club / Chicago House"
 },
 "2026-10-23-grenzwert-twister-tom-best-rpm": {
 "category": "Club / Rock'n'Roll & R&B",
@@ -1878,6 +1907,27 @@
 "venue": "Gare du Nord",
 "style": "Familienkonzert"
 },
+"2026-10-25-geburtshaus--babykonzerte-basel": {
+"title": "Babykonzerte Basel",
+"venue": "Geburtshaus Matthea",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "11:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-10-25/5d8f9f60-12b5-4e08-b442-4275dec74cf2",
+"category": "Konzert / Klassik"
+},
+"2026-10-25-roxy-birsfel-sonntags-tanzen": {
+"title": "Sonntags:tanzen",
+"venue": "ROXY Birsfelden",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "11:00",
+"end": "13:00",
+"style": "disco",
+"url": "https://denkmal.org/de/basel/2026-10-25/4b83e6d1-9b81-4909-8b20-22d0af56ac6c",
+"category": "Party / Disco"
+},
 "2026-10-25-sommercasino-tichu-turnier": {
 "category": "Spiel",
 "date": "2026-10-25",
@@ -1886,6 +1936,28 @@
 "title": "Tichu Turnier",
 "url": "https://sommercasino.ch/events/tichu-turnier-2/",
 "venue": "Sommercasino"
+},
+"2026-10-25-kuppel-hidden-floor-x-lovalova-flavah-nice-jus2": {
+"title": "Hidden Floor x LovaLova: Flavah Nice & Jus2blck",
+"venue": "Kuppel",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "15:00",
+"end": "19:00",
+"style": "afrobeat, dancehall",
+"url": "https://denkmal.org/de/basel/2026-10-25/aa013fe4-514e-4a9c-aa2d-05990fc7e4d3",
+"category": "Party / Afrobeat"
+},
+"2026-10-25-heimat-sole": {
+"title": "Solé",
+"venue": "Heimat",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "16:00",
+"end": "22:00",
+"style": "house, latin, balearic",
+"url": "https://denkmal.org/de/basel/2026-10-25/c7fcb7f4-5472-4b7b-aa22-3d14ad5c3a06",
+"category": "Club / House"
 },
 "2026-10-25-stadtcasino--sir-andras-schiff-evgeny-kissin": {
 "category": "Konzert / Klassik",
@@ -1896,6 +1968,26 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/25102026-amg-solistenabende/",
 "venue": "Stadtcasino Basel",
 "doors": "18:30"
+},
+"2026-10-25-voltahalle-volta-kammermusikfest-2026-thus-the-nigh": {
+"title": "Volta Kammermusikfest 2026: Thus the Night",
+"venue": "Voltahalle",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "20:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-10-25/de5c9630-c129-4be4-bf54-9c90e47b193c",
+"category": "Konzert / Klassik"
+},
+"2026-10-26-grenzwert-murder-monday": {
+"title": "Murder Monday",
+"venue": "Grenzwert",
+"date": "2026-10-26",
+"source": "crawler",
+"time": "20:00",
+"style": "Stand-up Comedy (English) · Eintritt frei",
+"url": "https://grenzwert.ch/programm/",
+"category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
 },
 "2026-10-27-stadtcasino--cuarteto-casals-claudio-martinez-mehner": {
 "category": "Konzert / Klassik",
@@ -2168,6 +2260,15 @@
 "style": "Tech House / House",
 "url": "https://ticketing.dasviertel.ch/event/pazzoide-w-davide-squillace-halloween-edition-xlkfgh",
 "category": "Club / Tech House"
+},
+"2026-10-31-nordstern-klubnacht-michel-sacher-moodos-drezlo-fe": {
+"title": "Klubnacht: Michel Sacher, Moodos, Drezlo, Fello",
+"venue": "Nordstern",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "23:00",
+"url": "https://tickets.nordstern.com/en/c/klubnacht-2538",
+"category": "Club / Elektronisch"
 },
 "2026-10-31-nordstern-malive": {
 "title": "Malive",
@@ -2559,6 +2660,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/11112026-grand-romance-gala/",
 "category": "Konzert",
 "doors": "18:30"
+},
+"2026-11-12-gare-du-nord-hidden-heartache-ein-musiktheater-in-kor": {
+"title": "Hidden Heartache – ein Musiktheater in Körpersprache: ox&öl",
+"venue": "Gare du Nord",
+"date": "2026-11-12",
+"source": "crawler",
+"time": "20:00",
+"style": "Musiktheater/Performance",
+"url": "https://www.garedunord.ch/de/programm/3192/hidden-heartache",
+"category": "Bühne / Musiktheater"
 },
 "2026-11-13-stadtcasino--collegium-musicum-basel-silvia-resoniert": {
 "title": "Collegium Musicum Basel Silvia resoniert nachhallend",
@@ -3030,6 +3141,15 @@
 "style": "House / Afrohouse / Melodic House",
 "url": "https://ticketing.dasviertel.ch/event/ciel-friends-jn05mk?fbclid=IwY2xjawU6xM5leHRuA2FlbQIxMABwZG9mAWJyaWQRMGthR1ZhSTJYaFhTTXN5dWxzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeOOnhGe8TjrXIt9gog2lHZl8oXUIh3LqM-HYJuTnToAsWQ8ls5YhTqZvsqvw_aem_rzRDOGj-hp41T1AcqB0MrQ",
 "category": "Club / House"
+},
+"2026-12-04-nordstern-schrotthagen": {
+"title": "Schrotthagen",
+"venue": "Nordstern",
+"date": "2026-12-04",
+"source": "crawler",
+"time": "23:00",
+"url": "https://tickets.nordstern.com/en/c/schrotthagen-2537",
+"category": "Club / Elektronisch"
 },
 "2026-12-05-basso-winter-daydance-series": {
 "category": "Club / Deep House",
