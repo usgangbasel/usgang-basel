@@ -1262,6 +1262,15 @@
 "url": "https://denkmal.org/de/basel/2026-10-21/3bb72222-f491-4a32-9ca6-110d80d183c6",
 "category": "Konzert / Folk"
 },
+"2026-10-21-messe-basel--baloise-session-calum-scott-tori-kelly": {
+"title": "Baloise Session: CALUM SCOTT / TORI KELLY",
+"venue": "Messe Basel Eventhalle",
+"date": "2026-10-21",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/pop-rock/baloise-session-calum-scott-tori-kelly-basel-7498328122242152512.html",
+"category": "Konzert"
+},
 "2026-10-21-sud-huun-huur-tu": {
 "title": "Huun-Huur-Tu",
 "venue": "Sud",
@@ -1303,6 +1312,17 @@
 "url": "https://denkmal.org/de/basel/2026-10-22/873164ff-3cbc-44f4-9a47-5d9e04ddd6ab",
 "category": "Party / Reggae"
 },
+"2026-10-22-ms-flaneur-c-menopause-sause-flavah-nice": {
+"title": "Menopause-Sause: Flavah Nice",
+"venue": "MS Flâneur Christoph Merian",
+"date": "2026-10-22",
+"source": "crawler",
+"time": "19:00",
+"end": "23:00",
+"style": "90s, 80s",
+"url": "https://denkmal.org/de/basel/2026-10-22/1219a5ba-bbb8-4425-8cfe-2ad8e7ac67b6",
+"category": "Party / 90s"
+},
 "2026-10-22-8-bar-max-hightower-band": {
 "title": "Max Hightower Band",
 "venue": "8 Bar",
@@ -1322,6 +1342,26 @@
 "style": "soul, jazz",
 "url": "https://denkmal.org/de/basel/2026-10-22/ff8da329-3ebb-475a-8acd-016574f6e13f",
 "category": "Konzert / Jazz"
+},
+"2026-10-22-kuppel-alex-flach-luzifers-roadtrip": {
+"title": "Alex Flach: Luzifers Roadtrip",
+"venue": "Kuppel",
+"date": "2026-10-22",
+"source": "crawler",
+"time": "20:00",
+"style": "lesung",
+"url": "https://denkmal.org/de/basel/2026-10-22/2695a9dc-4b91-4014-a48f-ef567915b667",
+"category": "Bühne / Lesung"
+},
+"2026-10-22-quartierzent-listening-session-alma-negra": {
+"title": "Listening Session: Alma Negra",
+"venue": "Quartierzentrum Union",
+"date": "2026-10-22",
+"source": "crawler",
+"time": "20:00",
+"style": "global sounds",
+"url": "https://denkmal.org/de/basel/2026-10-22/13cc0586-da49-4e9f-b1d1-aeb27e9e1874",
+"category": "Anderes"
 },
 "2026-10-22-stadtcasino--vivaldi-die-vier-jahreszeiten": {
 "category": "Konzert / Klassik",
@@ -1395,6 +1435,27 @@
 "venue": "Renée",
 "style": "Post-Punk to Electronic"
 },
+"2026-10-23-elys-boulder-season-opening-alma-negra-afro": {
+"title": "Season Opening: Alma Negra Afro",
+"venue": "ELYS Boulderloft",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "19:00",
+"style": "disco, americana, latin, afro, funk, folk",
+"url": "https://denkmal.org/de/basel/2026-10-23/7e67f35e-2f59-4ef4-ad56-ff831ea9f48e",
+"category": "Party / Disco"
+},
+"2026-10-23-ms-flaneur-c-sunset-beats-les-acteurs": {
+"title": "Sunset Beats: Les Acteurs",
+"venue": "MS Flâneur Christoph Merian",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "19:00",
+"end": "23:00",
+"style": "techno",
+"url": "https://denkmal.org/de/basel/2026-10-23/a7a2fa8b-42ba-4781-b6e9-a95cb1fe3f1a",
+"category": "Club / Techno"
+},
 "2026-10-23-burghof-miss-allie": {
 "title": "Miss Allie",
 "venue": "Burghof",
@@ -1455,6 +1516,16 @@
 "url": "https://sommercasino.ch/events/save-the-date-nektarmond-37-bibi-vaplan-2/",
 "venue": "Sommercasino",
 "doors": "20:00"
+},
+"2026-10-23-valhalla-iron-deficiency": {
+"title": "Iron Deficiency",
+"venue": "Valhalla",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "20:00",
+"style": "hardcore",
+"url": "https://denkmal.org/de/basel/2026-10-23/2f2b9030-ae9e-44bb-a7d9-17c7518368d5",
+"category": "Konzert / Hardcore"
 },
 "2026-10-23-voltahalle-volta-kammermusikfest-2026-between-shado": {
 "title": "Volta Kammermusikfest 2026: Between Shadows",
@@ -1557,6 +1628,17 @@
 "url": "https://denkmal.org/de/basel/2026-10-23/5439b33a-679f-4f50-8cbc-f5191c5e5da2",
 "category": "Konzert / Indie"
 },
+"2026-10-23-club-cello-semesterparty-xelatorsounds-cyrilo-lapyr": {
+"title": "Semesterparty: Xelatorsounds, Cyrilo, Lapyra",
+"venue": "Club Cello",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"style": "open format",
+"url": "https://denkmal.org/de/basel/2026-10-23/9e2f6638-84b6-4092-b092-6d0dd059098f",
+"category": "Party / Open format"
+},
 "2026-10-23-das-viertel-boiling-trance-w-mrgnstrn": {
 "title": "BOILING TRANCE W/ mrgnstrn",
 "venue": "Das Viertel",
@@ -1596,6 +1678,16 @@
 "style": "2000, indie, electronic, hiphop",
 "url": "https://denkmal.org/de/basel/2026-10-23/7e346c02-70ae-4e1d-a532-be5af4a3ee59",
 "category": "Club / 2000"
+},
+"2026-10-23-nest-okra-night-hausvrau-jaby-ka-raba-fonce": {
+"title": "OKRA night: Hausvrau, Jaby, Ka-Raba, Foncé",
+"venue": "Nest",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "23:00",
+"style": "baile, funk, afro",
+"url": "https://denkmal.org/de/basel/2026-10-23/2d79f9a4-bbdc-4b5b-8d5c-9c18b853f2fa",
+"category": "Party / Baile"
 },
 "2026-10-23-nordstern-cultura40-somewhen": {
 "category": "Club / Elektronisch",
@@ -1657,6 +1749,17 @@
 "url": "https://denkmal.org/de/basel/2026-10-24/c0246a19-4ca5-403b-9f52-3549362b10d4",
 "category": "Anderes"
 },
+"2026-10-24-ms-flaneur-c-abba-boat": {
+"title": "ABBA Boat",
+"venue": "MS Flâneur Christoph Merian",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "19:00",
+"end": "23:00",
+"style": "pop, disco",
+"url": "https://denkmal.org/de/basel/2026-10-24/3e9c07f5-38ce-45ac-97af-3c170589f2df",
+"category": "Party / Pop"
+},
 "2026-10-24-stadtcasino--sachsische-staatskapelle-dresden": {
 "category": "Konzert / Klassik",
 "date": "2026-10-24",
@@ -1666,6 +1769,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/241026_amg_sg/",
 "venue": "Stadtcasino Basel",
 "doors": "18:30"
+},
+"2026-10-24-carambolage-the-basement": {
+"title": "The Basement",
+"venue": "Carambolage",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "20:00",
+"style": "rock, experimental",
+"url": "https://denkmal.org/de/basel/2026-10-24/d26abd57-8ee9-4424-a0d8-3e30ad8d0a1b",
+"category": "Konzert / Rock"
 },
 "2026-10-24-kulturkirche-odem-jubilaumskonzert-125-jahre-pauluski": {
 "title": "Odem: Jubiläumskonzert 125 Jahre Pauluskirche",
@@ -1696,6 +1809,26 @@
 "style": "pop",
 "url": "https://denkmal.org/de/basel/2026-10-24/3d06c803-08fd-4f92-bb72-9988a88b04a9",
 "category": "Konzert / Pop"
+},
+"2026-10-24-quartierzent-david-howald": {
+"title": "David Howald",
+"venue": "Quartierzentrum Union",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "20:00",
+"style": "indie rock",
+"url": "https://denkmal.org/de/basel/2026-10-24/84009a56-050c-4337-8b55-e0ffb87afe45",
+"category": "Konzert / Indie rock"
+},
+"2026-10-24-valhalla-askara-beyond-dystopia": {
+"title": "Askara, Beyond Dystopia",
+"venue": "Valhalla",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "20:00",
+"style": "progressive metal, gothic",
+"url": "https://denkmal.org/de/basel/2026-10-24/e3e49fbc-f95c-40d6-b7ee-f8dc8c0da8ba",
+"category": "Konzert / Progressive metal"
 },
 "2026-10-24-voltahalle-volta-kammermusikfest-2026-fever-dreams-": {
 "title": "Volta Kammermusikfest 2026: Fever Dreams, Forbidden Rituals",
@@ -1958,6 +2091,17 @@
 "style": "house, latin, balearic",
 "url": "https://denkmal.org/de/basel/2026-10-25/c7fcb7f4-5472-4b7b-aa22-3d14ad5c3a06",
 "category": "Club / House"
+},
+"2026-10-25-ms-flaneur-c-tanzschiff-discofox": {
+"title": "Tanzschiff - Discofox",
+"venue": "MS Flâneur Christoph Merian",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "18:00",
+"end": "22:00",
+"style": "pop, disco",
+"url": "https://denkmal.org/de/basel/2026-10-25/df4917a3-6605-4d84-8f76-da0965c6213a",
+"category": "Party / Pop"
 },
 "2026-10-25-stadtcasino--sir-andras-schiff-evgeny-kissin": {
 "category": "Konzert / Klassik",
@@ -2491,6 +2635,15 @@
 "url": "https://ticketing.dasviertel.ch/event/coruba-soundsystem-snfoax",
 "category": "Party / Afrobeat"
 },
+"2026-11-06-kinker-rvnz-project-kinker-06-11-26-16": {
+"title": "RVNZ.project Kinker 06.11.26 16+",
+"venue": "Kinker",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7517247082387741452",
+"category": "Club / Techno"
+},
 "2026-11-07-basso-winter-daydance-series": {
 "category": "Club / Deep House",
 "date": "2026-11-07",
@@ -2641,6 +2794,16 @@
 "category": "Konzert / Klassik",
 "doors": "18:30"
 },
+"2026-11-10-saali-golden-hula-club": {
+"title": "HULA CLUB",
+"venue": "Sääli (Goldenes Fass)",
+"date": "2026-11-10",
+"source": "crawler",
+"time": "20:00",
+"doors": "19:30",
+"url": "https://www.goldenes-fass.ch/saali/",
+"category": "Konzert"
+},
 "2026-11-11-sommercasino-mane-showcase": {
 "title": "Mané – Showcase",
 "venue": "Sommercasino",
@@ -2660,6 +2823,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/11112026-grand-romance-gala/",
 "category": "Konzert",
 "doors": "18:30"
+},
+"2026-11-12-kaschemme-landscape-7": {
+"title": "LANDSCAPE #7",
+"venue": "Kaschemme",
+"date": "2026-11-12",
+"source": "crawler",
+"time": "19:30",
+"end": "23:00",
+"url": "https://www.kaschemme.ch/programm/2026/11/12/landscape-7",
+"category": "Anderes"
 },
 "2026-11-12-gare-du-nord-hidden-heartache-ein-musiktheater-in-kor": {
 "title": "Hidden Heartache – ein Musiktheater in Körpersprache: ox&öl",
@@ -2913,6 +3086,16 @@
 "style": "Melodic House / Afrohouse / House",
 "url": "https://ticketing.dasviertel.ch/event/zweiklang-presents-hotlap-n6746y",
 "category": "Club / Melodic House"
+},
+"2026-11-21-kaschemme-indie-rock": {
+"title": "INDIE ROCK",
+"venue": "Kaschemme",
+"date": "2026-11-21",
+"source": "crawler",
+"time": "23:00",
+"end": "06:00",
+"url": "https://www.kaschemme.ch/programm/2026/11/21/indie-rock",
+"category": "Anderes"
 },
 "2026-11-22-stadtcasino--philharmonische-orchester-basel-virtuoso": {
 "title": "Philharmonische Orchester Basel VIRTUOSO",
@@ -3463,6 +3646,15 @@
 "url": "https://ticketing.dasviertel.ch/event/paolo-ferrara-16rvcr",
 "category": "Club / Techno"
 },
+"2026-12-26-nordstern-all-night-long-andrea-oliva": {
+"title": "All Night Long: Andrea Oliva",
+"venue": "Nordstern",
+"date": "2026-12-26",
+"source": "crawler",
+"time": "23:00",
+"url": "https://tickets.nordstern.com/en/c/andrea-oliva-all-night-long-2545",
+"category": "Club / Elektronisch"
+},
 "2026-12-28-stadtcasino--die-grosse-giuseppe-verdi-gala-die-schon": {
 "title": "Die grosse Giuseppe Verdi Gala Die schönsten Szenen der grossen Verdi Opern",
 "venue": "Stadtcasino Basel",
@@ -3542,5 +3734,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/030127_i_tempi/",
 "category": "Konzert / Klassik",
 "doors": "16:30"
+},
+"2027-01-09-basso-basso-daydance": {
+"title": "BASSO DAYDANCE",
+"venue": "Basso",
+"date": "2027-01-09",
+"source": "crawler",
+"time": "",
+"style": "Midtempo, Deep House, Indie Dance, House",
+"url": "https://www.bassoverse.space/beats",
+"category": "Club / Midtempo"
 }
 }

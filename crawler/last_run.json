@@ -1,16 +1,16 @@
 {
- "date": "2026-10-20",
+ "date": "2026-10-21",
  "stats": {
-  "added": 12,
+  "added": 20,
   "filled": 0,
-  "dups": 217,
+  "dups": 230,
   "removed": 0,
-  "blocked": 11
+  "blocked": 9
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 76,
+   "found": 86,
    "status": "ok"
   },
   {
@@ -30,17 +30,17 @@
   },
   {
    "source": "nordstern",
-   "found": 11,
+   "found": 12,
    "status": "ok"
   },
   {
    "source": "kaschemme",
-   "found": 8,
+   "found": 10,
    "status": "ok"
   },
   {
    "source": "stadtcasino",
-   "found": 66,
+   "found": 65,
    "status": "ok",
    "detail_pages": 0
   },
@@ -61,7 +61,7 @@
   },
   {
    "source": "basso",
-   "found": 15,
+   "found": 16,
    "status": "ok",
    "detail_pages": 0
   },
@@ -72,7 +72,7 @@
   },
   {
    "source": "kinker",
-   "found": 0,
+   "found": 7,
    "status": "ok"
   },
   {
@@ -96,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 355
+ "total_events": 375
 }
