@@ -1323,6 +1323,24 @@
 "url": "https://denkmal.org/de/basel/2026-10-22/1219a5ba-bbb8-4425-8cfe-2ad8e7ac67b6",
 "category": "Party / 90s"
 },
+"2026-10-22-aula-gymnasi-theater-2q-all-of-us-are-lying": {
+"title": "Theater 2Q: All of us are lying",
+"venue": "Aula Gymnasium Bäumlihof",
+"date": "2026-10-22",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/theater-2q-all-of-us-are-lying-basel-7508834176038084423.html",
+"category": "Bühne"
+},
+"2026-10-22-aula-sekunda-ten-little-liars": {
+"title": "Ten little liars",
+"venue": "Aula, Sekundarschule Leonhard",
+"date": "2026-10-22",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/ten-little-liars-basel-7507114151476472060.html",
+"category": "Bühne"
+},
 "2026-10-22-8-bar-max-hightower-band": {
 "title": "Max Hightower Band",
 "venue": "8 Bar",
@@ -1373,6 +1391,15 @@
 "venue": "Stadtcasino Basel",
 "doors": "19:00"
 },
+"2026-10-22-station-circ-jeudi-cirque": {
+"title": "Jeudi Cirque",
+"venue": "Station Circus",
+"date": "2026-10-22",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/theater-buehne/buehnenveranstaltung/jeudi-cirque-basel-7497932038307075021.html",
+"category": "Bühne"
+},
 "2026-10-22-sud-dirty-sound-magnet": {
 "title": "Dirty Sound Magnet",
 "venue": "Sud",
@@ -1382,6 +1409,24 @@
 "style": "rock, psychedelic rock",
 "url": "https://denkmal.org/de/basel/2026-10-22/95832ab3-df4c-4667-9851-ebd3c572d37c",
 "category": "Club / Rock"
+},
+"2026-10-22-theater-faut-charles-nguela-timing": {
+"title": "Charles Nguela - Timing",
+"venue": "Theater Fauteuil",
+"date": "2026-10-22",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/charles-nguela-timing-basel-7452252131787071818.html",
+"category": "Bühne / Comedy"
+},
+"2026-10-22-der-teufelho-berni-wagner-monster": {
+"title": "Berni Wagner: «Monster»",
+"venue": "Der Teufelhof Basel",
+"date": "2026-10-22",
+"source": "crawler",
+"time": "20:15",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/berni-wagner-monster-basel-7475384896115974610.html",
+"category": "Bühne / Comedy"
 },
 "2026-10-22-atlantis-youngstage": {
 "title": "Youngstage",
@@ -1434,6 +1479,33 @@
 "url": "https://www.renee.ch",
 "venue": "Renée",
 "style": "Post-Punk to Electronic"
+},
+"2026-10-23-lora-basel-azulu-event": {
+"title": "AZULU EVENT",
+"venue": "Lora Basel",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "11:00",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/azulu-event-basel-7508222746230282476.html",
+"category": "Party"
+},
+"2026-10-23-atlantis-bas-soroptimist-viva-dance-night-23-oktober-": {
+"title": "Soroptimist Viva Dance Night - 23. Oktober 26 - im Atlantis",
+"venue": "Atlantis Basel",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "18:30",
+"url": "https://eventfrog.ch/de/p/partys/90s/soroptimist-viva-dance-night-23-oktober-26-im-atlantis-basel-7445135171462925611.html",
+"category": "Party"
+},
+"2026-10-23-rhystarn-der-line-dance-uff-em-rhy": {
+"title": "Line Dance uff em Rhy",
+"venue": "Rhystärn der Basler Personenschifffahrt AG",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "18:30",
+"url": "https://eventfrog.ch/de/p/partys/country-folk/line-dance-uff-em-rhy-basel-7450173919552608214.html",
+"category": "Party"
 },
 "2026-10-23-elys-boulder-season-opening-alma-negra-afro": {
 "title": "Season Opening: Alma Negra Afro",
@@ -2295,6 +2367,16 @@
 "url": "https://ticketing.dasviertel.ch/event/block-party-7i9u1b",
 "category": "Party / HIP HOP"
 },
+"2026-10-30-kaschemme-hls-halloween-party": {
+"title": "HLS HALLOWEEN PARTY",
+"venue": "Kaschemme",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"url": "https://www.kaschemme.ch/programm/2026/10/30/hls-halloween-party",
+"category": "Anderes"
+},
 "2026-10-30-nordstern-all-night-long-dasstudach": {
 "title": "All Night Long: Dasstudach",
 "venue": "Nordstern",
@@ -2613,6 +2695,15 @@
 "venue": "Kaschemme",
 "end": "02:00"
 },
+"2026-11-06-nordstern-permanent-vacation-benjamin-frohlich-meh": {
+"title": "Permanent Vacation: Benjamin Fröhlich, Mehmet Aslan, Klingberg",
+"venue": "Nordstern",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "21:00",
+"url": "https://tickets.nordstern.com/en/c/permanent-vacation-2508",
+"category": "Club / Elektronisch"
+},
 "2026-11-06-basso-basso-live-cafe-da-manha-live-alan-koh-s": {
 "category": "Konzert / Samba & Indie Dance",
 "date": "2026-11-06",
@@ -2643,6 +2734,15 @@
 "time": "23:00",
 "url": "https://www.kinker.ch/events/7517247082387741452",
 "category": "Club / Techno"
+},
+"2026-11-06-nordstern-somatic-rituals-friends-bambounou": {
+"title": "Somatic Rituals + Friends: Bambounou",
+"venue": "Nordstern",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "23:00",
+"url": "https://tickets.nordstern.com/en/c/somatic-rituals-friends-2507",
+"category": "Club / Elektronisch"
 },
 "2026-11-07-basso-winter-daydance-series": {
 "category": "Club / Deep House",
@@ -3106,6 +3206,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/philharmonische-orchester-basel/",
 "category": "Konzert / Klassik",
 "doors": "16:00"
+},
+"2026-11-22-kaschemme-conquering-basilea-fleshcrawl-avulsed-vi": {
+"title": "Conquering Basilea: FLESHCRAWL, AVULSED, VIOLENTOR",
+"venue": "Kaschemme",
+"date": "2026-11-22",
+"source": "crawler",
+"time": "19:00",
+"end": "23:59",
+"url": "https://www.kaschemme.ch/programm/2026/11/22/conquering-basilea-fleshcrawl-avulsed-violentor",
+"category": "Anderes"
 },
 "2026-11-24-stadtcasino--vortrag-mit-robert-betz-was-dir-dein-kor": {
 "title": "Vortrag mit Robert Betz Was dir dein Körper sagen will!",
@@ -3685,6 +3795,17 @@
 "category": "Konzert / Klassik",
 "doors": "17:30",
 "end": "20:30"
+},
+"2026-12-31-das-viertel-light-up-the-new-year": {
+"title": "Light UP the NEW Year!",
+"venue": "Das Viertel",
+"date": "2026-12-31",
+"source": "crawler",
+"time": "22:00",
+"end": "06:00",
+"style": "Hits / House / Afro",
+"url": "https://ticketing.dasviertel.ch/event/light-up-the-new-year-pto107",
+"category": "Club / Hits"
 },
 "2026-12-31-kinker-kinker-newyearseve": {
 "title": "KINKER NewYearsEve",

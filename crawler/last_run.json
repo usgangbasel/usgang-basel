@@ -1,21 +1,21 @@
 {
- "date": "2026-10-21",
+ "date": "2026-10-22",
  "stats": {
-  "added": 20,
+  "added": 13,
   "filled": 0,
-  "dups": 230,
+  "dups": 255,
   "removed": 0,
-  "blocked": 9
+  "blocked": 8
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 86,
+   "found": 81,
    "status": "ok"
   },
   {
    "source": "eventfrog",
-   "found": 9,
+   "found": 36,
    "status": "ok"
   },
   {
@@ -30,33 +30,33 @@
   },
   {
    "source": "nordstern",
-   "found": 12,
+   "found": 14,
    "status": "ok"
   },
   {
    "source": "kaschemme",
-   "found": 10,
+   "found": 12,
    "status": "ok"
   },
   {
    "source": "stadtcasino",
-   "found": 65,
+   "found": 64,
    "status": "ok",
    "detail_pages": 0
   },
   {
    "source": "viertel",
-   "found": 17,
+   "found": 18,
    "status": "ok"
   },
   {
    "source": "garedunord",
-   "found": 8,
-   "status": "ok"
+   "found": 0,
+   "status": "skipped: robots.txt unreachable: <urlopen error timed out>"
   },
   {
    "source": "sommercasino",
-   "found": 26,
+   "found": 25,
    "status": "ok"
   },
   {
@@ -96,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 375
+ "total_events": 388
 }
