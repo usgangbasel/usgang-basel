@@ -1528,6 +1528,15 @@
 "url": "https://denkmal.org/de/basel/2026-10-23/a7a2fa8b-42ba-4781-b6e9-a95cb1fe3f1a",
 "category": "Club / Techno"
 },
+"2026-10-23-druckereihal-volksbuhne-basel-mutige-frauen-erinnern-": {
+"title": "Volksbühne Basel: Mutige Frauen - Erinnern ins Jetzt",
+"venue": "Druckereihalle - Kultur im Ackermannshof",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/theater-buehne/schauspiel/volksbuehne-basel-mutige-frauen-erinnern-ins-jetzt-basel-7516045189288341734.html",
+"category": "Bühne"
+},
 "2026-10-23-burghof-miss-allie": {
 "title": "Miss Allie",
 "venue": "Burghof",
@@ -1569,6 +1578,24 @@
 "url": "https://denkmal.org/de/basel/2026-10-23/4dc895c0-ce2a-4482-9352-0b8c71d227cf",
 "category": "Konzert / Jazz"
 },
+"2026-10-23-messe-basel--baloise-session-stephan-eicher-imany": {
+"title": "Baloise Session: STEPHAN EICHER / IMANY",
+"venue": "Messe Basel Eventhalle",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/pop-rock/baloise-session-stephan-eicher-imany-basel-7498328664796328005.html",
+"category": "Konzert"
+},
+"2026-10-23-offene-kirch-u50-party-basel": {
+"title": "Ü50-Party Basel",
+"venue": "Offene Kirche Elisabethen",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/partys/disco/ue50-party-basel-basel-7447690706489982522.html",
+"category": "Party"
+},
 "2026-10-23-parterre-one-little-chevy-pure-house-music-fredd-licc": {
 "title": "Little Chevy // Pure House Music: Fredd Licci, DJ Joseph M., Frank Vespari, Nicolas Huberpure Energy",
 "venue": "Parterre One",
@@ -1608,6 +1635,24 @@
 "style": "klassik",
 "url": "https://denkmal.org/de/basel/2026-10-23/30333778-d9f1-44e2-89d2-6cec76120167",
 "category": "Konzert / Klassik"
+},
+"2026-10-23-der-teufelho-sijamais-blackout-eine-gottliche-komodie": {
+"title": "siJamais: «Blackout – eine göttliche Komödie»",
+"venue": "Der Teufelhof Basel",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "20:15",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/sijamais-blackout-eine-goettliche-komoedie-basel-7475385240774520683.html",
+"category": "Bühne / Comedy"
+},
+"2026-10-23-the-beast-ba-digital-daddy-in-english": {
+"title": "Digital Daddy (in English)",
+"venue": "The Beast Basel Comedy Club",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "20:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/digital-daddy-in-english-basel-7448291590286626694.html",
+"category": "Bühne / Comedy"
 },
 "2026-10-23-atlantis-viva-dj-renle-fox": {
 "title": "Viva: DJ Renle Fox",
@@ -1700,6 +1745,24 @@
 "url": "https://denkmal.org/de/basel/2026-10-23/5439b33a-679f-4f50-8cbc-f5191c5e5da2",
 "category": "Konzert / Indie"
 },
+"2026-10-23-the-beast-ba-shots-and-giggles-late-night-open-mic": {
+"title": "Shots and Giggles Late Night Open Mic",
+"venue": "The Beast Basel Comedy Club",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "22:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/shots-and-giggles-late-night-open-mic-basel-7506290975284668916.html",
+"category": "Bühne / Comedy"
+},
+"2026-10-23-alice-club-new-wave-alice-club-basel": {
+"title": "NEW WAVE @ ALICE CLUB BASEL",
+"venue": "Alice Club",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "23:00",
+"url": "https://eventfrog.ch/de/p/partys/studierendenparty/new-wave-alice-club-basel-basel-7503535967464099103.html",
+"category": "Party"
+},
 "2026-10-23-club-cello-semesterparty-xelatorsounds-cyrilo-lapyr": {
 "title": "Semesterparty: Xelatorsounds, Cyrilo, Lapyra",
 "venue": "Club Cello",
@@ -1769,6 +1832,15 @@
 "title": "Cultura40: Somewhen",
 "url": "https://tickets.nordstern.com/en/c/somewhen-2290",
 "venue": "Nordstern"
+},
+"2026-10-23-parterre-one-pure-house-music-till-today": {
+"title": "PURE HOUSE MUSIC – TILL TODAY",
+"venue": "Parterre One Club",
+"date": "2026-10-23",
+"source": "crawler",
+"time": "23:00",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/pure-house-music-till-today-basel-7508508456032162661.html",
+"category": "Party"
 },
 "2026-10-23-renee-doktor-rotman": {
 "category": "Club / Funk & Afrobeat",
