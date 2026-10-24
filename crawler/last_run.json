@@ -1,16 +1,16 @@
 {
- "date": "2026-10-23",
+ "date": "2026-10-24",
  "stats": {
-  "added": 8,
+  "added": 12,
   "filled": 0,
-  "dups": 251,
+  "dups": 216,
   "removed": 0,
-  "blocked": 7
+  "blocked": 5
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 65,
+   "found": 39,
    "status": "ok"
   },
   {
@@ -20,7 +20,7 @@
   },
   {
    "source": "renee",
-   "found": 5,
+   "found": 4,
    "status": "ok"
   },
   {
@@ -35,7 +35,7 @@
   },
   {
    "source": "kaschemme",
-   "found": 11,
+   "found": 10,
    "status": "ok"
   },
   {
@@ -46,7 +46,7 @@
   },
   {
    "source": "viertel",
-   "found": 17,
+   "found": 16,
    "status": "ok"
   },
   {
@@ -56,12 +56,12 @@
   },
   {
    "source": "sommercasino",
-   "found": 25,
+   "found": 24,
    "status": "ok"
   },
   {
    "source": "basso",
-   "found": 16,
+   "found": 15,
    "status": "ok",
    "detail_pages": 0
   },
@@ -72,7 +72,7 @@
   },
   {
    "source": "kinker",
-   "found": 7,
+   "found": 0,
    "status": "ok"
   },
   {
@@ -96,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 396
+ "total_events": 408
 }

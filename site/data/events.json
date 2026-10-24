@@ -1862,6 +1862,33 @@
 "url": "https://denkmal.org/de/basel/2026-10-23/b63372c4-7d63-4d28-bb9f-076485b2029f",
 "category": "Anderes"
 },
+"2026-10-24-sonntag-25-o-bachata-workshop-weekend-oktoberfest-par": {
+"title": "Bachata Workshop Weekend & Oktoberfest Party",
+"venue": "– Sonntag, 25. Oktober, 14:00 Bailamos Salsa",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "13:00",
+"url": "https://eventfrog.ch/de/p/partys/latin-salsa-bachata/bachata-workshop-weekend-oktoberfest-party-basel-7503133762361807671.html",
+"category": "Party"
+},
+"2026-10-24-theater-arle-silberbux": {
+"title": "Silberbüx",
+"venue": "Theater Arlecchino",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "14:30",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/silberbuex-basel-7486033570227613498.html",
+"category": "Bühne"
+},
+"2026-10-24-ms-flaneur-c-kinderdisco-uff-em-rhy": {
+"title": "Kinderdisco uff em Rhy",
+"venue": "MS Flâneur Christoph Merian",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "14:45",
+"url": "https://eventfrog.ch/de/p/partys/disco/kinderdisco-uff-em-rhy-basel-7501625849537383181.html",
+"category": "Party"
+},
 "2026-10-24-kulturbeiz-c-eight-piece-box": {
 "title": "Eight Piece Box",
 "venue": "Kulturbeiz CXIII",
@@ -1872,6 +1899,33 @@
 "style": "rockabilly",
 "url": "https://denkmal.org/de/basel/2026-10-24/b03a2035-1202-43b0-afdb-4acda22f73ff",
 "category": "Konzert / Rockabilly"
+},
+"2026-10-24-saal1-kuchli-ranabaali-basel-saal1": {
+"title": "RANABAALI BASEL SAAL1",
+"venue": "Saal1 Küchlin",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "16:45",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/ranabaali-basel-saal1-basel-7518307378036509511.html",
+"category": "Bühne"
+},
+"2026-10-24-alice-club-shyne-ad-friends": {
+"title": "Shyne, AD + Friends",
+"venue": "Alice Club",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "17:00",
+"url": "https://eventfrog.ch/de/p/konzerte/hip-hop-rap/shyne-ad-friends-basel-7515040871869326795.html",
+"category": "Konzert"
+},
+"2026-10-24-sudhaus-base-conquering-basilea-fest-vol-x": {
+"title": "Conquering Basilea Fest Vol. X",
+"venue": "Sudhaus Basel",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "17:30",
+"url": "https://eventfrog.ch/de/p/konzerte/hard-rock-heavy-metal/conquering-basilea-fest-vol-x-basel-7463129635619901037.html",
+"category": "Konzert"
 },
 "2026-10-24-sud-conquering-basilea-fest-vol-x-gorgasm-eg": {
 "title": "Conquering Basilea Fest Vol. X: Gorgasm, Egorgement, Darkall Slaves, Fleshless, Chordotomy, Goreshower",
@@ -1893,6 +1947,15 @@
 "url": "https://denkmal.org/de/basel/2026-10-24/c0246a19-4ca5-403b-9f52-3549362b10d4",
 "category": "Anderes"
 },
+"2026-10-24-khaus-hinter-den-kulissen": {
+"title": "Hinter den Kulissen",
+"venue": "kHaus",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "19:00",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/hinter-den-kulissen-basel-7436044529612909488.html",
+"category": "Bühne"
+},
 "2026-10-24-ms-flaneur-c-abba-boat": {
 "title": "ABBA Boat",
 "venue": "MS Flâneur Christoph Merian",
@@ -1904,6 +1967,15 @@
 "url": "https://denkmal.org/de/basel/2026-10-24/3e9c07f5-38ce-45ac-97af-3c170589f2df",
 "category": "Party / Pop"
 },
+"2026-10-24-museum-klein-villanelle-napoletane-canzoni-villanesch": {
+"title": "Villanelle napoletane -Canzoni Villanesche del Regno",
+"venue": "Museum Kleines Klingental",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/villanelle-napoletane-canzoni-villanesche-del-regno-basel-7510635667992355723.html",
+"category": "Konzert"
+},
 "2026-10-24-stadtcasino--sachsische-staatskapelle-dresden": {
 "category": "Konzert / Klassik",
 "date": "2026-10-24",
@@ -1913,6 +1985,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/241026_amg_sg/",
 "venue": "Stadtcasino Basel",
 "doors": "18:30"
+},
+"2026-10-24-theodorskirc-gospelkonzert-hold-on-mit-gospelchor-in-": {
+"title": "Gospelkonzert «Hold on» mit Gospelchor IN HIS HANDS",
+"venue": "Theodorskirche | Kirche",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/konzerte/gospel/gospelkonzert-hold-on-mit-gospelchor-in-his-hands-basel-7497352047982858567.html",
+"category": "Konzert"
 },
 "2026-10-24-carambolage-the-basement": {
 "title": "The Basement",
@@ -1973,6 +2054,24 @@
 "style": "progressive metal, gothic",
 "url": "https://denkmal.org/de/basel/2026-10-24/e3e49fbc-f95c-40d6-b7ee-f8dc8c0da8ba",
 "category": "Konzert / Progressive metal"
+},
+"2026-10-24-verso-westie-beat-party": {
+"title": "Westie beat Party",
+"venue": "Verso",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/partys/sonstige-partys/westie-beat-party-basel-7507512219137001204.html",
+"category": "Party"
+},
+"2026-10-24-volkshaus-schlagerparty-gefuhle-pur-ein-abend-zum-": {
+"title": "Schlagerparty - Gefühle pur, ein Abend zum Mitsingen",
+"venue": "Volkshaus",
+"date": "2026-10-24",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/partys/schlager-volksmusik/schlagerparty-gefuehle-pur-ein-abend-zum-mitsingen-basel-7505254708354803668.html",
+"category": "Party"
 },
 "2026-10-24-voltahalle-volta-kammermusikfest-2026-fever-dreams-": {
 "title": "Volta Kammermusikfest 2026: Fever Dreams, Forbidden Rituals",
@@ -3887,6 +3986,15 @@
 "time": "22:00",
 "url": "https://www.kinker.ch/events/7439467662588006712",
 "category": "Club / Techno"
+},
+"2026-12-31-nordstern-nye-artists-to-be-announced": {
+"title": "NYE: Artists To Be Announced",
+"venue": "Nordstern",
+"date": "2026-12-31",
+"source": "crawler",
+"time": "23:00",
+"url": "https://tickets.nordstern.com/en/c/nye-2555",
+"category": "Club / Elektronisch"
 },
 "2027-01-01-stadtcasino--neues-orchester-basel-offentliche-genera": {
 "title": "Neues Orchester Basel Öffentliche Generalprobe: Festliches Neujahrskonzert",
