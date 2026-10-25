@@ -2313,6 +2313,15 @@
 "url": "https://sommercasino.ch/events/tichu-turnier-2/",
 "venue": "Sommercasino"
 },
+"2026-10-25-corrientes-sunday-hop": {
+"title": "Sunday Hop",
+"venue": "Corrientes",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "14:30",
+"url": "https://eventfrog.ch/de/p/partys/swing/sunday-hop-basel-7479633959191600742.html",
+"category": "Party"
+},
 "2026-10-25-kuppel-hidden-floor-x-lovalova-flavah-nice-jus2": {
 "title": "Hidden Floor x LovaLova: Flavah Nice & Jus2blck",
 "venue": "Kuppel",
@@ -2323,6 +2332,24 @@
 "style": "afrobeat, dancehall",
 "url": "https://denkmal.org/de/basel/2026-10-25/aa013fe4-514e-4a9c-aa2d-05990fc7e4d3",
 "category": "Party / Afrobeat"
+},
+"2026-10-25-saal1-kuchli-udta-teer-saal1-basel": {
+"title": "UDTA TEER SAAL1 BASEL",
+"venue": "Saal1 Küchlin",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "15:00",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/udta-teer-saal1-basel-basel-7517933015265186012.html",
+"category": "Bühne"
+},
+"2026-10-25-einkaufs-cen-bachazouk-bootcamp-vol-2": {
+"title": "Bachazouk Bootcamp vol.2",
+"venue": "Einkaufs Center Basel Milano Bar",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "16:00",
+"url": "https://eventfrog.ch/de/p/partys/latin-salsa-bachata/bachazouk-bootcamp-vol-2-basel-7502358853385756205.html",
+"category": "Party"
 },
 "2026-10-25-heimat-sole": {
 "title": "Solé",
@@ -2346,6 +2373,42 @@
 "url": "https://denkmal.org/de/basel/2026-10-25/df4917a3-6605-4d84-8f76-da0965c6213a",
 "category": "Party / Pop"
 },
+"2026-10-25-theater-faut-ashley-hribar-das-cabinet-des-dr-caligar": {
+"title": "Ashley Hribar - Das Cabinet des Dr. Caligari",
+"venue": "Theater Fauteuil - Tabourettli",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "18:00",
+"url": "https://eventfrog.ch/de/p/kino/kino/ashley-hribar-das-cabinet-des-dr-caligari-basel-7454845736800285279.html",
+"category": "Film"
+},
+"2026-10-25-saal1-kuchli-jailer-2-basel-saal1": {
+"title": "JAILER 2 BASEL, SAAL1",
+"venue": "Saal1 Küchlin",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "19:00",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/jailer-2-basel-saal1-basel-7518034723081329878.html",
+"category": "Bühne"
+},
+"2026-10-25-klara-basel-stand-up-comedy-free-entry": {
+"title": "Stand-up comedy, free entry!",
+"venue": "Klara Basel",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/stand-up-comedy-free-entry-basel-7487900523934276556.html",
+"category": "Bühne / Comedy"
+},
+"2026-10-25-manabar-is-this-anything-a-comedy-show": {
+"title": "Is This Anything? - A Comedy Show",
+"venue": "ManaBar",
+"date": "2026-10-25",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/is-this-anything-a-comedy-show-basel-7491422557607822332.html",
+"category": "Bühne / Comedy"
+},
 "2026-10-25-stadtcasino--sir-andras-schiff-evgeny-kissin": {
 "category": "Konzert / Klassik",
 "date": "2026-10-25",
@@ -2365,6 +2428,24 @@
 "style": "klassik",
 "url": "https://denkmal.org/de/basel/2026-10-25/de5c9630-c129-4be4-bf54-9c90e47b193c",
 "category": "Konzert / Klassik"
+},
+"2026-10-26-unternehmen--": {
+"title": "СТЕНДАП ШОУ ИЗ МОЛДОВЫ",
+"venue": "Unternehmen Mitte // Safe",
+"date": "2026-10-26",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/-basel-7508952226049580538.html",
+"category": "Bühne / Comedy"
+},
+"2026-10-26-unternehmen---1930": {
+"title": "СТЕНДАП ШОУ ИЗ МОЛДОВЫ",
+"venue": "Unternehmen Mitte // Safe",
+"date": "2026-10-26",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/-basel-7508952226049580538.html",
+"category": "Bühne / Comedy"
 },
 "2026-10-26-grenzwert-murder-monday": {
 "title": "Murder Monday",
@@ -4045,5 +4126,15 @@
 "style": "Midtempo, Deep House, Indie Dance, House",
 "url": "https://www.bassoverse.space/beats",
 "category": "Club / Midtempo"
+},
+"2027-01-13-stadtcasino--maurice-steger-friends-amg-solistenabend": {
+"title": "Maurice Steger & Friends AMG Solistenabende",
+"venue": "Stadtcasino Basel",
+"date": "2027-01-13",
+"source": "crawler",
+"time": "19:30",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/13012027_maurice_steger/",
+"category": "Konzert / Klassik",
+"doors": "18:30"
 }
 }
