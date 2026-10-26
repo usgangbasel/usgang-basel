@@ -2457,6 +2457,36 @@
 "url": "https://grenzwert.ch/programm/",
 "category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
 },
+"2026-10-26-tropical-clu-irimonday-is-back": {
+"title": "Irimonday is back",
+"venue": "Tropical Club",
+"date": "2026-10-26",
+"source": "crawler",
+"time": "20:00",
+"end": "02:00",
+"style": "dancehall, afrobeat, reggae",
+"url": "https://denkmal.org/de/basel/2026-10-26/c8781649-a8d0-41e0-ba30-a6b14f9355ae",
+"category": "Party / Dancehall"
+},
+"2026-10-27-kaserne-base-lilac-attitude-macht-schule": {
+"title": "Lilac Attitude macht Schule",
+"venue": "Kaserne Basel",
+"date": "2026-10-27",
+"source": "crawler",
+"time": "14:00",
+"style": "rock",
+"url": "https://denkmal.org/de/basel/2026-10-27/5d4df2c2-aaab-480e-a54c-9f4175a1200e",
+"category": "Konzert / Rock"
+},
+"2026-10-27-citygate-inn-citygate-kurbisschnitzen-2026": {
+"title": "CityGate Kürbisschnitzen 2026",
+"venue": "CityGate Innenhof",
+"date": "2026-10-27",
+"source": "crawler",
+"time": "18:30",
+"url": "https://eventfrog.ch/de/p/partys/mottoparty/citygate-kuerbisschnitzen-2026-basel-7508108212001890894.html",
+"category": "Party"
+},
 "2026-10-27-stadtcasino--cuarteto-casals-claudio-martinez-mehner": {
 "category": "Konzert / Klassik",
 "date": "2026-10-27",
@@ -2466,6 +2496,26 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/271026_gfk/",
 "venue": "Stadtcasino Basel",
 "doors": "18:30"
+},
+"2026-10-27-fauteuil-sylphe-pure-piaf": {
+"title": "Sylphe: Pure Piaf",
+"venue": "Fauteuil",
+"date": "2026-10-27",
+"source": "crawler",
+"time": "20:00",
+"style": "chanson",
+"url": "https://denkmal.org/de/basel/2026-10-27/a953568e-ea17-49b3-a113-eda780c0d7c7",
+"category": "Konzert / Chanson"
+},
+"2026-10-27-hula-club-lucky-the-girl-pink-pedrazzi": {
+"title": "Lucky The Girl, Pink Pedrazzi",
+"venue": "Hula Club",
+"date": "2026-10-27",
+"source": "crawler",
+"time": "20:00",
+"style": "singer-songwriter",
+"url": "https://denkmal.org/de/basel/2026-10-27/2781c3d4-c99d-4baa-ad9c-90c09bbd49ee",
+"category": "Konzert / Singer-songwriter"
 },
 "2026-10-27-saali-golden-hula-club": {
 "category": "Konzert",
@@ -2477,6 +2527,34 @@
 "venue": "Sääli (Goldenes Fass)",
 "doors": "19:30"
 },
+"2026-10-27-theater-faut-sylphe-pure-piaf": {
+"title": "Sylphe - Pure Piaf",
+"venue": "Theater Fauteuil - Tabourettli",
+"date": "2026-10-27",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/sylphe-pure-piaf-basel-7464512913874659467.html",
+"category": "Konzert"
+},
+"2026-10-27-schall-und-r-a-alavi-s-all-star-funk-band": {
+"title": "A.Alavi's All-Star Funk Band",
+"venue": "Schall und Rauch",
+"date": "2026-10-27",
+"source": "crawler",
+"time": "21:00",
+"style": "funk",
+"url": "https://denkmal.org/de/basel/2026-10-27/3735c579-13c7-4e8e-b398-48f8690cc9dd",
+"category": "Party / Funk"
+},
+"2026-10-28-the-beast-ba-b-witches-at-the-beast-comedy-by-fems-an": {
+"title": "B/Witches at the Beast - Comedy by Fems and Thems",
+"venue": "The Beast Basel Comedy Club",
+"date": "2026-10-28",
+"source": "crawler",
+"time": "18:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/b-witches-at-the-beast-comedy-by-fems-and-thems-basel-7506268700124674796.html",
+"category": "Bühne / Comedy"
+},
 "2026-10-28-saali-golden-zeichnen-in-der-beiz": {
 "title": "Zeichnen in der Beiz",
 "venue": "Sääli (Goldenes Fass)",
@@ -2485,6 +2563,16 @@
 "time": "19:30",
 "url": "https://www.goldenes-fass.ch/saali/",
 "category": "Anderes"
+},
+"2026-10-28-atlantis-kurt-rosenwinkel": {
+"title": "Kurt Rosenwinkel",
+"venue": "Atlantis",
+"date": "2026-10-28",
+"source": "crawler",
+"time": "20:00",
+"style": "jazz",
+"url": "https://denkmal.org/de/basel/2026-10-28/1d84a9ec-23e9-4df0-bd26-78937d975bf2",
+"category": "Konzert / Jazz"
 },
 "2026-10-28-gare-du-nord-der-wanderfalke-fringe-ensemble": {
 "category": "Musiktheater",
@@ -2496,6 +2584,36 @@
 "venue": "Gare du Nord",
 "style": "Musiktheater/Performance"
 },
+"2026-10-28-verso-pub-quiz": {
+"title": "Pub-Quiz",
+"venue": "Verso",
+"date": "2026-10-28",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/theater-buehne/buehnenveranstaltung/pub-quiz-basel-7515415182425767584.html",
+"category": "Bühne"
+},
+"2026-10-28-kaserne-base-schnellertollermeier-saeko-killy": {
+"title": "Schnellertollermeier, Saeko Killy",
+"venue": "Kaserne Basel",
+"date": "2026-10-28",
+"source": "crawler",
+"time": "21:00",
+"style": "jazz, instrumental",
+"url": "https://denkmal.org/de/basel/2026-10-28/8f9e2574-74dc-4546-8ff5-a99c3f42fe35",
+"category": "Konzert / Jazz"
+},
+"2026-10-28-schall-und-r-rhyverb-electronic-jam-session": {
+"title": "Rhyverb Electronic Jam Session",
+"venue": "Schall und Rauch",
+"date": "2026-10-28",
+"source": "crawler",
+"time": "21:00",
+"end": "23:00",
+"style": "electronic",
+"url": "https://denkmal.org/de/basel/2026-10-28/a45d710c-d8c1-4d81-9d34-799710a78314",
+"category": "Club / Electronic"
+},
 "2026-10-29-kaschemme-uptown-dj-lab": {
 "category": "Workshop / Freier Eintritt",
 "date": "2026-10-29",
@@ -2506,6 +2624,17 @@
 "venue": "Kaschemme",
 "end": "23:00",
 "price": "frei"
+},
+"2026-10-29-ms-flaneur-c-girl-power": {
+"title": "Girl Power",
+"venue": "MS Flâneur Christoph Merian",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "19:00",
+"end": "23:00",
+"style": "90s, 2000, pop",
+"url": "https://denkmal.org/de/basel/2026-10-29/169b2f4d-598d-4c5c-9e52-b7886c35d6d1",
+"category": "Party / 90s"
 },
 "2026-10-29-sommercasino-trummer-musikalische-lesung": {
 "category": "Lesung / Konzert",
@@ -2527,6 +2656,16 @@
 "venue": "Stadtcasino Basel",
 "doors": "18:30"
 },
+"2026-10-29-burghof-irmgard-knef": {
+"title": "Irmgard Knef",
+"venue": "Burghof",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "20:00",
+"style": "chanson",
+"url": "https://denkmal.org/de/basel/2026-10-29/50b2bcbd-0e9c-438b-b3d1-50ce8b78cfdb",
+"category": "Konzert / Chanson"
+},
 "2026-10-29-gare-du-nord-der-wanderfalke-fringe-ensemble": {
 "category": "Musiktheater",
 "date": "2026-10-29",
@@ -2536,6 +2675,89 @@
 "url": "https://www.garedunord.ch/de/programm/3175/wanderfalke",
 "venue": "Gare du Nord",
 "style": "Musiktheater/Performance"
+},
+"2026-10-29-kulturkirche-oratorium-fur-maria-magdalena-el-gabinet": {
+"title": "Oratorium für Maria Magdalena. El Gabinete de Música",
+"venue": "Kulturkirche Paulus",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "20:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-10-29/d787fbc6-22af-489e-b34f-a62edb3e21e6",
+"category": "Konzert / Klassik"
+},
+"2026-10-29-museum-klein-tesori-della-musica-cantadas-humanas": {
+"title": "Tesori della musica: Cantadas humanas",
+"venue": "Museum Kleines Klingental",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "20:00",
+"end": "21:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-10-29/50811fbf-3a12-49bc-b444-423061008890",
+"category": "Konzert / Klassik"
+},
+"2026-10-29-schmiedenhof-rhein-klassik-begegnung-i": {
+"title": "Rhein Klassik: Begegnung I",
+"venue": "Schmiedenhof, Zunftsaal",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "20:00",
+"end": "22:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-10-29/5fd33745-da86-4477-9081-2c9e010e7b99",
+"category": "Konzert / Klassik"
+},
+"2026-10-29-atlantis-singer-songwriter-slam": {
+"title": "Singer Songwriter Slam",
+"venue": "Atlantis",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "21:00",
+"end": "23:00",
+"style": "singer-songwriter",
+"url": "https://denkmal.org/de/basel/2026-10-29/6b933cc6-3451-48e6-b62c-5f569e5c21a5",
+"category": "Konzert / Singer-songwriter"
+},
+"2026-10-29-hirscheneck-murmur-anoine-lang-anxiogene": {
+"title": "Murmur: Anoine Läng & Anxiogène",
+"venue": "Hirscheneck",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "21:00",
+"style": "experimental, improvisation",
+"url": "https://denkmal.org/de/basel/2026-10-29/f539b4fe-a3b3-4109-a85c-8fd2f6fd822e",
+"category": "Anderes"
+},
+"2026-10-29-kaserne-base-carl-stone-lua-jungck": {
+"title": "Carl Stone, lua jungck",
+"venue": "Kaserne Basel",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "21:00",
+"style": "experimental, electronic",
+"url": "https://denkmal.org/de/basel/2026-10-29/b99f3d44-b90e-479e-b3dd-ee9f1b00b2ca",
+"category": "Club / Experimental"
+},
+"2026-10-29-kleiner-wass-chanson-trottoir": {
+"title": "Chanson Trottoir",
+"venue": "Kleiner Wassermann",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "21:00",
+"style": "punk, chanson, indie rock, balkan",
+"url": "https://denkmal.org/de/basel/2026-10-29/b2620dc5-c1ff-4741-8057-bcf32f6678ec",
+"category": "Konzert / Punk"
+},
+"2026-10-29-schall-und-r-taras-kushniruk-quintet": {
+"title": "Taras Kushniruk Quintet",
+"venue": "Schall und Rauch",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "21:00",
+"style": "jazz",
+"url": "https://denkmal.org/de/basel/2026-10-29/b04d6e43-598e-4acb-95dc-86b58c21413d",
+"category": "Konzert / Jazz"
 },
 "2026-10-29-das-viertel-studentenfutter-xxl": {
 "title": "Studentenfutter XXL",
@@ -2559,6 +2781,48 @@
 "venue": "Renée",
 "style": "Tropical Rhythms"
 },
+"2026-10-30-tinguely-mus-tyn-wybenga-brain-teaser-orchestra": {
+"title": "Tyn Wybenga Brain-teaser Orchestra",
+"venue": "Tinguely Museum",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "16:00",
+"end": "18:00",
+"style": "jazz, hiphop",
+"url": "https://denkmal.org/de/basel/2026-10-30/c06482b4-8034-43c6-b97f-96e78d2b8511",
+"category": "Konzert / Jazz"
+},
+"2026-10-30-burghof-elternabend-early-disco-dancefloor": {
+"title": "Elternabend. Early-Disco-Dancefloor",
+"venue": "Burghof",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "19:00",
+"style": "indie, disco, 90s, hiphop",
+"url": "https://denkmal.org/de/basel/2026-10-30/9e1bfee2-fe72-45ed-9746-4c554a8cc4c1",
+"category": "Party / Indie"
+},
+"2026-10-30-elys-boulder-friday-loft-elm": {
+"title": "Friday Loft: eLm",
+"venue": "ELYS Boulderloft",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "19:00",
+"style": "electronic",
+"url": "https://denkmal.org/de/basel/2026-10-30/479ccbeb-a0ad-4893-9b25-71d78209b8a2",
+"category": "Club / Electronic"
+},
+"2026-10-30-ms-flaneur-c-route-65": {
+"title": "Route 65",
+"venue": "MS Flâneur Christoph Merian",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "19:00",
+"end": "23:00",
+"style": "country",
+"url": "https://denkmal.org/de/basel/2026-10-30/7baec2b5-df18-4cb2-a3c8-04244e93794d",
+"category": "Anderes"
+},
 "2026-10-30-sommercasino-taranja-wu-album-release-show": {
 "category": "Konzert / Electro Pop Punk",
 "date": "2026-10-30",
@@ -2569,6 +2833,57 @@
 "venue": "Sommercasino",
 "doors": "19:30"
 },
+"2026-10-30-cantilena-four-sonic": {
+"title": "Four Sonic",
+"venue": "Cantilena",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "20:00",
+"style": "blues, folk, pop, rock",
+"url": "https://denkmal.org/de/basel/2026-10-30/4b4fc80b-ccd8-4398-9595-d56cfbef94bd",
+"category": "Konzert / Blues"
+},
+"2026-10-30-hirscheneck-splizz-zuckerbecker": {
+"title": "Splizz, Zuckerbecker",
+"venue": "Hirscheneck",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "20:00",
+"style": "post punk",
+"url": "https://denkmal.org/de/basel/2026-10-30/7f5190e1-f610-4484-96ff-e681a9bb36ca",
+"category": "Konzert / Post punk"
+},
+"2026-10-30-volkshaus-pippo-pollina-quartetto-acustico": {
+"title": "Pippo Pollina & Quartetto Acustico",
+"venue": "Volkshaus",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "20:00",
+"style": "italo, singer-songwriter",
+"url": "https://denkmal.org/de/basel/2026-10-30/745f21dd-af3d-4d5e-a3a0-4558e06d515a",
+"category": "Party / Italo"
+},
+"2026-10-30-vorstadtthea-swing-konzert-mit-lindy-hop-crashkurs": {
+"title": "Swing Konzert mit Lindy Hop Crashkurs",
+"venue": "Vorstadttheater",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "20:00",
+"end": "00:00",
+"style": "swing",
+"url": "https://denkmal.org/de/basel/2026-10-30/ee114426-dca0-4f3f-ae01-6635548cead3",
+"category": "Anderes"
+},
+"2026-10-30-zwinglihaus-steiner-trio": {
+"title": "Steiner Trio",
+"venue": "Zwinglihaus",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "20:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-10-30/39776cc5-99af-43b8-a24c-fe1421158076",
+"category": "Konzert / Klassik"
+},
 "2026-10-30-kaserne-base-steiner-madlaina": {
 "category": "Konzert / Indie-Pop",
 "date": "2026-10-30",
@@ -2576,7 +2891,39 @@
 "time": "21:00",
 "title": "Steiner & Madlaina",
 "url": "https://kaserne-basel.ch/de/events/steinermadlaina",
-"venue": "Kaserne Basel"
+"venue": "Kaserne Basel",
+"style": "folk, indie"
+},
+"2026-10-30-kuppel-santrofi-tropical-six-pack-party": {
+"title": "Santrofi, Tropical Six Pack Party",
+"venue": "Kuppel",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "21:00",
+"style": "cumbia, funk, reggae",
+"url": "https://denkmal.org/de/basel/2026-10-30/91c1e413-264d-40c2-8179-f38cc8a22399",
+"category": "Party / Cumbia"
+},
+"2026-10-30-parterre-one-ava-night-basel-20-year-anniversary": {
+"title": "AVA Night Basel - 20 Year Anniversary",
+"venue": "Parterre One",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "21:00",
+"end": "05:00",
+"style": "trance",
+"url": "https://denkmal.org/de/basel/2026-10-30/647e99fb-6917-4ba7-bb2b-2b0c6d2b1d52",
+"category": "Club / Trance"
+},
+"2026-10-30-sud-u30-party": {
+"title": "Ü30 Party",
+"venue": "Sud",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "21:00",
+"style": "90s, disco, 2000, 80s",
+"url": "https://denkmal.org/de/basel/2026-10-30/776c548c-cd08-4042-bbff-655565f8c145",
+"category": "Party / 90s"
 },
 "2026-10-30-basso-oscillate-morsal-live-nordpaul-kl-t": {
 "category": "Club / Techno",
@@ -2608,6 +2955,26 @@
 "venue": "Grenzwert",
 "style": "Disco to Goth"
 },
+"2026-10-30-nebel-gldrsh-johnny-cashmoney-accept-all-cooki": {
+"title": "Gldrsh, Johnny Cashmoney, Accept All Cookies",
+"venue": "Nebel",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "22:00",
+"style": "house, techno",
+"url": "https://denkmal.org/de/basel/2026-10-30/3db529e6-b5b3-40dc-a447-b847fd4bd466",
+"category": "Club / House"
+},
+"2026-10-30-schall-und-r-goldfingerbrothers": {
+"title": "Goldfingerbrothers",
+"venue": "Schall und Rauch",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "22:00",
+"style": "hiphop, funk, rap",
+"url": "https://denkmal.org/de/basel/2026-10-30/2380801f-32a6-41ae-adfd-26f29378447b",
+"category": "Party / Hiphop"
+},
 "2026-10-30-das-viertel-block-party": {
 "title": "Block Party",
 "venue": "Das Viertel",
@@ -2629,6 +2996,16 @@
 "url": "https://www.kaschemme.ch/programm/2026/10/30/hls-halloween-party",
 "category": "Anderes"
 },
+"2026-10-30-nest-bouncy-bongi-b2b-iuliatski-inu-b2b-techn": {
+"title": "Bouncy Bongi b2b Iuliatski, Inu b2b Technofee",
+"venue": "Nest",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "23:00",
+"style": "techno",
+"url": "https://denkmal.org/de/basel/2026-10-30/6bdf93d2-d801-4740-9bd2-1a775aa0e6f6",
+"category": "Club / Techno"
+},
 "2026-10-30-nordstern-all-night-long-dasstudach": {
 "title": "All Night Long: Dasstudach",
 "venue": "Nordstern",
@@ -2648,6 +3025,16 @@
 "venue": "Renée",
 "style": "Wave, Post Punk, 80's"
 },
+"2026-10-31-noohn-good-afternoo-h-n-club-boran-ece-moodos-": {
+"title": "Good Afternoo(h)n Club: Boran Ece, Moodos, Fred Linger, Loiic",
+"venue": "Noohn",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "15:00",
+"style": "house",
+"url": "https://denkmal.org/de/basel/2026-10-31/b6846391-7e68-4a59-9f43-abca7ccfa943",
+"category": "Club / House"
+},
 "2026-10-31-das-viertel-dancefloor-flashback": {
 "title": "Dancefloor Flashback",
 "venue": "Das Viertel",
@@ -2659,6 +3046,58 @@
 "url": "https://ticketing.dasviertel.ch/event/dancefloor-flashback-qm4y83",
 "category": "Club / House"
 },
+"2026-10-31-kulturbeiz-c-dia-de-muertos-cantera-quartet": {
+"title": "Día de Muertos: Cantera Quartet",
+"venue": "Kulturbeiz CXIII",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "18:00",
+"style": "latin",
+"url": "https://denkmal.org/de/basel/2026-10-31/b7e0b45b-3ed1-4074-bcc6-aa3cc56cafc8",
+"category": "Party / Latin"
+},
+"2026-10-31-zazaa-social-afrolotus-dice-nanou-jr": {
+"title": "Afrolotus, Dice, Nanou Jr",
+"venue": "Zazaa Social Club",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "18:00",
+"end": "04:00",
+"style": "zouk, amapiano, afrobeats, dancehall",
+"url": "https://denkmal.org/de/basel/2026-10-31/475f95a7-435f-424c-b6dd-4ee7aaffb92d",
+"category": "Party / Zouk"
+},
+"2026-10-31-burghof-burghof-discoveries": {
+"title": "Burghof Discoveries",
+"venue": "Burghof",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "19:00",
+"style": "pop",
+"url": "https://denkmal.org/de/basel/2026-10-31/85c32a62-dc9f-4758-9e89-ec13a02b50e5",
+"category": "Konzert / Pop"
+},
+"2026-10-31-jazzcampus-martinu-festtage-2026-enrico-pieranunzi-": {
+"title": "Martinů Festtage 2026: Enrico Pieranunzi Trio",
+"venue": "Jazzcampus",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "19:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-10-31/d34dfbe1-243d-4d90-b43f-9520d0981566",
+"category": "Konzert / Klassik"
+},
+"2026-10-31-ms-flaneur-c-franco-polenta-stella-cerveza": {
+"title": "Franco Polenta, Stella Cerveza",
+"venue": "MS Flâneur Christoph Merian",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "19:00",
+"end": "23:00",
+"style": "schlager",
+"url": "https://denkmal.org/de/basel/2026-10-31/bf6862c5-05ce-41e9-bd03-88d0a7b05e8f",
+"category": "Anderes"
+},
 "2026-10-31-stadtcasino--basler-gesangverein-orchestre-musique-de": {
 "category": "Konzert / Klassik",
 "date": "2026-10-31",
@@ -2668,6 +3107,46 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/basler-gesangverein/",
 "venue": "Stadtcasino Basel",
 "doors": "18:30"
+},
+"2026-10-31-8-bar-miss-moons": {
+"title": "Miss Moons",
+"venue": "8 Bar",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "20:00",
+"style": "pop, alternative",
+"url": "https://denkmal.org/de/basel/2026-10-31/2835a963-5ee5-4d2a-945d-424676b45187",
+"category": "Konzert / Pop"
+},
+"2026-10-31-don-bosco-monteverdi-s-orfeo": {
+"title": "Monteverdi's Orfeo",
+"venue": "Don Bosco",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "20:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-10-31/49f79cd0-8768-4f58-a820-5ec30895d722",
+"category": "Konzert / Klassik"
+},
+"2026-10-31-fauteuil-cantuccini-gottliche-zeiten": {
+"title": "Cantuccini: Göttliche Zeiten",
+"venue": "Fauteuil",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "20:00",
+"style": "a cappella",
+"url": "https://denkmal.org/de/basel/2026-10-31/75256c1f-3f52-4a88-af3a-f42dbe2907df",
+"category": "Anderes"
+},
+"2026-10-31-hirscheneck-duel-leaden-fumes": {
+"title": "Duel, Leaden Fumes",
+"venue": "Hirscheneck",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "20:00",
+"style": "psychedelic rock",
+"url": "https://denkmal.org/de/basel/2026-10-31/af887435-1763-4948-abf9-c03eb5218a11",
+"category": "Club / Psychedelic rock"
 },
 "2026-10-31-kaschemme-emo-night-halloween-edition": {
 "category": "Party / Emo",
@@ -2679,6 +3158,16 @@
 "venue": "Kaschemme",
 "end": "20:00"
 },
+"2026-10-31-kulturkirche-gesange-vom-entstehen-und-vergehen": {
+"title": "Gesänge vom Entstehen und Vergehen",
+"venue": "Kulturkirche Paulus",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "20:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-10-31/5009458c-fed4-4bbc-9426-f449f5d2e968",
+"category": "Konzert / Klassik"
+},
 "2026-10-31-sommercasino-femme-rebellion": {
 "category": "Konzert",
 "date": "2026-10-31",
@@ -2689,6 +3178,36 @@
 "venue": "Sommercasino",
 "doors": "20:00"
 },
+"2026-10-31-sunbeach-tomind": {
+"title": "Tomind",
+"venue": "sunbeach",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "20:00",
+"style": "pop, rock",
+"url": "https://denkmal.org/de/basel/2026-10-31/0a10fd9b-2d23-4390-8e37-bcb144950212",
+"category": "Konzert / Pop"
+},
+"2026-10-31-volkshaus-edm-global-symphony-orchestra-rave-laser": {
+"title": "Edm Global Symphony: Orchestra Rave & Laser-Show",
+"venue": "Volkshaus",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "20:00",
+"style": "klassik, edm",
+"url": "https://denkmal.org/de/basel/2026-10-31/84b5c04b-1617-466d-9648-847129d3450d",
+"category": "Konzert / Klassik"
+},
+"2026-10-31-zwinglihaus-kammerchor-notabene-basel": {
+"title": "Kammerchor Notabene Basel",
+"venue": "Zwinglihaus",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "20:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-10-31/af52e947-24fc-4ab9-ac12-86924c879192",
+"category": "Konzert / Klassik"
+},
 "2026-10-31-elysia-elysia-samstag-31-oktober": {
 "title": "Elysia Samstag 31. Oktober",
 "venue": "Elysia",
@@ -2697,6 +3216,17 @@
 "time": "21:00",
 "url": "https://eventfrog.ch/de/p/partys/trance-ambient/elysia-samstag-31-oktober-muenchenstein-7510322692978949538.html",
 "category": "Party"
+},
+"2026-10-31-atlantis-halloween-party-dj-t3mpo-pablitou": {
+"title": "Halloween Party: DJ T3mpo, Pablitou",
+"venue": "Atlantis",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "22:00",
+"end": "03:00",
+"style": "open format",
+"url": "https://denkmal.org/de/basel/2026-10-31/959f9552-ee6b-4c46-88d3-c5ce45222aa4",
+"category": "Party / Open format"
 },
 "2026-10-31-basso-herzschwester-invites-borns-herzschweste": {
 "category": "Club / Techno & House",
@@ -2728,6 +3258,36 @@
 "url": "https://www.kinker.ch/events/7515538153819635755",
 "category": "Club / Techno"
 },
+"2026-10-31-schall-und-r-halloween-hop-rpm-sonoflono": {
+"title": "Halloween Hop: RPM & Sonoflono",
+"venue": "Schall und Rauch",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "22:00",
+"style": "50s, 70s, 60s",
+"url": "https://denkmal.org/de/basel/2026-10-31/abec45ac-d11c-4ce3-99c2-f70722933df1",
+"category": "Anderes"
+},
+"2026-10-31-sud-cabaret-bizarre-20th-anniversary-party": {
+"title": "Cabaret Bizarre – 20th Anniversary Party",
+"venue": "Sud",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "22:00",
+"style": "cabaret",
+"url": "https://denkmal.org/de/basel/2026-10-31/1bcf31b9-77ef-493e-9330-c7e3dc65b994",
+"category": "Anderes"
+},
+"2026-10-31-club-cello-gayties-noxeema-jackson": {
+"title": "Gayties: Noxeema Jackson",
+"venue": "Club Cello",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "23:00",
+"style": "80s, 90s, charts, 2000",
+"url": "https://denkmal.org/de/basel/2026-10-31/8e8c7ff6-1dcd-4f20-af42-407cab3fa7a1",
+"category": "Party / 80s"
+},
 "2026-10-31-das-viertel-pazzoide-w-davide-squillace": {
 "title": "Pazzoide w/ Davide Squillace",
 "venue": "Das Viertel",
@@ -2738,6 +3298,46 @@
 "style": "Tech House / House",
 "url": "https://ticketing.dasviertel.ch/event/pazzoide-w-davide-squillace-halloween-edition-xlkfgh",
 "category": "Club / Tech House"
+},
+"2026-10-31-heimat-zombie-baby-queer-halloween": {
+"title": "Zombie Baby: Queer Halloween",
+"venue": "Heimat",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "23:00",
+"style": "house, electro",
+"url": "https://denkmal.org/de/basel/2026-10-31/11f5bf65-d18e-40ac-9b09-356da9e0bbea",
+"category": "Club / House"
+},
+"2026-10-31-kuppel-halloween-x-yolo": {
+"title": "Halloween x Yolo",
+"venue": "Kuppel",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "23:00",
+"style": "pop, charts",
+"url": "https://denkmal.org/de/basel/2026-10-31/89e62f49-14af-40fb-a3a8-f85ee997823b",
+"category": "Konzert / Pop"
+},
+"2026-10-31-lora-halloween-the-veiled-society": {
+"title": "Halloween: The Veiled Society",
+"venue": "Lora",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "23:00",
+"style": "electronic",
+"url": "https://denkmal.org/de/basel/2026-10-31/440f2223-4bbd-4f8a-849f-bfbd4983bffa",
+"category": "Club / Electronic"
+},
+"2026-10-31-nest-halloween-x-yolo": {
+"title": "Halloween x Yolo",
+"venue": "Nest",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "23:00",
+"style": "charts, pop",
+"url": "https://denkmal.org/de/basel/2026-10-31/3e335e08-2f61-4957-8db3-67792b3013a3",
+"category": "Konzert / Charts"
 },
 "2026-10-31-nordstern-klubnacht-michel-sacher-moodos-drezlo-fe": {
 "title": "Klubnacht: Michel Sacher, Moodos, Drezlo, Fello",
@@ -2777,6 +3377,16 @@
 "url": "https://www.bassoverse.space/beats",
 "category": "Club / Techno"
 },
+"2026-10-31-basso-basso-invites-manou-guest": {
+"title": "Basso invites: Manou & Guest",
+"venue": "Basso",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "",
+"style": "Afro Beat, Afro House",
+"url": "https://www.bassoverse.space/beats",
+"category": "Club / Afro Beat"
+},
 "2026-11-01-stadtcasino--neues-orchester-basel-verdi-requiem": {
 "category": "Konzert / Klassik",
 "date": "2026-11-01",
@@ -2796,6 +3406,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/01112026_nob/",
 "category": "Konzert / Klassik",
 "doors": "16:00"
+},
+"2026-11-01-valhalla-krallice-anachronism": {
+"title": "Krallice, Anachronism",
+"venue": "Valhalla",
+"date": "2026-11-01",
+"source": "crawler",
+"time": "20:00",
+"style": "metal",
+"url": "https://denkmal.org/de/basel/2026-11-01/fe99d8ad-5c5c-425a-8957-29c3a9b61842",
+"category": "Konzert / Metal"
 },
 "2026-11-03-sommercasino-bubble-buster-jam": {
 "title": "Bubble Buster Jam",
@@ -3205,6 +3825,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/1311206_cmb/",
 "category": "Konzert",
 "doors": "18:30"
+},
+"2026-11-13-gare-du-nord-hidden-heartache-ein-musiktheater-in-kor": {
+"title": "Hidden Heartache – ein Musiktheater in Körpersprache: ox&öl",
+"venue": "Gare du Nord",
+"date": "2026-11-13",
+"source": "crawler",
+"time": "20:00",
+"style": "Musiktheater/Performance",
+"url": "https://www.garedunord.ch/de/programm/3194/hidden-heartache",
+"category": "Bühne / Musiktheater"
 },
 "2026-11-13-sommercasino-night-circus": {
 "title": "Night Circus",
