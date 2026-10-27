@@ -2584,6 +2584,24 @@
 "venue": "Gare du Nord",
 "style": "Musiktheater/Performance"
 },
+"2026-10-28-theater-faut-milan-milanski-schwugo": {
+"title": "Milan Milanski - Schwugo",
+"venue": "Theater Fauteuil - Tabourettli",
+"date": "2026-10-28",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/milan-milanski-schwugo-basel-7456960956175796294.html",
+"category": "Bühne / Comedy"
+},
+"2026-10-28-theater-faut-witz-vom-olli-fsk18-hart-aber-herzlich": {
+"title": "Witz vom Olli - FSK18 - Hart aber herzlich",
+"venue": "Theater Fauteuil",
+"date": "2026-10-28",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/witz-vom-olli-fsk18-hart-aber-herzlich-basel-7456960108112669619.html",
+"category": "Bühne / Comedy"
+},
 "2026-10-28-verso-pub-quiz": {
 "title": "Pub-Quiz",
 "venue": "Verso",
@@ -2592,6 +2610,24 @@
 "time": "20:00",
 "url": "https://eventfrog.ch/de/p/theater-buehne/buehnenveranstaltung/pub-quiz-basel-7515415182425767584.html",
 "category": "Bühne"
+},
+"2026-10-28-volkshaus-felizitas-ambauen-sabine-meyer-beziehung": {
+"title": "Felizitas Ambauen & Sabine Meyer - Beziehungskosmos",
+"venue": "Volkshaus",
+"date": "2026-10-28",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/theater-buehne/buehnenveranstaltung/felizitas-ambauen-sabine-meyer-beziehungskosmos-basel-7456960616571379163.html",
+"category": "Bühne"
+},
+"2026-10-28-the-beast-ba-come-or-die-a-double-bill-on-politics-an": {
+"title": "COME OR DIE - A double bill on politics and sex",
+"venue": "The Beast Basel Comedy Club",
+"date": "2026-10-28",
+"source": "crawler",
+"time": "20:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/come-or-die-a-double-bill-on-politics-and-sex-basel-7504079935494979680.html",
+"category": "Bühne / Comedy"
 },
 "2026-10-28-kaserne-base-schnellertollermeier-saeko-killy": {
 "title": "Schnellertollermeier, Saeko Killy",
@@ -2975,6 +3011,17 @@
 "url": "https://denkmal.org/de/basel/2026-10-30/2380801f-32a6-41ae-adfd-26f29378447b",
 "category": "Party / Hiphop"
 },
+"2026-10-30-club-cello-808-showdown-lowkey-amell-bigwig-medeusa": {
+"title": "808 showdown: lowkey, amell, bigwig, medeusa, starza",
+"venue": "Club Cello",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"style": "afro, r'n'b, trap, hiphop",
+"url": "https://denkmal.org/de/basel/2026-10-30/cd46372b-c248-49d1-80bd-6d1036003f91",
+"category": "Party / Afro"
+},
 "2026-10-30-das-viertel-block-party": {
 "title": "Block Party",
 "venue": "Das Viertel",
@@ -3024,6 +3071,17 @@
 "url": "https://www.renee.ch",
 "venue": "Renée",
 "style": "Wave, Post Punk, 80's"
+},
+"2026-10-31-berrel-metal-postkarten-festival": {
+"title": "Postkarten Festival",
+"venue": "Berrel Metallbau",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "12:00",
+"end": "21:00",
+"style": "Von Denkmal.org empfohlen",
+"url": "https://denkmal.org/de/basel/2026-10-31/b02393a8-8753-40b6-9668-54f62a65dfa2",
+"category": "Anderes"
 },
 "2026-10-31-noohn-good-afternoo-h-n-club-boran-ece-moodos-": {
 "title": "Good Afternoo(h)n Club: Boran Ece, Moodos, Fred Linger, Loiic",
@@ -3309,6 +3367,16 @@
 "url": "https://denkmal.org/de/basel/2026-10-31/11f5bf65-d18e-40ac-9b09-356da9e0bbea",
 "category": "Club / House"
 },
+"2026-10-31-ine-bar-riddim-room-mistic-k-evans": {
+"title": "Riddim Room: Mistic, K. Evans",
+"venue": "INE Bar",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "23:00",
+"style": "dancehall, afrobeat, amapiano",
+"url": "https://denkmal.org/de/basel/2026-10-31/414be0d9-89a6-429f-817c-2517df205fe1",
+"category": "Party / Dancehall"
+},
 "2026-10-31-kuppel-halloween-x-yolo": {
 "title": "Halloween x Yolo",
 "venue": "Kuppel",
@@ -3357,6 +3425,16 @@
 "url": "https://tickets.nordstern.com/en/c/malive-2411",
 "category": "Club / Elektronisch"
 },
+"2026-10-31-parterre-one-jukebox-party": {
+"title": "Jukebox Party",
+"venue": "Parterre One",
+"date": "2026-10-31",
+"source": "crawler",
+"time": "23:00",
+"style": "open format",
+"url": "https://denkmal.org/de/basel/2026-10-31/2f296aae-f8c7-490f-83a1-b9b2428c98cd",
+"category": "Party / Open format"
+},
 "2026-10-31-renee-dysfunct-keep-disco-evil": {
 "category": "Club / Italo & Disco",
 "date": "2026-10-31",
@@ -3387,6 +3465,27 @@
 "url": "https://www.bassoverse.space/beats",
 "category": "Club / Afro Beat"
 },
+"2026-11-01-berrel-metal-postkarten-festival": {
+"title": "Postkarten Festival",
+"venue": "Berrel Metallbau",
+"date": "2026-11-01",
+"source": "crawler",
+"time": "10:00",
+"end": "18:00",
+"style": "Von Denkmal.org empfohlen",
+"url": "https://denkmal.org/de/basel/2026-11-01/74d3dbf4-b630-459f-b0cf-b5dbe4d8efa4",
+"category": "Anderes"
+},
+"2026-11-01-burghof-krabbelkonzert": {
+"title": "Krabbelkonzert",
+"venue": "Burghof",
+"date": "2026-11-01",
+"source": "crawler",
+"time": "10:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-01/e547c36e-6fdd-414d-bf15-78ae074ec495",
+"category": "Konzert / Klassik"
+},
 "2026-11-01-stadtcasino--neues-orchester-basel-verdi-requiem": {
 "category": "Konzert / Klassik",
 "date": "2026-11-01",
@@ -3397,6 +3496,36 @@
 "venue": "Stadtcasino Basel",
 "doors": "11:30"
 },
+"2026-11-01-musik-akadem-tanz-ball": {
+"title": "Tanz-Ball",
+"venue": "Musik-Akademie",
+"date": "2026-11-01",
+"source": "crawler",
+"time": "16:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-01/042c95a9-623e-464a-ac25-f58a9b15acaf",
+"category": "Konzert / Klassik"
+},
+"2026-11-01-don-bosco-monteverdi-s-orfeo": {
+"title": "Monteverdi's Orfeo",
+"venue": "Don Bosco",
+"date": "2026-11-01",
+"source": "crawler",
+"time": "17:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-01/4f001c39-c249-4066-bb72-07b7d8d07d43",
+"category": "Konzert / Klassik"
+},
+"2026-11-01-fauteuil-cantuccini-gottliche-zeiten": {
+"title": "Cantuccini: Göttliche Zeiten",
+"venue": "Fauteuil",
+"date": "2026-11-01",
+"source": "crawler",
+"time": "17:00",
+"style": "a cappella",
+"url": "https://denkmal.org/de/basel/2026-11-01/f8cdc269-ca56-4e6e-9e61-fad02d2681ec",
+"category": "Anderes"
+},
 "2026-11-01-stadtcasino--neues-orchester-basel-verdi-requiem-1700": {
 "title": "Neues Orchester Basel Verdi Requiem",
 "venue": "Stadtcasino Basel",
@@ -3406,6 +3535,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/01112026_nob/",
 "category": "Konzert / Klassik",
 "doors": "16:00"
+},
+"2026-11-01-zwinglihaus-kammerchor-notabene-basel-nacht-vom-aben": {
+"title": "Kammerchor Notabene Basel: Nacht – Vom Abend durch die Nacht zum Morgen",
+"venue": "Zwinglihaus",
+"date": "2026-11-01",
+"source": "crawler",
+"time": "18:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-01/bc2d6ba0-895f-47a1-a1b7-a4bf350839b1",
+"category": "Konzert / Klassik"
 },
 "2026-11-01-valhalla-krallice-anachronism": {
 "title": "Krallice, Anachronism",
@@ -4108,6 +4247,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/24112027-vortrag-mit-robert-betz/",
 "category": "Konzert",
 "doors": "19:00"
+},
+"2026-11-25-stadtcasino--maxime-trechsel-yixuan-kassia-ren-gabrie": {
+"title": "Maxime Trechsel, Yixuan Kassia Ren & Gabriel Webb AMG Rising Stars",
+"venue": "Stadtcasino Basel",
+"date": "2026-11-25",
+"source": "crawler",
+"time": "19:30",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/maxime-trechsel/",
+"category": "Konzert",
+"doors": "18:30"
 },
 "2026-11-26-stadtcasino--kayhan-kalhor": {
 "title": "Kayhan Kalhor",
