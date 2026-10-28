@@ -2869,6 +2869,16 @@
 "venue": "Sommercasino",
 "doors": "19:30"
 },
+"2026-10-30-badhuesli-iza-lore": {
+"title": "Iza Lore",
+"venue": "Badhuesli",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "20:00",
+"style": "indie pop, electro",
+"url": "https://denkmal.org/de/basel/2026-10-30/4010b77c-1066-45aa-8de0-379b9e2a0313",
+"category": "Club / Indie pop"
+},
 "2026-10-30-cantilena-four-sonic": {
 "title": "Four Sonic",
 "venue": "Cantilena",
@@ -3042,6 +3052,15 @@
 "end": "04:00",
 "url": "https://www.kaschemme.ch/programm/2026/10/30/hls-halloween-party",
 "category": "Anderes"
+},
+"2026-10-30-kinker-freitag-nacht": {
+"title": "Freitag Nacht",
+"venue": "Kinker",
+"date": "2026-10-30",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7520556544443813701",
+"category": "Club / Techno"
 },
 "2026-10-30-nest-bouncy-bongi-b2b-iuliatski-inu-b2b-techn": {
 "title": "Bouncy Bongi b2b Iuliatski, Inu b2b Technofee",
@@ -3555,6 +3574,16 @@
 "style": "metal",
 "url": "https://denkmal.org/de/basel/2026-11-01/fe99d8ad-5c5c-425a-8957-29c3a9b61842",
 "category": "Konzert / Metal"
+},
+"2026-11-02-grenzwert-murder-monday": {
+"title": "Murder Monday",
+"venue": "Grenzwert",
+"date": "2026-11-02",
+"source": "crawler",
+"time": "20:00",
+"style": "Stand-up Comedy (English) · Eintritt frei",
+"url": "https://grenzwert.ch/programm/",
+"category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
 },
 "2026-11-03-sommercasino-bubble-buster-jam": {
 "title": "Bubble Buster Jam",
@@ -4104,6 +4133,16 @@
 "category": "Konzert",
 "doors": "20:00"
 },
+"2026-11-17-saali-golden-hula-club": {
+"title": "HULA CLUB",
+"venue": "Sääli (Goldenes Fass)",
+"date": "2026-11-17",
+"source": "crawler",
+"time": "20:00",
+"doors": "19:30",
+"url": "https://www.goldenes-fass.ch/saali/",
+"category": "Konzert"
+},
 "2026-11-18-stadtcasino--sinfonieorchester-basel-schicksal": {
 "category": "Konzert / Klassik",
 "date": "2026-11-18",
@@ -4175,6 +4214,16 @@
 "url": "https://sommercasino.ch/events/rites-of-destruction-pt-vii/",
 "venue": "Sommercasino",
 "doors": "16:30"
+},
+"2026-11-21-kaschemme-der-indie-slot-w-cara-sonic-the-mile-hig": {
+"title": "DER INDIE SLOT w/ CARA SONIC & THE MILE HIGH CLUB",
+"venue": "Kaschemme",
+"date": "2026-11-21",
+"source": "crawler",
+"time": "19:30",
+"end": "22:15",
+"url": "https://www.kaschemme.ch/programm/2026/11/21/der-indie-slot-w-cara-sonic-amp-the-mile-high-club",
+"category": "Anderes"
 },
 "2026-11-21-stadtcasino--basel-proms-2026": {
 "category": "Konzert / Klassik",
@@ -4662,6 +4711,15 @@
 "time": "22:00",
 "url": "https://eventfrog.ch/de/p/partys/house-techno/elysia-x-symbiotikka-samstag-12-dezember-muenchenstein-7516075719715235769.html",
 "category": "Party"
+},
+"2026-12-12-kinker-rvnz-project-kinker-12-12-26-16": {
+"title": "RVNZ.project Kinker 12.12.26 16+",
+"venue": "Kinker",
+"date": "2026-12-12",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7440495526624134502",
+"category": "Club / Techno"
 },
 "2026-12-13-sommercasino-tichu-turnier": {
 "title": "Tichu Turnier",
