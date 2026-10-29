@@ -1,94 +1,4 @@
 {
-"2026-10-14-quartierzent-cantera-quartett": {
-"title": "Cantera Quartett",
-"venue": "Quartierzentrum Union",
-"date": "2026-10-14",
-"source": "crawler",
-"time": "19:00",
-"end": "22:00",
-"style": "latin, jazz",
-"url": "https://denkmal.org/de/basel/2026-10-14/629bb500-9b7d-4a40-981a-8d678b02ba82",
-"category": "Konzert / Jazz"
-},
-"2026-10-14-sud-triggerfinger": {
-"title": "Triggerfinger",
-"venue": "Sud",
-"date": "2026-10-14",
-"source": "crawler",
-"time": "19:00",
-"style": "blues, rock, alternative",
-"url": "https://denkmal.org/de/basel/2026-10-14/d376ef72-4eb6-41aa-9fb1-ba77291f1265",
-"category": "Konzert / Blues"
-},
-"2026-10-14-stadtcasino--sinfonieorchester-basel-sehnsucht": {
-"category": "Konzert / Klassik",
-"date": "2026-10-14",
-"source": "crawler",
-"time": "19:30",
-"title": "Sinfonieorchester Basel: Sehnsucht",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/141026_sob/",
-"venue": "Stadtcasino Basel",
-"doors": "18:30",
-"end": "21:30"
-},
-"2026-10-14-starbites-fo-starbites-comedy-basel-free-entry": {
-"title": "Starbites Comedy Basel : FREE ENTRY!",
-"venue": "Starbites Foodhall Basel",
-"date": "2026-10-14",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/starbites-comedy-basel-free-entry-basel-7512522682719568927.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-14-cargobar-rlsm": {
-"title": "RLSM",
-"venue": "Cargobar",
-"date": "2026-10-14",
-"source": "crawler",
-"time": "20:00",
-"end": "22:00",
-"style": "post rock",
-"url": "https://denkmal.org/de/basel/2026-10-14/80a7308b-d809-4466-9d9d-88157732674f",
-"category": "Konzert / Post rock"
-},
-"2026-10-14-schall-und-r-amber-eve": {
-"title": "Amber Eve",
-"venue": "Schall und Rauch",
-"date": "2026-10-14",
-"source": "crawler",
-"time": "20:00",
-"style": "burlesque",
-"url": "https://denkmal.org/de/basel/2026-10-14/1bd36676-d981-4e57-900d-d63563c8323e",
-"category": "Anderes"
-},
-"2026-10-14-the-beast-ba-the-curiosity-cabaret-a-variety-show-in-": {
-"title": "The Curiosity Cabaret - A Variety Show in English",
-"venue": "The Beast Basel Comedy Club",
-"date": "2026-10-14",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/the-curiosity-cabaret-a-variety-show-in-english-basel-7503444841369491817.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-14-theater-faut-dominic-deville-off": {
-"title": "Dominic Deville - OFF!",
-"venue": "Theater Fauteuil - Tabourettli",
-"date": "2026-10-14",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/dominic-deville-off-basel-7450843582204759021.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-14-trafohalle-unplugged-replugged-klischee": {
-"title": "Unplugged/Replugged: Klischée",
-"venue": "Trafohalle",
-"date": "2026-10-14",
-"source": "crawler",
-"time": "20:00",
-"style": "electro swing",
-"url": "https://denkmal.org/de/basel/2026-10-14/33ff713b-991f-4b51-91b9-4be53e499484",
-"category": "Club / Electro swing"
-},
 "2026-10-15-kaschemme-uptown-dj-lab": {
 "category": "Workshop / Freier Eintritt",
 "date": "2026-10-15",
@@ -2661,6 +2571,15 @@
 "end": "23:00",
 "price": "frei"
 },
+"2026-10-29-saal1-kuchli-film-ein-tag-ohne-frauen": {
+"title": "Film \"Ein Tag ohne Frauen\"",
+"venue": "Saal1 Küchlin",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "18:30",
+"url": "https://eventfrog.ch/de/p/kino/kino/film-ein-tag-ohne-frauen-basel-7521121529989492359.html",
+"category": "Film"
+},
 "2026-10-29-ms-flaneur-c-girl-power": {
 "title": "Girl Power",
 "venue": "MS Flâneur Christoph Merian",
@@ -2692,6 +2611,15 @@
 "venue": "Stadtcasino Basel",
 "doors": "18:30"
 },
+"2026-10-29-bambusnest-abba-party-bambusnest": {
+"title": "ABBA Party - Bambusnest",
+"venue": "Bambusnest",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/partys/80s/abba-party-bambusnest-basel-7500083686085282336.html",
+"category": "Party"
+},
 "2026-10-29-burghof-irmgard-knef": {
 "title": "Irmgard Knef",
 "venue": "Burghof",
@@ -2711,6 +2639,15 @@
 "url": "https://www.garedunord.ch/de/programm/3175/wanderfalke",
 "venue": "Gare du Nord",
 "style": "Musiktheater/Performance"
+},
+"2026-10-29-kulturhuus-h-standup-comedy-simon-stablein-absolute-f": {
+"title": "StandUp Comedy: Simon Stäblein - Absolute Frechheit",
+"venue": "Kulturhuus Häbse",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/standup-comedy-simon-staeblein-absolute-frechheit-basel-7469489265543539590.html",
+"category": "Bühne / Comedy"
 },
 "2026-10-29-kulturkirche-oratorium-fur-maria-magdalena-el-gabinet": {
 "title": "Oratorium für Maria Magdalena. El Gabinete de Música",
@@ -2794,6 +2731,15 @@
 "style": "jazz",
 "url": "https://denkmal.org/de/basel/2026-10-29/b04d6e43-598e-4acb-95dc-86b58c21413d",
 "category": "Konzert / Jazz"
+},
+"2026-10-29-sandoase-bas-halloween-special-by-semesterstartparty": {
+"title": "Halloween Special by semesterstartparty",
+"venue": "Sandoase Basel",
+"date": "2026-10-29",
+"source": "crawler",
+"time": "22:00",
+"url": "https://eventfrog.ch/de/p/partys/studierendenparty/halloween-special-by-semesterstartparty-basel-7513278419641092941.html",
+"category": "Party"
 },
 "2026-10-29-das-viertel-studentenfutter-xxl": {
 "title": "Studentenfutter XXL",
@@ -4133,6 +4079,16 @@
 "category": "Konzert",
 "doors": "20:00"
 },
+"2026-11-17-gare-du-nord-am-sommer-erstickt-konzertszene-fur-viol": {
+"title": "«Am Sommer erstickt» – Konzertszene für Viola Solo: Geneviève Strosser & KP Werani",
+"venue": "Gare du Nord",
+"date": "2026-11-17",
+"source": "crawler",
+"time": "20:00",
+"style": "Konzert",
+"url": "https://www.garedunord.ch/de/programm/3176/am-sommer-erstickt",
+"category": "Konzert / Neue Musik"
+},
 "2026-11-17-saali-golden-hula-club": {
 "title": "HULA CLUB",
 "venue": "Sääli (Goldenes Fass)",
@@ -4692,6 +4648,16 @@
 "url": "https://sommercasino.ch/events/lesung-basteln-sabine-rufener-und-das-huhn-grete/",
 "category": "Lesung & Basteln"
 },
+"2026-12-12-sommercasino-the-b-side-im-tramli": {
+"title": "The B-Side im Trämli",
+"venue": "Sommercasino",
+"date": "2026-12-12",
+"source": "crawler",
+"time": "21:00",
+"doors": "21:00",
+"url": "https://sommercasino.ch/events/the-b-side-im-traemli/",
+"category": "Party"
+},
 "2026-12-12-basso-lento-zhart-exe-arpagaus-flote": {
 "category": "Club / House",
 "date": "2026-12-12",
@@ -4972,6 +4938,16 @@
 "time": "19:30",
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/13012027_maurice_steger/",
 "category": "Konzert / Klassik",
+"doors": "18:30"
+},
+"2027-01-17-stadtcasino--juan-jose-pena-aguirre-nicolas-comi-amg-": {
+"title": "Juan-José Peña Aguirre & Nicolas Comi AMG Rising Stars",
+"venue": "Stadtcasino Basel",
+"date": "2027-01-17",
+"source": "crawler",
+"time": "19:30",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/17012027_rs/",
+"category": "Konzert",
 "doors": "18:30"
 }
 }
