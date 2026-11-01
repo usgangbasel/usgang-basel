@@ -1,31 +1,30 @@
 {
- "date": "2026-10-31",
+ "date": "2026-11-01",
  "stats": {
-  "added": 17,
+  "added": 13,
   "filled": 0,
-  "dups": 205,
-  "removed": 32,
-  "blocked": 3
+  "dups": 170,
+  "removed": 31
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 47,
+   "found": 9,
    "status": "ok"
   },
   {
    "source": "eventfrog",
-   "found": 51,
+   "found": 36,
    "status": "ok"
   },
   {
    "source": "renee",
-   "found": 1,
+   "found": 0,
    "status": "ok"
   },
   {
    "source": "grenzwert",
-   "found": 2,
+   "found": 1,
    "status": "ok"
   },
   {
@@ -35,7 +34,7 @@
   },
   {
    "source": "kaschemme",
-   "found": 14,
+   "found": 13,
    "status": "ok"
   },
   {
@@ -46,7 +45,7 @@
   },
   {
    "source": "viertel",
-   "found": 13,
+   "found": 11,
    "status": "ok"
   },
   {
@@ -56,7 +55,7 @@
   },
   {
    "source": "sommercasino",
-   "found": 21,
+   "found": 20,
    "status": "ok"
   },
   {
@@ -67,12 +66,12 @@
   },
   {
    "source": "elysia",
-   "found": 3,
+   "found": 2,
    "status": "ok"
   },
   {
    "source": "kinker",
-   "found": 0,
+   "found": 4,
    "status": "ok"
   },
   {
@@ -96,5 +95,5 @@
    "status": "ok"
   }
  ],
- "total_events": 475
+ "total_events": 457
 }
