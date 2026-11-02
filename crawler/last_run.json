@@ -1,20 +1,21 @@
 {
- "date": "2026-11-01",
+ "date": "2026-11-02",
  "stats": {
-  "added": 13,
+  "added": 22,
   "filled": 0,
-  "dups": 170,
-  "removed": 31
+  "dups": 148,
+  "removed": 11,
+  "blocked": 5
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 9,
+   "found": 28,
    "status": "ok"
   },
   {
    "source": "eventfrog",
-   "found": 36,
+   "found": 18,
    "status": "ok"
   },
   {
@@ -39,7 +40,7 @@
   },
   {
    "source": "stadtcasino",
-   "found": 63,
+   "found": 62,
    "status": "ok",
    "detail_pages": 1
   },
@@ -71,7 +72,7 @@
   },
   {
    "source": "kinker",
-   "found": 4,
+   "found": 0,
    "status": "ok"
   },
   {
@@ -95,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 457
+ "total_events": 468
 }

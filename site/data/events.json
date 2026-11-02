@@ -1,110 +1,4 @@
 {
-"2026-10-18-kaserne-base-kinderdisco": {
-"title": "Kinderdisco",
-"venue": "Kaserne Basel",
-"date": "2026-10-18",
-"source": "crawler",
-"time": "14:00",
-"end": "17:00",
-"style": "disco",
-"url": "https://denkmal.org/de/basel/2026-10-18/d3870c32-458f-4454-b118-e0d306e8d702",
-"category": "Party / Disco"
-},
-"2026-10-18-kuppel-kinderdisco-flavah-nice": {
-"title": "Kinderdisco: Flavah Nice",
-"venue": "Kuppel",
-"date": "2026-10-18",
-"source": "crawler",
-"time": "14:00",
-"end": "17:00",
-"style": "disco",
-"url": "https://denkmal.org/de/basel/2026-10-18/dfc90a6f-16f4-48e3-8c47-a414b072fc47",
-"category": "Party / Disco"
-},
-"2026-10-18-theater-arle-glaini-haggs-dinteglaggs": {
-"title": "Glaini Häggs Dintegläggs",
-"venue": "Theater Arlecchino",
-"date": "2026-10-18",
-"source": "crawler",
-"time": "14:30",
-"url": "https://eventfrog.ch/de/p/theater-buehne/theater/glaini-haeggs-dinteglaeggs-basel-7478389100963211759.html",
-"category": "Bühne"
-},
-"2026-10-18-theater-bau3-chinds-chopf-pfeifen-verboten": {
-"title": "CHINDS-CHÖPF: Pfeifen verboten",
-"venue": "Theater BAU3",
-"date": "2026-10-18",
-"source": "crawler",
-"time": "16:00",
-"url": "https://eventfrog.ch/de/p/theater-buehne/theater/chinds-choepf-pfeifen-verboten-basel-7403062208786077493.html",
-"category": "Bühne"
-},
-"2026-10-18-le-miroir-de-im-schatten-der-malatesta-gemblaco-und-d": {
-"title": "Im Schatten der Malatesta, Gemblaco und Dufay in Pesaro",
-"venue": "Le Miroir de Musique",
-"date": "2026-10-18",
-"source": "crawler",
-"time": "17:00",
-"url": "https://eventfrog.ch/de/p/konzerte/kirchenmusik/im-schatten-der-malatesta-gemblaco-und-dufay-in-pesaro-basel-7510990774437210999.html",
-"category": "Konzert"
-},
-"2026-10-18-museum-klein-netzwerk-kammermusik-zauberwelt-der-tone": {
-"title": "Netzwerk Kammermusik: Zauberwelt der Töne",
-"venue": "Museum Kleines Klingental",
-"date": "2026-10-18",
-"source": "crawler",
-"time": "17:00",
-"style": "klassik",
-"url": "https://denkmal.org/de/basel/2026-10-18/19d09b10-1608-4f29-97ee-603ba5b30e26",
-"category": "Konzert / Klassik"
-},
-"2026-10-18-stadtcasino--kammerorchester-i-tempi-atem-des-frieden": {
-"category": "Konzert / Klassik",
-"date": "2026-10-18",
-"source": "crawler",
-"time": "17:00",
-"title": "Kammerorchester I TEMPI: Atem des Friedens",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/181026_i_tempi/",
-"venue": "Stadtcasino Basel",
-"doors": "16:30"
-},
-"2026-10-18-theater-faut-famiglia-dimitri-mit-cabaret-sorelle-for": {
-"title": "Famiglia Dimitri mit - Cabaret Sorelle Forelle",
-"venue": "Theater Fauteuil - Tabourettli",
-"date": "2026-10-18",
-"source": "crawler",
-"time": "17:00",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/famiglia-dimitri-mit-cabaret-sorelle-forelle-basel-7452334347976235689.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-18-schauspielha-gespenster": {
-"title": "Gespenster",
-"venue": "Schauspielhaus Theater Basel",
-"date": "2026-10-18",
-"source": "crawler",
-"time": "18:30",
-"url": "https://eventfrog.ch/de/p/theater-buehne/theater/gespenster-basel-7510681680836837297.html",
-"category": "Bühne"
-},
-"2026-10-18-klara-basel-stand-up-comedy-free-entry": {
-"title": "Stand-up comedy, free entry!",
-"venue": "Klara Basel",
-"date": "2026-10-18",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/stand-up-comedy-free-entry-basel-7487900523892333514.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-18-stadtcasino--angelo-branduardi-in-duo-con-fabio-valde": {
-"title": "Angelo Branduardi in DUO con Fabio Valdemarin Confessioni di un Malandrino",
-"venue": "Stadtcasino Basel",
-"date": "2026-10-18",
-"source": "crawler",
-"time": "20:00",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/181027_angelo_branduardi/",
-"category": "Konzert",
-"doors": "19:00"
-},
 "2026-10-19-peterskirche-faszination-mittelalter": {
 "title": "Faszination Mittelalter",
 "venue": "Peterskirche",
@@ -2968,6 +2862,17 @@
 "url": "https://denkmal.org/de/basel/2026-11-01/fe99d8ad-5c5c-425a-8957-29c3a9b61842",
 "category": "Konzert / Metal"
 },
+"2026-11-02-fassbar-dia-de-los-muertos-dj-sonoflono": {
+"title": "Dia de los Muertos: DJ Sonoflono",
+"venue": "Fassbar",
+"date": "2026-11-02",
+"source": "crawler",
+"time": "18:00",
+"end": "23:00",
+"style": "cumbia",
+"url": "https://denkmal.org/de/basel/2026-11-02/21bbcdfa-20ca-45c2-abe7-284a70ce9694",
+"category": "Anderes"
+},
 "2026-11-02-grenzwert-murder-monday": {
 "title": "Murder Monday",
 "venue": "Grenzwert",
@@ -2977,6 +2882,17 @@
 "style": "Stand-up Comedy (English) · Eintritt frei",
 "url": "https://grenzwert.ch/programm/",
 "category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
+},
+"2026-11-03-khaus-dimikio-von-wien-nach-hamburg": {
+"title": "Dimikio: Von Wien nach Hamburg",
+"venue": "kHaus",
+"date": "2026-11-03",
+"source": "crawler",
+"time": "12:00",
+"end": "13:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-03/ea026863-f939-402a-9d55-038b2e6de0ed",
+"category": "Konzert / Klassik"
 },
 "2026-11-03-sommercasino-bubble-buster-jam": {
 "title": "Bubble Buster Jam",
@@ -2998,6 +2914,45 @@
 "category": "Konzert / Klassik",
 "doors": "18:00"
 },
+"2026-11-03-atlantis-alfredo-rodriguez-pedrito-martinez": {
+"title": "Alfredo Rodriguez, Pedrito Martinez",
+"venue": "Atlantis",
+"date": "2026-11-03",
+"source": "crawler",
+"time": "20:00",
+"style": "jazz",
+"url": "https://denkmal.org/de/basel/2026-11-03/1958b45d-a467-4aad-adfc-4aad226425da",
+"category": "Konzert / Jazz"
+},
+"2026-11-03-heiliggeistk-durufle-requiem": {
+"title": "Duruflé Requiem",
+"venue": "Heiliggeistkirche",
+"date": "2026-11-03",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/chor/durufle-requiem-basel-7515317671006604591.html",
+"category": "Konzert"
+},
+"2026-11-03-hula-club-the-new-hawaiian-memories-pink-pedrazzi": {
+"title": "The New Hawaiian Memories, Pink Pedrazzi",
+"venue": "Hula Club",
+"date": "2026-11-03",
+"source": "crawler",
+"time": "20:00",
+"style": "blues",
+"url": "https://denkmal.org/de/basel/2026-11-03/6d0f0724-1b12-4fd1-a1c9-6433bf394c52",
+"category": "Konzert / Blues"
+},
+"2026-11-03-messe-baloise-session-joe-bonamassa": {
+"title": "Baloise Session: Joe Bonamassa",
+"venue": "Messe",
+"date": "2026-11-03",
+"source": "crawler",
+"time": "20:00",
+"style": "blues rock",
+"url": "https://denkmal.org/de/basel/2026-11-03/65376597-11ee-4a05-8b2a-5fbc7bef43f1",
+"category": "Konzert / Blues rock"
+},
 "2026-11-03-saali-golden-hula-club": {
 "title": "HULA CLUB",
 "venue": "Sääli (Goldenes Fass)",
@@ -3018,6 +2973,16 @@
 "venue": "Stadtcasino Basel",
 "doors": "19:00"
 },
+"2026-11-04-barakuba-jazznight-nicole-johanntgen-lukas-wyss-d": {
+"title": "Jazznight: Nicole Johänntgen, Lukas Wyss, Dominik Schürmann, Lucio Marelli",
+"venue": "Barakuba",
+"date": "2026-11-04",
+"source": "crawler",
+"time": "19:00",
+"style": "jazz",
+"url": "https://denkmal.org/de/basel/2026-11-04/902d9733-4bb9-41dc-8b95-dd0782a742b0",
+"category": "Konzert / Jazz"
+},
 "2026-11-04-sommercasino-inezona": {
 "title": "INEZONA",
 "venue": "Sommercasino",
@@ -3027,6 +2992,15 @@
 "doors": "19:00",
 "url": "https://sommercasino.ch/events/melanie-baker-support-tba/",
 "category": "Konzert"
+},
+"2026-11-04-heimat-bar-c-4-nov-mike-casa-show-basel": {
+"title": "4 NOV: Mike Casa Show BASEL!",
+"venue": "HEIMAT - Bar, Club, Stage, Kitchen",
+"date": "2026-11-04",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/4-nov-mike-casa-show-basel-basel-7508217658355023069.html",
+"category": "Bühne / Comedy"
 },
 "2026-11-04-stadtcasino--balkan-passion-mit-anton-violinist-frien": {
 "category": "Konzert / Worldmusic",
@@ -3047,6 +3021,64 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/04112026_kg/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
+},
+"2026-11-04-messe-baloise-session-picture-this-amistat": {
+"title": "Baloise Session: Picture This, Amistat",
+"venue": "Messe",
+"date": "2026-11-04",
+"source": "crawler",
+"time": "20:00",
+"style": "alternative, pop",
+"url": "https://denkmal.org/de/basel/2026-11-04/2b29e73d-fb48-4899-9879-294a37ec28dd",
+"category": "Konzert / Alternative"
+},
+"2026-11-04-museum-klein-basel-komponiert-leopold-van-der-pals": {
+"title": "Basel komponiert: Leopold van der Pals",
+"venue": "Museum Kleines Klingental",
+"date": "2026-11-04",
+"source": "crawler",
+"time": "20:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-04/bdb1fc35-fea0-41f4-bb07-f992f7816b4d",
+"category": "Konzert / Klassik"
+},
+"2026-11-04-novartis-pav-kammerorchester-basel-nachtklang-im-muse": {
+"title": "Kammerorchester Basel: Nachtklang im Museum",
+"venue": "Novartis Pavillon",
+"date": "2026-11-04",
+"source": "crawler",
+"time": "20:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-04/fed3edab-f1d2-4647-8608-7c9e7a4a6eca",
+"category": "Konzert / Klassik"
+},
+"2026-11-04-the-beast-ba-pulp-non-fiction": {
+"title": "Pulp Non-Fiction",
+"venue": "The Beast Basel Comedy Club",
+"date": "2026-11-04",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/pulp-non-fiction-basel-7480254283960571761.html",
+"category": "Bühne / Comedy"
+},
+"2026-11-04-the-gannet-zena": {
+"title": "Zena",
+"venue": "The Gannet",
+"date": "2026-11-04",
+"source": "crawler",
+"time": "20:00",
+"style": "r'n'b, dub, jazz, triphop",
+"url": "https://denkmal.org/de/basel/2026-11-04/4774108d-b531-4450-94d3-b946bbfdb38e",
+"category": "Konzert / Jazz"
+},
+"2026-11-04-theater-faut-lara-stoll-volume-5-die-ruckkehr": {
+"title": "Lara Stoll - Volume 5 - Die Rückkehr!",
+"venue": "Theater Fauteuil - Tabourettli",
+"date": "2026-11-04",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/lara-stoll-volume-5-die-rueckkehr-basel-7464552678959375278.html",
+"category": "Bühne / Comedy"
 },
 "2026-11-04-sommercasino-melanie-baker": {
 "category": "Konzert / Indie-Rock",
@@ -3088,6 +3120,48 @@
 "url": "https://www.garedunord.ch/de/programm/3180/dreaming-turtles",
 "venue": "Gare du Nord",
 "style": "Musiktheater/Performance"
+},
+"2026-11-05-hirscheneck-flora": {
+"title": "Flora",
+"venue": "Hirscheneck",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "20:00",
+"style": "indie pop",
+"url": "https://denkmal.org/de/basel/2026-11-05/bbd93cb6-233d-46ff-99ac-5a77bd32ad01",
+"category": "Konzert / Indie pop"
+},
+"2026-11-05-sud-schur": {
+"title": "Schur",
+"venue": "Sud",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "20:00",
+"style": "indie rock",
+"url": "https://denkmal.org/de/basel/2026-11-05/e760aa20-9f24-4e67-a4fa-3ea89c1fe5e2",
+"category": "Konzert / Indie rock"
+},
+"2026-11-05-atlantis-sonic-scientists-frethike": {
+"title": "Sonic Scientists, Frethike",
+"venue": "Atlantis",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "21:00",
+"end": "23:00",
+"style": "blues, rock",
+"url": "https://denkmal.org/de/basel/2026-11-05/b1adc5e4-9f97-4598-9585-458df7947e47",
+"category": "Konzert / Blues"
+},
+"2026-11-06-sunbeach-schurkin-phoma-dj-kazuko": {
+"title": "schurkin, Phoma, DJ Kazuko",
+"venue": "sunbeach",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "19:00",
+"end": "02:00",
+"style": "post punk, schranz, techno",
+"url": "https://denkmal.org/de/basel/2026-11-06/4d8b12c9-d46f-4fe5-ad07-2e2d55126aed",
+"category": "Club / Post punk"
 },
 "2026-11-06-stadtcasino--mr-yasin-hypnose-was-wenn-es-doch-funkti": {
 "title": "Mr. Yasin HYPNOSE - Was, wenn es doch funktioniert?",
@@ -3147,6 +3221,16 @@
 "time": "21:00",
 "url": "https://tickets.nordstern.com/en/c/permanent-vacation-2508",
 "category": "Club / Elektronisch"
+},
+"2026-11-06-zazaa-social-30-years-of-dj-tray-celebration-classic-": {
+"title": "30 Years of DJ Tray Celebration: Classic Der Dicke & DJ Crypt, DJ Tray",
+"venue": "Zazaa Social Club",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "21:00",
+"style": "hiphop, rap",
+"url": "https://denkmal.org/de/basel/2026-11-06/d6d1737c-54d6-4484-a35f-b642f98de4fc",
+"category": "Party / Hiphop"
 },
 "2026-11-06-basso-basso-live-cafe-da-manha-live-alan-koh-s": {
 "category": "Konzert / Samba & Indie Dance",
@@ -3208,6 +3292,16 @@
 "style": "Midtempo, Deep House, Indie Dance, House",
 "price": "Presale from CHF 12 / Door CHF 25"
 },
+"2026-11-07-parterre-one-day-rave-maxima-taylor-cruz-eine-nacht-v": {
+"title": "Day Rave: Màxima, Taylor Cruz // Eine Nacht. Viele Jahrzehnte. Unzählige Hits: Das Mandat",
+"venue": "Parterre One",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "16:00",
+"style": "80s, pop, 90s, 70s, melodic techno, house, 2000",
+"url": "https://denkmal.org/de/basel/2026-11-07/a7bfc295-9732-4270-b177-0630ac2683d7",
+"category": "Club / 80s"
+},
 "2026-11-07-stadtcasino--kammerorchester-basel-mit-pierre-laurent": {
 "category": "Konzert / Klassik",
 "date": "2026-11-07",
@@ -3227,6 +3321,17 @@
 "url": "https://www.kaschemme.ch/programm/2611/lilac-attitude-dnachtaktion-suicide-catdoors",
 "venue": "Kaschemme",
 "end": "23:30"
+},
+"2026-11-07-atlantis-deborah-monard": {
+"title": "Deborah Monard",
+"venue": "Atlantis",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "21:00",
+"end": "23:00",
+"style": "singer-songwriter, pop",
+"url": "https://denkmal.org/de/basel/2026-11-07/d6e6f452-8c24-4ccb-9a96-696e82f99e0c",
+"category": "Konzert / Singer-songwriter"
 },
 "2026-11-07-kinker-kinker-x-fetish-by-caroline": {
 "title": "KINKER X FETISH by Caroline",
@@ -4507,6 +4612,17 @@
 "source": "crawler",
 "time": "19:30",
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/200127_sob/",
+"category": "Konzert / Klassik",
+"doors": "18:30",
+"end": "21:30"
+},
+"2027-01-21-stadtcasino--sinfonieorchester-basel-freiheit": {
+"title": "Sinfonieorchester Basel Freiheit",
+"venue": "Stadtcasino Basel",
+"date": "2027-01-21",
+"source": "crawler",
+"time": "19:30",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/210127_sob-copy/",
 "category": "Konzert / Klassik",
 "doors": "18:30",
 "end": "21:30"
