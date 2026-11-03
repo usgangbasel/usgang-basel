@@ -1,31 +1,31 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "stats": {
-  "added": 22,
-  "filled": 0,
-  "dups": 148,
-  "removed": 11,
-  "blocked": 5
+  "added": 45,
+  "filled": 1,
+  "dups": 172,
+  "removed": 6,
+  "blocked": 10
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 28,
+   "found": 85,
    "status": "ok"
   },
   {
    "source": "eventfrog",
-   "found": 18,
+   "found": 21,
    "status": "ok"
   },
   {
    "source": "renee",
-   "found": 0,
+   "found": 3,
    "status": "ok"
   },
   {
    "source": "grenzwert",
-   "found": 1,
+   "found": 0,
    "status": "ok"
   },
   {
@@ -72,7 +72,7 @@
   },
   {
    "source": "kinker",
-   "found": 0,
+   "found": 4,
    "status": "ok"
   },
   {
@@ -96,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 468
+ "total_events": 507
 }

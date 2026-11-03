@@ -1,61 +1,4 @@
 {
-"2026-10-19-peterskirche-faszination-mittelalter": {
-"title": "Faszination Mittelalter",
-"venue": "Peterskirche",
-"date": "2026-10-19",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/faszination-mittelalter-basel-7508431400728547924.html",
-"category": "Konzert"
-},
-"2026-10-19-valhalla-bas-mork-soulburn-suport-scheintod": {
-"title": "Mork & Soulburn Suport: Scheintod",
-"venue": "Valhalla Basel",
-"date": "2026-10-19",
-"source": "crawler",
-"time": "19:45",
-"url": "https://eventfrog.ch/de/p/konzerte/hard-rock-heavy-metal/mork-soulburn-suport-scheintod-basel-7462885222859717564.html",
-"category": "Konzert",
-"style": "black metal"
-},
-"2026-10-19-elisabethenk-if-i-do-not-return": {
-"title": "If I do not return",
-"venue": "Elisabethenkirche Basel",
-"date": "2026-10-19",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/if-i-do-not-return-basel-7510664918690978920.html",
-"category": "Konzert"
-},
-"2026-10-19-grenzwert-murder-monday": {
-"title": "Murder Monday",
-"venue": "Grenzwert",
-"date": "2026-10-19",
-"source": "crawler",
-"time": "20:00",
-"style": "Stand-up Comedy (English) · Eintritt frei",
-"url": "https://grenzwert.ch/programm/",
-"category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
-},
-"2026-10-19-kaserne-base-azymuth": {
-"title": "Azymuth",
-"venue": "Kaserne Basel",
-"date": "2026-10-19",
-"source": "crawler",
-"time": "20:00",
-"style": "samba, funk",
-"url": "https://denkmal.org/de/basel/2026-10-19/8e73f8ca-c31f-4494-b693-dde45328b400",
-"category": "Party / Samba"
-},
-"2026-10-19-messe-basel--baloise-session-nile-rodgers-chic-rick-a": {
-"title": "Baloise Session: NILE RODGERS & CHIC / RICK ASTLEY",
-"venue": "Messe Basel Eventhalle",
-"date": "2026-10-19",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/konzerte/funk-soul/baloise-session-nile-rodgers-chic-rick-astley-basel-7498326513558762715.html",
-"category": "Konzert"
-},
 "2026-10-20-khaus-dimikio-johnny-laura-chihaia-trio": {
 "title": "Dimikio: Johnny, Laura Chihaia Trio",
 "venue": "kHaus",
@@ -2914,6 +2857,15 @@
 "category": "Konzert / Klassik",
 "doors": "18:00"
 },
+"2026-11-03-druckereihal-mutige-frauen-erinnern-ins-jetzt-wiedera": {
+"title": "Mutige Frauen – Erinnern ins Jetzt (Wiederaufnahme)",
+"venue": "Druckereihalle - Kultur im Ackermannshof",
+"date": "2026-11-03",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/mutige-frauen-erinnern-ins-jetzt-wiederaufnahme-basel-7500218242620757990.html",
+"category": "Bühne"
+},
 "2026-11-03-atlantis-alfredo-rodriguez-pedrito-martinez": {
 "title": "Alfredo Rodriguez, Pedrito Martinez",
 "venue": "Atlantis",
@@ -3022,6 +2974,16 @@
 "category": "Konzert / Klassik",
 "doors": "18:30"
 },
+"2026-11-04-beclys-punc": {
+"title": "Punc",
+"venue": "Beclys",
+"date": "2026-11-04",
+"source": "crawler",
+"time": "20:00",
+"style": "jazz",
+"url": "https://denkmal.org/de/basel/2026-11-04/eb372c9a-0ec1-4748-9dec-cd9832115690",
+"category": "Konzert / Jazz"
+},
 "2026-11-04-messe-baloise-session-picture-this-amistat": {
 "title": "Baloise Session: Picture This, Amistat",
 "venue": "Messe",
@@ -3101,6 +3063,17 @@
 "url": "https://www.kaschemme.ch/programm/2026/djlab115",
 "category": "Anderes"
 },
+"2026-11-05-zazaa-social-dj-frau-meissner": {
+"title": "DJ Frau Meissner",
+"venue": "Zazaa Social Club",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "18:00",
+"end": "00:00",
+"style": "soul, disco, funk, r'n'b",
+"url": "https://denkmal.org/de/basel/2026-11-05/ae341b33-bc6c-447f-85dd-fd77cf234fd3",
+"category": "Party / Soul"
+},
 "2026-11-05-stadtcasino--schweizer-jugend-sinfonie-orchester-volk": {
 "title": "Schweizer Jugend-Sinfonie-Orchester Volkssinfoniekonzerte",
 "venue": "Stadtcasino Basel",
@@ -3110,6 +3083,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/05112026_vosiko/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
+},
+"2026-11-05-fauteuil-culturall-meghadootam-der-wolkenbote": {
+"title": "Culturall: Meghadootam – der Wolkenbote",
+"venue": "Fauteuil",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "20:00",
+"style": "global sounds",
+"url": "https://denkmal.org/de/basel/2026-11-05/a857ee1c-89bc-4475-a21c-be52463f3759",
+"category": "Anderes"
 },
 "2026-11-05-gare-du-nord-dreaming-turtles-oblivia-klanglab": {
 "category": "Musiktheater",
@@ -3131,6 +3114,57 @@
 "url": "https://denkmal.org/de/basel/2026-11-05/bbd93cb6-233d-46ff-99ac-5a77bd32ad01",
 "category": "Konzert / Indie pop"
 },
+"2026-11-05-jazzclub-q4-chris-regez-band-alain-boog": {
+"title": "Chris Regez Band & Alain Boog",
+"venue": "Jazzclub Q4",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "20:00",
+"style": "country, boogie",
+"url": "https://denkmal.org/de/basel/2026-11-05/fe69917f-5b50-49f8-80cd-9c71435792be",
+"category": "Anderes"
+},
+"2026-11-05-kulturhuus-h-marc-sway": {
+"title": "Marc Sway",
+"venue": "Kulturhuus Häbse",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "20:00",
+"style": "pop",
+"url": "https://denkmal.org/de/basel/2026-11-05/560b63ea-4d0d-42f3-bb91-c93e8c6a8313",
+"category": "Konzert / Pop"
+},
+"2026-11-05-museum-klein-mondrian-ensemble-signs-games-and-messag": {
+"title": "Mondrian Ensemble: Signs, Games and Messages",
+"venue": "Museum Kleines Klingental",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "20:00",
+"end": "21:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-05/a277eb50-126c-4d91-8502-6c0689a04e65",
+"category": "Konzert / Klassik"
+},
+"2026-11-05-quartierzent-piano-bar": {
+"title": "Piano-Bar",
+"venue": "Quartierzentrum Union",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "20:00",
+"style": "pop, jazz",
+"url": "https://denkmal.org/de/basel/2026-11-05/8e46d334-304e-4300-a97d-f35e8689dad7",
+"category": "Konzert / Jazz"
+},
+"2026-11-05-schmiedenhof-basler-madrigalisten-swiss-music": {
+"title": "Basler Madrigalisten: Swiss Music",
+"venue": "Schmiedenhof, Zunftsaal",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "20:00",
+"style": "klassik, vocal",
+"url": "https://denkmal.org/de/basel/2026-11-05/0d0b3bbd-1de4-4cb0-9e7c-68cb96aa23a9",
+"category": "Konzert / Klassik"
+},
 "2026-11-05-sud-schur": {
 "title": "Schur",
 "venue": "Sud",
@@ -3151,6 +3185,56 @@
 "style": "blues, rock",
 "url": "https://denkmal.org/de/basel/2026-11-05/b1adc5e4-9f97-4598-9585-458df7947e47",
 "category": "Konzert / Blues"
+},
+"2026-11-05-kaserne-base-five-years-of-listen-audrey-chen-philipp": {
+"title": "Five years of Listen: Audrey Chen, Philipp Eden, Joaquin Ortega, Marc Matter",
+"venue": "Kaserne Basel",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "21:00",
+"style": "experimental, electronic",
+"url": "https://denkmal.org/de/basel/2026-11-05/1797e0bf-e9d1-4c96-bff8-d2ec8d2fe308",
+"category": "Club / Experimental"
+},
+"2026-11-05-kleiner-wass-chansons-rouges": {
+"title": "Chansons Rouges",
+"venue": "Kleiner Wassermann",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "21:00",
+"style": "chanson",
+"url": "https://denkmal.org/de/basel/2026-11-05/ab956ad7-60f3-47b4-84ae-1ed7d4e401ea",
+"category": "Konzert / Chanson"
+},
+"2026-11-05-schall-und-r-jazznights-by-jazzkollektiv": {
+"title": "Jazznights by Jazzkollektiv",
+"venue": "Schall und Rauch",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "21:00",
+"style": "jazz",
+"url": "https://denkmal.org/de/basel/2026-11-05/3d51a9ce-068e-487e-be30-553af08ed9e2",
+"category": "Konzert / Jazz"
+},
+"2026-11-05-renee-gerrit": {
+"title": "Gerrit",
+"venue": "Renée",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "23:00",
+"style": "Funk, Disco & Italo",
+"url": "https://www.renee.ch",
+"category": "Party / Funk"
+},
+"2026-11-06-kulturkirche-stimmungen": {
+"title": "Stimmungen",
+"venue": "Kulturkirche Paulus",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "19:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-06/66ed2fb5-162c-472a-9d71-8fdca7d62097",
+"category": "Konzert / Klassik"
 },
 "2026-11-06-sunbeach-schurkin-phoma-dj-kazuko": {
 "title": "schurkin, Phoma, DJ Kazuko",
@@ -3183,6 +3267,16 @@
 "venue": "Stadtcasino Basel",
 "doors": "18:30"
 },
+"2026-11-06-cantilena-antenna-best": {
+"title": "Antenna+Best",
+"venue": "Cantilena",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "20:00",
+"style": "psychedelic rock",
+"url": "https://denkmal.org/de/basel/2026-11-06/d8a78351-7073-4524-a922-e4486ceef28b",
+"category": "Club / Psychedelic rock"
+},
 "2026-11-06-gare-du-nord-dreaming-turtles-oblivia-klanglab": {
 "category": "Musiktheater",
 "date": "2026-11-06",
@@ -3192,6 +3286,47 @@
 "url": "https://www.garedunord.ch/de/programm/3188/dreaming-turtles",
 "venue": "Gare du Nord",
 "style": "Musiktheater/Performance"
+},
+"2026-11-06-h95-raum-fur-jouska-string-quartet": {
+"title": "Jouska String Quartet",
+"venue": "H95 Raum für Kultur",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "20:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-06/ee2c089c-9eb2-4401-87c3-c944e78de730",
+"category": "Konzert / Klassik"
+},
+"2026-11-06-kleiner-wass-aleksander-gaidai": {
+"title": "Aleksander Gaidai",
+"venue": "Kleiner Wassermann",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "20:00",
+"end": "21:00",
+"style": "piano, improvisation, klassik",
+"url": "https://denkmal.org/de/basel/2026-11-06/b1ae2351-3a8b-4048-9402-5632b16f117c",
+"category": "Konzert / Klassik"
+},
+"2026-11-06-kuppel-lunik": {
+"title": "Lunik",
+"venue": "Kuppel",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "20:00",
+"style": "pop",
+"url": "https://denkmal.org/de/basel/2026-11-06/5a7fe6f6-fb5e-439a-9403-7e7b5c79700e",
+"category": "Konzert / Pop"
+},
+"2026-11-06-nebel-femme-night-cannelle": {
+"title": "Femme Night: Cannelle",
+"venue": "Nebel",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "20:00",
+"style": "techno, trance",
+"url": "https://denkmal.org/de/basel/2026-11-06/f808b896-1e09-463f-84cb-1653a5dca1ef",
+"category": "Club / Techno"
 },
 "2026-11-06-sommercasino-freezes-deyna-support-the-toksin": {
 "category": "Konzert / Crossover",
@@ -3222,6 +3357,16 @@
 "url": "https://tickets.nordstern.com/en/c/permanent-vacation-2508",
 "category": "Club / Elektronisch"
 },
+"2026-11-06-the-gannet-bel-cobain": {
+"title": "Bel Cobain",
+"venue": "The Gannet",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "21:00",
+"style": "soul, r'n'b",
+"url": "https://denkmal.org/de/basel/2026-11-06/4aa1f04d-cff2-44ae-965d-efc9adeb3981",
+"category": "Party / Soul"
+},
 "2026-11-06-zazaa-social-30-years-of-dj-tray-celebration-classic-": {
 "title": "30 Years of DJ Tray Celebration: Classic Der Dicke & DJ Crypt, DJ Tray",
 "venue": "Zazaa Social Club",
@@ -3230,7 +3375,8 @@
 "time": "21:00",
 "style": "hiphop, rap",
 "url": "https://denkmal.org/de/basel/2026-11-06/d6d1737c-54d6-4484-a35f-b642f98de4fc",
-"category": "Party / Hiphop"
+"category": "Party / Hiphop",
+"end": "04:00"
 },
 "2026-11-06-basso-basso-live-cafe-da-manha-live-alan-koh-s": {
 "category": "Konzert / Samba & Indie Dance",
@@ -3242,6 +3388,17 @@
 "venue": "Basso",
 "style": "Samba, Indie Dance, Groove, DnB",
 "price": "Presale CHF 10"
+},
+"2026-11-06-club-cello-essence-orianna-denay-chris-de-coco-jase": {
+"title": "essence: orianna denay, chris de coco, jaser m, norbert.to, luca fiasco",
+"venue": "Club Cello",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "22:00",
+"end": "04:00",
+"style": "tech house, house",
+"url": "https://denkmal.org/de/basel/2026-11-06/41d097d0-4969-48a5-8666-0ec8be68213e",
+"category": "Club / Tech house"
 },
 "2026-11-06-saali-golden-geht-lost": {
 "title": "**Geht Lost**",
@@ -3263,6 +3420,16 @@
 "url": "https://ticketing.dasviertel.ch/event/coruba-soundsystem-snfoax",
 "category": "Party / Afrobeat"
 },
+"2026-11-06-heimat-noir": {
+"title": "Noir",
+"venue": "Heimat",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "23:00",
+"style": "techhouse, minimal",
+"url": "https://denkmal.org/de/basel/2026-11-06/aff20468-1a0f-4b23-8d6f-fcb8755f3562",
+"category": "Club / Techhouse"
+},
 "2026-11-06-kinker-rvnz-project-kinker-06-11-26-16": {
 "title": "RVNZ.project Kinker 06.11.26 16+",
 "venue": "Kinker",
@@ -3280,6 +3447,26 @@
 "time": "23:00",
 "url": "https://tickets.nordstern.com/en/c/somatic-rituals-friends-2507",
 "category": "Club / Elektronisch"
+},
+"2026-11-06-parterre-one-sound-bwoy": {
+"title": "Sound Bwoy",
+"venue": "Parterre One",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "23:00",
+"style": "amapiano, afrobeat, r'n'b, dancehall",
+"url": "https://denkmal.org/de/basel/2026-11-06/a675d778-2c56-4fc3-aeca-617449dd0020",
+"category": "Party / Amapiano"
+},
+"2026-11-06-renee-simon-sauerkraut": {
+"title": "Simon Sauerkraut",
+"venue": "Renée",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "23:00",
+"style": "Synth Galaxy Delight",
+"url": "https://www.renee.ch",
+"category": "Anderes"
 },
 "2026-11-07-basso-winter-daydance-series": {
 "category": "Club / Deep House",
@@ -3312,6 +3499,56 @@
 "venue": "Stadtcasino Basel",
 "doors": "18:30"
 },
+"2026-11-07-8-bar-walter-prisma": {
+"title": "Walter Prisma",
+"venue": "8 Bar",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "20:00",
+"style": "pop, rock",
+"url": "https://denkmal.org/de/basel/2026-11-07/037689da-b4b0-4df3-98a4-0dc146fb7e93",
+"category": "Konzert / Pop"
+},
+"2026-11-07-fauteuil-michael-von-der-heide": {
+"title": "Michael Von Der Heide",
+"venue": "Fauteuil",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "20:00",
+"style": "chanson",
+"url": "https://denkmal.org/de/basel/2026-11-07/f9d771a1-3e7e-4bc3-95e2-c9ae59f2e503",
+"category": "Konzert / Chanson"
+},
+"2026-11-07-kuppel-eto-alwa-alibi": {
+"title": "Eto, Alwa Alibi",
+"venue": "Kuppel",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "20:00",
+"style": "hiphop",
+"url": "https://denkmal.org/de/basel/2026-11-07/9949739d-5958-4cde-b55b-68d6468782b9",
+"category": "Party / Hiphop"
+},
+"2026-11-07-sunbeach-blues-train": {
+"title": "Blues Train",
+"venue": "sunbeach",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "20:00",
+"style": "blues",
+"url": "https://denkmal.org/de/basel/2026-11-07/051c2215-68e9-4a08-967e-b5b395e3ff4e",
+"category": "Konzert / Blues"
+},
+"2026-11-07-valhalla-total-annihilation-nihilo-vomitheist": {
+"title": "Total Annihilation, Nihilo, Vomitheist",
+"venue": "Valhalla",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "20:00",
+"style": "trash metal",
+"url": "https://denkmal.org/de/basel/2026-11-07/098f6d18-a1a4-4203-9850-651b1253745b",
+"category": "Konzert / Trash metal"
+},
 "2026-11-07-kaschemme-lilac-attitude-dnachtaktion-suicide-catd": {
 "category": "Konzert / Punk",
 "date": "2026-11-07",
@@ -3342,6 +3579,26 @@
 "url": "https://www.kinker.ch/events/7513973233323912952",
 "category": "Club / Techno"
 },
+"2026-11-07-quartierzent-machale-harmelin": {
+"title": "MacHale & Harmelin",
+"venue": "Quartierzentrum Union",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "21:00",
+"style": "singer-songwriter",
+"url": "https://denkmal.org/de/basel/2026-11-07/3df342c6-19c3-4a34-8537-d056d3f82196",
+"category": "Konzert / Singer-songwriter"
+},
+"2026-11-07-schall-und-r-low-light-session": {
+"title": "Low Light Session",
+"venue": "Schall und Rauch",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "21:00",
+"style": "hiphop, funk, soul",
+"url": "https://denkmal.org/de/basel/2026-11-07/0d991f65-93ff-4c20-8b7e-aaca658c8c19",
+"category": "Party / Hiphop"
+},
 "2026-11-07-sommercasino-wake-the-town-live-soundsystem-showcase": {
 "category": "Konzert / Dub & Reggae",
 "date": "2026-11-07",
@@ -3351,6 +3608,37 @@
 "url": "https://sommercasino.ch/events/wake-the-town-live-soundsystem-showcase/",
 "venue": "Sommercasino",
 "doors": "21:00"
+},
+"2026-11-07-nebel-vale-quintina-janu-safak-zeno": {
+"title": "Vale, Quintina, Janu, Safak, Zeno",
+"venue": "Nebel",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "22:00",
+"style": "techhouse, house, minimal",
+"url": "https://denkmal.org/de/basel/2026-11-07/69723615-21bf-4213-98d8-18cb177e73b3",
+"category": "Club / Techhouse"
+},
+"2026-11-07-zazaa-social-alma-negra": {
+"title": "Alma Negra",
+"venue": "Zazaa Social Club",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "22:00",
+"style": "global sounds, funk, afro, disco",
+"url": "https://denkmal.org/de/basel/2026-11-07/8777a8c1-6ff6-49db-ab3b-19a21b5b256e",
+"category": "Party / Global sounds"
+},
+"2026-11-07-club-cello-afro-vs-dancehall-tiflo-max-rubadub-e-mi": {
+"title": "afro vs dancehall: tiflo, max rubadub, e.miller",
+"venue": "Club Cello",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"style": "amapiano, dancehall, afrobeat",
+"url": "https://denkmal.org/de/basel/2026-11-07/b2ca16af-0baf-4128-bcbb-8fd51dac9e57",
+"category": "Party / Amapiano"
 },
 "2026-11-07-das-viertel-momento-w-grossomoddo-lazare-b2b-meloko": {
 "title": "Momento w/ Grossomoddo & Lazare B2b Meloko",
@@ -3363,6 +3651,26 @@
 "url": "https://ticketing.dasviertel.ch/event/momento-w-grossomoddo-lazare-b2b-meloko-6lk45z",
 "category": "Club / Afrohouse"
 },
+"2026-11-07-heimat-gameboys": {
+"title": "GameBoys",
+"venue": "Heimat",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "23:00",
+"style": "techno, electro",
+"url": "https://denkmal.org/de/basel/2026-11-07/4d7deaac-d284-4e00-8465-973d5f995c6c",
+"category": "Club / Techno"
+},
+"2026-11-07-nest-esengo-jaby-sterchi": {
+"title": "Esengo, Jaby, Sterchi",
+"venue": "Nest",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "23:00",
+"style": "afro",
+"url": "https://denkmal.org/de/basel/2026-11-07/438a07fb-ed3e-4c63-9222-9405eb69d35a",
+"category": "Party / Afro"
+},
 "2026-11-07-nordstern-polyamor-amber-broos-cara-elizabeth-cleo": {
 "title": "Polyamor: Amber Broos, Cara Elizabeth, Cleopard2000, DJ Dreckisch",
 "venue": "Nordstern",
@@ -3371,6 +3679,26 @@
 "time": "23:00",
 "url": "https://tickets.nordstern.com/en/c/polyamor-2482",
 "category": "Club / Elektronisch"
+},
+"2026-11-07-renee-uhuru-sound-resistance": {
+"title": "Uhuru Sound Resistance",
+"venue": "Renée",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "23:00",
+"style": "Arabic, Afro, Ethiojazz, Funk",
+"url": "https://www.renee.ch",
+"category": "Konzert / Jazz"
+},
+"2026-11-07-sud-2000er-party": {
+"title": "2000er Party",
+"venue": "Sud",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "23:00",
+"style": "2000",
+"url": "https://denkmal.org/de/basel/2026-11-07/c8be8f77-d318-4c76-8d6f-048a8d6e4cf2",
+"category": "Anderes"
 },
 "2026-11-07-basso-treffpunkt-vornelinks-daydance-caleesi-s": {
 "title": "Treffpunkt Vornelinks Daydance: Caleesi & Sarah Kreis, Vornelinks, Frantadam",
@@ -3392,6 +3720,16 @@
 "url": "https://www.garedunord.ch/de/programm/3222/shaushaushaus",
 "category": "Konzert / Neue Musik"
 },
+"2026-11-08-museum-klein-benefizkonzert": {
+"title": "Benefizkonzert",
+"venue": "Museum Kleines Klingental",
+"date": "2026-11-08",
+"source": "crawler",
+"time": "11:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-08/b0e70785-72d2-4bea-820d-3e07a702e25e",
+"category": "Konzert / Klassik"
+},
 "2026-11-08-stadtcasino--sinfonieorchester-basel-amg-sunday-conce": {
 "title": "Sinfonieorchester Basel AMG SunDay Concerts",
 "venue": "Stadtcasino Basel",
@@ -3401,6 +3739,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/08112026-amg-sunday-concerts/",
 "category": "Konzert / Klassik",
 "doors": "10:00"
+},
+"2026-11-08-atelier-du-m-jean-jacques-dunki": {
+"title": "Jean-Jacques Dünki",
+"venue": "Atelier du Monde",
+"date": "2026-11-08",
+"source": "crawler",
+"time": "12:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-08/c5ce7d66-b270-41f0-b7ed-9cbab22be5b0",
+"category": "Konzert / Klassik"
 },
 "2026-11-08-gare-du-nord-shaushaushaus-wenn-hauser-zu-buhnenwesen-1430": {
 "title": "SHAUSHAUSHAUS – Wenn Häuser zu Bühnenwesen werden: gare des enfants",
@@ -3412,6 +3760,17 @@
 "url": "https://www.garedunord.ch/de/programm/3223/shaushaushaus",
 "category": "Konzert / Neue Musik"
 },
+"2026-11-08-literaturhau-roger-monnerat-und-band": {
+"title": "Roger Monnerat und Band",
+"venue": "Literaturhaus",
+"date": "2026-11-08",
+"source": "crawler",
+"time": "16:00",
+"end": "18:00",
+"style": "rock, chanson",
+"url": "https://denkmal.org/de/basel/2026-11-08/16b8cc75-5f02-4f83-adc1-f97b72893fb0",
+"category": "Konzert / Rock"
+},
 "2026-11-08-stadtcasino--vivaldi-die-vier-jahreszeiten-philharmon": {
 "title": "Vivaldi - Die vier Jahreszeiten Philharmonie der Solisten",
 "venue": "Stadtcasino Basel",
@@ -3421,6 +3780,37 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/081126_philharmonie_d_solisten_1600/",
 "category": "Konzert / Klassik",
 "doors": "15:00"
+},
+"2026-11-08-quartierzent-tea-time-swing-lindy-hop-party-mit-crash": {
+"title": "Tea Time Swing – Lindy Hop Party mit Crashkurs",
+"venue": "Quartierzentrum Union",
+"date": "2026-11-08",
+"source": "crawler",
+"time": "17:00",
+"end": "22:00",
+"style": "swing",
+"url": "https://denkmal.org/de/basel/2026-11-08/6a78f02b-6341-43bb-b258-c641556d90ba",
+"category": "Anderes"
+},
+"2026-11-08-ackermannsho-martinu-festtage-2026-prazak-quartett-am": {
+"title": "Martinů Festtage 2026: Pražák Quartett & Amihai Grosz",
+"venue": "Ackermannshof",
+"date": "2026-11-08",
+"source": "crawler",
+"time": "18:00",
+"style": "klassik",
+"url": "https://denkmal.org/de/basel/2026-11-08/0d65df40-1d77-4848-aac9-a4a24336ac70",
+"category": "Konzert / Klassik"
+},
+"2026-11-08-fauteuil-michael-von-der-heide": {
+"title": "Michael Von Der Heide",
+"venue": "Fauteuil",
+"date": "2026-11-08",
+"source": "crawler",
+"time": "20:00",
+"style": "chanson",
+"url": "https://denkmal.org/de/basel/2026-11-08/10f34d34-8c39-4ed7-9780-a2498a957f5c",
+"category": "Konzert / Chanson"
 },
 "2026-11-08-stadtcasino--vivaldi-die-vier-jahreszeiten-philharmon-2000": {
 "title": "Vivaldi - Die vier Jahreszeiten Philharmonie der Solisten",
@@ -4626,5 +5016,15 @@
 "category": "Konzert / Klassik",
 "doors": "18:30",
 "end": "21:30"
+},
+"2027-01-22-stadtcasino--collegium-musicum-basel-ard-preisgewinne": {
+"title": "Collegium Musicum Basel ARD-Preisgewinner jubilieren triumphierend",
+"venue": "Stadtcasino Basel",
+"date": "2027-01-22",
+"source": "crawler",
+"time": "19:30",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/220127_cmb/",
+"category": "Konzert",
+"doors": "18:30"
 }
 }
