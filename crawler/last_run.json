@@ -1,16 +1,16 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "stats": {
-  "added": 45,
-  "filled": 1,
-  "dups": 172,
-  "removed": 6,
-  "blocked": 10
+  "added": 19,
+  "filled": 0,
+  "dups": 204,
+  "removed": 7,
+  "blocked": 9
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 85,
+   "found": 80,
    "status": "ok"
   },
   {
@@ -20,12 +20,12 @@
   },
   {
    "source": "renee",
-   "found": 3,
+   "found": 15,
    "status": "ok"
   },
   {
    "source": "grenzwert",
-   "found": 0,
+   "found": 1,
    "status": "ok"
   },
   {
@@ -40,7 +40,7 @@
   },
   {
    "source": "stadtcasino",
-   "found": 62,
+   "found": 61,
    "status": "ok",
    "detail_pages": 1
   },
@@ -51,7 +51,7 @@
   },
   {
    "source": "garedunord",
-   "found": 8,
+   "found": 9,
    "status": "ok"
   },
   {
@@ -72,7 +72,7 @@
   },
   {
    "source": "kinker",
-   "found": 4,
+   "found": 0,
    "status": "ok"
   },
   {
@@ -96,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 507
+ "total_events": 519
 }
