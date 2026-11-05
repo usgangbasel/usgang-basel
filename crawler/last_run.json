@@ -1,16 +1,16 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-05",
  "stats": {
-  "added": 19,
+  "added": 20,
   "filled": 0,
-  "dups": 204,
-  "removed": 7,
-  "blocked": 9
+  "dups": 210,
+  "removed": 8,
+  "blocked": 7
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 80,
+   "found": 72,
    "status": "ok"
   },
   {
@@ -25,7 +25,7 @@
   },
   {
    "source": "grenzwert",
-   "found": 1,
+   "found": 9,
    "status": "ok"
   },
   {
@@ -35,18 +35,18 @@
   },
   {
    "source": "kaschemme",
-   "found": 13,
+   "found": 14,
    "status": "ok"
   },
   {
    "source": "stadtcasino",
-   "found": 61,
+   "found": 60,
    "status": "ok",
    "detail_pages": 1
   },
   {
    "source": "viertel",
-   "found": 11,
+   "found": 17,
    "status": "ok"
   },
   {
@@ -56,7 +56,7 @@
   },
   {
    "source": "sommercasino",
-   "found": 20,
+   "found": 19,
    "status": "ok"
   },
   {
@@ -96,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 519
+ "total_events": 531
 }

@@ -1,81 +1,4 @@
 {
-"2026-10-21-sommercasino-stoff-zum-feiern": {
-"category": "Party / Awareness",
-"date": "2026-10-21",
-"source": "crawler",
-"time": "17:00",
-"title": "Stoff zum Feiern?!",
-"url": "https://sommercasino.ch/events/stoff-zum-feiern/",
-"venue": "Sommercasino"
-},
-"2026-10-21-quartiertref-scandi-jam-dance": {
-"title": "Scandi Jam & Dance",
-"venue": "Quartiertreffpunkt LoLa",
-"date": "2026-10-21",
-"source": "crawler",
-"time": "19:00",
-"end": "22:00",
-"style": "folk",
-"url": "https://denkmal.org/de/basel/2026-10-21/24860123-d804-4fcb-a0bc-170265daf026",
-"category": "Konzert / Folk"
-},
-"2026-10-21-schall-und-r-musik-quiz": {
-"title": "Musik-Quiz",
-"venue": "Schall und Rauch",
-"date": "2026-10-21",
-"source": "crawler",
-"time": "19:00",
-"url": "https://denkmal.org/de/basel/2026-10-21/a167e88a-8eae-40fc-b089-e2956d09d80e",
-"category": "Anderes"
-},
-"2026-10-21-zwinglihaus-stummfilm-mit-live-orgelbegleitung": {
-"title": "Stummfilm mit Live-Orgelbegleitung",
-"venue": "Zwinglihaus",
-"date": "2026-10-21",
-"source": "crawler",
-"time": "19:00",
-"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/stummfilm-mit-live-orgelbegleitung-basel-7515317801487219644.html",
-"category": "Konzert"
-},
-"2026-10-21-stadtcasino--kosmos-orchester": {
-"category": "Konzert / Vortrag",
-"date": "2026-10-21",
-"source": "crawler",
-"time": "19:30",
-"title": "Kosmos & Orchester",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/21102026_kosmos/",
-"venue": "Stadtcasino Basel",
-"doors": "18:30"
-},
-"2026-10-21-barakuba-flook": {
-"title": "Flook",
-"venue": "Barakuba",
-"date": "2026-10-21",
-"source": "crawler",
-"time": "20:00",
-"style": "folk",
-"url": "https://denkmal.org/de/basel/2026-10-21/3bb72222-f491-4a32-9ca6-110d80d183c6",
-"category": "Konzert / Folk"
-},
-"2026-10-21-messe-basel--baloise-session-calum-scott-tori-kelly": {
-"title": "Baloise Session: CALUM SCOTT / TORI KELLY",
-"venue": "Messe Basel Eventhalle",
-"date": "2026-10-21",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/konzerte/pop-rock/baloise-session-calum-scott-tori-kelly-basel-7498328122242152512.html",
-"category": "Konzert"
-},
-"2026-10-21-sud-huun-huur-tu": {
-"title": "Huun-Huur-Tu",
-"venue": "Sud",
-"date": "2026-10-21",
-"source": "crawler",
-"time": "21:00",
-"style": "vocal, global sounds",
-"url": "https://denkmal.org/de/basel/2026-10-21/5ebfa66c-894c-4cd1-9392-c0bc56bab30e",
-"category": "Anderes"
-},
 "2026-10-22-voltahalle-volta-kammermusikfest-2026": {
 "title": "Volta Kammermusikfest 2026",
 "venue": "Voltahalle",
@@ -3014,6 +2937,15 @@
 "url": "https://denkmal.org/de/basel/2026-11-05/ae341b33-bc6c-447f-85dd-fd77cf234fd3",
 "category": "Party / Soul"
 },
+"2026-11-05-aula-baumlih-der-club-der-toten-dichter-klassentheate": {
+"title": "\"Der Club der toten Dichter\" (Klassentheater 2i)",
+"venue": "Aula Bäumlihof",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/theater-buehne/theater/der-club-der-toten-dichter-klassentheater-2i-basel-7515433303358338207.html",
+"category": "Bühne"
+},
 "2026-11-05-stadtcasino--schweizer-jugend-sinfonie-orchester-volk": {
 "title": "Schweizer Jugend-Sinfonie-Orchester Volkssinfoniekonzerte",
 "venue": "Stadtcasino Basel",
@@ -3175,6 +3107,18 @@
 "url": "https://denkmal.org/de/basel/2026-11-05/3d51a9ce-068e-487e-be30-553af08ed9e2",
 "category": "Konzert / Jazz"
 },
+"2026-11-05-das-viertel-studentenfutter-xxl": {
+"title": "Studentenfutter XXL",
+"venue": "Das Viertel",
+"date": "2026-11-05",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"price": "frei",
+"style": "Open Format / POP / Charts",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Party / Open Format"
+},
 "2026-11-05-renee-gerrit": {
 "title": "Gerrit",
 "venue": "Renée",
@@ -3195,6 +3139,15 @@
 "url": "https://denkmal.org/de/basel/2026-11-06/66ed2fb5-162c-472a-9d71-8fdca7d62097",
 "category": "Konzert / Klassik"
 },
+"2026-11-06-paulus-kirch-stimmungen-lieder-sanger-lauluja": {
+"title": "Stimmungen. Lieder, sånger, lauluja.",
+"venue": "Paulus Kirche",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "19:00",
+"url": "https://eventfrog.ch/de/p/konzerte/a-cappella-vocal/stimmungen-lieder-sanger-lauluja-basel-7491023085048481571.html",
+"category": "Konzert"
+},
 "2026-11-06-sunbeach-schurkin-phoma-dj-kazuko": {
 "title": "schurkin, Phoma, DJ Kazuko",
 "venue": "sunbeach",
@@ -3205,6 +3158,15 @@
 "style": "post punk, schranz, techno",
 "url": "https://denkmal.org/de/basel/2026-11-06/4d8b12c9-d46f-4fe5-ad07-2e2d55126aed",
 "category": "Club / Post punk"
+},
+"2026-11-06-the-beast-ba-ophelie-hocquard-claude-english-stand-up": {
+"title": "OPHELIE HOCQUARD - CLAUDE (ENGLISH STAND-UP COMEDY)",
+"venue": "The Beast Basel Comedy Club",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "19:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/ophelie-hocquard-claude-english-stand-up-comedy-basel-7495861923415612940.html",
+"category": "Bühne / Comedy"
 },
 "2026-11-06-stadtcasino--mr-yasin-hypnose-was-wenn-es-doch-funkti": {
 "title": "Mr. Yasin HYPNOSE - Was, wenn es doch funktioniert?",
@@ -3316,6 +3278,16 @@
 "url": "https://tickets.nordstern.com/en/c/permanent-vacation-2508",
 "category": "Club / Elektronisch"
 },
+"2026-11-06-sud-formel-80": {
+"title": "Formel 80",
+"venue": "Sud",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "21:00",
+"style": "80s",
+"url": "https://denkmal.org/de/basel/2026-11-06/06d28026-68f0-40df-8386-8461b59a37ad",
+"category": "Party / 80s"
+},
 "2026-11-06-the-gannet-bel-cobain": {
 "title": "Bel Cobain",
 "venue": "The Gannet",
@@ -3358,6 +3330,16 @@
 "style": "tech house, house",
 "url": "https://denkmal.org/de/basel/2026-11-06/41d097d0-4969-48a5-8666-0ec8be68213e",
 "category": "Club / Tech house"
+},
+"2026-11-06-grenzwert-bob-loko-7-inch-only": {
+"title": "Bob Loko 7-inch only",
+"venue": "Grenzwert",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "22:00",
+"style": "70 + –",
+"url": "https://grenzwert.ch/programm/",
+"category": "Anderes"
 },
 "2026-11-06-saali-golden-geht-lost": {
 "title": "**Geht Lost**",
@@ -3567,6 +3549,16 @@
 "url": "https://sommercasino.ch/events/wake-the-town-live-soundsystem-showcase/",
 "venue": "Sommercasino",
 "doors": "21:00"
+},
+"2026-11-07-grenzwert-los-vinyl-brotherzh": {
+"title": "Los Vinyl Brother’ZH",
+"venue": "Grenzwert",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "22:00",
+"style": "Hip Hop, Soul, Funk",
+"url": "https://grenzwert.ch/programm/",
+"category": "Party / Hip Hop"
 },
 "2026-11-07-nebel-vale-quintina-janu-safak-zeno": {
 "title": "Vale, Quintina, Janu, Safak, Zeno",
@@ -3882,6 +3874,18 @@
 "url": "https://www.renee.ch",
 "category": "Anderes"
 },
+"2026-11-12-das-viertel-studentenfutter-xxl": {
+"title": "Studentenfutter XXL",
+"venue": "Das Viertel",
+"date": "2026-11-12",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"price": "frei",
+"style": "Open Format / POP / Charts",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Party / Open Format"
+},
 "2026-11-12-renee-ben-kaczor": {
 "title": "Ben Kaczor",
 "venue": "Renée",
@@ -3911,6 +3915,16 @@
 "style": "Musiktheater/Performance",
 "url": "https://www.garedunord.ch/de/programm/3194/hidden-heartache",
 "category": "Bühne / Musiktheater"
+},
+"2026-11-13-grenzwert-ray": {
+"title": "Ray",
+"venue": "Grenzwert",
+"date": "2026-11-13",
+"source": "crawler",
+"time": "22:00",
+"style": "Rock’n’Roll, Soul",
+"url": "https://grenzwert.ch/programm/",
+"category": "Party / Rock’n’Roll"
 },
 "2026-11-13-sommercasino-night-circus": {
 "title": "Night Circus",
@@ -3991,6 +4005,16 @@
 "url": "https://sommercasino.ch/events/knoeppel/",
 "venue": "Sommercasino",
 "doors": "20:30"
+},
+"2026-11-14-grenzwert-zest": {
+"title": "Zest",
+"venue": "Grenzwert",
+"date": "2026-11-14",
+"source": "crawler",
+"time": "22:00",
+"style": "Disco",
+"url": "https://grenzwert.ch/programm/",
+"category": "Party / Disco"
 },
 "2026-11-14-kaschemme-aller-guten-dinge-sind-18": {
 "title": "Aller guten Dinge sind 18",
@@ -4143,6 +4167,18 @@
 "url": "https://www.garedunord.ch/de/programm/3238/nachtstrom-115",
 "category": "Konzert / Neue Musik"
 },
+"2026-11-19-das-viertel-studentenfutter-xxl": {
+"title": "Studentenfutter XXL",
+"venue": "Das Viertel",
+"date": "2026-11-19",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"price": "frei",
+"style": "Open Format / POP / Charts",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Party / Open Format"
+},
 "2026-11-19-renee-red-integrate-orson-abram": {
 "title": "Red Integrate & Orson Abram",
 "venue": "Renée",
@@ -4163,6 +4199,16 @@
 "url": "https://sommercasino.ch/events/tales-of-wrath-fest/",
 "category": "Konzert"
 },
+"2026-11-20-grenzwert-twister-tom-best-rpm": {
+"title": "Twister: Tom Best & RPM",
+"venue": "Grenzwert",
+"date": "2026-11-20",
+"source": "crawler",
+"time": "22:00",
+"style": "Rock’n’Roll, R&B",
+"url": "https://grenzwert.ch/programm/",
+"category": "Konzert / Rock’n’Roll"
+},
 "2026-11-20-das-viertel-hits-the-one-and-only": {
 "title": "Hits - the ONE and Only!",
 "venue": "Das Viertel",
@@ -4173,6 +4219,16 @@
 "style": "HITS / POP / 90s / 20s / 10s",
 "url": "https://ticketing.dasviertel.ch/event/hits-the-one-and-only-vixx6h",
 "category": "Party / HITS"
+},
+"2026-11-20-kaschemme-nica-akzent": {
+"title": "NICA//AKZENT",
+"venue": "Kaschemme",
+"date": "2026-11-20",
+"source": "crawler",
+"time": "23:00",
+"end": "07:00",
+"url": "https://www.kaschemme.ch/programm/2026/11/20/nicaakzent",
+"category": "Anderes"
 },
 "2026-11-20-renee-down-in-diddy-wah-diddy-sonoflono-wicked": {
 "title": "Down in Diddy Wah Diddy: Sonoflono & Wicked Wiggler (Luzern)",
@@ -4234,6 +4290,16 @@
 "venue": "Basso",
 "style": "Slow House, Dirty Bounce",
 "price": "Presale CHF 10"
+},
+"2026-11-21-grenzwert-burning-sole-records": {
+"title": "Burning Sole Records",
+"venue": "Grenzwert",
+"date": "2026-11-21",
+"source": "crawler",
+"time": "22:00",
+"style": "Funk",
+"url": "https://grenzwert.ch/programm/",
+"category": "Party / Funk"
 },
 "2026-11-21-das-viertel-zweiklang-presents-hotlap": {
 "title": "Zweiklang Presents: Hotlap",
@@ -4347,6 +4413,18 @@
 "category": "Konzert",
 "doors": "19:00"
 },
+"2026-11-26-das-viertel-studentenfutter-xxl": {
+"title": "Studentenfutter XXL",
+"venue": "Das Viertel",
+"date": "2026-11-26",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"price": "frei",
+"style": "Open Format / POP / Charts",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Party / Open Format"
+},
 "2026-11-26-renee-el-sina": {
 "title": "El Sina",
 "venue": "Renée",
@@ -4366,6 +4444,16 @@
 "url": "https://sommercasino.ch/events/deb-album-release-show/",
 "venue": "Sommercasino",
 "doors": "19:30"
+},
+"2026-11-27-grenzwert-ric-piccolo-berlin": {
+"title": "Ric Piccolo (Berlin)",
+"venue": "Grenzwert",
+"date": "2026-11-27",
+"source": "crawler",
+"time": "22:00",
+"style": "Disco, rare grooves, House",
+"url": "https://grenzwert.ch/programm/",
+"category": "Club / Disco"
 },
 "2026-11-27-renee-dysfunct": {
 "title": "Dysfunct",
@@ -4425,6 +4513,16 @@
 "style": "Alternative Indie",
 "url": "https://www.renee.ch",
 "category": "Konzert / Alternative Indie"
+},
+"2026-11-28-grenzwert-dersu": {
+"title": "Dersu",
+"venue": "Grenzwert",
+"date": "2026-11-28",
+"source": "crawler",
+"time": "22:00",
+"style": "World Musik",
+"url": "https://grenzwert.ch/programm/",
+"category": "Anderes"
 },
 "2026-11-28-das-viertel-gayties-special-edition-xxl": {
 "title": "Gayties - Special Edition XXL",
@@ -4554,6 +4652,18 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/blind-symphony/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
+},
+"2026-12-03-das-viertel-studentenfutter-xxl": {
+"title": "Studentenfutter XXL",
+"venue": "Das Viertel",
+"date": "2026-12-03",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"price": "frei",
+"style": "Open Format / POP / Charts",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Party / Open Format"
 },
 "2026-12-04-sommercasino-berenice-ep-release-show": {
 "category": "Konzert / Folk-Pop",
@@ -4723,6 +4833,18 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/10122026_vosiko/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
+},
+"2026-12-10-das-viertel-studentenfutter-xxl": {
+"title": "Studentenfutter XXL",
+"venue": "Das Viertel",
+"date": "2026-12-10",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"price": "frei",
+"style": "Open Format / POP / Charts",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Party / Open Format"
 },
 "2026-12-11-sommercasino-pathwalker-de-akudama": {
 "title": "Pathwalker (DE) & Akudama",
@@ -5144,5 +5266,15 @@
 "time": "",
 "url": "https://sommercasino.ch/events/how-to-stage-2/",
 "category": "Workshop"
+},
+"2027-01-24-stadtcasino--basel-sinfonietta-ukraine-und-europa": {
+"title": "Basel Sinfonietta Ukraine und Europa",
+"venue": "Stadtcasino Basel",
+"date": "2027-01-24",
+"source": "crawler",
+"time": "19:00",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/240127_sinfonietta/",
+"category": "Konzert / Klassik",
+"doors": "18:00"
 }
 }
