@@ -1,26 +1,26 @@
 {
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "stats": {
-  "added": 20,
+  "added": 19,
   "filled": 0,
-  "dups": 210,
-  "removed": 8,
-  "blocked": 7
+  "dups": 226,
+  "removed": 20,
+  "blocked": 5
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 72,
+   "found": 53,
    "status": "ok"
   },
   {
    "source": "eventfrog",
-   "found": 21,
+   "found": 45,
    "status": "ok"
   },
   {
    "source": "renee",
-   "found": 15,
+   "found": 13,
    "status": "ok"
   },
   {
@@ -35,7 +35,7 @@
   },
   {
    "source": "kaschemme",
-   "found": 14,
+   "found": 13,
    "status": "ok"
   },
   {
@@ -46,7 +46,7 @@
   },
   {
    "source": "viertel",
-   "found": 17,
+   "found": 16,
    "status": "ok"
   },
   {
@@ -67,12 +67,12 @@
   },
   {
    "source": "elysia",
-   "found": 2,
+   "found": 4,
    "status": "ok"
   },
   {
    "source": "kinker",
-   "found": 0,
+   "found": 9,
    "status": "ok"
   },
   {
@@ -96,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 531
+ "total_events": 530
 }

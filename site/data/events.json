@@ -1,203 +1,4 @@
 {
-"2026-10-22-voltahalle-volta-kammermusikfest-2026": {
-"title": "Volta Kammermusikfest 2026",
-"venue": "Voltahalle",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "00:00",
-"style": "klassik",
-"url": "https://denkmal.org/de/basel/2026-10-22/c11e2d69-964f-4178-bd46-87395c6b2f6b",
-"category": "Konzert / Klassik"
-},
-"2026-10-22-kaschemme-uptown-dj-lab": {
-"category": "Workshop / Freier Eintritt",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "18:00",
-"title": "Uptown DJ-Lab",
-"url": "https://www.kaschemme.ch/programm/260922/lab",
-"venue": "Kaschemme",
-"end": "22:00",
-"price": "frei"
-},
-"2026-10-22-zazaa-social-the-social-exchange-metis-blanc-plattenl": {
-"title": "The Social Exchange: Métis Blanc & Plattenleger Urs",
-"venue": "Zazaa Social Club",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "18:00",
-"style": "reggae, funk, soul, hiphop",
-"url": "https://denkmal.org/de/basel/2026-10-22/873164ff-3cbc-44f4-9a47-5d9e04ddd6ab",
-"category": "Party / Reggae"
-},
-"2026-10-22-ms-flaneur-c-menopause-sause-flavah-nice": {
-"title": "Menopause-Sause: Flavah Nice",
-"venue": "MS Flâneur Christoph Merian",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "19:00",
-"end": "23:00",
-"style": "90s, 80s",
-"url": "https://denkmal.org/de/basel/2026-10-22/1219a5ba-bbb8-4425-8cfe-2ad8e7ac67b6",
-"category": "Party / 90s"
-},
-"2026-10-22-aula-gymnasi-theater-2q-all-of-us-are-lying": {
-"title": "Theater 2Q: All of us are lying",
-"venue": "Aula Gymnasium Bäumlihof",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/theater-buehne/theater/theater-2q-all-of-us-are-lying-basel-7508834176038084423.html",
-"category": "Bühne"
-},
-"2026-10-22-aula-sekunda-ten-little-liars": {
-"title": "Ten little liars",
-"venue": "Aula, Sekundarschule Leonhard",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/theater-buehne/theater/ten-little-liars-basel-7507114151476472060.html",
-"category": "Bühne"
-},
-"2026-10-22-8-bar-max-hightower-band": {
-"title": "Max Hightower Band",
-"venue": "8 Bar",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "20:00",
-"style": "soul, blues, funk",
-"url": "https://denkmal.org/de/basel/2026-10-22/21d1b649-7a9b-4cfe-8935-8911f1e1a461",
-"category": "Party / Soul"
-},
-"2026-10-22-kulturhuus-h-kennedy-administration": {
-"title": "Kennedy Administration",
-"venue": "Kulturhuus Häbse",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "20:00",
-"style": "soul, jazz",
-"url": "https://denkmal.org/de/basel/2026-10-22/ff8da329-3ebb-475a-8acd-016574f6e13f",
-"category": "Konzert / Jazz"
-},
-"2026-10-22-kuppel-alex-flach-luzifers-roadtrip": {
-"title": "Alex Flach: Luzifers Roadtrip",
-"venue": "Kuppel",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "20:00",
-"style": "lesung",
-"url": "https://denkmal.org/de/basel/2026-10-22/2695a9dc-4b91-4014-a48f-ef567915b667",
-"category": "Bühne / Lesung"
-},
-"2026-10-22-quartierzent-listening-session-alma-negra": {
-"title": "Listening Session: Alma Negra",
-"venue": "Quartierzentrum Union",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "20:00",
-"style": "global sounds",
-"url": "https://denkmal.org/de/basel/2026-10-22/13cc0586-da49-4e9f-b1d1-aeb27e9e1874",
-"category": "Anderes"
-},
-"2026-10-22-stadtcasino--vivaldi-die-vier-jahreszeiten": {
-"category": "Konzert / Klassik",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "20:00",
-"title": "Vivaldi – Die vier Jahreszeiten",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/22102026-vivaldi/",
-"venue": "Stadtcasino Basel",
-"doors": "19:00"
-},
-"2026-10-22-station-circ-jeudi-cirque": {
-"title": "Jeudi Cirque",
-"venue": "Station Circus",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/theater-buehne/buehnenveranstaltung/jeudi-cirque-basel-7497932038307075021.html",
-"category": "Bühne"
-},
-"2026-10-22-sud-dirty-sound-magnet": {
-"title": "Dirty Sound Magnet",
-"venue": "Sud",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "20:00",
-"style": "rock, psychedelic rock",
-"url": "https://denkmal.org/de/basel/2026-10-22/95832ab3-df4c-4667-9851-ebd3c572d37c",
-"category": "Club / Rock"
-},
-"2026-10-22-theater-faut-charles-nguela-timing": {
-"title": "Charles Nguela - Timing",
-"venue": "Theater Fauteuil",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/charles-nguela-timing-basel-7452252131787071818.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-22-der-teufelho-berni-wagner-monster": {
-"title": "Berni Wagner: «Monster»",
-"venue": "Der Teufelhof Basel",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "20:15",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/berni-wagner-monster-basel-7475384896115974610.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-22-atlantis-youngstage": {
-"title": "Youngstage",
-"venue": "Atlantis",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "21:00",
-"style": "pop",
-"url": "https://denkmal.org/de/basel/2026-10-22/983f5c85-9c98-4a99-ac57-080b81b09ca0",
-"category": "Konzert / Pop"
-},
-"2026-10-22-kleiner-wass-daz-pio-sami": {
-"title": "Daz, Pio & Sami",
-"venue": "Kleiner Wassermann",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "21:00",
-"style": "progressive rock, jazz",
-"url": "https://denkmal.org/de/basel/2026-10-22/5098e5f5-51e6-41b2-afe7-aedf8aa6b2e8",
-"category": "Konzert / Jazz"
-},
-"2026-10-22-schall-und-r-jazznights-manca-fekonja-quartet": {
-"title": "Jazznights: Manca Fekonja Quartet",
-"venue": "Schall und Rauch",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "21:00",
-"style": "jazz",
-"url": "https://denkmal.org/de/basel/2026-10-22/cab67c8a-4a41-4571-ad9b-96a7b796b07e",
-"category": "Konzert / Jazz"
-},
-"2026-10-22-das-viertel-studentenfutter-xxl": {
-"title": "Studentenfutter XXL",
-"venue": "Das Viertel",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "23:00",
-"price": "frei",
-"style": "Open Format / POP / Charts",
-"url": "https://www.dasviertel.ch/programmklub",
-"category": "Party / Open Format",
-"end": "04:00"
-},
-"2026-10-22-renee-red-integrate": {
-"category": "Club / Post-Punk & Electronic",
-"date": "2026-10-22",
-"source": "crawler",
-"time": "23:00",
-"title": "Red Integrate",
-"url": "https://www.renee.ch",
-"venue": "Renée",
-"style": "Post-Punk to Electronic"
-},
 "2026-10-23-lora-basel-azulu-event": {
 "title": "AZULU EVENT",
 "venue": "Lora Basel",
@@ -3129,6 +2930,15 @@
 "url": "https://www.renee.ch",
 "category": "Party / Funk"
 },
+"2026-11-06-allgemeine-l-kirills-uberraschungskonzerte-kuk": {
+"title": "Kirills Überraschungskonzerte KÜK",
+"venue": "Allgemeine Lesegesellschaft",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "19:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/kirills-ueberraschungskonzerte-kuek-basel-7395837994320585175.html",
+"category": "Konzert"
+},
 "2026-11-06-kulturkirche-stimmungen": {
 "title": "Stimmungen",
 "venue": "Kulturkirche Paulus",
@@ -3167,6 +2977,33 @@
 "time": "19:00",
 "url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/ophelie-hocquard-claude-english-stand-up-comedy-basel-7495861923415612940.html",
 "category": "Bühne / Comedy"
+},
+"2026-11-06-allmendhaus--aperitivo-stab-hs26": {
+"title": "Aperitivo STAB - HS26",
+"venue": "Allmendhaus im Hirzbrunnen",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/partys/studierendenparty/aperitivo-stab-hs26-basel-7521327365646994199.html",
+"category": "Party"
+},
+"2026-11-06-aula-lysbuch-ali-dogan-ganultas-solo-konzert": {
+"title": "Ali Doğan Gänültaş - Solo Konzert",
+"venue": "Aula Lysbüchel",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/ali-doan-gaenuelta-solo-konzert-basel-7508173675922718975.html",
+"category": "Konzert"
+},
+"2026-11-06-fms-basel-au-raub-der-epochen": {
+"title": "Raub der Epochen",
+"venue": "Fms Basel Aula",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/theater-buehne/komoedie/raub-der-epochen-basel-7519036200931314080.html",
+"category": "Bühne"
 },
 "2026-11-06-stadtcasino--mr-yasin-hypnose-was-wenn-es-doch-funkti": {
 "title": "Mr. Yasin HYPNOSE - Was, wenn es doch funktioniert?",
@@ -3249,6 +3086,15 @@
 "url": "https://denkmal.org/de/basel/2026-11-06/f808b896-1e09-463f-84cb-1653a5dca1ef",
 "category": "Club / Techno"
 },
+"2026-11-06-parkcafe-kle-concert-of-piano-improvisation-and-class": {
+"title": "Concert of piano improvisation and classical music",
+"venue": "Parkcafé Kleiner Wassermann",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/concert-of-piano-improvisation-and-classical-music-basel-7520482373416306918.html",
+"category": "Konzert"
+},
 "2026-11-06-sommercasino-freezes-deyna-support-the-toksin": {
 "category": "Konzert / Crossover",
 "date": "2026-11-06",
@@ -3258,6 +3104,24 @@
 "url": "https://sommercasino.ch/events/freezes-deyna-the-toksin/",
 "venue": "Sommercasino",
 "doors": "20:00"
+},
+"2026-11-06-der-teufelho-simon-chen-er-will-nur-spielen": {
+"title": "Simon Chen «Er will nur spielen»",
+"venue": "Der Teufelhof Basel",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "20:15",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/simon-chen-er-will-nur-spielen-basel-7475749125608221269.html",
+"category": "Bühne / Comedy"
+},
+"2026-11-06-corrientes-friday-hop": {
+"title": "Friday Hop",
+"venue": "Corrientes",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "20:30",
+"url": "https://eventfrog.ch/de/p/partys/swing/friday-hop-basel-7479631750668235790.html",
+"category": "Party"
 },
 "2026-11-06-kaschemme-kalles-kaviar-canastron-50-years-swiss-s": {
 "category": "Konzert / Ska",
@@ -3269,6 +3133,24 @@
 "venue": "Kaschemme",
 "end": "02:00"
 },
+"2026-11-06-the-beast-ba-too-shady-comedy-a-queer-friendly-comedy": {
+"title": "Too Shady Comedy - A Queer-friendly Comedy Show",
+"venue": "The Beast Basel Comedy Club",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "20:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/too-shady-comedy-a-queer-friendly-comedy-show-basel-7512472815376825826.html",
+"category": "Bühne / Comedy"
+},
+"2026-11-06-derriere-rou-hot-mass": {
+"title": "HOT MÄSS",
+"venue": "Derrière Rouge",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "21:00",
+"url": "https://eventfrog.ch/de/p/partys/disco/hot-maess-basel-7521179325246268976.html",
+"category": "Party"
+},
 "2026-11-06-nordstern-permanent-vacation-benjamin-frohlich-meh": {
 "title": "Permanent Vacation: Benjamin Fröhlich, Mehmet Aslan, Klingberg",
 "venue": "Nordstern",
@@ -3277,6 +3159,15 @@
 "time": "21:00",
 "url": "https://tickets.nordstern.com/en/c/permanent-vacation-2508",
 "category": "Club / Elektronisch"
+},
+"2026-11-06-permanent-va-permanent-vacation": {
+"title": "Permanent Vacation",
+"venue": "Permanent Vacation",
+"date": "2026-11-06",
+"source": "crawler",
+"time": "21:00",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/permanent-vacation-basel-7515371088550833895.html",
+"category": "Party"
 },
 "2026-11-06-sud-formel-80": {
 "title": "Formel 80",
@@ -3926,6 +3817,15 @@
 "url": "https://grenzwert.ch/programm/",
 "category": "Party / Rock’n’Roll"
 },
+"2026-11-13-kinker-freitag-der-13": {
+"title": "Freitag der 13.",
+"venue": "Kinker",
+"date": "2026-11-13",
+"source": "crawler",
+"time": "22:00",
+"url": "https://www.kinker.ch/events/7523345236505971034",
+"category": "Club / Techno"
+},
 "2026-11-13-sommercasino-night-circus": {
 "title": "Night Circus",
 "venue": "Sommercasino",
@@ -4045,6 +3945,15 @@
 "time": "23:00",
 "url": "https://eventfrog.ch/de/p/partys/house-techno/elysia-x-laster-samstag-14-november-muenchenstein-7512840572324829391.html",
 "category": "Party"
+},
+"2026-11-14-kinker-kinkxtacy": {
+"title": "Kinkxtacy",
+"venue": "Kinker",
+"date": "2026-11-14",
+"source": "crawler",
+"time": "23:00",
+"url": "https://www.kinker.ch/events/7523331256190284617",
+"category": "Club / Techno"
 },
 "2026-11-14-nordstern-space92": {
 "title": "Space92",
@@ -4209,6 +4118,15 @@
 "url": "https://grenzwert.ch/programm/",
 "category": "Konzert / Rock’n’Roll"
 },
+"2026-11-20-kinker-freitag-nacht": {
+"title": "Freitag Nacht",
+"venue": "Kinker",
+"date": "2026-11-20",
+"source": "crawler",
+"time": "22:00",
+"url": "https://www.kinker.ch/events/7523338569546498428",
+"category": "Club / Techno"
+},
 "2026-11-20-das-viertel-hits-the-one-and-only": {
 "title": "Hits - the ONE and Only!",
 "venue": "Das Viertel",
@@ -4301,6 +4219,15 @@
 "url": "https://grenzwert.ch/programm/",
 "category": "Party / Funk"
 },
+"2026-11-21-kinker-schranz": {
+"title": "SCHRANZ",
+"venue": "Kinker",
+"date": "2026-11-21",
+"source": "crawler",
+"time": "22:00",
+"url": "https://www.kinker.ch/events/7523352255208140362",
+"category": "Club / Techno"
+},
 "2026-11-21-das-viertel-zweiklang-presents-hotlap": {
 "title": "Zweiklang Presents: Hotlap",
 "venue": "Das Viertel",
@@ -4391,6 +4318,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/maxime-trechsel/",
 "category": "Konzert",
 "doors": "18:30"
+},
+"2026-11-25-gare-du-nord-third-space-ensemble-bruit": {
+"title": "Third Space: Ensemble Bruit",
+"venue": "Gare du Nord",
+"date": "2026-11-25",
+"source": "crawler",
+"time": "20:00",
+"style": "Konzert",
+"url": "https://www.garedunord.ch/de/programm/3177/third-space",
+"category": "Konzert / Neue Musik"
 },
 "2026-11-26-kaschemme-uptown-dj-lab": {
 "title": "UPTOWN DJ-LAB",
@@ -4523,6 +4460,15 @@
 "style": "World Musik",
 "url": "https://grenzwert.ch/programm/",
 "category": "Anderes"
+},
+"2026-11-28-kinker-kinker-loves-techno": {
+"title": "KINKER Loves Techno",
+"venue": "Kinker",
+"date": "2026-11-28",
+"source": "crawler",
+"time": "22:00",
+"url": "https://www.kinker.ch/events/7523348507727550972",
+"category": "Club / Techno"
 },
 "2026-11-28-das-viertel-gayties-special-edition-xxl": {
 "title": "Gayties - Special Edition XXL",
@@ -5035,6 +4981,15 @@
 "category": "Konzert",
 "doors": "19:00"
 },
+"2026-12-19-elysia-elysia-samstag-19-dezember": {
+"title": "Elysia Samstag 19. Dezember",
+"venue": "Elysia",
+"date": "2026-12-19",
+"source": "crawler",
+"time": "22:00",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/elysia-samstag-19-dezember-muenchenstein-7523696385843054957.html",
+"category": "Party"
+},
 "2026-12-19-basso-space-party-x-oscillate": {
 "category": "Club / House & Techno",
 "date": "2026-12-19",
@@ -5117,6 +5072,15 @@
 "style": "Hits / House / Afro",
 "url": "https://ticketing.dasviertel.ch/event/light-up-the-new-year-pto107",
 "category": "Club / Hits"
+},
+"2026-12-31-elysia-new-year-at-elysia": {
+"title": "New Year at Elysia",
+"venue": "Elysia",
+"date": "2026-12-31",
+"source": "crawler",
+"time": "22:00",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/new-year-at-elysia-muenchenstein-7524142953297611808.html",
+"category": "Party"
 },
 "2026-12-31-kinker-kinker-newyearseve": {
 "title": "KINKER NewYearsEve",
@@ -5276,5 +5240,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/240127_sinfonietta/",
 "category": "Konzert / Klassik",
 "doors": "18:00"
+},
+"2027-01-25-stadtcasino--patent-ochsner-achtung-probe-die-neue-to": {
+"title": "Patent Ochsner Achtung: Probe! - Die neue Tour",
+"venue": "Stadtcasino Basel",
+"date": "2027-01-25",
+"source": "crawler",
+"time": "20:00",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/25012027_patent_ochsner/",
+"category": "Konzert",
+"doors": "19:00"
 }
 }
