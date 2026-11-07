@@ -1,31 +1,31 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "stats": {
-  "added": 19,
+  "added": 11,
   "filled": 0,
-  "dups": 226,
-  "removed": 20,
-  "blocked": 5
+  "dups": 198,
+  "removed": 39,
+  "blocked": 3
  },
  "sources": [
   {
    "source": "denkmal",
-   "found": 53,
+   "found": 32,
    "status": "ok"
   },
   {
    "source": "eventfrog",
-   "found": 45,
+   "found": 39,
    "status": "ok"
   },
   {
    "source": "renee",
-   "found": 13,
+   "found": 12,
    "status": "ok"
   },
   {
    "source": "grenzwert",
-   "found": 9,
+   "found": 8,
    "status": "ok"
   },
   {
@@ -35,18 +35,18 @@
   },
   {
    "source": "kaschemme",
-   "found": 13,
+   "found": 12,
    "status": "ok"
   },
   {
    "source": "stadtcasino",
-   "found": 60,
+   "found": 59,
    "status": "ok",
    "detail_pages": 1
   },
   {
    "source": "viertel",
-   "found": 16,
+   "found": 15,
    "status": "ok"
   },
   {
@@ -56,12 +56,12 @@
   },
   {
    "source": "sommercasino",
-   "found": 19,
+   "found": 18,
    "status": "ok"
   },
   {
    "source": "basso",
-   "found": 13,
+   "found": 12,
    "status": "ok",
    "detail_pages": 0
   },
@@ -72,12 +72,12 @@
   },
   {
    "source": "kinker",
-   "found": 9,
+   "found": 0,
    "status": "ok"
   },
   {
    "source": "saali",
-   "found": 4,
+   "found": 3,
    "status": "ok"
   },
   {
@@ -96,5 +96,5 @@
    "status": "ok"
   }
  ],
- "total_events": 530
+ "total_events": 502
 }

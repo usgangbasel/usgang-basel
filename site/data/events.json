@@ -1,386 +1,4 @@
 {
-"2026-10-23-lora-basel-azulu-event": {
-"title": "AZULU EVENT",
-"venue": "Lora Basel",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "11:00",
-"url": "https://eventfrog.ch/de/p/partys/house-techno/azulu-event-basel-7508222746230282476.html",
-"category": "Party"
-},
-"2026-10-23-atlantis-bas-soroptimist-viva-dance-night-23-oktober-": {
-"title": "Soroptimist Viva Dance Night - 23. Oktober 26 - im Atlantis",
-"venue": "Atlantis Basel",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "18:30",
-"url": "https://eventfrog.ch/de/p/partys/90s/soroptimist-viva-dance-night-23-oktober-26-im-atlantis-basel-7445135171462925611.html",
-"category": "Party"
-},
-"2026-10-23-rhystarn-der-line-dance-uff-em-rhy": {
-"title": "Line Dance uff em Rhy",
-"venue": "Rhystärn der Basler Personenschifffahrt AG",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "18:30",
-"url": "https://eventfrog.ch/de/p/partys/country-folk/line-dance-uff-em-rhy-basel-7450173919552608214.html",
-"category": "Party"
-},
-"2026-10-23-elys-boulder-season-opening-alma-negra-afro": {
-"title": "Season Opening: Alma Negra Afro",
-"venue": "ELYS Boulderloft",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "19:00",
-"style": "disco, americana, latin, afro, funk, folk",
-"url": "https://denkmal.org/de/basel/2026-10-23/7e67f35e-2f59-4ef4-ad56-ff831ea9f48e",
-"category": "Party / Disco"
-},
-"2026-10-23-ms-flaneur-c-sunset-beats-les-acteurs": {
-"title": "Sunset Beats: Les Acteurs",
-"venue": "MS Flâneur Christoph Merian",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "19:00",
-"end": "23:00",
-"style": "techno",
-"url": "https://denkmal.org/de/basel/2026-10-23/a7a2fa8b-42ba-4781-b6e9-a95cb1fe3f1a",
-"category": "Club / Techno"
-},
-"2026-10-23-druckereihal-volksbuhne-basel-mutige-frauen-erinnern-": {
-"title": "Volksbühne Basel: Mutige Frauen - Erinnern ins Jetzt",
-"venue": "Druckereihalle - Kultur im Ackermannshof",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/theater-buehne/schauspiel/volksbuehne-basel-mutige-frauen-erinnern-ins-jetzt-basel-7516045189288341734.html",
-"category": "Bühne"
-},
-"2026-10-23-burghof-miss-allie": {
-"title": "Miss Allie",
-"venue": "Burghof",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "20:00",
-"style": "singer-songwriter",
-"url": "https://denkmal.org/de/basel/2026-10-23/5efee74b-185a-4e55-a131-dd6092bd2f1e",
-"category": "Konzert / Singer-songwriter"
-},
-"2026-10-23-don-bosco-schuberts-winterreise": {
-"title": "Schuberts Winterreise",
-"venue": "Don Bosco",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "20:00",
-"end": "21:00",
-"style": "klassik",
-"url": "https://denkmal.org/de/basel/2026-10-23/359b80d7-b793-4391-8af9-ed2bee0ab4e6",
-"category": "Konzert / Klassik"
-},
-"2026-10-23-h95-raum-fur-skupa": {
-"title": "Skupa",
-"venue": "H95 Raum für Kultur",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "20:00",
-"style": "balkan",
-"url": "https://denkmal.org/de/basel/2026-10-23/3b02a1cd-46a6-4c81-8152-4fe236723bcc",
-"category": "Anderes"
-},
-"2026-10-23-jazzclub-q4-chris-hopkins-quartet-feat-simon-wyrsch": {
-"title": "Chris Hopkins Quartet feat. Simon Wyrsch",
-"venue": "Jazzclub Q4",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "20:00",
-"style": "jazz",
-"url": "https://denkmal.org/de/basel/2026-10-23/4dc895c0-ce2a-4482-9352-0b8c71d227cf",
-"category": "Konzert / Jazz"
-},
-"2026-10-23-messe-basel--baloise-session-stephan-eicher-imany": {
-"title": "Baloise Session: STEPHAN EICHER / IMANY",
-"venue": "Messe Basel Eventhalle",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/konzerte/pop-rock/baloise-session-stephan-eicher-imany-basel-7498328664796328005.html",
-"category": "Konzert"
-},
-"2026-10-23-offene-kirch-u50-party-basel": {
-"title": "Ü50-Party Basel",
-"venue": "Offene Kirche Elisabethen",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/partys/disco/ue50-party-basel-basel-7447690706489982522.html",
-"category": "Party"
-},
-"2026-10-23-parterre-one-little-chevy-pure-house-music-fredd-licc": {
-"title": "Little Chevy // Pure House Music: Fredd Licci, DJ Joseph M., Frank Vespari, Nicolas Huberpure Energy",
-"venue": "Parterre One",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "20:00",
-"style": "folk, house, rhythm'n'blues, country",
-"url": "https://denkmal.org/de/basel/2026-10-23/05d8a305-e95a-49fe-b488-b67b84964e58",
-"category": "Club / Folk"
-},
-"2026-10-23-sommercasino-nektarmond-37-bibi-vaplan": {
-"category": "Konzert",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "20:00",
-"title": "Nektarmond 37 – Bibi Vaplan",
-"url": "https://sommercasino.ch/events/save-the-date-nektarmond-37-bibi-vaplan-2/",
-"venue": "Sommercasino",
-"doors": "20:00"
-},
-"2026-10-23-valhalla-iron-deficiency": {
-"title": "Iron Deficiency",
-"venue": "Valhalla",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "20:00",
-"style": "hardcore",
-"url": "https://denkmal.org/de/basel/2026-10-23/2f2b9030-ae9e-44bb-a7d9-17c7518368d5",
-"category": "Konzert / Hardcore"
-},
-"2026-10-23-voltahalle-volta-kammermusikfest-2026-between-shado": {
-"title": "Volta Kammermusikfest 2026: Between Shadows",
-"venue": "Voltahalle",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "20:00",
-"style": "klassik",
-"url": "https://denkmal.org/de/basel/2026-10-23/30333778-d9f1-44e2-89d2-6cec76120167",
-"category": "Konzert / Klassik"
-},
-"2026-10-23-der-teufelho-sijamais-blackout-eine-gottliche-komodie": {
-"title": "siJamais: «Blackout – eine göttliche Komödie»",
-"venue": "Der Teufelhof Basel",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "20:15",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/sijamais-blackout-eine-goettliche-komoedie-basel-7475385240774520683.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-23-the-beast-ba-digital-daddy-in-english": {
-"title": "Digital Daddy (in English)",
-"venue": "The Beast Basel Comedy Club",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "20:30",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/digital-daddy-in-english-basel-7448291590286626694.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-23-atlantis-viva-dj-renle-fox": {
-"title": "Viva: DJ Renle Fox",
-"venue": "Atlantis",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "21:00",
-"style": "70s, 80s, 90s",
-"url": "https://denkmal.org/de/basel/2026-10-23/f47288b6-89cd-4e61-825b-2bd8b1a635d4",
-"category": "Party / 70s"
-},
-"2026-10-23-the-gannet-capslock-5-jahre-gannet-weekend-danitsa-": {
-"title": "Capslock – 5 Jahre Gannet Weekend: Danitsa, EV, Physicalz, Tom Brunner",
-"venue": "The Gannet",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "21:00",
-"style": "hiphop, electronic Von Denkmal.org empfohlen",
-"url": "https://denkmal.org/de/basel/2026-10-23/d92d6ea9-a8f5-47e1-95fb-96fedade2460",
-"category": "Club / Hiphop"
-},
-"2026-10-23-basso-lento-andy-s-echo-live-judith-van-waterk": {
-"category": "Club / House",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "22:00",
-"title": "Lento: Andy's Echo live, Judith Van Waterkant, Taala",
-"url": "https://www.bassoverse.space/programm/lento-23-10-2026",
-"venue": "Basso",
-"style": "Electronica, House",
-"price": "Presale CHF 10 / Door CHF 15"
-},
-"2026-10-23-corrientes-danzeria": {
-"title": "Danzeria",
-"venue": "Corrientes",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "22:00",
-"style": "disco",
-"url": "https://denkmal.org/de/basel/2026-10-23/9818d456-fcff-4f61-a6fc-ec59e241b186",
-"category": "Party / Disco"
-},
-"2026-10-23-grenzwert-lachabelle-zurich": {
-"title": "Lachabelle (Zürich)",
-"venue": "Grenzwert",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "22:00",
-"style": "Chicago House, Hip Hop, Cumbia",
-"url": "https://grenzwert.ch/programm/",
-"category": "Club / Chicago House"
-},
-"2026-10-23-grenzwert-twister-tom-best-rpm": {
-"category": "Club / Rock'n'Roll & R&B",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "22:00",
-"title": "Twister: Tom Best & RPM",
-"url": "https://grenzwert.ch/programm/",
-"venue": "Grenzwert",
-"style": "Rock’n’Roll, R&B"
-},
-"2026-10-23-nebel-sandro-falletta": {
-"title": "Sandro Falletta",
-"venue": "Nebel",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "22:00",
-"style": "techhouse, house",
-"url": "https://denkmal.org/de/basel/2026-10-23/09a3fc5f-04b3-4c5f-9787-5df0d565f0ea",
-"category": "Club / Techhouse"
-},
-"2026-10-23-schall-und-r-retro-deck": {
-"title": "Retro Deck",
-"venue": "Schall und Rauch",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "22:00",
-"style": "90s, 70s, 80s",
-"url": "https://denkmal.org/de/basel/2026-10-23/351453fc-d09f-4c9e-96a9-2130676256b8",
-"category": "Party / 90s"
-},
-"2026-10-23-zazaa-social-heads-will-roll-waste-the-light": {
-"title": "Heads Will Roll: Waste the Light",
-"venue": "Zazaa Social Club",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "22:00",
-"style": "indie",
-"url": "https://denkmal.org/de/basel/2026-10-23/5439b33a-679f-4f50-8cbc-f5191c5e5da2",
-"category": "Konzert / Indie"
-},
-"2026-10-23-the-beast-ba-shots-and-giggles-late-night-open-mic": {
-"title": "Shots and Giggles Late Night Open Mic",
-"venue": "The Beast Basel Comedy Club",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "22:30",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/shots-and-giggles-late-night-open-mic-basel-7506290975284668916.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-23-alice-club-new-wave-alice-club-basel": {
-"title": "NEW WAVE @ ALICE CLUB BASEL",
-"venue": "Alice Club",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "23:00",
-"url": "https://eventfrog.ch/de/p/partys/studierendenparty/new-wave-alice-club-basel-basel-7503535967464099103.html",
-"category": "Party"
-},
-"2026-10-23-club-cello-semesterparty-xelatorsounds-cyrilo-lapyr": {
-"title": "Semesterparty: Xelatorsounds, Cyrilo, Lapyra",
-"venue": "Club Cello",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "23:00",
-"end": "04:00",
-"style": "open format",
-"url": "https://denkmal.org/de/basel/2026-10-23/9e2f6638-84b6-4092-b092-6d0dd059098f",
-"category": "Party / Open format"
-},
-"2026-10-23-das-viertel-boiling-trance-w-mrgnstrn": {
-"title": "BOILING TRANCE W/ mrgnstrn",
-"venue": "Das Viertel",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "23:00",
-"end": "05:00",
-"style": "Trance / Hardtrance / Hardgroove",
-"url": "https://ticketing.dasviertel.ch/event/boilingtrance-w-mrgnstrn-o7aihc?fbclid=IwY2xjawUXhMpwZG9mAWV4dG4DYWVtAjEwAGJyaWQRMGthR1ZhSTJYaFhTTXN5dWxzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeb0CRMkxByvDvvw9jwfb6CDZLc5B8QUxh-rYu8YEfuDpDv9XG-RunWmXR1y8_aem_M2Mpdy4EsEVUIVixRgjPNQ",
-"category": "Club / Trance"
-},
-"2026-10-23-kaschemme-sachsentrance-showcase-w-raverpik-the-ja": {
-"category": "Club / Trance",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "23:00",
-"title": "Sachsentrance-Showcase w/ Raverpik & The Jakob Sister",
-"url": "https://www.kaschemme.ch/programm/2026/10/23/sachsentrance-showcase-w-raverpik-amp-the-jakob-sister",
-"venue": "Kaschemme",
-"end": "06:00"
-},
-"2026-10-23-kinker-freitag-nacht": {
-"title": "Freitag Nacht",
-"venue": "Kinker",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "23:00",
-"url": "https://www.kinker.ch/events/7510286300202710860",
-"category": "Club / Techno"
-},
-"2026-10-23-kuppel-zeitgeist-party": {
-"title": "Zeitgeist-Party",
-"venue": "Kuppel",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "23:00",
-"style": "2000, indie, electronic, hiphop",
-"url": "https://denkmal.org/de/basel/2026-10-23/7e346c02-70ae-4e1d-a532-be5af4a3ee59",
-"category": "Club / 2000"
-},
-"2026-10-23-nest-okra-night-hausvrau-jaby-ka-raba-fonce": {
-"title": "OKRA night: Hausvrau, Jaby, Ka-Raba, Foncé",
-"venue": "Nest",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "23:00",
-"style": "baile, funk, afro",
-"url": "https://denkmal.org/de/basel/2026-10-23/2d79f9a4-bbdc-4b5b-8d5c-9c18b853f2fa",
-"category": "Party / Baile"
-},
-"2026-10-23-nordstern-cultura40-somewhen": {
-"category": "Club / Elektronisch",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "23:00",
-"title": "Cultura40: Somewhen",
-"url": "https://tickets.nordstern.com/en/c/somewhen-2290",
-"venue": "Nordstern"
-},
-"2026-10-23-parterre-one-pure-house-music-till-today": {
-"title": "PURE HOUSE MUSIC – TILL TODAY",
-"venue": "Parterre One Club",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "23:00",
-"url": "https://eventfrog.ch/de/p/partys/house-techno/pure-house-music-till-today-basel-7508508456032162661.html",
-"category": "Party"
-},
-"2026-10-23-renee-doktor-rotman": {
-"category": "Club / Funk & Afrobeat",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "23:00",
-"title": "Doktor Rotman",
-"url": "https://www.renee.ch",
-"venue": "Renée",
-"style": "Funk, Afrobeat, Hip Hop"
-},
-"2026-10-23-sud-2000er-party": {
-"title": "2000er Party",
-"venue": "Sud",
-"date": "2026-10-23",
-"source": "crawler",
-"time": "23:00",
-"style": "charts, 2000",
-"url": "https://denkmal.org/de/basel/2026-10-23/b63372c4-7d63-4d28-bb9f-076485b2029f",
-"category": "Anderes"
-},
 "2026-10-24-sonntag-25-o-bachata-workshop-weekend-oktoberfest-par": {
 "title": "Bachata Workshop Weekend & Oktoberfest Party",
 "venue": "– Sonntag, 25. Oktober, 14:00 Bailamos Salsa",
@@ -3321,6 +2939,33 @@
 "url": "https://denkmal.org/de/basel/2026-11-07/a7bfc295-9732-4270-b177-0630ac2683d7",
 "category": "Club / 80s"
 },
+"2026-11-07-paulus-kirch-singen-verbindet-jahreskonzert-chor-der-": {
+"title": "Singen verbindet - Jahreskonzert Chor der Nationen",
+"venue": "Paulus Kirche",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "17:00",
+"url": "https://eventfrog.ch/de/p/konzerte/chor/singen-verbindet-jahreskonzert-chor-der-nationen-basel-7510966920331422939.html",
+"category": "Konzert"
+},
+"2026-11-07-heimat-crisis-de-identidad-stephan-dyer-comedia": {
+"title": "Crisis de Identidad - Stephan Dyer - Comedia en Español",
+"venue": "HEIMAT",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "19:00",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/crisis-de-identidad-stephan-dyer-comedia-en-espanol-basel-7487896481812208712.html",
+"category": "Bühne / Comedy"
+},
+"2026-11-07-fiera-mamagehttanzen-basel": {
+"title": "MAMAGEHTTANZEN Basel",
+"venue": "Fiera",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/partys/disco/mamagehttanzen-basel-basel-7489805961462317907.html",
+"category": "Party"
+},
 "2026-11-07-stadtcasino--kammerorchester-basel-mit-pierre-laurent": {
 "category": "Konzert / Klassik",
 "date": "2026-11-07",
@@ -3361,6 +3006,15 @@
 "url": "https://denkmal.org/de/basel/2026-11-07/9949739d-5958-4cde-b55b-68d6468782b9",
 "category": "Party / Hiphop"
 },
+"2026-11-07-sud-basel-drag-roy-lalle-ty-all-stars": {
+"title": "Drag Roy-LÄLLE-ty - ALL STARS",
+"venue": "SUD Basel",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/theater-buehne/buehnenveranstaltung/drag-roy-laelle-ty-all-stars-basel-7468047377053523193.html",
+"category": "Bühne"
+},
 "2026-11-07-sunbeach-blues-train": {
 "title": "Blues Train",
 "venue": "sunbeach",
@@ -3370,6 +3024,24 @@
 "style": "blues",
 "url": "https://denkmal.org/de/basel/2026-11-07/051c2215-68e9-4a08-967e-b5b395e3ff4e",
 "category": "Konzert / Blues"
+},
+"2026-11-07-theater-base-premiere-die-seligen-jahre-der-zuchtigun": {
+"title": "Premiere: Die seligen Jahre der Züchtigung",
+"venue": "Theater Basel - Kleine Bühne",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/theater-buehne/schauspiel/premiere-die-seligen-jahre-der-zuechtigung-basel-7516828312364143540.html",
+"category": "Bühne"
+},
+"2026-11-07-theater-faut-michael-von-der-heide-von-der-heide-sing": {
+"title": "Michael von der Heide - Von der Heide singt Knef",
+"venue": "Theater Fauteuil - Tabourettli",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/pop-rock/michael-von-der-heide-von-der-heide-singt-knef-basel-7387448659217022461.html",
+"category": "Konzert"
 },
 "2026-11-07-valhalla-total-annihilation-nihilo-vomitheist": {
 "title": "Total Annihilation, Nihilo, Vomitheist",
@@ -3381,6 +3053,15 @@
 "url": "https://denkmal.org/de/basel/2026-11-07/098f6d18-a1a4-4203-9850-651b1253745b",
 "category": "Konzert / Trash metal"
 },
+"2026-11-07-der-teufelho-lisa-brunner-das-konnte-ihnen-auch-gefal": {
+"title": "Lisa Brunner: «Das könnte Ihnen auch gefallen»",
+"venue": "Der Teufelhof Basel",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "20:15",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/lisa-brunner-das-koennte-ihnen-auch-gefallen-basel-7475749605268833401.html",
+"category": "Bühne / Comedy"
+},
 "2026-11-07-kaschemme-lilac-attitude-dnachtaktion-suicide-catd": {
 "category": "Konzert / Punk",
 "date": "2026-11-07",
@@ -3390,6 +3071,24 @@
 "url": "https://www.kaschemme.ch/programm/2611/lilac-attitude-dnachtaktion-suicide-catdoors",
 "venue": "Kaschemme",
 "end": "23:30"
+},
+"2026-11-07-querfeldhall-swing-along-concert-dance": {
+"title": "Swing along - Concert + Dance",
+"venue": "Querfeldhalle",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "20:30",
+"url": "https://eventfrog.ch/de/p/konzerte/swing/swing-along-concert-dance-basel-7502337926686081132.html",
+"category": "Konzert"
+},
+"2026-11-07-the-beast-ba-best-of-the-beast-english-comedy-showcas": {
+"title": "Best Of The Beast - English Comedy Showcase in Basel",
+"venue": "The Beast Basel Comedy Club",
+"date": "2026-11-07",
+"source": "crawler",
+"time": "20:30",
+"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/best-of-the-beast-english-comedy-showcase-in-basel-basel-7516852105635721763.html",
+"category": "Bühne / Comedy"
 },
 "2026-11-07-atlantis-deborah-monard": {
 "title": "Deborah Monard",
@@ -4422,6 +4121,16 @@
 "venue": "Stadtcasino Basel",
 "doors": "18:00"
 },
+"2026-11-28-gare-du-nord-hear-it-coming-andreas-eduardo-frank-uli": {
+"title": "«Hear It Coming»: Andreas Eduardo Frank, Uli Fussenegger, Thomas Giger, Jeanne Larrouturou, Sarah Maria Sun, Marcus Weiss & SWR Experimentalstudio",
+"venue": "Gare du Nord",
+"date": "2026-11-28",
+"source": "crawler",
+"time": "20:00",
+"style": "Musiktheater/Performance",
+"url": "https://www.garedunord.ch/de/programm/3203/hear-it-coming",
+"category": "Bühne / Musiktheater"
+},
 "2026-11-28-kaserne-base-stress-a-late-night-with-stress": {
 "category": "Konzert / Rap",
 "date": "2026-11-28",
@@ -5248,6 +4957,16 @@
 "source": "crawler",
 "time": "20:00",
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/25012027_patent_ochsner/",
+"category": "Konzert",
+"doors": "19:00"
+},
+"2027-01-26-stadtcasino--patent-ochsner-achtung-probe-die-neue-to": {
+"title": "Patent Ochsner Achtung: Probe! - Die neue Tour",
+"venue": "Stadtcasino Basel",
+"date": "2027-01-26",
+"source": "crawler",
+"time": "20:00",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/26012027_patent_ochsner/",
 "category": "Konzert",
 "doors": "19:00"
 }
