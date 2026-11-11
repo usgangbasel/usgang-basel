@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="gsw" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Usgang Basel · Admin</title>
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#0e1612">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha384-c6Rcwz4e4CITMbu/NBmnNS8yN2sC3cUElMEMfP3vqqKFp7GOYaaBBCqmaWBjmkjb" crossorigin="anonymous">
+<script>try{ if (localStorage.getItem("theme")==="light") document.documentElement.dataset.theme="light"; }catch(e){}</script>
+<style>
+:root{--bg:#d9d8cf;--surface:#e6e5dd;--fg:#14201a;--muted:#4d5a52;--line:#c4c4b8;--accent:#0f6b3e;--accent-fg:#fff;--accent-soft:#d5e8da;--danger:#b3261e;--tile-filter:none;
+  --body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,monospace}
+[data-theme="dark"]{--bg:#0e1612;--surface:#15201a;--fg:#e6eee8;--muted:#93a39a;--line:#24332b;--accent:#5cc48e;--accent-fg:#04180d;--accent-soft:#183324;--danger:#f2867c;
+  --tile-filter:invert(.92) hue-rotate(180deg) saturate(.6) brightness(.9) contrast(.95);color-scheme:dark}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);padding:0 16px 48px;max-width:760px;margin-inline:auto}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 0 10px;border-bottom:1px solid var(--line);margin-bottom:16px}
+h1{font-size:1.3rem}h1 span{color:var(--accent)}
+h2{font-size:1.05rem;margin:0 0 8px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
+.btn{font:600 14px var(--body);padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+.btn:hover{border-color:var(--accent)}.btn:disabled{opacity:.5;cursor:default}
+.btn.primary{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
+.btn.danger{color:var(--danger)}.btn.sm{padding:4px 10px;font-size:13px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+label{display:block;font-size:13px;color:var(--muted);margin:10px 0 4px}
+label.check{display:flex;gap:8px;align-items:flex-start;color:var(--fg);font-size:14px}
+label.check input{width:auto;margin-top:4px}
+input,textarea{font:15px var(--body);padding:8px 10px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--fg);width:100%}
+textarea{min-height:70px;resize:vertical}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.small{font-size:13px;color:var(--muted)}
+.err{color:var(--danger);font-size:14px;margin-top:8px}
+.ok{color:var(--accent);font-size:14px;margin-top:8px}
+.tabs{display:flex;gap:6px;margin-bottom:14px}
+.tabs .btn[aria-selected="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+ul.list{list-style:none;padding:0;margin-top:8px;max-height:420px;overflow:auto;border-top:1px solid var(--line)}
+ul.list li{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 2px;border-bottom:1px solid var(--line)}
+ul.list li .n{font:500 12px var(--mono);color:var(--muted)}
+.tag{font:500 11px var(--mono);padding:2px 7px;border-radius:6px;background:var(--accent-soft)}
+#map{height:240px;border-radius:10px;margin-top:10px;background:var(--bg)}
+.leaflet-tile-pane{filter:var(--tile-filter)}
+.geo{list-style:none;padding:0;margin-top:6px}
+.geo button{all:unset;cursor:pointer;display:block;padding:6px 8px;border-radius:8px;font-size:14px}
+.geo button:hover{background:var(--accent-soft)}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.seg .btn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:14px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.kpi .v{font:700 1.7rem/1.1 var(--body);font-variant-numeric:tabular-nums}
+.kpi .l{font-size:13px;color:var(--muted)}
+.kpi .d{font-size:12px;color:var(--muted);margin-top:2px}
+.chart{position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart .tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font-size:13px;padding:6px 9px;border-radius:8px;white-space:nowrap;transform:translate(-50%,-110%);box-shadow:0 2px 8px rgb(0 0 0/.25)}
+.legend{display:flex;gap:16px;font-size:13px;color:var(--muted);margin-bottom:6px}
+.legend i{display:inline-block;width:18px;height:0;border-top:2px solid;vertical-align:middle;margin-right:6px}
+.legend i.dash{border-top-style:dashed}
+table.t{width:100%;border-collapse:collapse;font-size:14px}
+table.t th{text-align:left;font-weight:500;color:var(--muted);font-size:12px;padding:4px 6px;border-bottom:1px solid var(--line)}
+table.t td{padding:6px;border-bottom:1px solid var(--line);vertical-align:top}
+table.t td.n,table.t th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.hbar{display:grid;grid-template-columns:minmax(90px,38%) 1fr auto;gap:8px;align-items:center;font-size:14px;margin:6px 0}
+.hbar .b{height:10px;border-radius:0 4px 4px 0;background:var(--series1)}
+.hbar .n{font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px;min-width:2.5em;text-align:right}
+details summary{cursor:pointer;font-size:13px;color:var(--muted);margin-top:8px}
+:root{--series1:#0f6b3e;--series2:#a87600}
+[data-theme="dark"]{--series1:#2e9a63;--series2:#bf8a08}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header>
+  <h1>Usgang <span>Basel</span> · Admin</h1>
+  <div><button class="btn sm" id="themeBtn" type="button">Hell / dunkel</button> <button class="btn sm" id="logoutBtn" type="button" hidden>Abmälde</button></div>
+</header>
+
+<section id="login" class="card" hidden>
+  <h2>Aamälde</h2>
+  <form id="loginForm">
+    <label for="email">E-Mail</label><input id="email" type="email" autocomplete="username" required>
+    <label for="pw">Passwort</label><input id="pw" type="password" autocomplete="current-password" required>
+    <p style="margin-top:12px"><button class="btn primary" type="submit">Aamälde</button></p>
+    <p class="err" id="loginErr" hidden></p>
+  </form>
+</section>
+
+<section id="noadmin" class="card" hidden>
+  <h2>Kai Admin-Rächt</h2>
+  <p>Du bisch aagmäldet, aber das Konto isch nonig als Admin yytrait. Leg in Firestore es Dokumänt <code>admins/<span id="myUid"></span></code> aa (Inhalt egal) und lad die Syte neu.</p>
+</section>
+
+<main id="app" hidden>
+  <div class="tabs" role="tablist">
+    <button class="btn" role="tab" aria-selected="true" data-tab="review" type="button">Events freigää <span id="pendingN"></span></button>
+    <button class="btn" role="tab" aria-selected="false" data-tab="block" type="button">Venues sperre</button>
+    <button class="btn" role="tab" aria-selected="false" data-tab="add" type="button">Venue dezuefüege</button>
+    <button class="btn" role="tab" aria-selected="false" data-tab="views" type="button">Syte</button>
+    <button class="btn" role="tab" aria-selected="false" data-tab="stats" type="button">Statistik</button>
+  </div>
+
+  <div data-panel="review">
+    <section class="card">
+      <h2>Warte uf Freigab</h2>
+      <p class="small">Events, wo öpper vo Hand yytrait het. Erscht nach dr Freigab gseh se alli, vorhär nur die Person, wo se yytrait het.</p>
+      <ul class="list" id="pendingList"></ul>
+    </section>
+    <section class="card">
+      <h2>Freigäh (kommendi)</h2>
+      <ul class="list" id="approvedList"></ul>
+    </section>
+    <section class="card">
+      <h2>Abglehnt (kommendi)</h2>
+      <ul class="list" id="rejectedList"></ul>
+    </section>
+  </div>
+
+  <div data-panel="block" hidden>
+    <section class="card">
+      <h2>Gsperrti Venues</h2>
+      <p class="small">Events vo dene Venues wärde sofort uf dr Syte versteckt und bim nächschte Crawl us dr Date gstriche. Dr Crawler list d Programm-Syte vo dr Venue nüm.</p>
+      <ul class="list" id="blockedList"></ul>
+      <p class="small" style="margin-top:10px">Fescht im Code gsperrt (<code>crawler/sources.py</code>): <span id="codeBlocked"></span></p>
+    </section>
+    <section class="card">
+      <h2>Venue sperre</h2>
+      <form id="blockForm">
+        <div class="row">
+          <div><label for="bName">Name vo dr Venue</label><input id="bName" required maxlength="80" placeholder="z.B. Kaserne Basel"></div>
+          <div><label for="bHost">Website (optional)</label><input id="bHost" maxlength="80" placeholder="z.B. kaserne-basel.ch"></div>
+        </div>
+        <p class="small" style="margin-top:6px">Mit Website wärde au alli Events gsperrt, wo uf die Syte verlinke. Kai Aggregator wie eventfrog.ch yygeh, sunscht verschwinde alli Events vo dört.</p>
+        <p style="margin-top:12px"><button class="btn primary" type="submit">Sperre</button></p>
+        <p class="err" id="blockErr" hidden></p>
+      </form>
+    </section>
+    <section class="card">
+      <h2>Alli Venues</h2>
+      <input id="vSearch" type="search" placeholder="Sueche…" aria-label="Venues sueche">
+      <ul class="list" id="allList"></ul>
+    </section>
+  </div>
+
+  <div data-panel="add" hidden>
+    <section class="card">
+      <h2 id="addTitle">Neui Venue</h2>
+      <form id="addForm">
+        <label for="vName">Name *</label><input id="vName" required maxlength="80">
+        <p class="err" id="dupWarn" hidden></p>
+        <div class="row">
+          <div><label for="vAddr">Adrässe</label><input id="vAddr" maxlength="120" placeholder="Strooss Nummere"></div>
+          <div><label for="vTown">Ort</label><input id="vTown" maxlength="60" placeholder="Basel"></div>
+        </div>
+        <p style="margin-top:8px"><button class="btn sm" id="geoBtn" type="button">Adrässe uf dr Charte sueche</button></p>
+        <ul class="geo" id="geoList"></ul>
+        <div id="map" aria-label="Charte: tipp, zum dr Standort setze"></div>
+        <div class="row">
+          <div><label for="vLat">Breitegrad</label><input id="vLat" inputmode="decimal" placeholder="47.56…"></div>
+          <div><label for="vLon">Längegrad</label><input id="vLon" inputmode="decimal" placeholder="7.59…"></div>
+        </div>
+        <label for="vWeb">Website / Programm-Syte</label><input id="vWeb" type="url" maxlength="200" placeholder="https://…">
+        <label for="vDesc">Beschrybig</label><textarea id="vDesc" maxlength="400"></textarea>
+        <label for="vHours">Öffnigszyte</label><input id="vHours" maxlength="120" placeholder="z.B. Fr–Sa 22–5 Uhr">
+        <label class="check"><input id="vOwn" type="checkbox"> Het es eigets Programm uf dr Website</label>
+        <label class="check"><input id="vCrawl" type="checkbox"> Programm-Syte jedi Nacht lese</label>
+        <p class="small">Für neui Venues git s no kai Regle. Ohni <code>ANTHROPIC_API_KEY</code> im Repo list dr Crawler d Syte drum nit. Events vo dr Venue uf eventfrog chömme aber sowieso, sie lande denn bi dr nöie Venue uf dr Charte.</p>
+        <p style="margin-top:12px;display:flex;gap:8px"><button class="btn primary" type="submit" id="saveBtn">Spychere</button> <button class="btn" type="button" id="resetBtn">Lääre</button></p>
+        <p class="err" id="addErr" hidden></p><p class="ok" id="addOk" hidden></p>
+      </form>
+    </section>
+    <section class="card">
+      <h2>Dezuegfüegti Venues</h2>
+      <ul class="list" id="addedList"></ul>
+    </section>
+  </div>
+  <div data-panel="views" hidden>
+    <section class="card">
+      <h2>Aasichte uf dr Syte</h2>
+      <p class="small">Uusgschalteti Aasichte verschwinde sofort us em Menü. Wär grad uf ere uusgschaltete Aasicht isch, landet bi dr erschte, wo no aa isch. Mindeschtens ai Aasicht mues aa sy.</p>
+      <div id="viewList" style="margin-top:8px"></div>
+      <p class="err" id="viewErr" hidden></p><p class="ok" id="viewOk" hidden></p>
+    </section>
+  </div>
+  <div data-panel="stats" hidden>
+    <div class="seg" id="range" style="margin-bottom:12px">
+      <button class="btn sm" type="button" data-d="7" aria-pressed="false">7 Täg</button>
+      <button class="btn sm" type="button" data-d="30" aria-pressed="true">30 Täg</button>
+      <button class="btn sm" type="button" data-d="90" aria-pressed="false">90 Täg</button>
+      <button class="btn sm" type="button" id="reload">Aktualisiere</button>
+    </div>
+    <div class="kpis" id="kpis"></div>
+    <section class="card">
+      <h2>Pro Tag</h2>
+      <div class="legend"><span><i style="border-color:var(--series1)"></i>Sytenufruef</span><span><i class="dash" style="border-color:var(--series2)"></i>Bsuecher</span></div>
+      <div class="chart" id="chart"></div>
+      <details><summary>Als Tabälle</summary><table class="t" id="dayTable"></table></details>
+    </section>
+    <section class="card"><h2>Was wird bruucht</h2><div id="tabs"></div></section>
+    <section class="card"><h2>Wohär d Bsuecher chömme</h2><div id="refs"></div><p class="small" id="devices" style="margin-top:8px"></p></section>
+    <section class="card"><h2>Beliebteschti Events</h2><p class="small">Aaklickt = Details ufgmacht, Link = zur Event-Syte gwächslet, Ych gang = Stimme vo allne Zyte.</p><table class="t" id="topEvents"></table></section>
+    <section class="card"><h2>Beliebteschti Venues</h2><div id="topVenues"></div></section>
+    <section class="card"><h2>Mitmache (alli Zyte)</h2><div class="kpis" id="community" style="margin:0"></div>
+      <p class="small" style="margin-top:10px">D Zahle vo de Stimme und Bewärtige uf dr Syte wärde fortlaufend zellt. Wenn öppis nit stimmt (oder nach em Umstelle s erschte Mol), do nei bereche:</p>
+      <button class="btn" id="recount" type="button">Stimme und Bewärtige nei zelle</button> <span class="small" id="recountMsg"></span></section>
+    <section class="card">
+      <h2>Mi Browser</h2>
+      <label class="check"><input id="noStats" type="checkbox"> Mini eigene Bsuech uf dr Syte nit zelle (gilt für dä Browser)</label>
+      <p class="small">Zellt wärde nur Zahle: kai Name, kai IP-Adrässe, kai Cookies vo Dritte.</p>
+    </section>
+  </div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha384-NElt3Op+9NBMCYaef5HxeJmU4Xeard/Lku8ek6hoPTvYkQPh3zLIrJP7KiRocsxO" crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js" integrity="sha384-ZaR6mWzmJtrRibZ1Vm7SoHFr8OXjyAuGAXalGDKqbxFT18oi/z+oZLIRFkpeNor1" crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js" integrity="sha384-I1LYojsZ5RM1cOda44Z2h42Qa6YfsQ1XkXxREnhp4ueYBR/4d1pG1K+NZM537Vsj" crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js" integrity="sha384-Ke0FJhH7LyRqDxZ0wt+/OXV38yfQVu7g9VPEEGjYmB4RVOY/ta04uecRhsMwT7V3" crossorigin="anonymous"></script>
+<script>
+const $ = s => document.querySelector(s);
+const CODE_BLOCKED = ["Bird's Eye Jazz Club", "Kulturgarten Aesch", "Kulturhaus Cheesmeyer", "Rockfact", "Z7"]; // keep in sync with crawler/sources.py
+const fold = s => String(s||"").normalize("NFKD").replace(/[̀-ͯ]/g,"").toLowerCase();
+const slug = s => fold(s).replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,60);
+const normV = v => fold(v).replace(/^the\s+/,"").replace(/[^a-z0-9]+/g,"");
+function sameVenue(a,b){ const x=normV(a), y=normV(b); return !!x && !!y && (x===y || (Math.min(x.length,y.length)>=4 && (x.startsWith(y)||y.startsWith(x)))); }
+const hostOf = u => { try { return new URL(/^https?:/.test(u) ? u : "https://"+u).hostname.replace(/^www\./,""); } catch { return ""; } };
+function el(t, a={}, ...kids){ const n=document.createElement(t); for (const [k,v] of Object.entries(a)){ if (k.startsWith("on")) n.addEventListener(k.slice(2), v); else if (v!=null && v!==false) n.setAttribute(k, v===true?"":v); } for (const k of kids.flat()) if (k!=null) n.append(k); return n; }
+const show = (id, msg) => { const n=$(id); n.textContent = msg||""; n.hidden = !msg; };
+const errText = e => e && e.code==="permission-denied" ? "Kai Rächt (sind d Firestore-Regle aktualisiert?)" : (e && e.message) || String(e);
+
+$("#themeBtn").onclick = () => { const t = document.documentElement.dataset.theme==="dark" ? "light" : "dark"; document.documentElement.dataset.theme = t; try{ localStorage.setItem("theme", t); }catch(e){} };
+
+// A separate Firebase app instance, so logging in here doesn't replace the anonymous session (votes) on the main page.
+const app = firebase.initializeApp({
+  apiKey: "AIzaSyDByQMcYoP08btNM1vIyF4Xak37I9oDIkQ",
+  authDomain: "usgangbasel-2cf6e.firebaseapp.com",
+  projectId: "usgangbasel-2cf6e",
+  storageBucket: "usgangbasel-2cf6e.firebasestorage.app",
+  messagingSenderId: "596554680467",
+  appId: "1:596554680467:web:f173bc21b8a8bfe3aa2566"
+}, "admin");
+const auth = app.auth(), fs = app.firestore();
+
+const S = { blocked:{}, fsVenues:{}, fileVenues:{}, eventVenues:{}, unsub:[], editId:null, subs:{}, review:{} };
+
+$("#loginForm").addEventListener("submit", async ev => {
+  ev.preventDefault(); show("#loginErr");
+  try { await auth.signInWithEmailAndPassword($("#email").value.trim(), $("#pw").value); }
+  catch(e){ show("#loginErr", /invalid|wrong|not-found/.test(e.code||"") ? "E-Mail oder Passwort stimmt nit." : errText(e)); }
+});
+$("#logoutBtn").onclick = () => auth.signOut();
+
+auth.onAuthStateChanged(async u => {
+  S.unsub.forEach(f => f()); S.unsub = [];
+  $("#login").hidden = !!u; $("#logoutBtn").hidden = !u; $("#app").hidden = true; $("#noadmin").hidden = true;
+  if (!u || u.isAnonymous){ if (u) auth.signOut(); return; }
+  let admin = false;
+  try { admin = (await fs.doc("admins/"+u.uid).get()).exists; } catch(e){ admin = false; }
+  if (!admin){ $("#myUid").textContent = u.uid; $("#noadmin").hidden = false; return; }
+  $("#app").hidden = false;
+  start();
+});
+
+async function start(){
+  const load = n => fetch(`data/${n}.json`, {cache:"no-cache"}).then(r => r.ok ? r.json() : {}).catch(() => ({}));
+  const [venues, events] = await Promise.all([load("venues"), load("events")]);
+  S.fileVenues = venues;
+  S.eventVenues = {};
+  for (const e of Object.values(events)) if (e.venue) S.eventVenues[e.venue] = (S.eventVenues[e.venue]||0) + 1;
+  S.unsub.push(fs.collection("blocked").onSnapshot(s => { S.blocked = {}; s.docs.forEach(d => S.blocked[d.id] = d.data()); renderBlock(); }, e => show("#blockErr", errText(e))));
+  S.unsub.push(fs.collection("venues").onSnapshot(s => { S.fsVenues = {}; s.docs.forEach(d => S.fsVenues[d.id] = d.data()); renderBlock(); renderAdded(); }, () => {}));
+  S.unsub.push(fs.collection("submissions").onSnapshot(s => { S.subs = {}; s.docs.forEach(d => S.subs[d.id] = d.data()); renderReview(); }, e => $("#pendingList").replaceChildren(el("li",{class:"err"}, errText(e)))));
+  S.unsub.push(fs.collection("review").onSnapshot(s => { S.review = {}; s.docs.forEach(d => S.review[d.id] = d.data()); renderReview(); }, () => {}));
+  renderBlock(); renderAdded(); initMap();
+}
+
+// ---------- views on the main page: settings/views {off:[…]} ----------
+const VIEW_NAMES = [["date","Wuche"],["swipe","Swipe"],["top","Am beliebteschte"],["mine","Ych gang ane"],["map","Charte"],["venues","Venues"],["rated","Archiv"]];
+async function loadViews(){
+  show("#viewErr"); show("#viewOk");
+  let off = [];
+  try { const d = await fs.doc("settings/views").get(); off = d.exists ? (d.data().off||[]) : []; } catch(e){ show("#viewErr", errText(e)); }
+  $("#viewList").replaceChildren(...VIEW_NAMES.map(([k,label]) => {
+    const box = el("input",{type:"checkbox", "data-view":k});
+    box.checked = !off.includes(k);
+    box.onchange = saveViews;
+    return el("label",{class:"check"}, box, " "+label);
+  }));
+}
+async function saveViews(ev){
+  show("#viewErr"); show("#viewOk");
+  const boxes = [...document.querySelectorAll("#viewList [data-view]")];
+  if (!boxes.some(b => b.checked)){ ev.target.checked = true; show("#viewErr", "Mindeschtens ai Aasicht mues aa sy."); return; }
+  const off = boxes.filter(b => !b.checked).map(b => b.dataset.view);
+  try { await fs.doc("settings/views").set({off}); show("#viewOk", off.length ? "Gspaicheret. Uus: " + VIEW_NAMES.filter(([k]) => off.includes(k)).map(([,l]) => l).join(", ") : "Gspaicheret. Alli Aasichte sind aa."); }
+  catch(e){ show("#viewErr", errText(e)); }
+}
+
+// ---------- approving community events ----------
+// Visitors' entries: submissions/<uid> {items:[…]}. Decision: review/<uid>_<itemId> = {status:"ok"|"no", uid, item?, at}.
+// Only approved entries ("ok", with a copy of the item) are shown to everyone on the page.
+const todayIso = () => { const d = new Date(), p = n => String(n).padStart(2,"0"); return `${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())}`; };
+// Entries are written straight by visitors and may carry fields this page doesn't show; only these fields are ever
+// published, as short strings, so nothing gets onto the page that you didn't see here.
+const SUB_FIELDS = ["id","title","venue","date","time","end","category","price","url","source"];
+const okSubId = id => typeof id === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(id);
+const pickSub = it => Object.fromEntries(SUB_FIELDS.filter(k => typeof it[k] === "string" && it[k]).map(k => [k, it[k].slice(0, k === "url" ? 400 : 300)]));
+function decide(uid, it, status){
+  if (!okSubId(it.id)) return Promise.resolve(alert("Ungültige Eintrag."));
+  const doc = {status, uid, at: Date.now()};
+  if (status === "ok") doc.item = pickSub(it);
+  return fs.doc(`review/${uid}_${it.id}`).set(doc).catch(e => alert(errText(e)));
+}
+// only http(s) links become clickable: entries come straight from visitors and could hold javascript: URLs
+function safeUrl(u){ try { const x = new URL(String(u||"")); return /^https?:$/.test(x.protocol) ? x.href : null; } catch { return null; } }
+function reviewRow(uid, it, buttons){
+  const when = `${String(it.date).split("-").reverse().join(".")}${it.time ? ", "+it.time : ""}${it.end ? "–"+it.end : ""}`;
+  const info = [it.venue, when, it.category, it.price].filter(Boolean).join(" · ");
+  return el("li",{},
+    el("span",{}, it.title, el("div",{class:"n"}, info), it.url ? el("div",{class:"n"}, safeUrl(it.url) ? el("a",{href:safeUrl(it.url), target:"_blank", rel:"noopener"}, it.url) : `${it.url} (kai gültige Link)`) : null),
+    el("span",{style:"display:flex;gap:6px;flex-shrink:0"}, ...buttons));
+}
+function renderReview(){
+  const today = todayIso(), pending = [], ok = [], no = [];
+  for (const [uid, d] of Object.entries(S.subs)) for (const it of (d.items||[])){
+    if (!it || !okSubId(it.id) || typeof it.date !== "string" || it.date < today) continue;
+    const r = S.review[`${uid}_${it.id}`];
+    (!r ? pending : r.status === "ok" ? ok : no).push([uid, it]);
+  }
+  const byDate = (a, b) => a[1].date.localeCompare(b[1].date) || (a[1].time||"").localeCompare(b[1].time||"");
+  [pending, ok, no].forEach(l => l.sort(byDate));
+  const btn = (label, cls, f) => el("button",{class:"btn sm"+(cls?" "+cls:""),type:"button",onclick:ev => { ev.target.disabled = true; f(); }}, label);
+  $("#pendingN").textContent = pending.length ? `(${pending.length})` : "";
+  $("#pendingList").replaceChildren(...(pending.length ? pending.map(([uid,it]) => reviewRow(uid, it, [
+      btn("Freigää", "primary", () => decide(uid, it, "ok")), btn("Ablehne", "danger", () => decide(uid, it, "no"))]))
+    : [el("li",{class:"small"},"Nüt offe.")]));
+  $("#approvedList").replaceChildren(...(ok.length ? ok.map(([uid,it]) => reviewRow(uid, it, [btn("Zruggzieh", "danger", () => decide(uid, it, "no"))]))
+    : [el("li",{class:"small"},"No kaini.")]));
+  $("#rejectedList").replaceChildren(...(no.length ? no.map(([uid,it]) => reviewRow(uid, it, [btn("Doch freigää", "", () => decide(uid, it, "ok"))]))
+    : [el("li",{class:"small"},"No kaini.")]));
+}
+
+// ---------- tabs ----------
+document.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => {
+  document.querySelectorAll("[data-tab]").forEach(x => x.setAttribute("aria-selected", x===b ? "true" : "false"));
+  document.querySelectorAll("[data-panel]").forEach(p => p.hidden = p.dataset.panel !== b.dataset.tab);
+  if (b.dataset.tab==="add" && M.map) setTimeout(() => M.map.invalidateSize(), 50);
+  if (b.dataset.tab==="stats") loadStats();
+  if (b.dataset.tab==="views") loadViews();
+});
+
+// ---------- blocking ----------
+const isBlocked = name => Object.values(S.blocked).some(b => sameVenue(name, b.name)) || CODE_BLOCKED.some(b => sameVenue(name, b));
+function knownVenues(){
+  const m = {};
+  const add = (name, web) => { if (!name) return; const k = Object.keys(m).find(x => normV(x)===normV(name)) || name; m[k] = m[k] || {name:k, web:"", n:0}; if (web && !m[k].web) m[k].web = web; };
+  for (const v of Object.values(S.fileVenues)) add(v.name, v.website);
+  for (const v of Object.values(S.fsVenues)) add(v.name, v.website);
+  for (const [name, n] of Object.entries(S.eventVenues)){ add(name); const k = Object.keys(m).find(x => normV(x)===normV(name)); m[k].n += n; }
+  return Object.values(m).sort((a,b) => b.n-a.n || a.name.localeCompare(b.name,"de"));
+}
+async function block(name, host){
+  name = name.trim(); host = hostOf(host||"");
+  if (!name) return;
+  const data = {name, at: new Date().toISOString()}; if (host) data.host = host;
+  await fs.doc("blocked/"+(slug(name)||"venue")).set(data);
+}
+function renderBlock(){
+  const bl = $("#blockedList");
+  const items = Object.entries(S.blocked).sort((a,b) => a[1].name.localeCompare(b[1].name,"de"));
+  bl.replaceChildren(...(items.length ? items.map(([id,b]) => el("li",{},
+      el("span",{}, b.name, b.host ? el("span",{class:"n"}, "  "+b.host) : null),
+      el("button",{class:"btn sm",type:"button",onclick:async ev => { ev.target.disabled = true; try { await fs.doc("blocked/"+id).delete(); } catch(e){ show("#blockErr", errText(e)); ev.target.disabled = false; } }}, "Entsperre")))
+    : [el("li",{class:"small"},"No kaini.")]));
+  $("#codeBlocked").textContent = CODE_BLOCKED.join(", ");
+  const q = fold($("#vSearch").value);
+  const all = knownVenues().filter(v => !q || fold(v.name).includes(q));
+  $("#allList").replaceChildren(...all.map(v => el("li",{},
+    el("span",{}, v.name, el("span",{class:"n"}, `  ${v.n} Events`)),
+    isBlocked(v.name) ? el("span",{class:"tag"},"gsperrt")
+      : el("button",{class:"btn sm danger",type:"button",onclick:async ev => {
+          if (!confirm(`«${v.name}» sperre?`)) return;
+          ev.target.disabled = true;
+          try { await block(v.name, v.web); } catch(e){ show("#blockErr", errText(e)); ev.target.disabled = false; } }}, "Sperre"))));
+}
+$("#vSearch").addEventListener("input", renderBlock);
+$("#blockForm").addEventListener("submit", async ev => {
+  ev.preventDefault(); show("#blockErr");
+  const host = hostOf($("#bHost").value);
+  if (/eventfrog|denkmal|instagram|facebook/.test(host)){ show("#blockErr", "Das isch e Sammel-Syte, die cha me nit sperre."); return; }
+  try { await block($("#bName").value, host); $("#blockForm").reset(); }
+  catch(e){ show("#blockErr", errText(e)); }
+});
+
+// ---------- adding venues ----------
+const M = {map:null, pin:null};
+function initMap(){
+  if (M.map) return;
+  M.map = L.map("map", {attributionControl:true}).setView([47.5596, 7.5886], 13);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom:19, attribution:"© OpenStreetMap"}).addTo(M.map);
+  M.map.on("click", e => setPoint(e.latlng.lat, e.latlng.lng, false));
+}
+function setPoint(lat, lon, fly=true){
+  $("#vLat").value = lat.toFixed(5); $("#vLon").value = lon.toFixed(5);
+  if (!M.map) return;
+  if (M.pin) M.pin.setLatLng([lat,lon]); else M.pin = L.circleMarker([lat,lon], {radius:8, weight:3, color:"#fff", fillColor:"#0f6b3e", fillOpacity:1}).addTo(M.map);
+  if (fly) M.map.setView([lat,lon], 17);
+}
+["#vLat","#vLon"].forEach(s => $(s).addEventListener("change", () => { const a=parseFloat($("#vLat").value), b=parseFloat($("#vLon").value); if (isFinite(a)&&isFinite(b)) setPoint(a,b); }));
+$("#geoBtn").onclick = async () => {
+  const q = [$("#vAddr").value, $("#vTown").value || "Basel"].filter(Boolean).join(" ");
+  const list = $("#geoList"); list.replaceChildren(el("li",{class:"small"},"Suech…"));
+  try {
+    const r = await fetch("https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&sr=4326&limit=5&searchText="+encodeURIComponent(q));
+    const res = ((await r.json()).results||[]).map(x => x.attrs).filter(a => a && isFinite(a.lat));
+    list.replaceChildren(...(res.length ? res.map(a => el("li",{}, el("button",{type:"button",onclick:() => { setPoint(a.lat, a.lon); list.replaceChildren(); }}, a.label.replace(/<[^>]+>/g,""))))
+      : [el("li",{class:"small"},"Nüt gfunde. Tipp uf d Charte, zum dr Standort setze.")]));
+  } catch(e){ list.replaceChildren(el("li",{class:"small"},"Suechi het nit klappt. Tipp uf d Charte.")); }
+};
+$("#vName").addEventListener("input", () => {
+  const n = $("#vName").value.trim();
+  const dup = n && knownVenues().find(v => sameVenue(v.name, n) && !(S.editId && S.fsVenues[S.editId] && S.fsVenues[S.editId].name===v.name));
+  show("#dupWarn", dup ? `Ähnligi Venue git s scho: «${dup.name}».` : "");
+});
+function resetForm(){
+  $("#addForm").reset(); S.editId = null; $("#addTitle").textContent = "Neui Venue"; $("#saveBtn").textContent = "Spychere";
+  show("#dupWarn"); show("#addErr"); $("#geoList").replaceChildren();
+  if (M.pin){ M.pin.remove(); M.pin = null; }
+}
+$("#resetBtn").onclick = resetForm;
+$("#addForm").addEventListener("submit", async ev => {
+  ev.preventDefault(); show("#addErr"); show("#addOk");
+  const name = $("#vName").value.trim();
+  const lat = parseFloat($("#vLat").value), lon = parseFloat($("#vLon").value);
+  const hasPos = $("#vLat").value.trim() !== "" || $("#vLon").value.trim() !== "";
+  if (hasPos && !(isFinite(lat) && isFinite(lon) && lat>45.8 && lat<47.9 && lon>5.9 && lon<10.6)){ show("#addErr","Dr Standort lyt nit in dr Schwyz."); return; }
+  const web = $("#vWeb").value.trim();
+  if ($("#vCrawl").checked && !web){ show("#addErr","Zum s Programm z lese bruucht s e Website."); return; }
+  if (isBlocked(name)){ show("#addErr","Die Venue isch gsperrt. Zerscht entsperre."); return; }
+  const id = S.editId || ("a-" + slug(name));
+  if (!S.editId && (S.fileVenues[id] || S.fsVenues[id])){ show("#addErr","E Venue mit däm Name git s scho."); return; }
+  const data = {name, addr:$("#vAddr").value.trim(), desc:$("#vDesc").value.trim(), hours:$("#vHours").value.trim(), website:web,
+    ownProgram:$("#vOwn").checked, crawl:$("#vCrawl").checked, addedByAdmin:true, addedAt:(S.editId && S.fsVenues[id] && S.fsVenues[id].addedAt) || new Date().toISOString()};
+  const town = $("#vTown").value.trim(); if (town && fold(town)!=="basel") data.town = town;
+  if (hasPos){ data.lat = Math.round(lat*1e5)/1e5; data.lon = Math.round(lon*1e5)/1e5; }
+  const btn = $("#saveBtn"); btn.disabled = true;
+  try { await fs.doc("venues/"+id).set(data); resetForm(); show("#addOk", `«${name}» isch gspycheret und uf dr Syte sichtbar.`); }
+  catch(e){ show("#addErr", errText(e)); }
+  finally { btn.disabled = false; }
+});
+function editVenue(id){
+  const v = S.fsVenues[id]; if (!v) return;
+  resetForm(); S.editId = id;
+  $("#vName").value = v.name||""; $("#vAddr").value = v.addr||""; $("#vTown").value = v.town||""; $("#vWeb").value = v.website||"";
+  $("#vDesc").value = v.desc||""; $("#vHours").value = v.hours||""; $("#vOwn").checked = !!v.ownProgram; $("#vCrawl").checked = !!v.crawl;
+  if (typeof v.lat==="number") setPoint(v.lat, v.lon);
+  $("#addTitle").textContent = "Venue bearbeite"; $("#saveBtn").textContent = "Änderige spychere";
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+function renderAdded(){
+  const items = Object.entries(S.fsVenues).filter(([,v]) => v.addedByAdmin).sort((a,b) => a[1].name.localeCompare(b[1].name,"de"));
+  $("#addedList").replaceChildren(...(items.length ? items.map(([id,v]) => el("li",{},
+      el("span",{}, v.name, el("span",{class:"n"}, "  "+[v.addr, typeof v.lat==="number" ? "" : "ohni Standort"].filter(Boolean).join(" · "))),
+      el("span",{style:"display:flex;gap:6px"},
+        el("button",{class:"btn sm",type:"button",onclick:() => editVenue(id)}, "Bearbeite"),
+        el("button",{class:"btn sm danger",type:"button",onclick:async ev => {
+          if (!confirm(`«${v.name}» lösche?`)) return;
+          ev.target.disabled = true;
+          try { await fs.doc("venues/"+id).delete(); if (S.editId===id) resetForm(); } catch(e){ alert(errText(e)); ev.target.disabled = false; } }}, "Lösche"))))
+    : [el("li",{class:"small"},"No kaini.")]));
+}
+
+// ---------- statistics ----------
+const ST = {days:30, loaded:0};
+const fmtN = n => Number(n||0).toLocaleString("de-CH");
+const isoDay = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+const shortDay = k => { const [y,m,d] = k.split("-"); return `${+d}.${+m}.`; };
+document.querySelectorAll("#range [data-d]").forEach(b => b.onclick = () => {
+  ST.days = +b.dataset.d; document.querySelectorAll("#range [data-d]").forEach(x => x.setAttribute("aria-pressed", x===b ? "true" : "false")); loadStats(true); });
+$("#reload").onclick = () => loadStats(true);
+try { $("#noStats").checked = localStorage.getItem("noStats")==="1"; } catch {}
+$("#noStats").onchange = e => { try { e.target.checked ? localStorage.setItem("noStats","1") : localStorage.removeItem("noStats"); } catch {} };
+
+async function loadStats(force){
+  if (!force && Date.now() - ST.loaded < 60000) return;
+  ST.loaded = Date.now();
+  const days = [], end = new Date();
+  for (let i = ST.days*2 - 1; i >= 0; i--){ const d = new Date(end); d.setDate(d.getDate()-i); days.push(isoDay(d)); }
+  const from = days[0], cur = days.slice(ST.days), prev = days.slice(0, ST.days);
+  $("#kpis").replaceChildren(el("p",{class:"small"},"Lad…"));
+  try {
+    const FP = firebase.firestore.FieldPath.documentId();
+    const [st, ev, ve, votes, ratings, subs] = await Promise.all([
+      fs.collection("stats").where(FP, ">=", from).get(),
+      fs.collection("evstats").where("date", ">=", cur[0]).get(),
+      fs.collection("vstats").get(),
+      fs.collection("votes").get(), fs.collection("ratings").get(), fs.collection("submissions").get()]);
+    const byDay = {}; st.docs.forEach(d => byDay[d.id] = d.data());
+    const sum = (ks, k) => ks.reduce((a, d) => a + ((byDay[d]||{})[k]||0), 0);
+    // KPI tiles with change vs the previous period
+    const kpi = (label, k) => { const a = sum(cur,k), b = sum(prev,k);
+      const delta = b ? Math.round((a-b)/b*100) : null;
+      return el("div",{class:"kpi"}, el("div",{class:"v"}, fmtN(a)), el("div",{class:"l"}, label),
+        el("div",{class:"d"}, delta==null ? "kai Vergliich" : `${delta>=0?"+":""}${delta}% gägenüber vorhär`)); };
+    $("#kpis").replaceChildren(kpi("Sytenufruef","views"), kpi("Bsuecher (pro Tag zellt)","visitors"), kpi("Neui Bsuecher","newVisitors"), kpi("Sitzige","sessions"), kpi("Events aaklickt","eventOpens"), kpi("Links zur Event-Syte","eventLinks"));
+    drawChart(cur.map(d => ({d, a:(byDay[d]||{}).views||0, b:(byDay[d]||{}).visitors||0})));
+    $("#dayTable").replaceChildren(el("tr",{}, el("th",{},"Tag"), el("th",{class:"n"},"Uufruef"), el("th",{class:"n"},"Bsuecher"), el("th",{class:"n"},"Neu")),
+      ...cur.slice().reverse().map(d => { const x = byDay[d]||{}; return el("tr",{}, el("td",{},shortDay(d)), el("td",{class:"n"},fmtN(x.views)), el("td",{class:"n"},fmtN(x.visitors)), el("td",{class:"n"},fmtN(x.newVisitors))); }));
+    const bars = (target, rows) => { const max = Math.max(1, ...rows.map(r => r[1]));
+      $(target).replaceChildren(...(rows.some(r => r[1]) ? rows.map(([l,n]) => el("div",{class:"hbar"}, el("span",{},l), el("div",{}, el("div",{class:"b",style:`width:${Math.max(n?2:0, n/max*100)}%`})), el("span",{class:"n"}, fmtN(n))))
+        : [el("p",{class:"small"},"No kaini Date.")])); };
+    bars("#tabs", [["Wuche","tab_date"],["Swipe","tab_swipe"],["Am beliebteschte","tab_top"],["Ych gang ane","tab_mine"],["Charte","tab_map"],["Venues","tab_venues"],["Archiv","tab_rated"],["Venue ufgmacht","venueOpens"],["Route ufgmacht","routes"]].map(([l,k]) => [l, sum(cur,k)]));
+    bars("#refs", [["Diräkt / App / Lesezeiche","ref_direct"],["Suechmaschine","ref_search"],["Social Media / Chat","ref_social"],["Anderi Websyte","ref_other"]].map(([l,k]) => [l, sum(cur,k)]));
+    const mob = sum(cur,"mobile"), desk = sum(cur,"desktop");
+    $("#devices").textContent = mob+desk ? `Handy ${Math.round(mob/(mob+desk)*100)}% · Computer ${Math.round(desk/(mob+desk)*100)}% (vo de Sitzige)` : "";
+    // top events: opened in the period's events (by event date), with all-time "going" votes
+    const going = {}, ups = {};
+    votes.docs.forEach(d => { const v = d.data(); (v.go||[]).forEach(id => going[id] = (going[id]||0)+1); (v.up||[]).forEach(id => ups[id] = (ups[id]||0)+1); });
+    const evs = ev.docs.map(d => ({id:d.id, ...d.data()})).map(e => ({...e, score:(e.opens||0) + 2*(e.links||0)})).sort((a,b) => b.score-a.score).slice(0,15);
+    $("#topEvents").replaceChildren(...(evs.length ? [el("tr",{}, el("th",{},"Event"), el("th",{class:"n"},"Aaklickt"), el("th",{class:"n"},"Link"), el("th",{class:"n"},"Ych gang")),
+      ...evs.map(e => el("tr",{}, el("td",{}, e.title, el("div",{class:"small"}, `${e.venue} · ${shortDay(e.date)}`)), el("td",{class:"n"},fmtN(e.opens)), el("td",{class:"n"},fmtN(e.links)), el("td",{class:"n"},fmtN(going[e.id]))))]
+      : [el("tr",{}, el("td",{class:"small"},"No kaini Date."))]));
+    const vs = ve.docs.map(d => d.data()).sort((a,b) => (b.opens||0)-(a.opens||0)).slice(0,12);
+    bars("#topVenues", vs.map(v => [v.name, v.opens||0]));
+    let nGo = 0, nUp = 0, nR = 0, nSub = 0, voters = 0;
+    votes.docs.forEach(d => { const v = d.data(); const g = (v.go||[]).length, u = (v.up||[]).length; nGo += g; nUp += u; if (g || u || (v.down||[]).length) voters++; });
+    ratings.docs.forEach(d => nR += Object.keys(d.data().stars||{}).length);
+    subs.docs.forEach(d => nSub += (d.data().items||[]).length);
+    const tile = (l, n) => el("div",{class:"kpi"}, el("div",{class:"v"}, fmtN(n)), el("div",{class:"l"}, l));
+    $("#community").replaceChildren(tile("Lüt, wo abgstimmt händ", voters), tile("«Ych gang»", nGo), tile("Daume uffe", nUp), tile("Bewertige", nR), tile("Community-Events", nSub));
+  } catch(e){ $("#kpis").replaceChildren(el("p",{class:"err"}, errText(e))); }
+}
+
+// Rebuild tallies/<month> from all votes/<uid> and ratings/<uid> documents (the page only adds increments).
+$("#recount").onclick = async () => {
+  const msg = $("#recountMsg"); msg.textContent = "Zell…"; $("#recount").disabled = true;
+  try {
+    const [votes, ratings, old] = await Promise.all([fs.collection("votes").get(), fs.collection("ratings").get(), fs.collection("tallies").get()]);
+    const shard = id => /^\d{4}-\d{2}-/.test(id) ? id.slice(0,7) : "other", T = {};
+    const e = id => { const s = T[shard(id)] = T[shard(id)] || {}; return s[id] = s[id] || {}; };
+    const add = (id, k, n) => { const x = e(id); x[k] = (x[k]||0) + n; };
+    votes.docs.forEach(d => { const v = d.data(); (v.up||[]).forEach(id => add(id,"u",1)); (v.down||[]).forEach(id => add(id,"d",1)); (v.go||[]).forEach(id => add(id,"g",1)); });
+    ratings.docs.forEach(d => { for (const [id,n] of Object.entries(d.data().stars||{})){ const v = Number(n); if (v>=1 && v<=5){ add(id,"n",1); add(id,"s",v); } } });
+    old.docs.forEach(d => { if (!T[d.id]) T[d.id] = {}; });  // months without votes any more: emptied
+    for (const [m, c] of Object.entries(T)) await fs.doc("tallies/"+m).set({ev:"", c});
+    const n = Object.values(T).reduce((a, c) => a + Object.keys(c).length, 0);
+    msg.textContent = `Fertig: ${fmtN(n)} Events in ${Object.keys(T).length} Monet.`;
+  } catch(err){ msg.textContent = errText(err); }
+  $("#recount").disabled = false;
+};
+
+function drawChart(rows){
+  const box = $("#chart");
+  const W = Math.max(280, Math.round(box.clientWidth || 600)), H = W < 500 ? 200 : 230, P = {l:36, r:10, t:12, b:24};
+  const max = Math.max(4, ...rows.map(r => Math.max(r.a, r.b)));
+  const raw = max/4, mag = Math.pow(10, Math.floor(Math.log10(raw))), tick = [1,2,2.5,5,10].map(m => m*mag).find(t => t >= raw);
+  const top = tick*4;
+  const x = i => P.l + (rows.length===1 ? 0 : i*(W-P.l-P.r)/(rows.length-1));
+  const y = v => P.t + (1 - v/top)*(H-P.t-P.b);
+  const path = k => rows.map((r,i) => `${i?"L":"M"}${x(i).toFixed(1)},${y(r[k]).toFixed(1)}`).join("");
+  const NS = "http://www.w3.org/2000/svg", mk = (t, a) => { const n = document.createElementNS(NS, t); for (const [k,v] of Object.entries(a)) n.setAttribute(k, v); return n; };
+  const svg = mk("svg", {viewBox:`0 0 ${W} ${H}`, role:"img", "aria-label":"Sytenufruef und Bsuecher pro Tag"});
+  for (let i = 0; i <= 4; i++){ const v = top*i/4, yy = y(v);
+    svg.append(mk("line",{x1:P.l, x2:W-P.r, y1:yy, y2:yy, stroke:"var(--line)", "stroke-width":1}));
+    const t = mk("text",{x:P.l-6, y:yy+4, "text-anchor":"end", "font-size":11, fill:"var(--muted)"}); t.textContent = fmtN(v); svg.append(t); }
+  const every = Math.ceil(rows.length/(W < 500 ? 5 : 8));
+  rows.forEach((r,i) => { if ((rows.length-1-i) % every) return; const t = mk("text",{x:x(i), y:H-6, "text-anchor":"middle", "font-size":11, fill:"var(--muted)"}); t.textContent = shortDay(r.d); svg.append(t); });
+  svg.append(mk("path",{d:path("a"), fill:"none", stroke:"var(--series1)", "stroke-width":2, "stroke-linejoin":"round", "stroke-linecap":"round"}));
+  svg.append(mk("path",{d:path("b"), fill:"none", stroke:"var(--series2)", "stroke-width":2, "stroke-dasharray":"5 4", "stroke-linejoin":"round", "stroke-linecap":"round"}));
+  const cross = mk("line",{y1:P.t, y2:H-P.b, stroke:"var(--muted)", "stroke-width":1, visibility:"hidden"});
+  const dA = mk("circle",{r:4.5, fill:"var(--series1)", stroke:"var(--surface)", "stroke-width":2, visibility:"hidden"});
+  const dB = mk("circle",{r:4.5, fill:"var(--series2)", stroke:"var(--surface)", "stroke-width":2, visibility:"hidden"});
+  svg.append(cross, dA, dB);
+  const hit = mk("rect",{x:P.l, y:0, width:W-P.l-P.r, height:H, fill:"transparent"}); svg.append(hit);
+  const tip = el("div",{class:"tip",hidden:true});
+  box.replaceChildren(svg, tip);
+  const move = ev => {
+    const r = svg.getBoundingClientRect(), px = (ev.clientX - r.left) * W / r.width;
+    const i = Math.max(0, Math.min(rows.length-1, Math.round((px-P.l)/((W-P.l-P.r)/Math.max(1,rows.length-1))))); const row = rows[i];
+    for (const [n,v] of [[cross,null],[dA,row.a],[dB,row.b]]){ n.setAttribute("visibility","visible"); if (n===cross){ n.setAttribute("x1",x(i)); n.setAttribute("x2",x(i)); } else { n.setAttribute("cx",x(i)); n.setAttribute("cy",y(v)); } }
+    tip.hidden = false; tip.textContent = `${shortDay(row.d)}: ${fmtN(row.a)} Uufruef · ${fmtN(row.b)} Bsuecher`;
+    tip.style.left = (x(i)*r.width/W) + "px"; tip.style.top = (Math.min(y(row.a), y(row.b))*r.height/H) + "px";
+  };
+  const leave = () => { tip.hidden = true; [cross,dA,dB].forEach(n => n.setAttribute("visibility","hidden")); };
+  hit.addEventListener("pointermove", move); hit.addEventListener("pointerdown", move); hit.addEventListener("pointerleave", leave);
+}
+</script>
+</body>
+</html>

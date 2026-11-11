@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>Usgang Basel</title><rect width="512" height="512" rx="112" fill="#3f8f68"/><g transform="translate(72 70) scale(.72)">
+<g fill="#d9d8cf">
+ <path d="M304 348 Q372 404 428 384 Q466 362 444 330 Q420 308 398 332 Q390 352 410 362" fill="none" stroke="#d9d8cf" stroke-width="24" stroke-linecap="round"/>
+ <path d="M292 200 Q380 170 476 64 Q486 130 452 168 Q468 204 428 228 Q438 264 392 276 Q396 308 350 306 Q326 310 300 296 Z"/><g transform="translate(512 0) scale(-1 1)"><path d="M292 200 Q380 170 476 64 Q486 130 452 168 Q468 204 428 228 Q438 264 392 276 Q396 308 350 306 Q326 310 300 296 Z"/></g>
+ <path d="M256 170 Q322 190 318 290 Q312 372 256 394 Q200 372 194 290 Q190 190 256 170 Z"/>
+ <path d="M224 200 Q222 140 228 108 L284 110 Q290 150 288 200 Z"/>
+ <circle cx="250" cy="100" r="38"/>
+ <circle cx="228" cy="62" r="14"/><circle cx="252" cy="52" r="17"/><circle cx="278" cy="62" r="14"/>
+ <path d="M222 80 L148 110 L222 128 Z"/>
+ <ellipse cx="228" cy="148" rx="10" ry="17"/>
+ <g fill="none" stroke="#d9d8cf" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M232 380 L222 444 L184 460 M222 444 L224 472 M222 444 L256 460"/>
+  <path d="M280 380 L290 444 L256 460 M290 444 L292 472 M290 444 L328 458"/>
+ </g>
+</g>
+<circle cx="240" cy="92" r="8" fill="#3f8f68"/>
+<path d="M318 226 Q386 218 432 172 M326 256 Q384 256 418 230 M334 284 Q368 288 388 276" fill="none" stroke="#3f8f68" stroke-width="7" stroke-linecap="round"/><g transform="translate(512 0) scale(-1 1)"><path d="M318 226 Q386 218 432 172 M326 256 Q384 256 418 230 M334 284 Q368 288 388 276" fill="none" stroke="#3f8f68" stroke-width="7" stroke-linecap="round"/></g>
+</g></svg>
