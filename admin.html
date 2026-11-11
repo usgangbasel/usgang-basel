@@ -36,8 +36,12 @@ textarea{min-height:70px;resize:vertical}
 .small{font-size:13px;color:var(--muted)}
 .err{color:var(--danger);font-size:14px;margin-top:8px}
 .ok{color:var(--accent);font-size:14px;margin-top:8px}
-.tabs{display:flex;gap:6px;margin-bottom:14px}
-.tabs .btn[aria-selected="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.tabs{margin-bottom:14px}
+.tabs label{margin-top:0}
+.tabs select{font:600 16px var(--body);padding:10px 38px 10px 14px;border-radius:12px;border:1px solid var(--line);background-color:var(--surface);color:var(--fg);width:100%;cursor:pointer;
+  appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%);
+  background-position:calc(100% - 20px) 50%,calc(100% - 14px) 50%;background-size:6px 6px;background-repeat:no-repeat}
+.tabs select:hover{border-color:var(--accent)}
 ul.list{list-style:none;padding:0;margin-top:8px;max-height:420px;overflow:auto;border-top:1px solid var(--line)}
 ul.list li{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 2px;border-bottom:1px solid var(--line)}
 ul.list li .n{font:500 12px var(--mono);color:var(--muted)}
@@ -95,12 +99,15 @@ details summary{cursor:pointer;font-size:13px;color:var(--muted);margin-top:8px}
 </section>
 
 <main id="app" hidden>
-  <div class="tabs" role="tablist">
-    <button class="btn" role="tab" aria-selected="true" data-tab="review" type="button">Events freigää <span id="pendingN"></span></button>
-    <button class="btn" role="tab" aria-selected="false" data-tab="block" type="button">Venues sperre</button>
-    <button class="btn" role="tab" aria-selected="false" data-tab="add" type="button">Venue dezuefüege</button>
-    <button class="btn" role="tab" aria-selected="false" data-tab="views" type="button">Syte</button>
-    <button class="btn" role="tab" aria-selected="false" data-tab="stats" type="button">Statistik</button>
+  <div class="tabs">
+    <label for="tabSel">Beryych</label>
+    <select id="tabSel">
+      <option value="review">Events freigää</option>
+      <option value="block">Venues sperre</option>
+      <option value="add">Venue dezuefüege</option>
+      <option value="views">Syte</option>
+      <option value="stats">Statistik</option>
+    </select>
   </div>
 
   <div data-panel="review">
@@ -332,7 +339,7 @@ function renderReview(){
   const byDate = (a, b) => a[1].date.localeCompare(b[1].date) || (a[1].time||"").localeCompare(b[1].time||"");
   [pending, ok, no].forEach(l => l.sort(byDate));
   const btn = (label, cls, f) => el("button",{class:"btn sm"+(cls?" "+cls:""),type:"button",onclick:ev => { ev.target.disabled = true; f(); }}, label);
-  $("#pendingN").textContent = pending.length ? `(${pending.length})` : "";
+  $('#tabSel option[value="review"]').textContent = "Events freigää" + (pending.length ? ` (${pending.length})` : "");
   $("#pendingList").replaceChildren(...(pending.length ? pending.map(([uid,it]) => reviewRow(uid, it, [
       btn("Freigää", "primary", () => decide(uid, it, "ok")), btn("Ablehne", "danger", () => decide(uid, it, "no"))]))
     : [el("li",{class:"small"},"Nüt offe.")]));
@@ -343,13 +350,14 @@ function renderReview(){
 }
 
 // ---------- tabs ----------
-document.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => {
-  document.querySelectorAll("[data-tab]").forEach(x => x.setAttribute("aria-selected", x===b ? "true" : "false"));
-  document.querySelectorAll("[data-panel]").forEach(p => p.hidden = p.dataset.panel !== b.dataset.tab);
-  if (b.dataset.tab==="add" && M.map) setTimeout(() => M.map.invalidateSize(), 50);
-  if (b.dataset.tab==="stats") loadStats();
-  if (b.dataset.tab==="views") loadViews();
-});
+function showTab(tab){
+  document.querySelectorAll("[data-panel]").forEach(p => p.hidden = p.dataset.panel !== tab);
+  if (tab==="add" && M.map) setTimeout(() => M.map.invalidateSize(), 50);
+  if (tab==="stats") loadStats();
+  if (tab==="views") loadViews();
+}
+$("#tabSel").onchange = e => showTab(e.target.value);
+$("#tabSel").value = "review";   // browsers restore the old choice on reload while the first panel is the one showing
 
 // ---------- blocking ----------
 const isBlocked = name => Object.values(S.blocked).some(b => sameVenue(name, b.name)) || CODE_BLOCKED.some(b => sameVenue(name, b));
