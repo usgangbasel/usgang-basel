@@ -1,77 +1,4 @@
 {
-"2026-10-28-the-beast-ba-b-witches-at-the-beast-comedy-by-fems-an": {
-"title": "B/Witches at the Beast - Comedy by Fems and Thems",
-"venue": "The Beast Basel Comedy Club",
-"date": "2026-10-28",
-"source": "crawler",
-"time": "18:30",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/b-witches-at-the-beast-comedy-by-fems-and-thems-basel-7506268700124674796.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-28-saali-golden-zeichnen-in-der-beiz": {
-"title": "Zeichnen in der Beiz",
-"venue": "Sääli (Goldenes Fass)",
-"date": "2026-10-28",
-"source": "crawler",
-"time": "19:30",
-"url": "https://www.goldenes-fass.ch/saali/",
-"category": "Anderes"
-},
-"2026-10-28-gare-du-nord-der-wanderfalke-fringe-ensemble": {
-"category": "Musiktheater",
-"date": "2026-10-28",
-"source": "crawler",
-"time": "20:00",
-"title": "Der Wanderfalke – fringe ensemble",
-"url": "https://www.garedunord.ch/de/programm/3174/wanderfalke",
-"venue": "Gare du Nord",
-"style": "Musiktheater/Performance"
-},
-"2026-10-28-theater-faut-milan-milanski-schwugo": {
-"title": "Milan Milanski - Schwugo",
-"venue": "Theater Fauteuil - Tabourettli",
-"date": "2026-10-28",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/milan-milanski-schwugo-basel-7456960956175796294.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-28-theater-faut-witz-vom-olli-fsk18-hart-aber-herzlich": {
-"title": "Witz vom Olli - FSK18 - Hart aber herzlich",
-"venue": "Theater Fauteuil",
-"date": "2026-10-28",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/witz-vom-olli-fsk18-hart-aber-herzlich-basel-7456960108112669619.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-28-verso-pub-quiz": {
-"title": "Pub-Quiz",
-"venue": "Verso",
-"date": "2026-10-28",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/theater-buehne/buehnenveranstaltung/pub-quiz-basel-7515415182425767584.html",
-"category": "Bühne"
-},
-"2026-10-28-volkshaus-felizitas-ambauen-sabine-meyer-beziehung": {
-"title": "Felizitas Ambauen & Sabine Meyer - Beziehungskosmos",
-"venue": "Volkshaus",
-"date": "2026-10-28",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/theater-buehne/buehnenveranstaltung/felizitas-ambauen-sabine-meyer-beziehungskosmos-basel-7456960616571379163.html",
-"category": "Bühne"
-},
-"2026-10-28-the-beast-ba-come-or-die-a-double-bill-on-politics-an": {
-"title": "COME OR DIE - A double bill on politics and sex",
-"venue": "The Beast Basel Comedy Club",
-"date": "2026-10-28",
-"source": "crawler",
-"time": "20:30",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/come-or-die-a-double-bill-on-politics-and-sex-basel-7504079935494979680.html",
-"category": "Bühne / Comedy"
-},
 "2026-10-29-kaschemme-uptown-dj-lab": {
 "category": "Workshop / Freier Eintritt",
 "date": "2026-10-29",
@@ -1972,6 +1899,17 @@
 "url": "https://eventfrog.ch/de/p/partys/charts-open-format/ecn-radio-presents-rnb-mixx-vs-tropicana-basel-7506373700846914677.html",
 "category": "Party"
 },
+"2026-11-14-candela-base-aleksandra-mladenovic": {
+"title": "Aleksandra Mladenovic",
+"venue": "Candela Basel",
+"date": "2026-11-14",
+"source": "crawler",
+"time": "22:00",
+"end": "04:00",
+"price": "ab CHF 35",
+"url": "https://eventfrog.ch/de/p/konzerte/folk/aleksandra-mladenovic-basel-7526335284151107488.html",
+"category": "Konzert"
+},
 "2026-11-14-club-cello-e-house-castle-official-afterparty": {
 "title": "house castle official afterparty",
 "venue": "Club Cello (ehem. Singer Klub)",
@@ -2598,6 +2536,16 @@
 "url": "https://eventfrog.ch/de/p/partys/latin-salsa-bachata/15-years-fusion-caribe-anniversary-party-basel-7521938782435726772.html",
 "category": "Party"
 },
+"2026-11-21-bar-futura-i-ll-house-you-at-bar-futura": {
+"title": "I'll House You at Bar Futura",
+"venue": "Bar Futura",
+"date": "2026-11-21",
+"source": "crawler",
+"time": "22:00",
+"end": "02:00",
+"url": "https://eventfrog.ch/en/p/parties/house-techno/i-ll-house-you-at-bar-futura-basel-7526198614982420317.html",
+"category": "Party"
+},
 "2026-11-21-bar-rouge-bichota-back-to-2000s-vol-2": {
 "title": "Bichota - Back to 2000s Vol. 2",
 "venue": "Bar Rouge",
@@ -2739,6 +2687,16 @@
 "end": "18:00",
 "price": "ab CHF 25",
 "url": "https://eventfrog.ch/de/p/konzerte/world-ethno/in-motion-entspannungskonzert-basel-7516116733196802927.html",
+"category": "Konzert"
+},
+"2026-11-22-basler-munst-orgelkonzert-bach-italien-im-basler-muns": {
+"title": "Orgelkonzert - Bach & Italien im Basler Münster",
+"venue": "Basler Münster",
+"date": "2026-11-22",
+"source": "crawler",
+"time": "18:00",
+"end": "19:00",
+"url": "https://eventfrog.ch/de/p/konzerte/kirchenmusik/orgelkonzert-bach-italien-im-basler-muenster-basel-7526250347121089405.html",
 "category": "Konzert"
 },
 "2026-11-22-kaschemme-conquering-basilea-fleshcrawl-avulsed-vi": {
@@ -3209,6 +3167,16 @@
 "end": "05:00",
 "price": "ab CHF 8",
 "url": "https://eventfrog.ch/de/p/partys/hip-hop-rap/la-grande-notte-italiana-alice-club-basel-basel-7520502098175213557.html",
+"category": "Party"
+},
+"2026-11-28-club-cello-e-buslinie-30": {
+"title": "buslinie 30",
+"venue": "Club Cello (ehem. Singer Klub)",
+"date": "2026-11-28",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"url": "https://eventfrog.ch/de/p/partys/sonstige-partys/buslinie-30-basel-7526247210461186420.html",
 "category": "Party"
 },
 "2026-11-28-das-viertel-gayties-special-edition-xxl": {
@@ -3865,6 +3833,17 @@
 "url": "https://www.bassoverse.space/beats",
 "category": "Club / Midtempo"
 },
+"2026-12-06-acqua-good-morning-club-last-dance-2026": {
+"title": "Good Morning Club - Last Dance 2026",
+"venue": "Acqua",
+"date": "2026-12-06",
+"source": "crawler",
+"time": "11:00",
+"end": "18:00",
+"price": "ab CHF 10",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/good-morning-club-last-dance-2026-basel-7526343638386802179.html",
+"category": "Party"
+},
 "2026-12-06-stadtcasino--sinfonieorchester-basel-adventskonzert": {
 "title": "Sinfonieorchester Basel Adventskonzert",
 "venue": "Stadtcasino Basel",
@@ -4243,6 +4222,15 @@
 "url": "https://www.kinker.ch/events/7440495526624134502",
 "category": "Club / Techno"
 },
+"2026-12-12-stadtcasino--sing-mit-uns-firstclassics-orchestra-und": {
+"title": "Sing mit uns! Firstclassics Orchestra und Kinderchor unter der Leitung von Lorenz Indermühle",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-12",
+"source": "crawler",
+"time": "",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/sing_mit_uns/",
+"category": "Konzert / Klassik"
+},
 "2026-12-13-sommercasino-tichu-turnier": {
 "title": "Tichu Turnier",
 "venue": "Sommercasino",
@@ -4280,6 +4268,17 @@
 "time": "18:30",
 "end": "20:00",
 "url": "https://eventfrog.ch/de/p/konzerte/chor/sternklar-a-cappella-vokalmusik-basel-7521240847548941814.html",
+"category": "Konzert"
+},
+"2026-12-13-valhalla-bas-cenotaph-grotesque-ceremonium-lyssa": {
+"title": "Cenotaph · Grotesque Ceremonium · Lyssa",
+"venue": "Valhalla Basel",
+"date": "2026-12-13",
+"source": "crawler",
+"time": "19:30",
+"end": "23:00",
+"price": "ab CHF 20",
+"url": "https://eventfrog.ch/de/p/konzerte/hard-rock-heavy-metal/cenotaph-grotesque-ceremonium-lyssa-basel-7526270822626931020.html",
 "category": "Konzert"
 },
 "2026-12-14-markthalle-jazz-for-peace": {
@@ -4386,6 +4385,16 @@
 "price": "ab CHF 15",
 "url": "https://eventfrog.ch/de/p/konzerte/world-ethno/cabra-levante-jamila-the-other-heroes-x-kesbara-in-basel-basel-7525526856289766956.html",
 "category": "Konzert"
+},
+"2026-12-18-stadtcasino--mikail-aslan-eine-zeitlose-musikalische-": {
+"title": "Mikaîl Aslan Eine zeitlose musikalische Reise mit den Klängen des Euphrat",
+"venue": "Stadtcasino Basel",
+"date": "2026-12-18",
+"source": "crawler",
+"time": "20:00",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/mikai-aslan/",
+"category": "Konzert",
+"doors": "19:00"
 },
 "2026-12-18-parterre-one-formel-dance-hits-nonstop": {
 "title": "Formel*Dance - Hits Nonstop!",
@@ -5215,6 +5224,16 @@
 "time": "19:30",
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/mizmorim-eine-blume-fur-tabea/",
 "category": "Konzert",
+"doors": "18:30"
+},
+"2027-01-31-stadtcasino--le-concert-olympique-mit-kit-armstrong-a": {
+"title": "Le Concert Olympique mit Kit Armstrong AMG Solistenabende",
+"venue": "Stadtcasino Basel",
+"date": "2027-01-31",
+"source": "crawler",
+"time": "19:30",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/310127_kit_armstrong/",
+"category": "Konzert / Klassik",
 "doors": "18:30"
 }
 }
