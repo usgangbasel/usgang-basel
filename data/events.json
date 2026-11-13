@@ -1,103 +1,4 @@
 {
-"2026-10-29-kaschemme-uptown-dj-lab": {
-"category": "Workshop / Freier Eintritt",
-"date": "2026-10-29",
-"source": "crawler",
-"time": "18:00",
-"title": "Uptown DJ-Lab",
-"url": "https://www.kaschemme.ch/programm/260929/lab",
-"venue": "Kaschemme",
-"end": "23:00",
-"price": "frei"
-},
-"2026-10-29-saal1-kuchli-film-ein-tag-ohne-frauen": {
-"title": "Film \"Ein Tag ohne Frauen\"",
-"venue": "Saal1 Küchlin",
-"date": "2026-10-29",
-"source": "crawler",
-"time": "18:30",
-"url": "https://eventfrog.ch/de/p/kino/kino/film-ein-tag-ohne-frauen-basel-7521121529989492359.html",
-"category": "Film"
-},
-"2026-10-29-sommercasino-trummer-musikalische-lesung": {
-"category": "Lesung / Konzert",
-"date": "2026-10-29",
-"source": "crawler",
-"time": "19:30",
-"title": "Trummer – Musikalische Lesung",
-"url": "https://sommercasino.ch/events/trummer/",
-"venue": "Sommercasino",
-"doors": "19:30"
-},
-"2026-10-29-stadtcasino--irish-folk-festival": {
-"category": "Konzert / Folk",
-"date": "2026-10-29",
-"source": "crawler",
-"time": "19:30",
-"title": "Irish Folk Festival",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/29102026_iff/",
-"venue": "Stadtcasino Basel",
-"doors": "18:30"
-},
-"2026-10-29-bambusnest-abba-party-bambusnest": {
-"title": "ABBA Party - Bambusnest",
-"venue": "Bambusnest",
-"date": "2026-10-29",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/partys/80s/abba-party-bambusnest-basel-7500083686085282336.html",
-"category": "Party"
-},
-"2026-10-29-gare-du-nord-der-wanderfalke-fringe-ensemble": {
-"category": "Musiktheater",
-"date": "2026-10-29",
-"source": "crawler",
-"time": "20:00",
-"title": "Der Wanderfalke – fringe ensemble",
-"url": "https://www.garedunord.ch/de/programm/3175/wanderfalke",
-"venue": "Gare du Nord",
-"style": "Musiktheater/Performance"
-},
-"2026-10-29-kulturhuus-h-standup-comedy-simon-stablein-absolute-f": {
-"title": "StandUp Comedy: Simon Stäblein - Absolute Frechheit",
-"venue": "Kulturhuus Häbse",
-"date": "2026-10-29",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/standup-comedy-simon-staeblein-absolute-frechheit-basel-7469489265543539590.html",
-"category": "Bühne / Comedy"
-},
-"2026-10-29-sandoase-bas-halloween-special-by-semesterstartparty": {
-"title": "Halloween Special by semesterstartparty",
-"venue": "Sandoase Basel",
-"date": "2026-10-29",
-"source": "crawler",
-"time": "22:00",
-"url": "https://eventfrog.ch/de/p/partys/studierendenparty/halloween-special-by-semesterstartparty-basel-7513278419641092941.html",
-"category": "Party"
-},
-"2026-10-29-das-viertel-studentenfutter-xxl": {
-"title": "Studentenfutter XXL",
-"venue": "Das Viertel",
-"date": "2026-10-29",
-"source": "crawler",
-"time": "23:00",
-"end": "04:00",
-"price": "frei",
-"style": "Open Format / POP / Charts",
-"url": "https://www.dasviertel.ch/programmklub",
-"category": "Party / Open Format"
-},
-"2026-10-29-renee-jay-push": {
-"category": "Club / Tropical",
-"date": "2026-10-29",
-"source": "crawler",
-"time": "23:00",
-"title": "Jay Push",
-"url": "https://www.renee.ch",
-"venue": "Renée",
-"style": "Tropical Rhythms"
-},
 "2026-10-30-sonntag-01-n-textur-2026-romane-und-romanzen": {
 "title": "TEXTUR 2026 - \"Romane und Romanzen\"",
 "venue": "– Sonntag, 01. November, 18:15 Basel-Stadt, Basel-Land",
@@ -3578,6 +3479,17 @@
 "url": "https://eventfrog.ch/de/p/konzerte/jazz-blues/silvan-zingg-trio-gaeste-basel-7487892469197092684.html",
 "category": "Konzert"
 },
+"2026-12-04-badhuesli-gm-jazzband-en-concert": {
+"title": "GM Jazzband en concert",
+"venue": "Badhuesli",
+"date": "2026-12-04",
+"source": "crawler",
+"time": "20:00",
+"end": "23:00",
+"price": "ab CHF 5",
+"url": "https://eventfrog.ch/de/p/konzerte/jazz-blues/gm-jazzband-en-concert-basel-7524792778968069711.html",
+"category": "Konzert"
+},
 "2026-12-04-corrientes-friday-hop": {
 "title": "Friday Hop",
 "venue": "Corrientes",
@@ -3649,6 +3561,16 @@
 "url": "https://tickets.nordstern.com/en/c/schrotthagen-2537",
 "category": "Club / Elektronisch"
 },
+"2026-12-04-basso-lovebirds-kaleiko-2-lucky-diorp": {
+"title": "Lovebirds: Kaleiko, 2 Lucky, Diorp",
+"venue": "Basso",
+"date": "2026-12-04",
+"source": "crawler",
+"time": "",
+"style": "House, Deep House, Disco",
+"url": "https://www.bassoverse.space/beats",
+"category": "Club / House"
+},
 "2026-12-05-basso-winter-daydance-series": {
 "category": "Club / Deep House",
 "date": "2026-12-05",
@@ -3668,6 +3590,16 @@
 "title": "Hip Hop Festival Basel 2026",
 "url": "https://kaserne-basel.ch/de/events/hhfb26",
 "venue": "Kaserne Basel"
+},
+"2026-12-05-gare-du-nord-sombre-in-the-shadows-of-our-time-kaija-": {
+"title": "Sombre – In the Shadows of our Time: Kaija Saariaho, Jean-Baptiste Barrière, Cécile Marti & Asia Ahmetjanova",
+"venue": "Gare du Nord",
+"date": "2026-12-05",
+"source": "crawler",
+"time": "19:00",
+"style": "Musiktheater/Performance",
+"url": "https://www.garedunord.ch/de/programm/3208/sombre-in-the-shadows-of-our-time",
+"category": "Bühne / Musiktheater"
 },
 "2026-12-05-martinskirch-abba-hits-by-mystery-ensemble": {
 "title": "ABBA Hits by Mystery Ensemble",
@@ -3810,6 +3742,16 @@
 "end": "04:00",
 "price": "ab CHF 0.05",
 "url": "https://eventfrog.ch/de/p/partys/00s/best-of-2000s-basel-7486413583204514994.html",
+"category": "Party"
+},
+"2026-12-05-club-cello-e-dose-vol-01": {
+"title": "DOSE – VOL. 01",
+"venue": "Club Cello (ehem. Singer Klub)",
+"date": "2026-12-05",
+"source": "crawler",
+"time": "22:00",
+"price": "ab CHF 10",
+"url": "https://eventfrog.ch/de/p/partys/disco/dose-vol-01-basel-7526693815861693897.html",
 "category": "Party"
 },
 "2026-12-05-das-viertel-boiling-trance-w-dj-guestlist": {
@@ -4260,6 +4202,15 @@
 "category": "Konzert",
 "doors": "16:00"
 },
+"2026-12-13-basler-munst-weihnachtskonzert-in-dulci-jubilo-sterns": {
+"title": "Weihnachtskonzert In dulci jubilo - Sternstunde im Basler Mü",
+"venue": "Basler Münster",
+"date": "2026-12-13",
+"source": "crawler",
+"time": "18:00",
+"url": "https://eventfrog.ch/de/p/konzerte/kirchenmusik/weihnachtskonzert-in-dulci-jubilo-sternstunde-im-basler-mue-basel-7526610836976097756.html",
+"category": "Konzert"
+},
 "2026-12-13-adullam-kape-sternklar-a-cappella-vokalmusik": {
 "title": "sternklar - A Cappella Vokalmusik",
 "venue": "Adullam Kapelle",
@@ -4364,6 +4315,18 @@
 "price": "ab CHF 12.50",
 "url": "https://eventfrog.ch/de/p/konzerte/indie-alternative/spirit-of-toto-basel-7521898071250231547.html",
 "category": "Konzert"
+},
+"2026-12-17-das-viertel-studentenfutter-xxl": {
+"title": "Studentenfutter XXL",
+"venue": "Das Viertel",
+"date": "2026-12-17",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"price": "frei",
+"style": "Open Format / POP / Charts",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Party / Open Format"
 },
 "2026-12-18-elys-boulder-friday-loft-dave-from-hollywood-dwarf-ze": {
 "title": "Friday Loft: Dave From Hollywood (Dwarf Zebu & SJ Vaseline)",
@@ -4541,6 +4504,17 @@
 "url": "https://eventfrog.ch/de/p/partys/house-techno/club-cello-x-wgs-basel-7518624720016659303.html",
 "category": "Party"
 },
+"2026-12-19-das-viertel-harder": {
+"title": "Harder",
+"venue": "Das Viertel",
+"date": "2026-12-19",
+"source": "crawler",
+"time": "23:00",
+"end": "06:00",
+"style": "Cruisen / SEX Positiv / Techno",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Club / Cruisen"
+},
 "2026-12-19-parterre-one-sound-bwoy-december-edition": {
 "title": "SOUND BWOY – December Edition",
 "venue": "Parterre One",
@@ -4635,6 +4609,28 @@
 "url": "https://eventfrog.ch/de/p/partys/charts-open-format/red-friday-basel-7524487474069928426.html",
 "category": "Party"
 },
+"2026-12-25-bar-rouge-xmas-party-with-a-view": {
+"title": "XMAS PARTY With A View",
+"venue": "Bar Rouge",
+"date": "2026-12-25",
+"source": "crawler",
+"time": "22:00",
+"end": "04:00",
+"price": "ab CHF 0.05",
+"url": "https://eventfrog.ch/de/p/partys/charts-open-format/xmas-party-with-a-view-basel-7524487474069928426.html",
+"category": "Party"
+},
+"2026-12-25-das-viertel-heatwaves": {
+"title": "Heatwaves",
+"venue": "Das Viertel",
+"date": "2026-12-25",
+"source": "crawler",
+"time": "23:00",
+"end": "05:00",
+"style": "Hardhouse / Trance / Techno",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Club / Hardhouse"
+},
 "2026-12-25-parterre-one-show-me-love": {
 "title": "Show Me Love",
 "venue": "Parterre One",
@@ -4684,6 +4680,17 @@
 "price": "ab CHF 0.05",
 "url": "https://eventfrog.ch/de/p/partys/latin-salsa-bachata/mamacita-hot-latin-cool-urban-basel-7486864087537733237.html",
 "category": "Party"
+},
+"2026-12-26-das-viertel-block-party": {
+"title": "Block Party",
+"venue": "Das Viertel",
+"date": "2026-12-26",
+"source": "crawler",
+"time": "23:00",
+"end": "05:00",
+"style": "HIP HOP / Trap",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Party / HIP HOP"
 },
 "2026-12-26-nordstern-all-night-long-andrea-oliva": {
 "title": "All Night Long: Andrea Oliva",
@@ -5013,6 +5020,17 @@
 "url": "https://eventfrog.ch/de/p/partys/pop-rock/tanznacht40-basel-basel-7487889772028923968.html",
 "category": "Party"
 },
+"2027-01-09-das-viertel-v-mit-leblanc": {
+"title": "V mit Leblanc",
+"venue": "Das Viertel",
+"date": "2027-01-09",
+"source": "crawler",
+"time": "23:00",
+"end": "05:00",
+"style": "House / Techno / Electronica",
+"url": "https://ticketing.dasviertel.ch/event/v-mit-leblanc-5je5xf",
+"category": "Club / House"
+},
 "2027-01-09-basso-basso-daydance": {
 "title": "BASSO DAYDANCE",
 "venue": "Basso",
@@ -5137,6 +5155,38 @@
 "category": "Konzert",
 "doors": "18:30"
 },
+"2027-01-22-st-jakobshal-stahlzeit": {
+"title": "Stahlzeit",
+"venue": "St. Jakobshalle Basel",
+"date": "2027-01-22",
+"source": "crawler",
+"time": "20:00",
+"end": "23:59",
+"url": "https://eventfrog.ch/de/p/konzerte/hard-rock-heavy-metal/stahlzeit-basel-7468554702906483924.html",
+"category": "Konzert"
+},
+"2027-01-22-atlantis-the-james-brown-tribute-show": {
+"title": "The James Brown Tribute Show",
+"venue": "Atlantis",
+"date": "2027-01-22",
+"source": "crawler",
+"time": "20:30",
+"end": "22:30",
+"price": "ab CHF 17.50",
+"url": "https://eventfrog.ch/de/p/konzerte/funk-soul/the-james-brown-tribute-show-basel-7475874097693515428.html",
+"category": "Konzert"
+},
+"2027-01-22-corrientes-friday-hop": {
+"title": "Friday Hop",
+"venue": "Corrientes",
+"date": "2027-01-22",
+"source": "crawler",
+"time": "20:30",
+"end": "00:30",
+"price": "ab CHF 10",
+"url": "https://eventfrog.ch/de/p/partys/swing/friday-hop-basel-7499415823989110755.html",
+"category": "Party"
+},
 "2027-01-23-stadtcasino--stadtmusik-basel-galakonzert-2027": {
 "title": "Stadtmusik Basel Galakonzert 2027",
 "venue": "Stadtcasino Basel",
@@ -5233,6 +5283,26 @@
 "source": "crawler",
 "time": "19:30",
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/310127_kit_armstrong/",
+"category": "Konzert / Klassik",
+"doors": "18:30"
+},
+"2027-02-01-stadtcasino--prof-dr-richard-david-precht-wie-ki-die-": {
+"title": "Prof. Dr. Richard David Precht Wie KI die Kultur abschafft",
+"venue": "Stadtcasino Basel",
+"date": "2027-02-01",
+"source": "crawler",
+"time": "19:00",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/prof-dr-richard-david-precht/",
+"category": "Konzert",
+"doors": "18:00"
+},
+"2027-02-01-stadtcasino--guarneri-trio-prag-40-jahre-in-ursprungl": {
+"title": "Guarneri Trio Prag – 40 Jahre in ursprünglicher Besetzung Kammermusik um halb acht",
+"venue": "Stadtcasino Basel",
+"date": "2027-02-01",
+"source": "crawler",
+"time": "19:30",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/01022027_k128/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
 }
