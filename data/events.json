@@ -1,123 +1,4 @@
 {
-"2026-11-01-basel-stadt--textur-2026-romane-und-romanzen": {
-"title": "Textur 2026 - Romane und Romanzen",
-"venue": "Basel-Stadt, Basel-Land",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "11:15",
-"url": "https://eventfrog.ch/de/p/konzerte/textur-2026-romane-und-romanzen-basel-7502123657906358928.html",
-"category": "Konzert"
-},
-"2026-11-01-stadtcasino--neues-orchester-basel-verdi-requiem": {
-"category": "Konzert / Klassik",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "12:00",
-"title": "Neues Orchester Basel: Verdi Requiem",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/01112026_nob/",
-"venue": "Stadtcasino Basel",
-"doors": "11:30"
-},
-"2026-11-01-saal1-kuchli-adarsha-kutumbam-house-no-47-basel-saal1": {
-"title": "ADARSHA KUTUMBAM - HOUSE NO. 47 BASEL SAAL1",
-"venue": "Saal1 Küchlin",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "14:00",
-"url": "https://eventfrog.ch/de/p/theater-buehne/theater/adarsha-kutumbam-house-no-47-basel-saal1-basel-7520866210398887956.html",
-"category": "Bühne"
-},
-"2026-11-01-rom-kath-kir-durufle-requiem": {
-"title": "Duruflé Requiem",
-"venue": "Röm.-kath. Kirche St. Anton",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "16:00",
-"url": "https://eventfrog.ch/de/p/konzerte/chor/durufle-requiem-basel-7515311592549940770.html",
-"category": "Konzert"
-},
-"2026-11-01-martinskirch-incanto-chor-bern-konzert-2026-basel": {
-"title": "Incanto Chor Bern - Konzert 2026 - Basel",
-"venue": "Martinskirche Basel",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "17:00",
-"url": "https://eventfrog.ch/de/p/konzerte/chor/incanto-chor-bern-konzert-2026-basel-basel-7500487966130705940.html",
-"category": "Konzert"
-},
-"2026-11-01-oberer-saal--pop-up-kino-herbstfeuer": {
-"title": "POP-UP KINO: HERBSTFEUER",
-"venue": "Oberer Saal - Quartierzentrum Union, Klybeckstrasse 95, 4057 Basel, CH",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "17:00",
-"url": "https://eventfrog.ch/de/p/kino/filmfestival/pop-up-kino-herbstfeuer-basel-7503814876223028258.html",
-"category": "Film"
-},
-"2026-11-01-stadtcasino--neues-orchester-basel-verdi-requiem-1700": {
-"title": "Neues Orchester Basel Verdi Requiem",
-"venue": "Stadtcasino Basel",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "17:00",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/01112026_nob/",
-"category": "Konzert / Klassik",
-"doors": "16:00"
-},
-"2026-11-01-theater-faut-cantuccini-gottliche-zeiten": {
-"title": "Cantuccini - Göttliche Zeiten",
-"venue": "Theater Fauteuil - Tabourettli",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "17:00",
-"url": "https://eventfrog.ch/de/p/konzerte/a-cappella-vocal/cantuccini-goettliche-zeiten-basel-7518624551476921217.html",
-"category": "Konzert"
-},
-"2026-11-01-tituskirche-sgschangglaadeli-konzert-fur-orchester-u": {
-"title": "S’GSCHÄNGGLÄÄDELI - Konzert für Orchester und Theremin",
-"venue": "Tituskirche",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "17:00",
-"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/sgschaengglaeaedeli-konzert-fuer-orchester-und-theremin-basel-7483537805513089983.html",
-"category": "Konzert"
-},
-"2026-11-01-saal1-kuchli-jailer-2-basel-saal1": {
-"title": "JAILER 2 BASEL, SAAL1",
-"venue": "Saal1 Küchlin",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "18:00",
-"url": "https://eventfrog.ch/de/p/theater-buehne/theater/jailer-2-basel-saal1-basel-7520852660997609212.html",
-"category": "Bühne"
-},
-"2026-11-01-schauspielha-gesellschaft-mit-besonderer-hingabe-gmbh": {
-"title": "Gesellschaft mit besonderer Hingabe (GmbH)",
-"venue": "Schauspielhaus Theater Basel",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "18:30",
-"url": "https://eventfrog.ch/de/p/theater-buehne/theater/gesellschaft-mit-besonderer-hingabe-gmbh-basel-7516806603858829607.html",
-"category": "Bühne"
-},
-"2026-11-01-klara-basel-stand-up-comedy-free-entry": {
-"title": "Stand-up comedy, free entry!",
-"venue": "Klara Basel",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/stand-up-comedy-free-entry-basel-7487900523980413901.html",
-"category": "Bühne / Comedy"
-},
-"2026-11-01-engelhof-offene-buhne": {
-"title": "Offene Bühne",
-"venue": "Engelhof",
-"date": "2026-11-01",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/theater-buehne/buehnenveranstaltung/offene-buehne-basel-7519465723711766499.html",
-"category": "Bühne"
-},
 "2026-11-02-grenzwert-murder-monday": {
 "title": "Murder Monday",
 "venue": "Grenzwert",
@@ -2172,6 +2053,15 @@
 "url": "https://eventfrog.ch/de/p/konzerte/world-ethno/in-motion-entspannungskonzert-basel-7516116733196802927.html",
 "category": "Konzert"
 },
+"2026-11-22-zunftsaal-sc-zwischen-himmel-und-erde": {
+"title": "Zwischen Himmel und Erde",
+"venue": "Zunftsaal Schmiedenhof, Basel",
+"date": "2026-11-22",
+"source": "crawler",
+"time": "17:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/zwischen-himmel-und-erde-basel-7527844602235112868.html",
+"category": "Konzert"
+},
 "2026-11-22-basler-munst-orgelkonzert-bach-italien-im-basler-muns": {
 "title": "Orgelkonzert - Bach & Italien im Basler Münster",
 "venue": "Basler Münster",
@@ -2682,6 +2572,17 @@
 "end": "04:00",
 "price": "ab CHF 10",
 "url": "https://eventfrog.ch/de/p/partys/00s/buslinie-30-basel-7525572756450060517.html",
+"category": "Party"
+},
+"2026-11-28-candela-base-noche-colombiana-basel-parranda-navidena": {
+"title": "NOCHE COLOMBIANA BASEL (Parranda Navideña)",
+"venue": "CANDELA BASEL",
+"date": "2026-11-28",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"price": "ab CHF 5",
+"url": "https://eventfrog.ch/en/p/parties/latin-salsa-bachata/noche-colombiana-basel-parranda-navidena-basel-7527748229292659687.html",
 "category": "Party"
 },
 "2026-11-28-club-cello-e-buslinie-30": {
@@ -3767,6 +3668,17 @@
 "category": "Party",
 "end": "10:00",
 "price": "ab CHF 30"
+},
+"2026-12-12-club-cello-e-afro-vs-dancehall": {
+"title": "AFRO vs DANCEHALL",
+"venue": "Club Cello (ehem. Singer Klub)",
+"date": "2026-12-12",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"price": "ab CHF 5",
+"url": "https://eventfrog.ch/de/p/partys/dancehall/afro-vs-dancehall-basel-7526016667245136014.html",
+"category": "Party"
 },
 "2026-12-12-das-viertel-hits-the-one-and-only": {
 "title": "Hits - the ONE and Only",
@@ -4976,6 +4888,26 @@
 "source": "crawler",
 "time": "19:30",
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/030227_kg/",
+"category": "Konzert / Klassik",
+"doors": "18:30"
+},
+"2027-02-04-sommercasino-sanae": {
+"title": "Sanaë",
+"venue": "Sommercasino",
+"date": "2027-02-04",
+"source": "crawler",
+"time": "19:30",
+"doors": "19:30",
+"url": "https://sommercasino.ch/events/sanae/",
+"category": "Konzert"
+},
+"2027-02-04-stadtcasino--sinfonieorchester-basel-volkssinfoniekon": {
+"title": "Sinfonieorchester Basel Volkssinfoniekonzerte",
+"venue": "Stadtcasino Basel",
+"date": "2027-02-04",
+"source": "crawler",
+"time": "19:30",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/040227_vosiko/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
 }
