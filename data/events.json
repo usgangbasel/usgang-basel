@@ -1,14 +1,4 @@
 {
-"2026-11-02-grenzwert-murder-monday": {
-"title": "Murder Monday",
-"venue": "Grenzwert",
-"date": "2026-11-02",
-"source": "crawler",
-"time": "20:00",
-"style": "Stand-up Comedy (English) · Eintritt frei",
-"url": "https://grenzwert.ch/programm/",
-"category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
-},
 "2026-11-03-sommercasino-bubble-buster-jam": {
 "title": "Bubble Buster Jam",
 "venue": "Sommercasino",
@@ -1755,6 +1745,17 @@
 "url": "https://www.kinker.ch/events/7523338569546498428",
 "category": "Club / Techno"
 },
+"2026-11-20-candela-base-close-circle-by-amibal": {
+"title": "Close Circle by AmiBâl",
+"venue": "Candela Basel",
+"date": "2026-11-20",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"price": "ab CHF 9",
+"url": "https://eventfrog.ch/de/p/partys/studierendenparty/close-circle-by-amibal-basel-7527771530312287250.html",
+"category": "Party"
+},
 "2026-11-20-das-viertel-hits-the-one-and-only": {
 "title": "Hits - the ONE and Only!",
 "venue": "Das Viertel",
@@ -1827,6 +1828,15 @@
 "price": "ab CHF 5",
 "url": "https://eventfrog.ch/de/p/partys/sonstige-partys/rollschuh-disco-basel-7500909244306222099.html",
 "category": "Party"
+},
+"2026-11-21-theodorskirc-nocturne-ein-konzert-im-dunkeln": {
+"title": "Nocturne - Ein Konzert im Dunkeln",
+"venue": "Theodorskirche | Kirche",
+"date": "2026-11-21",
+"source": "crawler",
+"time": "19:00",
+"url": "https://eventfrog.ch/de/p/konzerte/chor/nocturne-ein-konzert-im-dunkeln-basel-7527756987934728835.html",
+"category": "Konzert"
 },
 "2026-11-21-kaschemme-der-indie-slot-w-cara-sonic-the-mile-hig": {
 "title": "DER INDIE SLOT w/ CARA SONIC & THE MILE HIGH CLUB",
@@ -2081,6 +2091,16 @@
 "end": "23:59",
 "url": "https://www.kaschemme.ch/programm/2026/11/22/conquering-basilea-fleshcrawl-avulsed-violentor",
 "category": "Anderes"
+},
+"2026-11-23-grenzwert-murder-monday": {
+"title": "Murder Monday",
+"venue": "Grenzwert",
+"date": "2026-11-23",
+"source": "crawler",
+"time": "20:00",
+"style": "Stand-up Comedy (English) · Eintritt frei",
+"url": "https://grenzwert.ch/programm/",
+"category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
 },
 "2026-11-24-gare-du-nord-parametastrings-sonic-boom-percaso-strin": {
 "title": "«Parametastrings»: Sonic Boom – Percaso String Quartet & Carmel Curiel",
@@ -2943,6 +2963,16 @@
 "url": "https://eventfrog.ch/de/p/konzerte/jazz-blues/silvan-zingg-trio-gaeste-basel-7487892469138372352.html",
 "category": "Konzert"
 },
+"2026-12-03-alice-club-kiss-night": {
+"title": "Kiss Night",
+"venue": "Alice Club",
+"date": "2026-12-03",
+"source": "crawler",
+"time": "20:00",
+"end": "02:00",
+"url": "https://eventfrog.ch/de/p/partys/disco/kiss-night-basel-7528184238622937150.html",
+"category": "Party"
+},
 "2026-12-03-das-viertel-studentenfutter-xxl": {
 "title": "Studentenfutter XXL",
 "venue": "Das Viertel",
@@ -3096,6 +3126,16 @@
 "venue": "Basso",
 "style": "Midtempo, Deep House, Indie Dance, House",
 "price": "Presale from CHF 12 / Door CHF 25"
+},
+"2026-12-05-bewegungplus-gospelkonzert-mit-bishop-freddy-washingt": {
+"title": "Gospelkonzert mit Bishop Freddy Washington",
+"venue": "BewegungPlus Basel",
+"date": "2026-12-05",
+"source": "crawler",
+"time": "16:00",
+"end": "17:30",
+"url": "https://eventfrog.ch/de/p/konzerte/gospel/gospelkonzert-mit-bishop-freddy-washington-basel-7528105607913550316.html",
+"category": "Konzert"
 },
 "2026-12-05-kaserne-base-hip-hop-festival-basel-2026": {
 "category": "Festival / Hip-Hop",
@@ -3726,7 +3766,8 @@
 "time": "17:00",
 "end": "19:00",
 "url": "https://eventfrog.ch/de/p/konzerte/jazz-blues/a-swingin-christmas-concert-basel-7505001021174735231.html",
-"category": "Konzert"
+"category": "Konzert",
+"price": "ab CHF 9"
 },
 "2026-12-13-stadtcasino--swiss-gospel-singers-mit-chris-de-burgh-": {
 "title": "Swiss Gospel Singers mit Chris de Burgh Weihnachtskonzertzauber",
@@ -4196,6 +4237,15 @@
 "url": "https://eventfrog.ch/de/p/partys/disco/back-to-90s-party-oke-basel-basel-7492521284351301171.html",
 "category": "Party"
 },
+"2026-12-26-kinker-kinker-x-fetish-by-caroline": {
+"title": "KINKER X FETISH by Caroline",
+"venue": "Kinker",
+"date": "2026-12-26",
+"source": "crawler",
+"time": "21:00",
+"url": "https://www.kinker.ch/events/7528116301111231501",
+"category": "Club / Techno"
+},
 "2026-12-26-sud-u30-party-sud-basel-xmas-edition": {
 "title": "Ü30-Party SUD-Basel (XMAS Edition)",
 "venue": "Sud",
@@ -4379,6 +4429,17 @@
 "end": "03:00",
 "price": "ab CHF 25",
 "url": "https://eventfrog.ch/de/p/partys/silvesterparty/formel-events-presents-die-silvesterparty-2026-basel-7508545136579612223.html",
+"category": "Party"
+},
+"2026-12-31-valhalla-bas-valhallas-new-year-party": {
+"title": "Valhallas New Year party",
+"venue": "Valhalla Basel",
+"date": "2026-12-31",
+"source": "crawler",
+"time": "21:00",
+"end": "05:00",
+"price": "ab CHF 20",
+"url": "https://eventfrog.ch/de/p/partys/silvesterparty/valhallas-new-year-party-basel-7528173951953940747.html",
 "category": "Party"
 },
 "2026-12-31-bambusnest-new-year-s-eve-2026-bambusnest": {
@@ -4680,6 +4741,17 @@
 "doors": "18:30",
 "end": "21:30"
 },
+"2027-01-20-valhalla-bas-castiel-changing-tides": {
+"title": "Castiel & Changing Tides",
+"venue": "Valhalla Basel",
+"date": "2027-01-20",
+"source": "crawler",
+"time": "20:00",
+"end": "23:00",
+"price": "ab CHF 15",
+"url": "https://eventfrog.ch/de/p/konzerte/hard-rock-heavy-metal/castiel-changing-tides-basel-7528167647470446528.html",
+"category": "Konzert"
+},
 "2027-01-21-stadtcasino--sinfonieorchester-basel-freiheit": {
 "title": "Sinfonieorchester Basel Freiheit",
 "venue": "Stadtcasino Basel",
@@ -4910,5 +4982,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/040227_vosiko/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
+},
+"2027-02-05-stadtcasino--patent-ochsner-achtung-probe-die-neue-to": {
+"title": "Patent Ochsner Achtung: Probe! - Die neue Tour",
+"venue": "Stadtcasino Basel",
+"date": "2027-02-05",
+"source": "crawler",
+"time": "20:00",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/05022027_patent_ochsner/",
+"category": "Konzert",
+"doors": "19:00"
 }
 }
