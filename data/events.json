@@ -1,62 +1,4 @@
 {
-"2026-11-03-sommercasino-bubble-buster-jam": {
-"title": "Bubble Buster Jam",
-"venue": "Sommercasino",
-"date": "2026-11-03",
-"source": "crawler",
-"time": "19:00",
-"doors": "19:00",
-"url": "https://sommercasino.ch/events/bubble-buster-jam-6/",
-"category": "Jam Session"
-},
-"2026-11-03-stadtcasino--hamburg-stage-ensemble-la-noche-del-tang": {
-"title": "Hamburg Stage Ensemble La Noche del Tango",
-"venue": "Stadtcasino Basel",
-"date": "2026-11-03",
-"source": "crawler",
-"time": "19:00",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/hamburg-stage-ensemble/",
-"category": "Konzert / Klassik",
-"doors": "18:00"
-},
-"2026-11-03-druckereihal-mutige-frauen-erinnern-ins-jetzt-wiedera": {
-"title": "Mutige Frauen – Erinnern ins Jetzt (Wiederaufnahme)",
-"venue": "Druckereihalle - Kultur im Ackermannshof",
-"date": "2026-11-03",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/theater-buehne/theater/mutige-frauen-erinnern-ins-jetzt-wiederaufnahme-basel-7500218242620757990.html",
-"category": "Bühne"
-},
-"2026-11-03-heiliggeistk-durufle-requiem": {
-"title": "Duruflé Requiem",
-"venue": "Heiliggeistkirche",
-"date": "2026-11-03",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/konzerte/chor/durufle-requiem-basel-7515317671006604591.html",
-"category": "Konzert"
-},
-"2026-11-03-saali-golden-hula-club": {
-"title": "HULA CLUB",
-"venue": "Sääli (Goldenes Fass)",
-"date": "2026-11-03",
-"source": "crawler",
-"time": "20:00",
-"doors": "19:30",
-"url": "https://www.goldenes-fass.ch/saali/",
-"category": "Konzert"
-},
-"2026-11-03-stadtcasino--mirella-precek-desperation-island-tour": {
-"category": "Comedy",
-"date": "2026-11-03",
-"source": "crawler",
-"time": "20:00",
-"title": "Mirella Precek – Desperation Island Tour",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/02112026_mirella_precek/",
-"venue": "Stadtcasino Basel",
-"doors": "19:00"
-},
 "2026-11-04-sommercasino-inezona": {
 "title": "INEZONA",
 "venue": "Sommercasino",
@@ -1619,7 +1561,8 @@
 "time": "21:00",
 "style": "Nachtstrom",
 "url": "https://www.garedunord.ch/de/programm/3238/nachtstrom-115",
-"category": "Konzert / Neue Musik"
+"category": "Konzert / Neue Musik",
+"end": "22:30"
 },
 "2026-11-19-das-viertel-studentenfutter-xxl": {
 "title": "Studentenfutter XXL",
@@ -1796,6 +1739,17 @@
 "style": "House, Techno, Live Electronica, Groove",
 "url": "https://www.bassoverse.space/beats",
 "category": "Club / House"
+},
+"2026-11-21-cafe-zwische-konzert-fur-babys": {
+"title": "Konzert für Babys",
+"venue": "Café Zwischenhalt Casa Bethesda",
+"date": "2026-11-21",
+"source": "crawler",
+"time": "11:30",
+"end": "12:15",
+"price": "ab CHF 20",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/konzert-fuer-babys-basel-7528557542621874499.html",
+"category": "Konzert"
 },
 "2026-11-21-bar-rouge-la-rouge-electronic-day-rave-in-der-bar-": {
 "title": "LA ROUGE – Electronic Day Rave in der Bar Rouge Basel",
@@ -2110,7 +2064,8 @@
 "time": "20:00",
 "style": "Sonic Boom",
 "url": "https://www.garedunord.ch/de/programm/3099/sonic-boom-parametastrings",
-"category": "Konzert / Neue Musik"
+"category": "Konzert / Neue Musik",
+"end": "21:00"
 },
 "2026-11-24-saali-golden-hula-club": {
 "title": "HULA CLUB",
@@ -2150,7 +2105,8 @@
 "time": "20:00",
 "style": "Konzert",
 "url": "https://www.garedunord.ch/de/programm/3177/third-space",
-"category": "Konzert / Neue Musik"
+"category": "Konzert / Neue Musik",
+"end": "21:30"
 },
 "2026-11-26-kaschemme-uptown-dj-lab": {
 "title": "UPTOWN DJ-LAB",
@@ -2183,6 +2139,17 @@
 "price": "ab CHF 8",
 "url": "https://eventfrog.ch/de/p/konzerte/singer-songwriter/songwriter-slam-26-27-3-akt-basel-7470104766594430743.html",
 "category": "Konzert"
+},
+"2026-11-26-das-viertel-sportstudiparty-2026-dsbg": {
+"title": "Sportstudiparty 2026 Dsbg",
+"venue": "Das Viertel",
+"date": "2026-11-26",
+"source": "crawler",
+"time": "22:00",
+"end": "05:00",
+"style": "House / Techno",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Club / House"
 },
 "2026-11-26-das-viertel-studentenfutter-xxl": {
 "title": "Studentenfutter XXL",
@@ -2471,7 +2438,8 @@
 "time": "20:00",
 "style": "Musiktheater/Performance",
 "url": "https://www.garedunord.ch/de/programm/3203/hear-it-coming",
-"category": "Bühne / Musiktheater"
+"category": "Bühne / Musiktheater",
+"end": "21:00"
 },
 "2026-11-28-kaserne-base-stress-a-late-night-with-stress": {
 "category": "Konzert / Rap",
@@ -2814,7 +2782,8 @@
 "time": "19:00",
 "style": "Musiktheater/Performance",
 "url": "https://www.garedunord.ch/de/programm/3204/hear-it-coming",
-"category": "Bühne / Musiktheater"
+"category": "Bühne / Musiktheater",
+"end": "20:00"
 },
 "2026-11-29-basler-munst-basler-gospelnacht": {
 "title": "Basler Gospelnacht",
@@ -2903,7 +2872,8 @@
 "time": "20:00",
 "style": "Konzert",
 "url": "https://www.garedunord.ch/de/programm/3178/dada-remix",
-"category": "Konzert / Neue Musik"
+"category": "Konzert / Neue Musik",
+"end": "21:40"
 },
 "2026-12-01-saali-golden-hula-club": {
 "title": "HULA CLUB",
@@ -3462,6 +3432,26 @@
 "category": "Konzert / Klassik",
 "doors": "18:30"
 },
+"2026-12-08-gare-du-nord-venir-meno-music-for-monsters-sonic-boom": {
+"title": "Venir Meno / music for monsters  – Sonic Boom – Léo Collin",
+"venue": "Gare du Nord – Bahnhof für Neue Musik",
+"date": "2026-12-08",
+"source": "crawler",
+"time": "20:00",
+"end": "21:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/venir-meno-music-for-monsters-sonic-boom-leo-collin-basel-7520914607306718583.html",
+"category": "Konzert"
+},
+"2026-12-08-saali-golden-hula-club": {
+"title": "HULA CLUB",
+"venue": "Sääli (Goldenes Fass)",
+"date": "2026-12-08",
+"source": "crawler",
+"time": "20:00",
+"doors": "19:30",
+"url": "https://www.goldenes-fass.ch/saali/",
+"category": "Konzert"
+},
 "2026-12-09-sommercasino-imparfait-fr": {
 "title": "Imparfait (FR)",
 "venue": "Sommercasino",
@@ -3481,6 +3471,26 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/09122026_kg/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
+},
+"2026-12-10-gare-du-nord-alltid-densamme-cristina-amaranta-konigi": {
+"title": "Alltid densamme – Cristina Amaranta, Königin von Schweden",
+"venue": "Gare du Nord – Bahnhof für Neue Musik",
+"date": "2026-12-10",
+"source": "crawler",
+"time": "12:15",
+"end": "13:30",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/alltid-densamme-cristina-amaranta-koenigin-von-schweden-basel-7520915458712694062.html",
+"category": "Konzert"
+},
+"2026-12-10-gare-du-nord-alltid-densamme-cristina-amaranta-konigi-1900": {
+"title": "Alltid densamme – Cristina Amaranta, Königin von Schweden",
+"venue": "Gare du Nord – Bahnhof für Neue Musik",
+"date": "2026-12-10",
+"source": "crawler",
+"time": "19:00",
+"end": "20:15",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/alltid-densamme-cristina-amaranta-koenigin-von-schweden-basel-7520915566627947738.html",
+"category": "Konzert"
 },
 "2026-12-10-kulturraum-d-de-piel-y-de-voz": {
 "title": "De piel y de voz",
@@ -3635,6 +3645,16 @@
 "end": "02:00",
 "price": "ab CHF 15",
 "url": "https://eventfrog.ch/de/p/konzerte/hard-rock-heavy-metal/hellwolf-presents-wake-up-the-fags-und-tellrock-basel-7497729766356722098.html",
+"category": "Konzert"
+},
+"2026-12-12-gare-du-nord-nord-ensemble-phoenix-basel": {
+"title": "Nord! – Ensemble Phoenix Basel",
+"venue": "Gare du Nord – Bahnhof für Neue Musik",
+"date": "2026-12-12",
+"source": "crawler",
+"time": "20:00",
+"end": "21:30",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/nord-ensemble-phoenix-basel-basel-7520916461461712001.html",
 "category": "Konzert"
 },
 "2026-12-12-fiera-tanznacht40-basel": {
@@ -3798,6 +3818,16 @@
 "url": "https://eventfrog.ch/de/p/konzerte/chor/sternklar-a-cappella-vokalmusik-basel-7521240847548941814.html",
 "category": "Konzert"
 },
+"2026-12-13-gare-du-nord-nord-ensemble-phoenix-basel": {
+"title": "Nord! – Ensemble Phoenix Basel",
+"venue": "Gare du Nord – Bahnhof für Neue Musik",
+"date": "2026-12-13",
+"source": "crawler",
+"time": "19:00",
+"end": "20:30",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/nord-ensemble-phoenix-basel-basel-7520916623919704827.html",
+"category": "Konzert"
+},
 "2026-12-13-valhalla-bas-cenotaph-grotesque-ceremonium-lyssa": {
 "title": "Cenotaph · Grotesque Ceremonium · Lyssa",
 "venue": "Valhalla Basel",
@@ -3869,6 +3899,16 @@
 "end": "22:30",
 "price": "ab CHF 10",
 "url": "https://eventfrog.ch/de/p/konzerte/unplugged/unplugged-mit-matte57-basel-7520826447751076134.html",
+"category": "Konzert"
+},
+"2026-12-16-gare-du-nord-ausschweifen-ensemble-proton-bern": {
+"title": "Ausschweifen  – Ensemble Proton Bern",
+"venue": "Gare du Nord – Bahnhof für Neue Musik",
+"date": "2026-12-16",
+"source": "crawler",
+"time": "20:00",
+"end": "21:10",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/ausschweifen-ensemble-proton-bern-basel-7520917405847016069.html",
 "category": "Konzert"
 },
 "2026-12-17-stadtcasino--sinfonieorchester-basel-1001-nacht": {
@@ -4992,5 +5032,25 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/05022027_patent_ochsner/",
 "category": "Konzert",
 "doors": "19:00"
+},
+"2027-02-06-stadtcasino--patent-ochsner-achtung-probe-die-neue-to": {
+"title": "Patent Ochsner Achtung: Probe! - Die neue Tour",
+"venue": "Stadtcasino Basel",
+"date": "2027-02-06",
+"source": "crawler",
+"time": "20:00",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/06022027_patent_ochsner/",
+"category": "Konzert",
+"doors": "19:00"
+},
+"2027-02-06-basso-basso-daydance": {
+"title": "BASSO DAYDANCE",
+"venue": "Basso",
+"date": "2027-02-06",
+"source": "crawler",
+"time": "",
+"style": "Midtempo, Deep House, Indie Dance, House",
+"url": "https://www.bassoverse.space/beats",
+"category": "Club / Midtempo"
 }
 }
