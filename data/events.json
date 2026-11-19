@@ -1,71 +1,4 @@
 {
-"2026-11-04-sommercasino-inezona": {
-"title": "INEZONA",
-"venue": "Sommercasino",
-"date": "2026-11-04",
-"source": "crawler",
-"time": "19:00",
-"doors": "19:00",
-"url": "https://sommercasino.ch/events/melanie-baker-support-tba/",
-"category": "Konzert"
-},
-"2026-11-04-heimat-bar-c-4-nov-mike-casa-show-basel": {
-"title": "4 NOV: Mike Casa Show BASEL!",
-"venue": "HEIMAT - Bar, Club, Stage, Kitchen",
-"date": "2026-11-04",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/4-nov-mike-casa-show-basel-basel-7508217658355023069.html",
-"category": "Bühne / Comedy"
-},
-"2026-11-04-stadtcasino--balkan-passion-mit-anton-violinist-frien": {
-"category": "Konzert / Worldmusic",
-"date": "2026-11-04",
-"source": "crawler",
-"time": "19:30",
-"title": "Balkan Passion mit Anton Violinist & Friends",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/04112026_anton_violinist/",
-"venue": "Stadtcasino Basel",
-"doors": "18:30"
-},
-"2026-11-04-stadtcasino--schweizer-jugend-sinfonie-orchester-kg-s": {
-"title": "Schweizer Jugend-Sinfonie-Orchester KG-Sinfoniekonzerte",
-"venue": "Stadtcasino Basel",
-"date": "2026-11-04",
-"source": "crawler",
-"time": "19:30",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/04112026_kg/",
-"category": "Konzert / Klassik",
-"doors": "18:30"
-},
-"2026-11-04-the-beast-ba-pulp-non-fiction": {
-"title": "Pulp Non-Fiction",
-"venue": "The Beast Basel Comedy Club",
-"date": "2026-11-04",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/pulp-non-fiction-basel-7480254283960571761.html",
-"category": "Bühne / Comedy"
-},
-"2026-11-04-theater-faut-lara-stoll-volume-5-die-ruckkehr": {
-"title": "Lara Stoll - Volume 5 - Die Rückkehr!",
-"venue": "Theater Fauteuil - Tabourettli",
-"date": "2026-11-04",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/lara-stoll-volume-5-die-rueckkehr-basel-7464552678959375278.html",
-"category": "Bühne / Comedy"
-},
-"2026-11-04-sommercasino-melanie-baker": {
-"category": "Konzert / Indie-Rock",
-"date": "2026-11-04",
-"source": "crawler",
-"time": "20:30",
-"title": "Melanie Baker",
-"url": "https://sommercasino.ch/events/melanie-baker-support-tba/",
-"venue": "Sommercasino",
-"doors": "20:30"
-},
 "2026-11-05-milas-bistro-golden-afternoon-tanz-fur-alle-ab-60": {
 "title": "Golden Afternoon – Tanz für alle ab 60",
 "venue": "Mila’s Bistro",
@@ -1606,6 +1539,15 @@
 "url": "https://eventfrog.ch/de/p/konzerte/pop-rock/sing-mit-mir-entdecke-das-ultimative-mitsing-erlebnis-basel-7507520432242696989.html",
 "category": "Konzert"
 },
+"2026-11-20-parkcafe-kle-concert-of-improvisation-piano-guitar": {
+"title": "Concert of improvisation: Piano & Guitar",
+"venue": "Parkcafé Kleiner Wassermann",
+"date": "2026-11-20",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/en/p/concerts/other-music-genres/concert-of-improvisation-piano-guitar-basel-7528752797220638594.html",
+"category": "Konzert"
+},
 "2026-11-20-sommercasino-tales-of-wrath-fest": {
 "title": "Tales of Wrath Fest",
 "venue": "Sommercasino",
@@ -2036,6 +1978,17 @@
 "url": "https://eventfrog.ch/de/p/konzerte/kirchenmusik/orgelkonzert-bach-italien-im-basler-muenster-basel-7526250347121089405.html",
 "category": "Konzert"
 },
+"2026-11-22-kaschemme-abgesagt": {
+"title": "ABGESAGT!",
+"venue": "Kaschemme",
+"date": "2026-11-22",
+"source": "crawler",
+"time": "19:00",
+"end": "23:59",
+"style": "Conquering Basilea",
+"url": "https://www.kaschemme.ch/programm/2026/11/22/conquering-basilea-fleshcrawl-avulsed-violentor",
+"category": "Anderes"
+},
 "2026-11-22-kaschemme-conquering-basilea-fleshcrawl-avulsed-vi": {
 "title": "Conquering Basilea: FLESHCRAWL, AVULSED, VIOLENTOR",
 "venue": "Kaschemme",
@@ -2055,6 +2008,15 @@
 "style": "Stand-up Comedy (English) · Eintritt frei",
 "url": "https://grenzwert.ch/programm/",
 "category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
+},
+"2026-11-24-druckereihal-bondar": {
+"title": "Bondar",
+"venue": "Druckereihalle - Kultur im Ackermannshof",
+"date": "2026-11-24",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/bondar-basel-7528804724000222783.html",
+"category": "Konzert"
 },
 "2026-11-24-gare-du-nord-parametastrings-sonic-boom-percaso-strin": {
 "title": "«Parametastrings»: Sonic Boom – Percaso String Quartet & Carmel Curiel",
@@ -2653,6 +2615,16 @@
 "url": "https://sommercasino.ch/events/profi-workshop/",
 "category": "Workshop"
 },
+"2026-11-29-kaschemme-weil-sonntag": {
+"title": "WEIL SONNTAG",
+"venue": "Kaschemme",
+"date": "2026-11-29",
+"source": "crawler",
+"time": "10:00",
+"end": "22:00",
+"url": "https://www.kaschemme.ch/programm/2611/weilsonntag",
+"category": "Anderes"
+},
 "2026-11-29-geburtshaus--babykonzerte-basel": {
 "title": "Babykonzerte Basel",
 "venue": "Geburtshaus Matthea",
@@ -2914,6 +2886,17 @@
 "url": "https://eventfrog.ch/de/p/konzerte/jazz-blues/silvan-zingg-trio-gaeste-basel-7487892469071262961.html",
 "category": "Konzert"
 },
+"2026-12-03-kaschemme-uptown-dj-lab": {
+"title": "UPTOWN DJ-LAB",
+"venue": "Kaschemme",
+"date": "2026-12-03",
+"source": "crawler",
+"time": "18:00",
+"end": "22:00",
+"price": "frei",
+"url": "https://www.kaschemme.ch/programm/2612/djlab03",
+"category": "Anderes"
+},
 "2026-12-03-stadtcasino--blind-symphony-ein-kammermusikerlebnis-i": {
 "title": "Blind Symphony Ein Kammermusikerlebnis in völliger Dunkelheit Bach, Pärt, Glass, Richter & Einaudi im Dunkeln",
 "venue": "Stadtcasino Basel",
@@ -3165,6 +3148,16 @@
 "end": "05:00",
 "price": "ab CHF 15",
 "url": "https://eventfrog.ch/de/p/partys/latin-salsa-bachata/reggaeton-festival-winter-edition-basel-7500096043612135461.html",
+"category": "Party"
+},
+"2026-12-05-bar-futura-sonar-at-bar-futura": {
+"title": "SONAR at Bar Futura",
+"venue": "Bar Futura",
+"date": "2026-12-05",
+"source": "crawler",
+"time": "20:00",
+"end": "02:00",
+"url": "https://eventfrog.ch/de/p/partys/hip-hop-rap/sonar-at-bar-futura-basel-7528766153100935203.html",
 "category": "Party"
 },
 "2026-12-05-khaus-basel--ilayda-kaya-karwan-orkestar-debut-concer": {
@@ -3440,7 +3433,8 @@
 "time": "20:00",
 "end": "21:00",
 "url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/venir-meno-music-for-monsters-sonic-boom-leo-collin-basel-7520914607306718583.html",
-"category": "Konzert"
+"category": "Konzert",
+"style": "Sonic Boom"
 },
 "2026-12-08-saali-golden-hula-club": {
 "title": "HULA CLUB",
@@ -3481,6 +3475,17 @@
 "end": "13:30",
 "url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/alltid-densamme-cristina-amaranta-koenigin-von-schweden-basel-7520915458712694062.html",
 "category": "Konzert"
+},
+"2026-12-10-kaschemme-uptown-dj-lab": {
+"title": "UPTOWN DJ-LAB",
+"venue": "Kaschemme",
+"date": "2026-12-10",
+"source": "crawler",
+"time": "18:00",
+"end": "22:00",
+"price": "frei",
+"url": "https://www.kaschemme.ch/programm/261210/djlab",
+"category": "Anderes"
 },
 "2026-12-10-gare-du-nord-alltid-densamme-cristina-amaranta-konigi-1900": {
 "title": "Alltid densamme – Cristina Amaranta, Königin von Schweden",
@@ -3911,6 +3916,17 @@
 "url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/ausschweifen-ensemble-proton-bern-basel-7520917405847016069.html",
 "category": "Konzert"
 },
+"2026-12-17-kaschemme-uptown-dj-lab": {
+"title": "UPTOWN DJ-LAB",
+"venue": "Kaschemme",
+"date": "2026-12-17",
+"source": "crawler",
+"time": "18:00",
+"end": "22:00",
+"price": "frei",
+"url": "https://www.kaschemme.ch/programm/261217/djlab",
+"category": "Anderes"
+},
 "2026-12-17-stadtcasino--sinfonieorchester-basel-1001-nacht": {
 "title": "Sinfonieorchester Basel 1001 Nacht",
 "venue": "Stadtcasino Basel",
@@ -3921,6 +3937,16 @@
 "category": "Konzert / Klassik",
 "doors": "18:30",
 "end": "21:30"
+},
+"2026-12-17-theater-base-weihnachtssingen": {
+"title": "Weihnachtssingen",
+"venue": "Theater Basel - Grosse Bühne",
+"date": "2026-12-17",
+"source": "crawler",
+"time": "20:00",
+"end": "21:30",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/weihnachtssingen-basel-7529098122007473902.html",
+"category": "Konzert"
 },
 "2026-12-17-atlantis-spirit-of-toto": {
 "title": "Spirit of Toto",
@@ -4070,6 +4096,16 @@
 "price": "ab CHF 25",
 "url": "https://eventfrog.ch/de/p/partys/disco/ue30-party-basel-basel-7419157595703740721.html",
 "category": "Party"
+},
+"2026-12-19-sommercasino-dungeon-synth-night-2": {
+"title": "Dungeon Synth Night #2",
+"venue": "Sommercasino",
+"date": "2026-12-19",
+"source": "crawler",
+"time": "20:00",
+"doors": "20:00",
+"url": "https://sommercasino.ch/events/dungeon-synth-night-2/",
+"category": "Konzert"
 },
 "2026-12-19-stadtcasino--serdar-somuncu-hassias": {
 "title": "Serdar Somuncu HASSIAS",
@@ -4556,6 +4592,16 @@
 "url": "https://eventfrog.ch/de/p/partys/house-techno/silvest-reunion-2-basel-7518623362345651080.html",
 "category": "Party"
 },
+"2026-12-31-theater-base-silvester-party": {
+"title": "Silvester-Party",
+"venue": "Theater Basel - Foyer",
+"date": "2026-12-31",
+"source": "crawler",
+"time": "22:30",
+"end": "03:00",
+"url": "https://eventfrog.ch/de/p/partys/silvesterparty/silvester-party-basel-7528843468635909276.html",
+"category": "Party"
+},
 "2026-12-31-nordstern-nye-artists-to-be-announced": {
 "title": "NYE: Artists To Be Announced",
 "venue": "Nordstern",
@@ -4595,6 +4641,17 @@
 "category": "Konzert / Klassik",
 "doors": "18:30"
 },
+"2027-01-02-club-cello-e-comportement-tropical-little-new-year": {
+"title": "Comportement Tropical (Little New Year)",
+"venue": "Club Cello (ehem. Singer Klub)",
+"date": "2027-01-02",
+"source": "crawler",
+"time": "23:00",
+"end": "04:30",
+"price": "ab CHF 10",
+"url": "https://eventfrog.ch/fr/p/soirees-fetes/soiree-a-theme/comportement-tropical-little-new-year-basel-7528936730155592587.html",
+"category": "Party"
+},
 "2027-01-03-rom-kath-kir-o-lady-devine": {
 "title": "O Lady Devine",
 "venue": "Röm.-kath. Kirche St. Anton",
@@ -4615,6 +4672,16 @@
 "category": "Konzert / Klassik",
 "doors": "16:30"
 },
+"2027-01-05-sommercasino-bubble-buster-jam": {
+"title": "Bubble Buster Jam",
+"venue": "Sommercasino",
+"date": "2027-01-05",
+"source": "crawler",
+"time": "19:00",
+"doors": "19:00",
+"url": "https://sommercasino.ch/events/bubble-buster-jam-8/",
+"category": "Jam Session"
+},
 "2027-01-07-kulturkirche-basler-madrigalisten-fireabend-3-winterz": {
 "title": "BASLER MADRIGALISTEN: FireAbend #3 - Winterzauber",
 "venue": "Kulturkirche Paulus",
@@ -4625,6 +4692,17 @@
 "price": "ab CHF 20",
 "url": "https://eventfrog.ch/de/p/konzerte/a-cappella-vocal/basler-madrigalisten-fireabend-3-winterzauber-basel-7476637766954056516.html",
 "category": "Konzert"
+},
+"2027-01-08-parterre-one-formel-80-die-80er-party-in-basel-mit-de": {
+"title": "Formel 80 - DIE 80er Party in Basel mit den Clips (Jan 2027)",
+"venue": "Parterre One",
+"date": "2027-01-08",
+"source": "crawler",
+"time": "20:00",
+"end": "02:00",
+"price": "ab CHF 15",
+"url": "https://eventfrog.ch/de/p/partys/80s/formel-80-die-80er-party-in-basel-mit-den-clips-jan-2027-basel-7528501924271807643.html",
+"category": "Party"
 },
 "2027-01-08-atlantis-dew": {
 "title": "DEW",
@@ -4665,6 +4743,16 @@
 "source": "crawler",
 "time": "21:00",
 "url": "https://eventfrog.ch/de/p/partys/pop-rock/tanznacht40-basel-basel-7487889772028923968.html",
+"category": "Party"
+},
+"2027-01-09-sommercasino-tanzbar-basel": {
+"title": "Tanzbär Basel",
+"venue": "Sommercasino",
+"date": "2027-01-09",
+"source": "crawler",
+"time": "22:00",
+"doors": "22:00",
+"url": "https://sommercasino.ch/events/tanzbaer-basel/",
 "category": "Party"
 },
 "2027-01-09-das-viertel-v-mit-leblanc": {
@@ -4893,6 +4981,15 @@
 "category": "Konzert",
 "doors": "19:00"
 },
+"2027-01-26-musik-akadem-100-jahre-ignm-basel": {
+"title": "100 Jahre IGNM Basel",
+"venue": "Musik-Akademie Basel, Grosser Saal",
+"date": "2027-01-26",
+"source": "crawler",
+"time": "19:00",
+"url": "https://eventfrog.ch/de/p/konzerte/neue-musik-zeitgenoessisches/100-jahre-ignm-basel-basel-7528830995744740634.html",
+"category": "Konzert"
+},
 "2027-01-26-stadtcasino--patent-ochsner-achtung-probe-die-neue-to": {
 "title": "Patent Ochsner Achtung: Probe! - Die neue Tour",
 "venue": "Stadtcasino Basel",
@@ -4942,6 +5039,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/mizmorim-eine-blume-fur-tabea/",
 "category": "Konzert",
 "doors": "18:30"
+},
+"2027-01-30-sommercasino-cara-sonic-deaf-magpies": {
+"title": "Cara Sonic & Deaf Magpies",
+"venue": "Sommercasino",
+"date": "2027-01-30",
+"source": "crawler",
+"time": "20:00",
+"doors": "20:00",
+"url": "https://sommercasino.ch/events/cara-sonic-deaf-magpies/",
+"category": "Konzert"
 },
 "2027-01-31-stadtcasino--le-concert-olympique-mit-kit-armstrong-a": {
 "title": "Le Concert Olympique mit Kit Armstrong AMG Solistenabende",
@@ -5033,6 +5140,16 @@
 "category": "Konzert",
 "doors": "19:00"
 },
+"2027-02-06-sommercasino-aeons-of-darkness-v": {
+"title": "Aeons of Darkness V",
+"venue": "Sommercasino",
+"date": "2027-02-06",
+"source": "crawler",
+"time": "18:30",
+"doors": "18:30",
+"url": "https://sommercasino.ch/events/aeons-of-darkness-v/",
+"category": "Konzert"
+},
 "2027-02-06-stadtcasino--patent-ochsner-achtung-probe-die-neue-to": {
 "title": "Patent Ochsner Achtung: Probe! - Die neue Tour",
 "venue": "Stadtcasino Basel",
@@ -5052,5 +5169,15 @@
 "style": "Midtempo, Deep House, Indie Dance, House",
 "url": "https://www.bassoverse.space/beats",
 "category": "Club / Midtempo"
+},
+"2027-02-07-stadtcasino--patent-ochsner-achtung-probe-die-neue-to": {
+"title": "Patent Ochsner Achtung: Probe! - Die neue Tour",
+"venue": "Stadtcasino Basel",
+"date": "2027-02-07",
+"source": "crawler",
+"time": "20:00",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/07022027_patent_ochsner-copy/",
+"category": "Konzert",
+"doors": "19:00"
 }
 }
