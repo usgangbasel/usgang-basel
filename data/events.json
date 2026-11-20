@@ -1,94 +1,4 @@
 {
-"2026-11-05-milas-bistro-golden-afternoon-tanz-fur-alle-ab-60": {
-"title": "Golden Afternoon – Tanz für alle ab 60",
-"venue": "Mila’s Bistro",
-"date": "2026-11-05",
-"source": "crawler",
-"time": "14:30",
-"url": "https://eventfrog.ch/de/p/partys/sonstige-partys/golden-afternoon-tanz-fuer-alle-ab-60-basel-7523426722915595124.html",
-"category": "Party"
-},
-"2026-11-05-kaschemme-uptown-dj-lab": {
-"title": "UPTOWN DJ-LAB",
-"venue": "Kaschemme",
-"date": "2026-11-05",
-"source": "crawler",
-"time": "18:00",
-"end": "22:00",
-"price": "frei",
-"url": "https://www.kaschemme.ch/programm/2026/djlab115",
-"category": "Anderes"
-},
-"2026-11-05-aula-baumlih-der-club-der-toten-dichter-klassentheate": {
-"title": "\"Der Club der toten Dichter\" (Klassentheater 2i)",
-"venue": "Aula Bäumlihof",
-"date": "2026-11-05",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/theater-buehne/theater/der-club-der-toten-dichter-klassentheater-2i-basel-7515433303358338207.html",
-"category": "Bühne"
-},
-"2026-11-05-stadtcasino--schweizer-jugend-sinfonie-orchester-volk": {
-"title": "Schweizer Jugend-Sinfonie-Orchester Volkssinfoniekonzerte",
-"venue": "Stadtcasino Basel",
-"date": "2026-11-05",
-"source": "crawler",
-"time": "19:30",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/05112026_vosiko/",
-"category": "Konzert / Klassik",
-"doors": "18:30"
-},
-"2026-11-05-zunftsaal-sc-swiss-music": {
-"title": "Swiss Music",
-"venue": "Zunftsaal Schmiedenhof",
-"date": "2026-11-05",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/konzerte/a-cappella-vocal/swiss-music-basel-7476679713164944912.html",
-"category": "Konzert"
-},
-"2026-11-05-gare-du-nord-dreaming-turtles-oblivia-klanglab": {
-"category": "Musiktheater",
-"date": "2026-11-05",
-"source": "crawler",
-"time": "20:00",
-"title": "Dreaming Turtles – Oblivia & KlangLab",
-"url": "https://www.garedunord.ch/de/programm/3180/dreaming-turtles",
-"venue": "Gare du Nord",
-"style": "Musiktheater/Performance"
-},
-"2026-11-05-renee-concert": {
-"title": "Concert",
-"venue": "Renée",
-"date": "2026-11-05",
-"source": "crawler",
-"time": "20:30",
-"style": "Álvaro Ocón - Trompete",
-"url": "https://www.renee.ch",
-"category": "Anderes"
-},
-"2026-11-05-das-viertel-studentenfutter-xxl": {
-"title": "Studentenfutter XXL",
-"venue": "Das Viertel",
-"date": "2026-11-05",
-"source": "crawler",
-"time": "23:00",
-"end": "04:00",
-"price": "frei",
-"style": "Open Format / POP / Charts",
-"url": "https://www.dasviertel.ch/programmklub",
-"category": "Party / Open Format"
-},
-"2026-11-05-renee-gerrit": {
-"title": "Gerrit",
-"venue": "Renée",
-"date": "2026-11-05",
-"source": "crawler",
-"time": "23:00",
-"style": "Funk, Disco & Italo",
-"url": "https://www.renee.ch",
-"category": "Party / Funk"
-},
 "2026-11-06-allgemeine-l-kirills-uberraschungskonzerte-kuk": {
 "title": "Kirills Überraschungskonzerte KÜK",
 "venue": "Allgemeine Lesegesellschaft",
@@ -3474,7 +3384,8 @@
 "time": "12:15",
 "end": "13:30",
 "url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/alltid-densamme-cristina-amaranta-koenigin-von-schweden-basel-7520915458712694062.html",
-"category": "Konzert"
+"category": "Konzert",
+"style": "Musiktheater/Performance"
 },
 "2026-12-10-kaschemme-uptown-dj-lab": {
 "title": "UPTOWN DJ-LAB",
@@ -4343,6 +4254,17 @@
 "url": "https://eventfrog.ch/de/p/partys/latin-salsa-bachata/mamacita-hot-latin-cool-urban-basel-7486864087537733237.html",
 "category": "Party"
 },
+"2026-12-26-club-cello-e-gayties": {
+"title": "Gayties",
+"venue": "Club Cello (ehem. Singer Klub)",
+"date": "2026-12-26",
+"source": "crawler",
+"time": "23:00",
+"end": "05:00",
+"price": "ab CHF 13",
+"url": "https://eventfrog.ch/en/p/parties/disco/gayties-basel-7529247105069633131.html",
+"category": "Party"
+},
 "2026-12-26-das-viertel-block-party": {
 "title": "Block Party",
 "venue": "Das Viertel",
@@ -5019,6 +4941,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/mizmorim-voice-soul/",
 "category": "Konzert",
 "doors": "18:30"
+},
+"2027-01-29-h95-raum-fur-klangfuchse": {
+"title": "Klangfüchse",
+"venue": "H95 Raum für Kultur",
+"date": "2027-01-29",
+"source": "crawler",
+"time": "14:00",
+"end": "14:40",
+"url": "https://eventfrog.ch/de/p/kinderveranstaltungen/konzert/klangfuechse-basel-7497579735200873965.html",
+"category": "Konzert"
 },
 "2027-01-29-stadtcasino--abba-gold-emotion-tour-the-concert-show": {
 "title": "ABBA Gold #emotion Tour - The Concert Show",
