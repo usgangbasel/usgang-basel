@@ -1,240 +1,4 @@
 {
-"2026-11-06-allgemeine-l-kirills-uberraschungskonzerte-kuk": {
-"title": "Kirills Überraschungskonzerte KÜK",
-"venue": "Allgemeine Lesegesellschaft",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "19:00",
-"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/kirills-ueberraschungskonzerte-kuek-basel-7395837994320585175.html",
-"category": "Konzert"
-},
-"2026-11-06-paulus-kirch-stimmungen-lieder-sanger-lauluja": {
-"title": "Stimmungen. Lieder, sånger, lauluja.",
-"venue": "Paulus Kirche",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "19:00",
-"url": "https://eventfrog.ch/de/p/konzerte/a-cappella-vocal/stimmungen-lieder-sanger-lauluja-basel-7491023085048481571.html",
-"category": "Konzert"
-},
-"2026-11-06-the-beast-ba-ophelie-hocquard-claude-english-stand-up": {
-"title": "OPHELIE HOCQUARD - CLAUDE (ENGLISH STAND-UP COMEDY)",
-"venue": "The Beast Basel Comedy Club",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "19:00",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/ophelie-hocquard-claude-english-stand-up-comedy-basel-7495861923415612940.html",
-"category": "Bühne / Comedy"
-},
-"2026-11-06-allmendhaus--aperitivo-stab-hs26": {
-"title": "Aperitivo STAB - HS26",
-"venue": "Allmendhaus im Hirzbrunnen",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/partys/studierendenparty/aperitivo-stab-hs26-basel-7521327365646994199.html",
-"category": "Party"
-},
-"2026-11-06-aula-lysbuch-ali-dogan-ganultas-solo-konzert": {
-"title": "Ali Doğan Gänültaş - Solo Konzert",
-"venue": "Aula Lysbüchel",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/ali-doan-gaenuelta-solo-konzert-basel-7508173675922718975.html",
-"category": "Konzert"
-},
-"2026-11-06-fms-basel-au-raub-der-epochen": {
-"title": "Raub der Epochen",
-"venue": "Fms Basel Aula",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/theater-buehne/komoedie/raub-der-epochen-basel-7519036200931314080.html",
-"category": "Bühne"
-},
-"2026-11-06-stadtcasino--mr-yasin-hypnose-was-wenn-es-doch-funkti": {
-"title": "Mr. Yasin HYPNOSE - Was, wenn es doch funktioniert?",
-"venue": "Stadtcasino Basel",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "19:30",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/06112027_mr_yasin/",
-"category": "Bühne",
-"doors": "18:30"
-},
-"2026-11-06-stadtcasino--orchestre-philharmonique-de-radio-france": {
-"category": "Konzert / Klassik",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "19:30",
-"title": "Orchestre Philharmonique de Radio France",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/06112026/",
-"venue": "Stadtcasino Basel",
-"doors": "18:30"
-},
-"2026-11-06-gare-du-nord-dreaming-turtles-oblivia-klanglab": {
-"category": "Musiktheater",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "20:00",
-"title": "Dreaming Turtles – Oblivia & KlangLab",
-"url": "https://www.garedunord.ch/de/programm/3188/dreaming-turtles",
-"venue": "Gare du Nord",
-"style": "Musiktheater/Performance"
-},
-"2026-11-06-parkcafe-kle-concert-of-piano-improvisation-and-class": {
-"title": "Concert of piano improvisation and classical music",
-"venue": "Parkcafé Kleiner Wassermann",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/concert-of-piano-improvisation-and-classical-music-basel-7520482373416306918.html",
-"category": "Konzert"
-},
-"2026-11-06-sommercasino-freezes-deyna-support-the-toksin": {
-"category": "Konzert / Crossover",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "20:00",
-"title": "Freezes Deyna, Support: The Toksin",
-"url": "https://sommercasino.ch/events/freezes-deyna-the-toksin/",
-"venue": "Sommercasino",
-"doors": "20:00"
-},
-"2026-11-06-der-teufelho-simon-chen-er-will-nur-spielen": {
-"title": "Simon Chen «Er will nur spielen»",
-"venue": "Der Teufelhof Basel",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "20:15",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/simon-chen-er-will-nur-spielen-basel-7475749125608221269.html",
-"category": "Bühne / Comedy"
-},
-"2026-11-06-corrientes-friday-hop": {
-"title": "Friday Hop",
-"venue": "Corrientes",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "20:30",
-"url": "https://eventfrog.ch/de/p/partys/swing/friday-hop-basel-7479631750668235790.html",
-"category": "Party"
-},
-"2026-11-06-kaschemme-kalles-kaviar-canastron-50-years-swiss-s": {
-"category": "Konzert / Ska",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "20:30",
-"title": "Kalles Kaviar & Canastron – 50 Years Swiss Ska",
-"url": "https://www.kaschemme.ch/programm/2026/11/6/kalles-kaviar-amp-canastron-50-years-swiss-ska-sensation",
-"venue": "Kaschemme",
-"end": "02:00"
-},
-"2026-11-06-the-beast-ba-too-shady-comedy-a-queer-friendly-comedy": {
-"title": "Too Shady Comedy - A Queer-friendly Comedy Show",
-"venue": "The Beast Basel Comedy Club",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "20:30",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/too-shady-comedy-a-queer-friendly-comedy-show-basel-7512472815376825826.html",
-"category": "Bühne / Comedy"
-},
-"2026-11-06-derriere-rou-hot-mass": {
-"title": "HOT MÄSS",
-"venue": "Derrière Rouge",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "21:00",
-"url": "https://eventfrog.ch/de/p/partys/disco/hot-maess-basel-7521179325246268976.html",
-"category": "Party"
-},
-"2026-11-06-nordstern-permanent-vacation-benjamin-frohlich-meh": {
-"title": "Permanent Vacation: Benjamin Fröhlich, Mehmet Aslan, Klingberg",
-"venue": "Nordstern",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "21:00",
-"url": "https://tickets.nordstern.com/en/c/permanent-vacation-2508",
-"category": "Club / Elektronisch"
-},
-"2026-11-06-permanent-va-permanent-vacation": {
-"title": "Permanent Vacation",
-"venue": "Permanent Vacation",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "21:00",
-"url": "https://eventfrog.ch/de/p/partys/house-techno/permanent-vacation-basel-7515371088550833895.html",
-"category": "Party"
-},
-"2026-11-06-basso-basso-live-cafe-da-manha-live-alan-koh-s": {
-"category": "Konzert / Samba & Indie Dance",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "22:00",
-"title": "Basso live: Café da manhã (live), Alan Koh, Scar, Ulysses",
-"url": "https://www.bassoverse.space/programm/basso-live-06-11-2026",
-"venue": "Basso",
-"style": "Samba, Indie Dance, Groove, DnB",
-"price": "Presale CHF 10"
-},
-"2026-11-06-grenzwert-bob-loko-7-inch-only": {
-"title": "Bob Loko 7-inch only",
-"venue": "Grenzwert",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "22:00",
-"style": "70 + –",
-"url": "https://grenzwert.ch/programm/",
-"category": "Anderes"
-},
-"2026-11-06-saali-golden-geht-lost": {
-"title": "**Geht Lost**",
-"venue": "Sääli (Goldenes Fass)",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "22:00",
-"url": "https://www.goldenes-fass.ch/saali/",
-"category": "Anderes"
-},
-"2026-11-06-das-viertel-coruba-soundsystem": {
-"title": "Coruba Soundsystem",
-"venue": "Das Viertel",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "23:00",
-"end": "06:00",
-"style": "Afrobeat / Dancehall",
-"url": "https://ticketing.dasviertel.ch/event/coruba-soundsystem-snfoax",
-"category": "Party / Afrobeat"
-},
-"2026-11-06-kinker-rvnz-project-kinker-06-11-26-16": {
-"title": "RVNZ.project Kinker 06.11.26 16+",
-"venue": "Kinker",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "23:00",
-"url": "https://www.kinker.ch/events/7517247082387741452",
-"category": "Club / Techno"
-},
-"2026-11-06-nordstern-somatic-rituals-friends-bambounou": {
-"title": "Somatic Rituals + Friends: Bambounou",
-"venue": "Nordstern",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "23:00",
-"url": "https://tickets.nordstern.com/en/c/somatic-rituals-friends-2507",
-"category": "Club / Elektronisch"
-},
-"2026-11-06-renee-simon-sauerkraut": {
-"title": "Simon Sauerkraut",
-"venue": "Renée",
-"date": "2026-11-06",
-"source": "crawler",
-"time": "23:00",
-"style": "Synth Galaxy Delight",
-"url": "https://www.renee.ch",
-"category": "Anderes"
-},
 "2026-11-07-basso-winter-daydance-series": {
 "category": "Club / Deep House",
 "date": "2026-11-07",
@@ -3182,6 +2946,15 @@
 "url": "https://eventfrog.ch/de/p/partys/disco/dose-vol-01-basel-7526693815861693897.html",
 "category": "Party"
 },
+"2026-12-05-kinker-kinker-x-d-r-t-basel": {
+"title": "KINKER x D.R.T.Basel",
+"venue": "Kinker",
+"date": "2026-12-05",
+"source": "crawler",
+"time": "22:00",
+"url": "https://www.kinker.ch/events/7529644956232726892",
+"category": "Club / Techno"
+},
 "2026-12-05-das-viertel-boiling-trance-w-dj-guestlist": {
 "title": "BOILING TRANCE w/ DJ GUESTLIST",
 "venue": "Das Viertel",
@@ -3694,6 +3467,17 @@
 "url": "https://sommercasino.ch/events/tichu-turnier-3/",
 "category": "Spiel & Spass"
 },
+"2026-12-13-l-avventura-jardin-magique-daydance": {
+"title": "Jardin Magique  - DayDance",
+"venue": "L'avventura",
+"date": "2026-12-13",
+"source": "crawler",
+"time": "14:00",
+"end": "21:59",
+"price": "ab CHF 15",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/jardin-magique-daydance-basel-7529489074454833685.html",
+"category": "Party"
+},
 "2026-12-13-khaus-a-swingin-christmas-concert": {
 "title": "A Swingin' Christmas Concert",
 "venue": "kHaus",
@@ -3773,6 +3557,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/14122026_kob/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
+},
+"2026-12-15-theater-faut-l-autre-piaf-chansonkonzert": {
+"title": "L'AUTRE PIAF - Chansonkonzert",
+"venue": "Theater Fauteuil - Tabourettli",
+"date": "2026-12-15",
+"source": "crawler",
+"time": "20:00",
+"end": "22:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/l-autre-piaf-chansonkonzert-basel-7529502968481076816.html",
+"category": "Konzert"
 },
 "2026-12-16-verein-kultu-white-raven-in-advent": {
 "title": "White Raven in Advent",
@@ -3902,6 +3696,16 @@
 "price": "ab CHF 15",
 "url": "https://eventfrog.ch/de/p/konzerte/world-ethno/cabra-levante-jamila-the-other-heroes-x-kesbara-in-basel-basel-7525526856289766956.html",
 "category": "Konzert"
+},
+"2026-12-18-offene-kirch-back-to-90s-party-oke-basel": {
+"title": "Back To 90s Party OKE Basel",
+"venue": "Offene Kirche Elisabethen",
+"date": "2026-12-18",
+"source": "crawler",
+"time": "20:00",
+"price": "ab CHF 25",
+"url": "https://eventfrog.ch/de/p/partys/disco/back-to-90s-party-oke-basel-basel-7492521284351301171.html",
+"category": "Party"
 },
 "2026-12-18-stadtcasino--mikail-aslan-eine-zeitlose-musikalische-": {
 "title": "Mikaîl Aslan Eine zeitlose musikalische Reise mit den Klängen des Euphrat",
@@ -4131,6 +3935,15 @@
 "price": "ab CHF 10",
 "url": "https://eventfrog.ch/de/p/partys/swing/sunday-hop-basel-7479634720579433789.html",
 "category": "Party"
+},
+"2026-12-21-theater-faut-bases-willy-haroun-s-jazz-night": {
+"title": "Bases - Willy Haroun's Jazz Night",
+"venue": "Theater Fauteuil - Tabourettli",
+"date": "2026-12-21",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/jazz-blues/bases-willy-haroun-s-jazz-night-basel-7529523818886372142.html",
+"category": "Konzert"
 },
 "2026-12-22-scala-basel-ode-to-joy-26-great-live-music-great-hum": {
 "title": "Ode to Joy 26, Great Live Music & Great Humans",
@@ -4962,6 +4775,67 @@
 "category": "Konzert",
 "doors": "18:30"
 },
+"2027-01-30-h95-raum-fur-klangfuchse": {
+"title": "Klangfüchse",
+"venue": "H95 Raum für Kultur",
+"date": "2027-01-30",
+"source": "crawler",
+"time": "10:00",
+"end": "10:40",
+"url": "https://eventfrog.ch/de/p/kinderveranstaltungen/konzert/klangfuechse-basel-7497580221920487731.html",
+"category": "Konzert"
+},
+"2027-01-30-h95-raum-fur-klangfuchse-1130": {
+"title": "Klangfüchse",
+"venue": "H95 Raum für Kultur",
+"date": "2027-01-30",
+"source": "crawler",
+"time": "11:30",
+"end": "12:10",
+"url": "https://eventfrog.ch/de/p/kinderveranstaltungen/konzert/klangfuechse-basel-7497580221979208514.html",
+"category": "Konzert"
+},
+"2027-01-30-h95-raum-fur-klangfuchse-1400": {
+"title": "Klangfüchse",
+"venue": "H95 Raum für Kultur",
+"date": "2027-01-30",
+"source": "crawler",
+"time": "14:00",
+"end": "14:40",
+"url": "https://eventfrog.ch/de/p/kinderveranstaltungen/konzert/klangfuechse-basel-7497580222033734467.html",
+"category": "Konzert"
+},
+"2027-01-30-altes-kraftw-rappli-s-vorfasnachtsfescht-am-30-1-2027": {
+"title": "Räppli s' Vorfasnachtsfescht am 30.1.2027",
+"venue": "Altes Kraftwerk",
+"date": "2027-01-30",
+"source": "crawler",
+"time": "18:00",
+"end": "02:00",
+"url": "https://eventfrog.ch/de/p/fasnacht-fasching-karneval/party/raeppli-s-vorfasnachtsfescht-am-30-1-2027-basel-7472389603112037898.html",
+"category": "Party"
+},
+"2027-01-30-don-bosco-ba-lumiere-concerts-cinema-magic-by-pavlina": {
+"title": "Lumière Concerts: CINEMA MAGIC by Pavlina Piano",
+"venue": "Don Bosco Basel",
+"date": "2027-01-30",
+"source": "crawler",
+"time": "18:00",
+"end": "19:15",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/lumiere-concerts-cinema-magic-by-pavlina-piano-basel-7527674677633770136.html",
+"category": "Konzert"
+},
+"2027-01-30-fiera-mamagehttanzen-basel": {
+"title": "MAMAGEHTTANZEN Basel",
+"venue": "Fiera",
+"date": "2027-01-30",
+"source": "crawler",
+"time": "19:30",
+"end": "23:00",
+"price": "ab CHF 20",
+"url": "https://eventfrog.ch/de/p/partys/disco/mamagehttanzen-basel-basel-7525662970690408820.html",
+"category": "Party"
+},
 "2027-01-30-stadtcasino--mizmorim-festival-eine-blume-fur-tabea": {
 "title": "Mizmorim Festival Eine Blume für Tabea",
 "venue": "Stadtcasino Basel",
@@ -4980,6 +4854,17 @@
 "time": "20:00",
 "doors": "20:00",
 "url": "https://sommercasino.ch/events/cara-sonic-deaf-magpies/",
+"category": "Konzert"
+},
+"2027-01-30-atlantis-custard-pie": {
+"title": "Custard Pie",
+"venue": "Atlantis",
+"date": "2027-01-30",
+"source": "crawler",
+"time": "20:30",
+"end": "22:30",
+"price": "ab CHF 10",
+"url": "https://eventfrog.ch/de/p/konzerte/funk-soul/custard-pie-basel-7525856841688989357.html",
 "category": "Konzert"
 },
 "2027-01-31-stadtcasino--le-concert-olympique-mit-kit-armstrong-a": {
