@@ -1,185 +1,4 @@
 {
-"2026-11-07-basso-winter-daydance-series": {
-"category": "Club / Deep House",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "16:00",
-"title": "Winter Daydance Series",
-"url": "https://www.bassoverse.space/programm/winter-daydance-07-11-2026",
-"venue": "Basso",
-"style": "Midtempo, Deep House, Indie Dance, House",
-"price": "Presale from CHF 12 / Door CHF 25"
-},
-"2026-11-07-paulus-kirch-singen-verbindet-jahreskonzert-chor-der-": {
-"title": "Singen verbindet - Jahreskonzert Chor der Nationen",
-"venue": "Paulus Kirche",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "17:00",
-"url": "https://eventfrog.ch/de/p/konzerte/chor/singen-verbindet-jahreskonzert-chor-der-nationen-basel-7510966920331422939.html",
-"category": "Konzert"
-},
-"2026-11-07-heimat-crisis-de-identidad-stephan-dyer-comedia": {
-"title": "Crisis de Identidad - Stephan Dyer - Comedia en Español",
-"venue": "HEIMAT",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "19:00",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/crisis-de-identidad-stephan-dyer-comedia-en-espanol-basel-7487896481812208712.html",
-"category": "Bühne / Comedy"
-},
-"2026-11-07-fiera-mamagehttanzen-basel": {
-"title": "MAMAGEHTTANZEN Basel",
-"venue": "Fiera",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/partys/disco/mamagehttanzen-basel-basel-7489805961462317907.html",
-"category": "Party"
-},
-"2026-11-07-stadtcasino--kammerorchester-basel-mit-pierre-laurent": {
-"category": "Konzert / Klassik",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "19:30",
-"title": "Kammerorchester Basel mit Pierre-Laurent Aimard",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/07112026_kob/",
-"venue": "Stadtcasino Basel",
-"doors": "18:30"
-},
-"2026-11-07-sud-basel-drag-roy-lalle-ty-all-stars": {
-"title": "Drag Roy-LÄLLE-ty - ALL STARS",
-"venue": "SUD Basel",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/theater-buehne/buehnenveranstaltung/drag-roy-laelle-ty-all-stars-basel-7468047377053523193.html",
-"category": "Bühne"
-},
-"2026-11-07-theater-base-premiere-die-seligen-jahre-der-zuchtigun": {
-"title": "Premiere: Die seligen Jahre der Züchtigung",
-"venue": "Theater Basel - Kleine Bühne",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/theater-buehne/schauspiel/premiere-die-seligen-jahre-der-zuechtigung-basel-7516828312364143540.html",
-"category": "Bühne"
-},
-"2026-11-07-theater-faut-michael-von-der-heide-von-der-heide-sing": {
-"title": "Michael von der Heide - Von der Heide singt Knef",
-"venue": "Theater Fauteuil - Tabourettli",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/konzerte/pop-rock/michael-von-der-heide-von-der-heide-singt-knef-basel-7387448659217022461.html",
-"category": "Konzert"
-},
-"2026-11-07-der-teufelho-lisa-brunner-das-konnte-ihnen-auch-gefal": {
-"title": "Lisa Brunner: «Das könnte Ihnen auch gefallen»",
-"venue": "Der Teufelhof Basel",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "20:15",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/lisa-brunner-das-koennte-ihnen-auch-gefallen-basel-7475749605268833401.html",
-"category": "Bühne / Comedy"
-},
-"2026-11-07-kaschemme-lilac-attitude-dnachtaktion-suicide-catd": {
-"category": "Konzert / Punk",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "20:30",
-"title": "Lilac Attitude, Dnachtaktion, Suicide Catdoors",
-"url": "https://www.kaschemme.ch/programm/2611/lilac-attitude-dnachtaktion-suicide-catdoors",
-"venue": "Kaschemme",
-"end": "23:30"
-},
-"2026-11-07-querfeldhall-swing-along-concert-dance": {
-"title": "Swing along - Concert + Dance",
-"venue": "Querfeldhalle",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "20:30",
-"url": "https://eventfrog.ch/de/p/konzerte/swing/swing-along-concert-dance-basel-7502337926686081132.html",
-"category": "Konzert"
-},
-"2026-11-07-the-beast-ba-best-of-the-beast-english-comedy-showcas": {
-"title": "Best Of The Beast - English Comedy Showcase in Basel",
-"venue": "The Beast Basel Comedy Club",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "20:30",
-"url": "https://eventfrog.ch/de/p/comedy/comedy-kabarett/best-of-the-beast-english-comedy-showcase-in-basel-basel-7516852105635721763.html",
-"category": "Bühne / Comedy"
-},
-"2026-11-07-kinker-kinker-x-fetish-by-caroline": {
-"title": "KINKER X FETISH by Caroline",
-"venue": "Kinker",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "21:00",
-"url": "https://www.kinker.ch/events/7513973233323912952",
-"category": "Club / Techno"
-},
-"2026-11-07-sommercasino-wake-the-town-live-soundsystem-showcase": {
-"category": "Konzert / Dub & Reggae",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "21:00",
-"title": "Wake the Town – Live Soundsystem Showcase",
-"url": "https://sommercasino.ch/events/wake-the-town-live-soundsystem-showcase/",
-"venue": "Sommercasino",
-"doors": "21:00"
-},
-"2026-11-07-grenzwert-los-vinyl-brotherzh": {
-"title": "Los Vinyl Brother’ZH",
-"venue": "Grenzwert",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "22:00",
-"style": "Hip Hop, Soul, Funk",
-"url": "https://grenzwert.ch/programm/",
-"category": "Party / Hip Hop"
-},
-"2026-11-07-das-viertel-momento-w-grossomoddo-lazare-b2b-meloko": {
-"title": "Momento w/ Grossomoddo & Lazare B2b Meloko",
-"venue": "Das Viertel",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "23:00",
-"end": "06:00",
-"style": "Afrohouse / Afrobeat",
-"url": "https://ticketing.dasviertel.ch/event/momento-w-grossomoddo-lazare-b2b-meloko-6lk45z",
-"category": "Club / Afrohouse"
-},
-"2026-11-07-nordstern-polyamor-amber-broos-cara-elizabeth-cleo": {
-"title": "Polyamor: Amber Broos, Cara Elizabeth, Cleopard2000, DJ Dreckisch",
-"venue": "Nordstern",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "23:00",
-"url": "https://tickets.nordstern.com/en/c/polyamor-2482",
-"category": "Club / Elektronisch"
-},
-"2026-11-07-renee-uhuru-sound-resistance": {
-"title": "Uhuru Sound Resistance",
-"venue": "Renée",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "23:00",
-"style": "Arabic, Afro, Ethiojazz, Funk",
-"url": "https://www.renee.ch",
-"category": "Konzert / Jazz"
-},
-"2026-11-07-basso-treffpunkt-vornelinks-daydance-caleesi-s": {
-"title": "Treffpunkt Vornelinks Daydance: Caleesi & Sarah Kreis, Vornelinks, Frantadam",
-"venue": "Basso",
-"date": "2026-11-07",
-"source": "crawler",
-"time": "",
-"style": "Midtempo, Deep House, Indie Dance, House",
-"url": "https://www.bassoverse.space/beats",
-"category": "Club / Midtempo"
-},
 "2026-11-08-gare-du-nord-shaushaushaus-wenn-hauser-zu-buhnenwesen": {
 "title": "SHAUSHAUSHAUS – Wenn Häuser zu Bühnenwesen werden: gare des enfants",
 "venue": "Gare du Nord",
@@ -3385,6 +3204,16 @@
 "url": "https://eventfrog.ch/en/p/parties/student-party/isb-christmas-party-2026-basel-7521314865752885774.html",
 "category": "Party"
 },
+"2026-12-12-bar-rouge-city-vibes-party-23-jahre-bar-rouge": {
+"title": "City Vibes Party – 23 Jahre Bar Rouge",
+"venue": "Bar Rouge",
+"date": "2026-12-12",
+"source": "crawler",
+"time": "22:00",
+"end": "04:00",
+"url": "https://eventfrog.ch/de/p/partys/charts-open-format/city-vibes-party-23-jahre-bar-rouge-basel-7529989442062311664.html",
+"category": "Party"
+},
 "2026-12-12-basso-lento-zhart-exe-arpagaus-flote": {
 "category": "Club / House",
 "date": "2026-12-12",
@@ -4865,6 +4694,37 @@
 "end": "22:30",
 "price": "ab CHF 10",
 "url": "https://eventfrog.ch/de/p/konzerte/funk-soul/custard-pie-basel-7525856841688989357.html",
+"category": "Konzert"
+},
+"2027-01-31-geburtshaus--babykonzerte-basel": {
+"title": "Babykonzerte Basel",
+"venue": "Geburtshaus Matthea",
+"date": "2027-01-31",
+"source": "crawler",
+"time": "11:00",
+"end": "11:40",
+"price": "ab CHF 20",
+"url": "https://eventfrog.ch/de/p/kinderveranstaltungen/konzert/babykonzerte-basel-basel-7511712081726425021.html",
+"category": "Konzert"
+},
+"2027-01-31-geburtshaus--babykonzerte-basel-1500": {
+"title": "Babykonzerte Basel",
+"venue": "Geburtshaus Matthea",
+"date": "2027-01-31",
+"source": "crawler",
+"time": "15:00",
+"end": "15:40",
+"price": "ab CHF 20",
+"url": "https://eventfrog.ch/de/p/kinderveranstaltungen/konzert/babykonzerte-basel-basel-7511712295782742618.html",
+"category": "Konzert"
+},
+"2027-01-31-theater-faut-mizmorim-kammermusik-festival-jewish-sal": {
+"title": "Mizmorim Kammermusik Festival - Jewish Salon reloaded",
+"venue": "Theater Fauteuil - Tabourettli",
+"date": "2027-01-31",
+"source": "crawler",
+"time": "17:00",
+"url": "https://eventfrog.ch/de/p/konzerte/jazz-blues/mizmorim-kammermusik-festival-jewish-salon-reloaded-basel-7518625245151948616.html",
 "category": "Konzert"
 },
 "2027-01-31-stadtcasino--le-concert-olympique-mit-kit-armstrong-a": {
