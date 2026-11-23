@@ -1,95 +1,4 @@
 {
-"2026-11-08-gare-du-nord-shaushaushaus-wenn-hauser-zu-buhnenwesen": {
-"title": "SHAUSHAUSHAUS – Wenn Häuser zu Bühnenwesen werden: gare des enfants",
-"venue": "Gare du Nord",
-"date": "2026-11-08",
-"source": "crawler",
-"time": "11:00",
-"style": "Familienkonzert",
-"url": "https://www.garedunord.ch/de/programm/3222/shaushaushaus",
-"category": "Konzert / Neue Musik"
-},
-"2026-11-08-stadtcasino--sinfonieorchester-basel-amg-sunday-conce": {
-"title": "Sinfonieorchester Basel AMG SunDay Concerts",
-"venue": "Stadtcasino Basel",
-"date": "2026-11-08",
-"source": "crawler",
-"time": "11:00",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/08112026-amg-sunday-concerts/",
-"category": "Konzert / Klassik",
-"doors": "10:00"
-},
-"2026-11-08-gare-du-nord-shaushaushaus-wenn-hauser-zu-buhnenwesen-1430": {
-"title": "SHAUSHAUSHAUS – Wenn Häuser zu Bühnenwesen werden: gare des enfants",
-"venue": "Gare du Nord",
-"date": "2026-11-08",
-"source": "crawler",
-"time": "14:30",
-"style": "Familienkonzert",
-"url": "https://www.garedunord.ch/de/programm/3223/shaushaushaus",
-"category": "Konzert / Neue Musik"
-},
-"2026-11-08-stadtcasino--vivaldi-die-vier-jahreszeiten-philharmon": {
-"title": "Vivaldi - Die vier Jahreszeiten Philharmonie der Solisten",
-"venue": "Stadtcasino Basel",
-"date": "2026-11-08",
-"source": "crawler",
-"time": "16:00",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/081126_philharmonie_d_solisten_1600/",
-"category": "Konzert / Klassik",
-"doors": "15:00"
-},
-"2026-11-08-projektraum--hendriksen-spielt-hinrichsen": {
-"title": "Hendriksen spielt Hinrichsen",
-"venue": "Projektraum M54",
-"date": "2026-11-08",
-"source": "crawler",
-"time": "17:00",
-"url": "https://eventfrog.ch/de/p/konzerte/jazz-blues/hendriksen-spielt-hinrichsen-basel-7513919271216384931.html",
-"category": "Konzert",
-"end": "19:00"
-},
-"2026-11-08-titus-kirche-titus-beflugelt-er-sah-tone-und-horte-fa": {
-"title": "Titus beflügelt: «Er sah Töne und hörte Farben»",
-"venue": "Titus Kirche Basel",
-"date": "2026-11-08",
-"source": "crawler",
-"time": "17:00",
-"url": "https://eventfrog.ch/de/p/konzerte/world-ethno/titus-befluegelt-er-sah-toene-und-hoerte-farben-basel-7511073165482684025.html",
-"category": "Konzert",
-"end": "18:30"
-},
-"2026-11-08-zwinglihaus-gospelkonzert-hold-on-mit-gospelchor-in-": {
-"title": "Gospelkonzert «Hold on» mit Gospelchor IN HIS HANDS",
-"venue": "Zwinglihaus",
-"date": "2026-11-08",
-"source": "crawler",
-"time": "17:00",
-"end": "18:30",
-"url": "https://eventfrog.ch/de/p/konzerte/gospel/gospelkonzert-hold-on-mit-gospelchor-in-his-hands-basel-7497358941791229980.html",
-"category": "Konzert"
-},
-"2026-11-08-einkaufs-cen-domingo-de-bachata-vom-8-11": {
-"title": "Domingo de Bachata vom 8.11.",
-"venue": "Einkaufs Center Basel Milano Bar",
-"date": "2026-11-08",
-"source": "crawler",
-"time": "18:00",
-"url": "https://eventfrog.ch/de/p/partys/latin-salsa-bachata/domingo-de-bachata-vom-8-11-basel-7517661079498955050.html",
-"category": "Party",
-"end": "23:00",
-"price": "ab CHF 7"
-},
-"2026-11-08-stadtcasino--vivaldi-die-vier-jahreszeiten-philharmon-2000": {
-"title": "Vivaldi - Die vier Jahreszeiten Philharmonie der Solisten",
-"venue": "Stadtcasino Basel",
-"date": "2026-11-08",
-"source": "crawler",
-"time": "20:00",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/081126_philharmonie_d_solisten_2000/",
-"category": "Konzert / Klassik",
-"doors": "19:00"
-},
 "2026-11-09-grenzwert-murder-monday": {
 "title": "Murder Monday",
 "venue": "Grenzwert",
@@ -3472,6 +3381,15 @@
 "doors": "18:30",
 "end": "21:30"
 },
+"2026-12-17-waisenhauski-es-ist-ein-ros-entsprungen": {
+"title": "Es ist ein Ros entsprungen",
+"venue": "Waisenhauskirche",
+"date": "2026-12-17",
+"source": "crawler",
+"time": "19:30",
+"url": "https://eventfrog.ch/de/p/konzerte/chor/es-ist-ein-ros-entsprungen-basel-7530545227108497754.html",
+"category": "Konzert"
+},
 "2026-12-17-theater-base-weihnachtssingen": {
 "title": "Weihnachtssingen",
 "venue": "Theater Basel - Grosse Bühne",
@@ -3588,6 +3506,17 @@
 "style": "Trance / Hardtrance / Hardgroove",
 "url": "https://ticketing.dasviertel.ch/event/ely-oaks-ool5vj",
 "category": "Club / Trance"
+},
+"2026-12-18-lora-masquerade-party-by-amibal": {
+"title": "Masquerade Party by AmiBâl",
+"venue": "Lora",
+"date": "2026-12-18",
+"source": "crawler",
+"time": "23:30",
+"end": "04:00",
+"price": "ab CHF 13",
+"url": "https://eventfrog.ch/de/p/partys/studierendenparty/masquerade-party-by-amibal-basel-7530309963031271642.html",
+"category": "Party"
 },
 "2026-12-18-basso-basso-invites-sippengold-s-reunion-karla": {
 "title": "Basso Invites: Sippengold's Reunion: KARLA MIT K, SOKOOL & CREAMY, FILOSOFI, STRYCZEK, FRITZ SCHALLER, GOLDJUNGE",
@@ -3764,6 +3693,16 @@
 "price": "ab CHF 10",
 "url": "https://eventfrog.ch/de/p/partys/swing/sunday-hop-basel-7479634720579433789.html",
 "category": "Party"
+},
+"2026-12-20-quartiertref-basel-jam-sessions-singing-playing-toget": {
+"title": "Basel Jam Sessions - Singing & Playing together",
+"venue": "Quartiertreffpunkt LoLa",
+"date": "2026-12-20",
+"source": "crawler",
+"time": "16:00",
+"end": "19:00",
+"url": "https://eventfrog.ch/de/p/konzerte/pop-rock/basel-jam-sessions-singing-playing-together-basel-7530210606860783699.html",
+"category": "Konzert"
 },
 "2026-12-21-theater-faut-bases-willy-haroun-s-jazz-night": {
 "title": "Bases - Willy Haroun's Jazz Night",
@@ -4497,6 +4436,17 @@
 "url": "https://eventfrog.ch/de/p/partys/swing/friday-hop-basel-7499415823989110755.html",
 "category": "Party"
 },
+"2027-01-23-casa-bethesd-babykonzerte-tanzende-tone-saison-2027": {
+"title": "Babykonzerte Tanzende Töne - Saison 2027",
+"venue": "Casa Bethesda",
+"date": "2027-01-23",
+"source": "crawler",
+"time": "09:45",
+"end": "10:30",
+"price": "ab CHF 20",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/babykonzerte-tanzende-toene-saison-2027-basel-7530366098643937835.html",
+"category": "Konzert"
+},
 "2027-01-23-stadtcasino--stadtmusik-basel-galakonzert-2027": {
 "title": "Stadtmusik Basel Galakonzert 2027",
 "venue": "Stadtcasino Basel",
@@ -4696,6 +4646,16 @@
 "url": "https://eventfrog.ch/de/p/konzerte/funk-soul/custard-pie-basel-7525856841688989357.html",
 "category": "Konzert"
 },
+"2027-01-30-don-bosco-ba-lumiere-concerts-the-music-of-ludovico-e": {
+"title": "Lumière Concerts: The Music of Ludovico Einaudi",
+"venue": "Don Bosco Basel",
+"date": "2027-01-30",
+"source": "crawler",
+"time": "20:30",
+"end": "21:45",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/lumiere-concerts-the-music-of-ludovico-einaudi-basel-7527681101575266592.html",
+"category": "Konzert"
+},
 "2027-01-31-geburtshaus--babykonzerte-basel": {
 "title": "Babykonzerte Basel",
 "venue": "Geburtshaus Matthea",
@@ -4856,5 +4816,25 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/07022027_patent_ochsner-copy/",
 "category": "Konzert",
 "doors": "19:00"
+},
+"2027-02-11-sommercasino-fragil": {
+"title": "Fragil",
+"venue": "Sommercasino",
+"date": "2027-02-11",
+"source": "crawler",
+"time": "19:15",
+"doors": "19:15",
+"url": "https://sommercasino.ch/events/fragil/",
+"category": "Theater"
+},
+"2027-02-11-stadtcasino--40-fingers-a-global-guitar-sensation": {
+"title": "40 Fingers A Global Guitar Sensation",
+"venue": "Stadtcasino Basel",
+"date": "2027-02-11",
+"source": "crawler",
+"time": "19:30",
+"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/11022027-act-40-fingers/",
+"category": "Konzert",
+"doors": "18:30"
 }
 }
