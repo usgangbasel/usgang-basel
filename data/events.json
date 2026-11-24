@@ -1,14 +1,4 @@
 {
-"2026-11-09-grenzwert-murder-monday": {
-"title": "Murder Monday",
-"venue": "Grenzwert",
-"date": "2026-11-09",
-"source": "crawler",
-"time": "20:00",
-"style": "Stand-up Comedy (English) · Eintritt frei",
-"url": "https://grenzwert.ch/programm/",
-"category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
-},
 "2026-11-10-stadtcasino--malte-marten-autumn-tour": {
 "category": "Konzert / Jazz",
 "date": "2026-11-10",
@@ -2200,6 +2190,16 @@
 "venue": "Stadtcasino Basel",
 "doors": "18:30"
 },
+"2026-11-30-grenzwert-murder-monday": {
+"title": "Murder Monday",
+"venue": "Grenzwert",
+"date": "2026-11-30",
+"source": "crawler",
+"time": "20:00",
+"style": "Stand-up Comedy (English) · Eintritt frei",
+"url": "https://grenzwert.ch/programm/",
+"category": "Bühne / Stand-up Comedy (English) · Eintritt frei"
+},
 "2026-11-30-theater-faut-4-lefanz-20-jahre-4-lefanz": {
 "title": "4-LEFANZ - 20 Jahre 4-lefanz",
 "venue": "Theater Fauteuil - Tabourettli",
@@ -2500,6 +2500,16 @@
 "title": "Hip Hop Festival Basel 2026",
 "url": "https://kaserne-basel.ch/de/events/hhfb26",
 "venue": "Kaserne Basel"
+},
+"2026-12-05-peterskirche-offenes-singen-im-advent": {
+"title": "Offenes Singen im Advent",
+"venue": "Peterskirche",
+"date": "2026-12-05",
+"source": "crawler",
+"time": "17:00",
+"end": "18:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/offenes-singen-im-advent-basel-7530600839854979059.html",
+"category": "Konzert"
 },
 "2026-12-05-gare-du-nord-sombre-in-the-shadows-of-our-time-kaija-": {
 "title": "Sombre – In the Shadows of our Time: Kaija Saariaho, Jean-Baptiste Barrière, Cécile Marti & Asia Ahmetjanova",
@@ -2941,6 +2951,15 @@
 "url": "https://www.dasviertel.ch/programmklub",
 "category": "Party / Open Format"
 },
+"2026-12-11-freibad-ums-njip-x-mas-songs": {
+"title": "UMS'nJIP - X-mas Songs",
+"venue": "Freibad",
+"date": "2026-12-11",
+"source": "crawler",
+"time": "18:30",
+"url": "https://eventfrog.ch/de/p/konzerte/indie-alternative/ums-njip-x-mas-songs-basel-7530611488332977569.html",
+"category": "Konzert"
+},
 "2026-12-11-sommercasino-pathwalker-de-akudama": {
 "title": "Pathwalker (DE) & Akudama",
 "venue": "Sommercasino",
@@ -2960,6 +2979,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/city-light-orchestra/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
+},
+"2026-12-11-freibad-ums-njip-a-christmas-carol": {
+"title": "UMS'nJIP - A Christmas Carol",
+"venue": "Freibad",
+"date": "2026-12-11",
+"source": "crawler",
+"time": "20:00",
+"url": "https://eventfrog.ch/de/p/konzerte/indie-alternative/ums-njip-a-christmas-carol-basel-7530608575451797485.html",
+"category": "Konzert"
 },
 "2026-12-11-sud-back-to-90s-party-sud-basel": {
 "title": "Back To 90s Party SUD-Basel",
@@ -3030,6 +3058,16 @@
 "price": "ab CHF 23",
 "url": "https://eventfrog.ch/de/p/partys/house-techno/rooftop-rave-basel-vol-2-basel-7522584726793662342.html",
 "category": "Party"
+},
+"2026-12-12-peterskirche-offenes-singen-im-advent": {
+"title": "Offenes Singen im Advent",
+"venue": "Peterskirche",
+"date": "2026-12-12",
+"source": "crawler",
+"time": "17:00",
+"end": "18:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/offenes-singen-im-advent-basel-7530600839909505012.html",
+"category": "Konzert"
 },
 "2026-12-12-offene-kirch-my-house-is-your-house-pre-christmas-par": {
 "title": "MY HOUSE IS YOUR HOUSE - PRE CHRISTMAS PARTY",
@@ -3483,7 +3521,8 @@
 "time": "22:00",
 "end": "04:00",
 "url": "https://eventfrog.ch/de/p/partys/charts-open-format/red-friday-x-moloko-party-basel-7519066719064715595.html",
-"category": "Party"
+"category": "Party",
+"price": "ab CHF 15"
 },
 "2026-12-18-bambusnest-c-christmas-semesterendparty-basel": {
 "title": "Christmas SemesterENDparty Basel",
@@ -3527,6 +3566,16 @@
 "style": "Organic House, Indie Dance, Progressive House",
 "url": "https://www.bassoverse.space/beats",
 "category": "Club / Organic House"
+},
+"2026-12-19-peterskirche-offenes-singen-im-advent": {
+"title": "Offenes Singen im Advent",
+"venue": "Peterskirche",
+"date": "2026-12-19",
+"source": "crawler",
+"time": "17:00",
+"end": "18:00",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/offenes-singen-im-advent-basel-7530600839976613877.html",
+"category": "Konzert"
 },
 "2026-12-19-stiftung-bra-pre-christmas-daydance": {
 "title": "Pre-Christmas Daydance",
@@ -4309,6 +4358,17 @@
 "url": "https://eventfrog.ch/de/p/partys/disco/ue50-party-basel-basel-7447688980303201455.html",
 "category": "Party"
 },
+"2027-01-16-wonderland-v-shopping-rave-at-wonderland-vintage-x-gi": {
+"title": "Shopping Rave at Wonderland Vintage x Girlsevent.ch",
+"venue": "Wonderland Vintage",
+"date": "2027-01-16",
+"source": "crawler",
+"time": "14:00",
+"end": "18:00",
+"price": "ab CHF 15",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/shopping-rave-at-wonderland-vintage-x-girlsevent-ch-basel-7530777240369421447.html",
+"category": "Party"
+},
 "2027-01-16-cube-club-me-rollschuh-disco": {
 "title": "Rollschuh Disco",
 "venue": "Cube Club Messe Basel",
@@ -4836,5 +4896,15 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/11022027-act-40-fingers/",
 "category": "Konzert",
 "doors": "18:30"
+},
+"2027-02-12-sommercasino-fragil": {
+"title": "Fragil",
+"venue": "Sommercasino",
+"date": "2027-02-12",
+"source": "crawler",
+"time": "19:15",
+"doors": "19:15",
+"url": "https://sommercasino.ch/events/fragil-2/",
+"category": "Theater"
 }
 }
