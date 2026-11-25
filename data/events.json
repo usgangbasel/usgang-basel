@@ -1,34 +1,4 @@
 {
-"2026-11-10-stadtcasino--malte-marten-autumn-tour": {
-"category": "Konzert / Jazz",
-"date": "2026-11-10",
-"source": "crawler",
-"time": "19:30",
-"title": "Malte Marten – Autumn Tour",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/10112026_malte_marten/",
-"venue": "Stadtcasino Basel",
-"doors": "18:30"
-},
-"2026-11-10-stadtcasino--quatuor-danel-kammermusik-basel": {
-"title": "Quatuor Danel Kammermusik Basel",
-"venue": "Stadtcasino Basel",
-"date": "2026-11-10",
-"source": "crawler",
-"time": "19:30",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/10112026_gfk/",
-"category": "Konzert / Klassik",
-"doors": "18:30"
-},
-"2026-11-10-saali-golden-hula-club": {
-"title": "HULA CLUB",
-"venue": "Sääli (Goldenes Fass)",
-"date": "2026-11-10",
-"source": "crawler",
-"time": "20:00",
-"doors": "19:30",
-"url": "https://www.goldenes-fass.ch/saali/",
-"category": "Konzert"
-},
 "2026-11-11-kulturkirche-layali-and-amanes-marokko-spanien-griech": {
 "title": "Layāli and Amanés - Marokko, Spanien, Griechenland in Basel",
 "venue": "Kulturkirche Paulus Basel",
@@ -1494,6 +1464,16 @@
 "url": "https://eventfrog.ch/de/p/konzerte/singer-songwriter/songwriter-slam-26-27-3-akt-basel-7470104766594430743.html",
 "category": "Konzert"
 },
+"2026-11-26-bar-rouge-party-time-thursday": {
+"title": "Party Time - Thursday",
+"venue": "Bar Rouge",
+"date": "2026-11-26",
+"source": "crawler",
+"time": "22:00",
+"end": "02:00",
+"url": "https://eventfrog.ch/de/p/partys/disco/party-time-thursday-basel-7531038920944971883.html",
+"category": "Party"
+},
 "2026-11-26-das-viertel-sportstudiparty-2026-dsbg": {
 "title": "Sportstudiparty 2026 Dsbg",
 "venue": "Das Viertel",
@@ -2328,6 +2308,16 @@
 "url": "https://eventfrog.ch/de/p/partys/disco/kiss-night-basel-7528184238622937150.html",
 "category": "Party"
 },
+"2026-12-03-bar-rouge-party-time-thursday": {
+"title": "Party Time - Thursday",
+"venue": "Bar Rouge",
+"date": "2026-12-03",
+"source": "crawler",
+"time": "22:00",
+"end": "02:00",
+"url": "https://eventfrog.ch/de/p/partys/disco/party-time-thursday-basel-7531039225669499393.html",
+"category": "Party"
+},
 "2026-12-03-das-viertel-studentenfutter-xxl": {
 "title": "Studentenfutter XXL",
 "venue": "Das Viertel",
@@ -2917,7 +2907,8 @@
 "time": "19:00",
 "end": "20:15",
 "url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/alltid-densamme-cristina-amaranta-koenigin-von-schweden-basel-7520915566627947738.html",
-"category": "Konzert"
+"category": "Konzert",
+"style": "Musiktheater/Performance"
 },
 "2026-12-10-kulturraum-d-de-piel-y-de-voz": {
 "title": "De piel y de voz",
@@ -2938,6 +2929,16 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/10122026_vosiko/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
+},
+"2026-12-10-bar-rouge-party-time-thursday": {
+"title": "Party Time - Thursday",
+"venue": "Bar Rouge",
+"date": "2026-12-10",
+"source": "crawler",
+"time": "22:00",
+"end": "02:00",
+"url": "https://eventfrog.ch/de/p/partys/disco/party-time-thursday-basel-7531039694437539047.html",
+"category": "Party"
 },
 "2026-12-10-das-viertel-studentenfutter-xxl": {
 "title": "Studentenfutter XXL",
@@ -3334,6 +3335,16 @@
 "category": "Konzert / Klassik",
 "doors": "18:30"
 },
+"2026-12-15-saali-golden-hula-club": {
+"title": "HULA CLUB",
+"venue": "Sääli (Goldenes Fass)",
+"date": "2026-12-15",
+"source": "crawler",
+"time": "20:00",
+"doors": "19:30",
+"url": "https://www.goldenes-fass.ch/saali/",
+"category": "Konzert"
+},
 "2026-12-15-theater-faut-l-autre-piaf-chansonkonzert": {
 "title": "L'AUTRE PIAF - Chansonkonzert",
 "venue": "Theater Fauteuil - Tabourettli",
@@ -3449,6 +3460,16 @@
 "url": "https://eventfrog.ch/de/p/konzerte/indie-alternative/spirit-of-toto-basel-7521898071250231547.html",
 "category": "Konzert"
 },
+"2026-12-17-bar-rouge-party-time-thursday": {
+"title": "Party Time - Thursday",
+"venue": "Bar Rouge",
+"date": "2026-12-17",
+"source": "crawler",
+"time": "22:00",
+"end": "02:00",
+"url": "https://eventfrog.ch/de/p/partys/disco/party-time-thursday-basel-7531040035304382320.html",
+"category": "Party"
+},
 "2026-12-17-das-viertel-studentenfutter-xxl": {
 "title": "Studentenfutter XXL",
 "venue": "Das Viertel",
@@ -3533,6 +3554,16 @@
 "end": "04:00",
 "price": "ab CHF 9.90",
 "url": "https://eventfrog.ch/de/p/partys/studierendenparty/christmas-semesterendparty-basel-basel-7524881265327138921.html",
+"category": "Party"
+},
+"2026-12-18-club-cello-barrio-latino-xmas-edition-mit-dj-pepe": {
+"title": "BARRIO LATINO – XMAS EDITION mit DJ PEPE",
+"venue": "Club Cello",
+"date": "2026-12-18",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"url": "https://eventfrog.ch/de/p/partys/latin-salsa-bachata/barrio-latino-xmas-edition-mit-dj-pepe-basel-7531011941898186334.html",
 "category": "Party"
 },
 "2026-12-18-das-viertel-ely-oaks": {
@@ -4152,6 +4183,17 @@
 "time": "22:30",
 "end": "03:00",
 "url": "https://eventfrog.ch/de/p/partys/silvesterparty/silvester-party-basel-7528843468635909276.html",
+"category": "Party"
+},
+"2026-12-31-candela-the-biggest-latin-new-years-eve-in-basel": {
+"title": "THE BIGGEST LATIN NEW YEARS EVE IN BASEL",
+"venue": "Candela",
+"date": "2026-12-31",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"price": "ab CHF 9.95",
+"url": "https://eventfrog.ch/en/p/parties/latin-salsa-bachata/the-biggest-latin-new-years-eve-in-basel-basel-7531098578938281732.html",
 "category": "Party"
 },
 "2026-12-31-nordstern-nye-artists-to-be-announced": {
@@ -4806,6 +4848,17 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/030227_kg/",
 "category": "Konzert / Klassik",
 "doors": "18:30"
+},
+"2027-02-03-valhalla-bas-trogne-sanctvs": {
+"title": "Trogne & Sanctvs",
+"venue": "Valhalla Basel",
+"date": "2027-02-03",
+"source": "crawler",
+"time": "20:15",
+"end": "23:00",
+"price": "ab CHF 15",
+"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/trogne-sanctvs-basel-7508531202753600489.html",
+"category": "Konzert"
 },
 "2027-02-04-sommercasino-sanae": {
 "title": "Sanaë",
