@@ -1,35 +1,4 @@
 {
-"2026-11-11-kulturkirche-layali-and-amanes-marokko-spanien-griech": {
-"title": "Layāli and Amanés - Marokko, Spanien, Griechenland in Basel",
-"venue": "Kulturkirche Paulus Basel",
-"date": "2026-11-11",
-"source": "crawler",
-"time": "19:00",
-"end": "20:30",
-"price": "ab CHF 40",
-"url": "https://eventfrog.ch/en/p/concerts/world-ethno/layli-and-amanes-marokko-spanien-griechenland-in-basel-basel-7507064131192626276.html",
-"category": "Konzert"
-},
-"2026-11-11-sommercasino-mane-showcase": {
-"title": "Mané – Showcase",
-"venue": "Sommercasino",
-"date": "2026-11-11",
-"source": "crawler",
-"time": "19:30",
-"doors": "19:30",
-"url": "https://sommercasino.ch/events/mane-showcase/",
-"category": "Konzert"
-},
-"2026-11-11-stadtcasino--the-grand-romance-gala-tschaikowskys-gro": {
-"title": "The Grand Romance Gala Tschaikowskys Größte Ballette & Geliebte Opernarien",
-"venue": "Stadtcasino Basel",
-"date": "2026-11-11",
-"source": "crawler",
-"time": "19:30",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/11112026-grand-romance-gala/",
-"category": "Konzert",
-"doors": "18:30"
-},
 "2026-11-12-kaschemme-uptown-dj-lab": {
 "title": "UPTOWN DJ-LAB",
 "venue": "Kaschemme",
@@ -3111,7 +3080,8 @@
 "time": "20:00",
 "end": "21:30",
 "url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/nord-ensemble-phoenix-basel-basel-7520916461461712001.html",
-"category": "Konzert"
+"category": "Konzert",
+"style": "Konzert"
 },
 "2026-12-12-fiera-tanznacht40-basel": {
 "title": "Tanznacht40 - Basel",
@@ -4145,6 +4115,17 @@
 "end": "10:00",
 "price": "ab CHF 35"
 },
+"2026-12-31-freiwerk-epikur-silvesterparty": {
+"title": "EPIKUR Silvesterparty",
+"venue": "Freiwerk",
+"date": "2026-12-31",
+"source": "crawler",
+"time": "22:00",
+"end": "05:00",
+"price": "ab CHF 15",
+"url": "https://eventfrog.ch/de/p/partys/silvesterparty/epikur-silvesterparty-basel-7531293136699533484.html",
+"category": "Party"
+},
 "2026-12-31-kinker-kinker-newyearseve": {
 "title": "KINKER NewYearsEve",
 "venue": "Kinker",
@@ -4173,7 +4154,8 @@
 "time": "22:30",
 "end": "05:00",
 "url": "https://eventfrog.ch/de/p/partys/house-techno/silvest-reunion-2-basel-7518623362345651080.html",
-"category": "Party"
+"category": "Party",
+"price": "ab CHF 15"
 },
 "2026-12-31-theater-base-silvester-party": {
 "title": "Silvester-Party",
