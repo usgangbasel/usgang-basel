@@ -1,67 +1,4 @@
 {
-"2026-11-12-kaschemme-uptown-dj-lab": {
-"title": "UPTOWN DJ-LAB",
-"venue": "Kaschemme",
-"date": "2026-11-12",
-"source": "crawler",
-"time": "18:00",
-"end": "22:00",
-"price": "frei",
-"url": "https://www.kaschemme.ch/programm/2026/djlab1112",
-"category": "Anderes"
-},
-"2026-11-12-kaschemme-landscape-7": {
-"title": "LANDSCAPE #7",
-"venue": "Kaschemme",
-"date": "2026-11-12",
-"source": "crawler",
-"time": "19:30",
-"end": "23:00",
-"url": "https://www.kaschemme.ch/programm/2026/11/12/landscape-7",
-"category": "Anderes"
-},
-"2026-11-12-gare-du-nord-hidden-heartache-ein-musiktheater-in-kor": {
-"title": "Hidden Heartache – ein Musiktheater in Körpersprache: ox&öl",
-"venue": "Gare du Nord",
-"date": "2026-11-12",
-"source": "crawler",
-"time": "20:00",
-"style": "Musiktheater/Performance",
-"url": "https://www.garedunord.ch/de/programm/3192/hidden-heartache",
-"category": "Bühne / Musiktheater"
-},
-"2026-11-12-renee-concert": {
-"title": "Concert",
-"venue": "Renée",
-"date": "2026-11-12",
-"source": "crawler",
-"time": "21:00",
-"style": "Experimental Shahi Baaja Music",
-"url": "https://www.renee.ch",
-"category": "Anderes"
-},
-"2026-11-12-das-viertel-studentenfutter-xxl": {
-"title": "Studentenfutter XXL",
-"venue": "Das Viertel",
-"date": "2026-11-12",
-"source": "crawler",
-"time": "23:00",
-"end": "04:00",
-"price": "frei",
-"style": "Open Format / POP / Charts",
-"url": "https://www.dasviertel.ch/programmklub",
-"category": "Party / Open Format"
-},
-"2026-11-12-renee-ben-kaczor": {
-"title": "Ben Kaczor",
-"venue": "Renée",
-"date": "2026-11-12",
-"source": "crawler",
-"time": "23:00",
-"style": "New Wave, Disco, B-Side Disco",
-"url": "https://www.renee.ch",
-"category": "Party / New Wave"
-},
 "2026-11-13-h95-raum-fur-klangfuchse": {
 "title": "Klangfüchse",
 "venue": "H95 Raum für Kultur",
@@ -2319,6 +2256,17 @@
 "url": "https://eventfrog.ch/de/p/konzerte/folk/friday-loft-konzert-mit-auslaendler-im-elys-boulderloft-basel-7523759011042207894.html",
 "category": "Konzert"
 },
+"2026-12-04-kaschemme-pubquiz-karaoke": {
+"title": "PUBQUIZ & KARAOKE",
+"venue": "Kaschemme",
+"date": "2026-12-04",
+"source": "crawler",
+"time": "19:15",
+"end": "02:00",
+"price": "frei",
+"url": "https://www.kaschemme.ch/programm/2612/pubquizundkaraoke",
+"category": "Anderes"
+},
 "2026-12-04-sommercasino-berenice-ep-release-show": {
 "category": "Konzert / Folk-Pop",
 "date": "2026-12-04",
@@ -3083,6 +3031,16 @@
 "category": "Konzert",
 "style": "Konzert"
 },
+"2026-12-12-corrientes-workshop-son-cubano-20-45-dann-noche-cub": {
+"title": "Workshop Son Cubano (20.45), dann Noche Cubana (ab 21.30)",
+"venue": "Corrientes",
+"date": "2026-12-12",
+"source": "crawler",
+"time": "20:45",
+"end": "02:30",
+"url": "https://eventfrog.ch/de/p/partys/latin-salsa-bachata/workshop-son-cubano-20-45-dann-noche-cubana-ab-21-30-basel-7531759069138310737.html",
+"category": "Party"
+},
 "2026-12-12-fiera-tanznacht40-basel": {
 "title": "Tanznacht40 - Basel",
 "venue": "Fiera",
@@ -3164,6 +3122,17 @@
 "category": "Party",
 "end": "10:00",
 "price": "ab CHF 30"
+},
+"2026-12-12-atlantis-xx01xx-party": {
+"title": "xX01Xx Party",
+"venue": "Atlantis",
+"date": "2026-12-12",
+"source": "crawler",
+"time": "23:00",
+"end": "03:00",
+"price": "ab CHF 10",
+"url": "https://eventfrog.ch/de/p/partys/10s/xx01xx-party-basel-7528436282499796878.html",
+"category": "Party"
 },
 "2026-12-12-club-cello-e-afro-vs-dancehall": {
 "title": "AFRO vs DANCEHALL",
@@ -3782,6 +3751,17 @@
 "url": "https://eventfrog.ch/de/p/konzerte/gospel/the-jackson-singers-world-of-gospel-basel-7473356193420863598.html",
 "category": "Konzert"
 },
+"2026-12-23-das-viertel-instant-ravemas-xxl": {
+"title": "Instant Ravemas XXL",
+"venue": "Das Viertel",
+"date": "2026-12-23",
+"source": "crawler",
+"time": "23:00",
+"end": "06:00",
+"style": "Techno / Hardtechno",
+"url": "https://www.dasviertel.ch/programmklub",
+"category": "Club / Techno"
+},
 "2026-12-24-das-viertel-paolo-ferrara": {
 "title": "Paolo Ferrara",
 "venue": "Das Viertel",
@@ -4372,6 +4352,16 @@
 "category": "Konzert / Klassik",
 "doors": "18:30"
 },
+"2027-01-15-barakuba-sing-mit-mir-entdecke-das-ultimative-mit": {
+"title": "SING MIT MIR! Entdecke das ultimative Mitsing-Erlebnis!",
+"venue": "Barakuba",
+"date": "2027-01-15",
+"source": "crawler",
+"time": "20:00",
+"end": "21:30",
+"url": "https://eventfrog.ch/de/p/konzerte/pop-rock/sing-mit-mir-entdecke-das-ultimative-mitsing-erlebnis-basel-7531693827007984448.html",
+"category": "Konzert"
+},
 "2027-01-15-offene-kirch-u50-party-basel": {
 "title": "Ü50-Party Basel",
 "venue": "Offene Kirche Elisabethen",
@@ -4862,6 +4852,27 @@
 "category": "Konzert / Klassik",
 "doors": "18:30"
 },
+"2027-02-05-don-bosco-ba-parno-graszt-basel": {
+"title": "Parno Graszt // BASEL",
+"venue": "Don Bosco Basel",
+"date": "2027-02-05",
+"source": "crawler",
+"time": "20:00",
+"price": "ab CHF 45",
+"url": "https://eventfrog.ch/en/p/concerts/folk/parno-graszt-basel-basel-7505212751016398015.html",
+"category": "Konzert"
+},
+"2027-02-05-parterre-one-formel-80-die-80er-party-1987-special-fe": {
+"title": "Formel 80 - DIE 80er Party \"1987 Special\" (Feb 2027)",
+"venue": "Parterre One",
+"date": "2027-02-05",
+"source": "crawler",
+"time": "20:00",
+"end": "03:00",
+"price": "ab CHF 15",
+"url": "https://eventfrog.ch/de/p/partys/disco/formel-80-die-80er-party-1987-special-feb-2027-basel-7528953417265319620.html",
+"category": "Party"
+},
 "2027-02-05-stadtcasino--patent-ochsner-achtung-probe-die-neue-to": {
 "title": "Patent Ochsner Achtung: Probe! - Die neue Tour",
 "venue": "Stadtcasino Basel",
@@ -4871,6 +4882,17 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/05022027_patent_ochsner/",
 "category": "Konzert",
 "doors": "19:00"
+},
+"2027-02-05-atlantis-elements-of-floyd": {
+"title": "Elements of Floyd",
+"venue": "Atlantis",
+"date": "2027-02-05",
+"source": "crawler",
+"time": "20:30",
+"end": "22:30",
+"price": "ab CHF 15",
+"url": "https://eventfrog.ch/de/p/konzerte/pop-rock/elements-of-floyd-basel-7526613628797123506.html",
+"category": "Konzert"
 },
 "2027-02-06-sommercasino-aeons-of-darkness-v": {
 "title": "Aeons of Darkness V",
