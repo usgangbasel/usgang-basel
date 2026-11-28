@@ -1,233 +1,4 @@
 {
-"2026-11-13-h95-raum-fur-klangfuchse": {
-"title": "Klangfüchse",
-"venue": "H95 Raum für Kultur",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "14:00",
-"end": "14:40",
-"url": "https://eventfrog.ch/de/p/kinderveranstaltungen/konzert/klangfuechse-basel-7497575930207964684.html",
-"category": "Konzert"
-},
-"2026-11-13-cafe-bohemia-le-bistro-chantant": {
-"title": "Le Bistro chantant",
-"venue": "Café Bohemia",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "18:30",
-"end": "21:30",
-"url": "https://eventfrog.ch/de/p/konzerte/schlager-volksmusik/le-bistro-chantant-basel-7514336023679109530.html",
-"category": "Konzert"
-},
-"2026-11-13-badhuesli-blue-carpet-jubilaumsparty": {
-"title": "Blue Carpet Jubiläumsparty",
-"venue": "Badhuesli",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "19:00",
-"end": "02:00",
-"url": "https://eventfrog.ch/de/p/konzerte/funk-soul/blue-carpet-jubilaeumsparty-basel-7507839983576707073.html",
-"category": "Konzert"
-},
-"2026-11-13-elys-boulder-friday-loft-dj-set-bar-im-elys-boulderlo": {
-"title": "Friday Loft: DJ-Set & Bar im ELYS Boulderloft",
-"venue": "ELYS Boulderloft",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "19:00",
-"end": "23:00",
-"url": "https://eventfrog.ch/de/p/partys/afterwork/friday-loft-dj-set-bar-im-elys-boulderloft-basel-7523751097799836626.html",
-"category": "Party"
-},
-"2026-11-13-kulturkirche-orgel-und-stummfilm-asphalt-1929": {
-"title": "Orgel und Stummfilm - Asphalt (1929)",
-"venue": "Kulturkirche Paulus",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "19:00",
-"end": "20:45",
-"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/orgel-und-stummfilm-asphalt-1929-basel-7512910573685714527.html",
-"category": "Konzert"
-},
-"2026-11-13-scala-basel-the-greatest-sonics-band-the-best-of-mot": {
-"title": "The Greatest Sonics Band - The Best of Motown Live Show",
-"venue": "Scala Basel",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "19:30",
-"url": "https://eventfrog.ch/de/p/konzerte/funk-soul/the-greatest-sonics-band-the-best-of-motown-live-show-basel-7513174993057909855.html",
-"category": "Konzert"
-},
-"2026-11-13-stadtcasino--collegium-musicum-basel-silvia-resoniert": {
-"title": "Collegium Musicum Basel Silvia resoniert nachhallend",
-"venue": "Stadtcasino Basel",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "19:30",
-"url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/1311206_cmb/",
-"category": "Konzert",
-"doors": "18:30"
-},
-"2026-11-13-don-bosco-ba-hans-christian-andersen-festival-konzert": {
-"title": "Hans Christian Andersen Festival Konzert",
-"venue": "Don Bosco Basel",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "20:00",
-"end": "22:00",
-"url": "https://eventfrog.ch/en/p/concerts/other-music-genres/hans-christian-andersen-festival-konzert-basel-7513972566492504687.html",
-"category": "Konzert"
-},
-"2026-11-13-gare-du-nord-hidden-heartache-ein-musiktheater-in-kor": {
-"title": "Hidden Heartache – ein Musiktheater in Körpersprache: ox&öl",
-"venue": "Gare du Nord",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "20:00",
-"style": "Musiktheater/Performance",
-"url": "https://www.garedunord.ch/de/programm/3194/hidden-heartache",
-"category": "Bühne / Musiktheater"
-},
-"2026-11-13-theater-faut-six-chicks-gluck-gloria": {
-"title": "Six Chicks - Gluck & Gloria",
-"venue": "Theater Fauteuil - Tabourettli",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "20:00",
-"url": "https://eventfrog.ch/de/p/konzerte/weitere-musikrichtungen/six-chicks-gluck-gloria-basel-7396400589557497184.html",
-"category": "Konzert"
-},
-"2026-11-13-atlantis-tower-of-soul": {
-"title": "Tower of Soul",
-"venue": "Atlantis",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "20:30",
-"end": "22:30",
-"price": "ab CHF 15",
-"url": "https://eventfrog.ch/de/p/konzerte/funk-soul/tower-of-soul-basel-7483492768158843468.html",
-"category": "Konzert"
-},
-"2026-11-13-bambusnest-collective-by-amibal-presents-afem-syko": {
-"title": "COLLECTIVE by AmiBâl presents Afem Syko",
-"venue": "Bambusnest",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "22:00",
-"end": "04:00",
-"price": "ab CHF 12",
-"url": "https://eventfrog.ch/de/p/partys/house-techno/collective-by-amibal-presents-afem-syko-basel-7512037983417060358.html",
-"category": "Party"
-},
-"2026-11-13-bar-rouge-red-friday": {
-"title": "RED FRIDAY",
-"venue": "Bar Rouge",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "22:00",
-"end": "04:00",
-"url": "https://eventfrog.ch/de/p/partys/charts-open-format/red-friday-basel-7493333975932357563.html",
-"category": "Party"
-},
-"2026-11-13-club-cello-e-music-paradise-italo-party": {
-"title": "music paradise italo party",
-"venue": "Club Cello (ehem. Singer Klub)",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "22:00",
-"end": "04:00",
-"url": "https://eventfrog.ch/de/p/partys/sonstige-partys/music-paradise-italo-party-basel-7518626077108888078.html",
-"category": "Party"
-},
-"2026-11-13-grenzwert-ray": {
-"title": "Ray",
-"venue": "Grenzwert",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "22:00",
-"style": "Rock’n’Roll, Soul",
-"url": "https://grenzwert.ch/programm/",
-"category": "Party / Rock’n’Roll"
-},
-"2026-11-13-kinker-freitag-der-13": {
-"title": "Freitag der 13.",
-"venue": "Kinker",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "22:00",
-"url": "https://www.kinker.ch/events/7523345236505971034",
-"category": "Club / Techno"
-},
-"2026-11-13-sommercasino-night-circus": {
-"title": "Night Circus",
-"venue": "Sommercasino",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "22:00",
-"doors": "22:00",
-"url": "https://sommercasino.ch/events/night-circus/",
-"category": "Party"
-},
-"2026-11-13-candela-made-in-rd-basel-tu-fiesta-dominicana": {
-"title": "MADE IN RD BASEL (Tu fiesta dominicana)",
-"venue": "Candela",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "23:00",
-"end": "04:00",
-"url": "https://eventfrog.ch/en/p/parties/latin-salsa-bachata/made-in-rd-basel-tu-fiesta-dominicana-basel-7524823284610811582.html",
-"category": "Party"
-},
-"2026-11-13-das-viertel-moodos-invites-les-acteurs": {
-"title": "Moodos Invites LES Acteurs",
-"venue": "Das Viertel",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "23:00",
-"end": "05:00",
-"style": "Melodic Techno / Tech House / House/trance",
-"url": "https://ticketing.dasviertel.ch/event/moodos-invites-les-acteurs-t2370z",
-"category": "Club / Melodic Techno"
-},
-"2026-11-13-kaschemme-face2face-roundabout-vol-2": {
-"title": "FACE2FACE ROUNDABOUT VOL. 2",
-"venue": "Kaschemme",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "23:00",
-"end": "05:00",
-"url": "https://www.kaschemme.ch/programm/2611/face2face",
-"category": "Anderes"
-},
-"2026-11-13-nordstern-all-night-long-doma": {
-"title": "All Night Long: Doma",
-"venue": "Nordstern",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "23:00",
-"url": "https://tickets.nordstern.com/en/c/doma-all-night-long-2512",
-"category": "Club / Elektronisch"
-},
-"2026-11-13-renee-jerogi": {
-"title": "Jerogi",
-"venue": "Renée",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "23:00",
-"style": "Electronica, Indie Rock, Britpop, Disco",
-"url": "https://www.renee.ch",
-"category": "Club / Electronica"
-},
-"2026-11-13-basso-arte-x-venezuela-basso-live": {
-"title": "Arte x Venezuela (Basso Live)",
-"venue": "Basso",
-"date": "2026-11-13",
-"source": "crawler",
-"time": "",
-"style": "Tropical, Cumbia, Salsa, Calypso, Latin Funk, Reggae, Rock",
-"url": "https://www.bassoverse.space/beats",
-"category": "Party / Tropical"
-},
 "2026-11-14-h95-raum-fur-klangfuchse": {
 "title": "Klangfüchse",
 "venue": "H95 Raum für Kultur",
@@ -3156,6 +2927,16 @@
 "url": "https://ticketing.dasviertel.ch/event/hits-the-one-and-only-soo2qv",
 "category": "Party / HITS"
 },
+"2026-12-12-kaschemme-hits-n-shits-vorweihnachtsfeierei": {
+"title": "HITS N' SHITS - VORWEIHNACHTSFEIEREI",
+"venue": "Kaschemme",
+"date": "2026-12-12",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"url": "https://www.kaschemme.ch/programm/2612/hitsnshits",
+"category": "Anderes"
+},
 "2026-12-12-kinker-rvnz-project-kinker-12-12-26-16": {
 "title": "RVNZ.project Kinker 12.12.26 16+",
 "venue": "Kinker",
@@ -3204,6 +2985,17 @@
 "url": "https://eventfrog.ch/de/p/konzerte/jazz-blues/a-swingin-christmas-concert-basel-7505001021174735231.html",
 "category": "Konzert",
 "price": "ab CHF 9"
+},
+"2026-12-13-parterre-one-fiesta-cubanakonzert-salsa-party": {
+"title": "Fiesta CubanaKonzert + Salsa Party",
+"venue": "Parterre One Basel",
+"date": "2026-12-13",
+"source": "crawler",
+"time": "17:00",
+"end": "23:00",
+"price": "ab CHF 20",
+"url": "https://eventfrog.ch/de/p/partys/latin-salsa-bachata/fiesta-cubanakonzert-salsa-party-basel-7532082715945869881.html",
+"category": "Party"
 },
 "2026-12-13-stadtcasino--swiss-gospel-singers-mit-chris-de-burgh-": {
 "title": "Swiss Gospel Singers mit Chris de Burgh Weihnachtskonzertzauber",
@@ -4271,6 +4063,16 @@
 "url": "https://eventfrog.ch/de/p/konzerte/folk/dew-basel-7525949070717747464.html",
 "category": "Konzert"
 },
+"2027-01-09-parterre-one-day-rave-delight": {
+"title": "Day Rave Delight",
+"venue": "Parterre One",
+"date": "2027-01-09",
+"source": "crawler",
+"time": "17:00",
+"price": "ab CHF 10",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/day-rave-delight-basel-7532103179019802838.html",
+"category": "Party"
+},
 "2027-01-09-peterskirche-engadiner-kantorei-chorkonzert": {
 "title": "Engadiner Kantorei Chorkonzert",
 "venue": "Peterskirche",
@@ -4549,6 +4351,17 @@
 "url": "https://sommercasino.ch/events/how-to-stage-2/",
 "category": "Workshop"
 },
+"2027-01-24-the-core-entspannungskonzert-von-in-motion": {
+"title": "Entspannungskonzert von In motion",
+"venue": "the Core",
+"date": "2027-01-24",
+"source": "crawler",
+"time": "17:00",
+"end": "18:00",
+"price": "ab CHF 25",
+"url": "https://eventfrog.ch/de/p/konzerte/world-ethno/entspannungskonzert-von-in-motion-basel-7516117076878093852.html",
+"category": "Konzert"
+},
 "2027-01-24-stadtcasino--basel-sinfonietta-ukraine-und-europa": {
 "title": "Basel Sinfonietta Ukraine und Europa",
 "venue": "Stadtcasino Basel",
@@ -4627,6 +4440,17 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/abbagold2027/",
 "category": "Konzert",
 "doors": "18:30"
+},
+"2027-01-29-elysia-elysia-chlar-friends": {
+"title": "Elysia Chlär & Friends",
+"venue": "Elysia",
+"date": "2027-01-29",
+"source": "crawler",
+"time": "23:00",
+"end": "10:00",
+"price": "ab CHF 25",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/elysia-chlaer-friends-muenchenstein-7532094840634396268.html",
+"category": "Party"
 },
 "2027-01-30-h95-raum-fur-klangfuchse": {
 "title": "Klangfüchse",
@@ -4913,6 +4737,28 @@
 "url": "https://www.stadtcasino-basel.ch/de/programm/veranstaltungen/06022027_patent_ochsner/",
 "category": "Konzert",
 "doors": "19:00"
+},
+"2027-02-06-atlantis-elements-of-floyd": {
+"title": "Elements of Floyd",
+"venue": "Atlantis",
+"date": "2027-02-06",
+"source": "crawler",
+"time": "20:30",
+"end": "22:30",
+"price": "ab CHF 15",
+"url": "https://eventfrog.ch/de/p/konzerte/pop-rock/elements-of-floyd-basel-7526618897618831052.html",
+"category": "Konzert"
+},
+"2027-02-06-lora-basel-afrobesque": {
+"title": "AFROBESQUE",
+"venue": "LORA BASEL",
+"date": "2027-02-06",
+"source": "crawler",
+"time": "23:00",
+"end": "04:00",
+"price": "ab CHF 25",
+"url": "https://eventfrog.ch/de/p/partys/house-techno/afrobesque-basel-7520587254785392545.html",
+"category": "Party"
 },
 "2027-02-06-basso-basso-daydance": {
 "title": "BASSO DAYDANCE",
